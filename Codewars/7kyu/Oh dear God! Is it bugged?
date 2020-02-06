@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/580e67ae22e42d797000015e
+
+//JavaScript
+
+const isItBugged = code =>
+  /[0-3]\d-[01]\d-\d{4} [0-2]\d:[0-5]\d/.test(code);
