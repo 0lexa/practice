@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/55d24f55d7dd296eb9000030
+
+//JavaScript
+
+const summation = num => (num ** 2 + num) / 2;
