@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/552e45cc30b0dbd01100001a
+
+//JavaScript
+
+const zipvalidate = postcode =>
+  /^[1-46]\d{5}$/.test(postcode);
