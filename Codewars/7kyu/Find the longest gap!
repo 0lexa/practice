@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/55b86beb1417eab500000051
+
+//JavaScript
+
+const gap = num =>
+  (num.toString(2).match(/(?<=1)0+(?=1)/g) || [[]])
+    .sort()
+    .pop()
+    .length;
