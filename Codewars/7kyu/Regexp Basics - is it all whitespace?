@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/567de8823fa5eee02100002a
+
+//JavaScript
+
+String.prototype.whitespace = function () {
+  return !this.trim().length;
+};
