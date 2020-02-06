@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58279e13c983ca4a2a00002a
+
+//JavaScript
+
+const greetDevelopers = list =>
+  list.map(val => ({...val, greeting: `Hi ${val.firstName}, what do you like the most about ${val.language}?`}));
