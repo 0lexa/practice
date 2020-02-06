@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5545f847bd94d050be00011d
+
+//JavaScript
+
+const wordSearch = (word, text) =>
+  !!text.match(`\\b${word}\\b`);
