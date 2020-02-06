@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/570cbe88f616a8f4f50011ac
+
+//JavaScript
+
+const shortForm = str =>
+  str.replace(/\B[aeiou]\B/gi, ``);
