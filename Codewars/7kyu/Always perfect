@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/55f3facb78a9fd5b26000036
+
+//JavaScript
+
+const checkRoot = string =>
+  ((arr, [a, b, c, d] = arr) =>
+    (arr.length !== 4 || arr.some(isNaN) || !arr.every(Boolean)) ?
+      `incorrect input` : ((b - a) * (c - b) * (d - c)) !== 1 ?
+      `not consecutive` : `${a * b * c * d + 1}, ${a * d + 1}`)
+  (string.split(`,`).map(Number));
