@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5827acd5f524dd029d0005a4
+
+//JavaScript
+
+const isRubyComing = list =>
+  list.some(val => val.language === `Ruby`);
