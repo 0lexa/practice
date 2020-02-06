@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55ccdf1512938ce3ac000056
+
+//JavaScript
+
+const isLockNessMonster = s =>
+  /tree fiddy|three fifty|3.50/.test(s);
