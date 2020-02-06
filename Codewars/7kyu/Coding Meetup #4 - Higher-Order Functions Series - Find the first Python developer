@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5827bc50f524dd029d0005f2
+
+//JavaScript
+
+const getFirstPython = list =>
+  (val => val ? `${val.firstName}, ${val.country}` : `There will be no Python developers`)
+  (list.find(val => val.language === `Python`));
