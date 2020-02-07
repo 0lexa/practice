@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/54cefc8c975ca613d4000d7f
+
+//JavaScript
+
+const getQuotes = string =>
+  string.match(/".+?"/g);
