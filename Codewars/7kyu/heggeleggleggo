@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55ea5304685da2fb40000018
+
+//JavaScript
+
+const heggeleggleggo = word =>
+  word.replace(/(?<=[^aeiou ])/gi, `egg`);
