@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5819ba1e73b986d4160004f7
+
+//JavaScript
+
+const authList = arr =>
+  !arr.some(val => !/^(?=.*[a-z])(?=.*\d)[a-z\d]{6,10}$/.test(val));
