@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/564717d6e94d5d6b21000066
+
+//JavaScript
+
+const nbrValidTickets = tickets =>
+  tickets.filter(val => /^[A-Z]\d[A-Z]{4}$/.test(val)).length;
