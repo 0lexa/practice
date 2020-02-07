@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/524300d5add6f657e20008ff
+
+//JavaScript
+
+const addOrChangeUrlParameter = (url, param) =>
+  (val => val.includes(param) ? val : `${url}${url.includes(`?`) ? `&` : `?`}${param}`)
+  (url.replace(new RegExp(`${param.split(`=`)[0]}=[^&]+`), param));
