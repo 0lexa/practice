@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/5720a81309e1f9b232001c5b
+
+//JavaScript
+
+const gymSlang = phrase =>
+  phrase.replace(/(p)robably/gi, `$1rolly`)
+    .replace(/(i) am/gi, `$1'm`)
+    .replace(/(i)nstagram/gi, `$1nsta`)
+    .replace(/(d)o not/gi, `$1on't`)
+    .replace(/(g)oing to/gi, `$1onna`)
+    .replace(/(c)ombination/gi, `$1ombo`);
