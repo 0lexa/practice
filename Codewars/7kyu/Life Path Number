@@ -1,0 +1,16 @@
+https://www.codewars.com/kata/5a1a76c8a7ad6aa26a0007a0
+
+//JavaScript
+
+const lifePathNumber = dateOfBirth =>
+  sumOfDigits(dateOfBirth.replace(/-/g, ``));
+
+const sumOfDigits = digits => {
+  let res = [...digits].reduce((pre, val) => pre + +val, 0);
+  return res < 10 ? res : sumOfDigits(res.toString());
+};
+
+or
+
+const lifePathNumber = dateOfBirth =>
+  dateOfBirth.replace(/-/g, ``) % 9 || 9;
