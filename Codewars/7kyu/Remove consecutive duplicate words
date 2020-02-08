@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5b39e91ee7a2c103300018b3
+
+//JavaScript
+
+const removeConsecutiveDuplicates = s =>
+  s.replace(/\b(\w+)\s(?=\1\b)/g, ``);
