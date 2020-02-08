@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5a0b33888ba914a5e40000b7
+
+//JavaScript
+
+String.prototype.trim = function (c = ` `) {
+  return this.replace(RegExp(`^${c}+|${c}+$`, `gi`), ``);
+};
