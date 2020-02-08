@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55a5a70c81e8541d990000bd
+
+//JavaScript
+
+const isHex = (str) =>
+  /^([\da-f]{3}){1,2}$/i.test(str);
