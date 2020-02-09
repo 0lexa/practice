@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/56523ec6fc8ac62677000005
+
+//JavaScript
+
+const createSequence = regex =>
+  [...Array(94).keys()]
+    .map(val => String.fromCharCode(32 + val))
+    .filter(val => regex.test(val))
+    .join(``);
