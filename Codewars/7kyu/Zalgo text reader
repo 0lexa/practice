@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/588fe9eaadbbfb44b70001fc
+
+//JavaScript
+
+const readZalgo = zalgotext =>
+  zalgotext.replace(/[^A-Z\d.,!? ]/gi, ``);
