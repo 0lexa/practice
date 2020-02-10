@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5965144da82d479517000001
+
+//JavaScript
+
+const weRateDogs = (str, rating) =>
+  str.replace(/\d\//, `${rating}/`);
