@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5af823451839f1768f00009d
+
+//JavaScript
+
+const buildInvertedIndex = (collection, term, caseSensitive, exactMatch) =>
+  (reg => collection.map((val, idx) => reg.test(val) ? idx + 1 : null).filter(Boolean))
+  (new RegExp(`${exactMatch ? `\\b` : ``}${term}${exactMatch ? `\\b` : ``}`, `${caseSensitive ? `` : `i`}`));
