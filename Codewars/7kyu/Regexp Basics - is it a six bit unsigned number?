@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/567e8dbb9b6f4da558000030
+
+//JavaScript
+
+String.prototype.sixBitNumber = function () {
+  return /^([1-5]?\d|6[0-3])$/g.test(this);
+};
