@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5269452810342858ec000951
+
+//JavaScript
+
+const isValidCoordinates = coordinates =>
+  /^-?(90|[0-8]?\d)(\.\d+)?, -?(180|1[0-7]\d|\d{1,2})(\.\d+)?$/.test(coordinates);
