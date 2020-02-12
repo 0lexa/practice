@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5848565e273af816fb000449
+
+//JavaScript
+
+const encryptThis = text =>
+  text.replace(/\b\w(\w?)(\w*?)(\w?)\b/g, (val, sec, mid, lst) => val.charCodeAt(0) + lst + mid + sec);
