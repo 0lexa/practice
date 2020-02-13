@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5297bf69649be865e6000922
+
+//JavaScript
+
+const makeSentence = parts =>
+  parts.concat(`.`).join(` `).replace(/ ([,.])/g, `$1`).replace(/\.+/, `.`);
