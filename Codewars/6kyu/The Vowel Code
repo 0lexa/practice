@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/53697be005f803751e0015aa
+
+//JavaScript
+
+const obj = {a: 1, e: 2, i: 3, o: 4, u: 5};
+
+const encode = string =>
+  string.replace(/[aeiou]/g, val => obj[val]);
+
+const decode = string =>
+  string.replace(/[1-5]/g, val => Object.keys(obj)[--val]);
