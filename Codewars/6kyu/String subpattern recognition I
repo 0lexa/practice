@@ -1,0 +1,6 @@
+String subpattern recognition I
+
+//JavaScript
+
+const hasSubpattern = string => 
+  /^(\w+)\1+$/.test(string);
