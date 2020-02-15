@@ -1,0 +1,14 @@
+https://app.codesignal.com/arcade/intro/level-2/xskq4ZxLyqQMCLshr
+
+//JavaScript
+
+function matrixElementsSum(matrix) {
+  let sum = 0;
+  for (let column = 0; column < matrix[0].length; column++) {
+    for (let row = 0; row < matrix.length; row++) {
+      if (matrix[row][column] === 0) break;
+      else sum += matrix[row][column]
+    }
+  }
+  return sum;
+}
