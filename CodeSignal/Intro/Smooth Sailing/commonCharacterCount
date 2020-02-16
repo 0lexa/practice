@@ -3,7 +3,7 @@ https://app.codesignal.com/arcade/intro/level-3/JKKuHJknZNj4YGL32
 //JavaScript
 
 function commonCharacterCount(s1, s2) {
-  let tmp = s1.split``,
+  let tmp = s1.split(``),
     count = 0;
   while (tmp.length) {
     let char = tmp.shift();
