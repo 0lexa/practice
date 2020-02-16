@@ -1,0 +1,12 @@
+https://app.codesignal.com/arcade/intro/level-3/3AdBC97QNuhF6RwsQ
+
+//JavaScript
+
+function isLucky(n) {
+  let arr = (n + ``).split(``);
+  let result = 0;
+  while (arr.length) {
+    result += arr.shift() - arr.pop();
+  }
+  return !result;
+}
