@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/intro/level-5/g6dc9KJyxmFjB98dL
+
+//JavaScript
+
+const areEquallyStrong = (yourLeft, yourRight, friendsLeft, friendsRight) =>
+  (yourLeft + yourRight === friendsLeft + friendsRight) && (yourLeft === friendsLeft || yourLeft === friendsRight);
