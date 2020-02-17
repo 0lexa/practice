@@ -1,0 +1,12 @@
+https://app.codesignal.com/arcade/intro/level-4/xvkRbxYkdHdHNCKjg
+
+//JavaScript
+
+const arrayChange = inputArray =>
+  inputArray.reduce((pre, val, idx) => {
+    while (val >= inputArray[idx + 1]) {
+      pre++;
+      inputArray[idx + 1]++;
+    }
+    return pre;
+  }, 0);
