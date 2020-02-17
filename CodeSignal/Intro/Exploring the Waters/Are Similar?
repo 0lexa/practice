@@ -1,0 +1,7 @@
+https://app.codesignal.com/arcade/intro/level-4/xYXfzQmnhBvEKJwXP
+
+//JavaScript
+
+const areSimilar = (a, b) =>
+  ((aFilt, bFilt) => aFilt.length === 0 || (aFilt.length === 2 && aFilt.join(``) === bFilt.reverse().join(``)))
+  (a.filter((val, idx) => val !== b[idx]), b.filter((val, idx) => val !== a[idx]));
