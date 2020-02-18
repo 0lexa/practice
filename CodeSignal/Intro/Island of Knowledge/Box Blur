@@ -1,0 +1,21 @@
+https://app.codesignal.com/arcade/intro/level-5/5xPitc3yT3dqS7XkP
+
+//JavaScript
+
+const boxBlur = image => {
+  const result = [];
+  for (let row = 0; row < image.length - 2; row++) {
+    const temp = [];
+    for (let column = 0; column < image[0].length - 2; column++) {
+      let sum = 0;
+      for (let i = row; i < row + 3; i++) {
+        for (let j = column; j < column + 3; j++) {
+          sum += image[i][j];
+        }
+      }
+      temp.push(Math.floor(sum / 9));
+    }
+    result.push(temp);
+  }
+  return result;
+};
