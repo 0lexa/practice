@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/intro/level-5/EEJxjQ7oo7C5wAGjE
+
+//JavaScript
+
+const arrayMaximalAdjacentDifference = inputArray => 
+  Math.max(...inputArray.slice(1).map((val, idx) => Math.abs(val - inputArray[idx])));
