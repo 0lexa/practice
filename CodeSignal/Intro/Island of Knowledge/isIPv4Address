@@ -1,0 +1,7 @@
+https://app.codesignal.com/arcade/intro/level-5/veW5xJednTy4qcjso
+
+//JavaScript
+
+const isIPv4Address = inputString =>
+  (val => val.length === 4 && val.every(v => v !== `` && !isNaN(v) && (v >= 0 && v <= 255)))
+  (inputString.split(`.`));
