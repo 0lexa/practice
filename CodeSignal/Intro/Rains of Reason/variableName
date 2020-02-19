@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/intro/level-6/6Wv4WsrsMJ8Y2Fwno
+
+//JavaScript
+
+const variableName = name => 
+  /^[a-zA-Z_]\w*$/.test(name);
