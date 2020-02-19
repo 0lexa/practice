@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/intro/level-6/mCkmbxdMsMTjBc3Bm
+
+//JavaScript
+
+const arrayReplace = (inputArray, elemToReplace, substitutionElem) => 
+  inputArray.map(val => val === elemToReplace ? substitutionElem : val);
