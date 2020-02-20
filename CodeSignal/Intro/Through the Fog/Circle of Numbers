@@ -1,0 +1,5 @@
+https://app.codesignal.com/arcade/intro/level-7/vExYvcGnFsEYSt8nQ
+
+//JavaScript
+
+const circleOfNumbers = (n, firstNumber) => (n / 2 + firstNumber) % n;
