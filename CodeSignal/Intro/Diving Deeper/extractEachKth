@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/intro/level-8/3AgqcKrxbwFhd3Z3R
+
+//JavaScript
+
+const extractEachKth = (inputArray, k) =>
+  inputArray.filter((_, idx) => (idx + 1) % k);
