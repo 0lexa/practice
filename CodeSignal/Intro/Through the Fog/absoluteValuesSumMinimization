@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/intro/level-7/ZFnQkq9RmMiyE6qtq
+
+//JavaScript
+
+const absoluteValuesSumMinimization = a =>
+  a.length % 2 ? a[Math.floor(a.length / 2)] : a[a.length / 2 - 1];
