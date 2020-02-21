@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/intro/level-9/hoLtYWbjdrD2PF6yo
+
+//JavaScript
+
+const digitDegree = n =>
+  n.toString().length === 1 ? 0 : n.toString().split(``).reduce((pre, val) => +pre + +val) < 9 ? 1 : 2;
