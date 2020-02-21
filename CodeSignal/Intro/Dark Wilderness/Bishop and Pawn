@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/intro/level-9/6M57rMTFB9MeDeSWo
+
+//JavaScript
+
+const bishopAndPawn = (bishop, pawn) =>
+  Math.abs(bishop.charCodeAt(0) - pawn.charCodeAt(0)) === Math.abs(bishop[1] - pawn[1]);
