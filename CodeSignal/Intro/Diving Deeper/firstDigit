@@ -1,0 +1,5 @@
+https://app.codesignal.com/arcade/intro/level-8/rRGGbTtwZe2mA8Wov
+
+//JavaScript
+
+const firstDigit = inputString => inputString.match(/\d/)[0];
