@@ -1,0 +1,13 @@
+https://app.codesignal.com/arcade/intro/level-8/Rqvw3daffNE7sT7d5
+
+//JavaScript
+
+const arrayMaxConsecutiveSum = (inputArray, k) => {
+  let max = inputArray.slice(0, k).reduce((pre, val) => pre + val);
+  let sum = max;
+  for (let i = k; i < inputArray.length; i++) {
+    sum += inputArray[i] - inputArray[i - k];
+    if (sum > max) max = sum;
+  }
+  return max;
+};
