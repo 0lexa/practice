@@ -1,0 +1,10 @@
+https://app.codesignal.com/arcade/intro/level-10/PHSQhLEw3K2CmhhXE
+
+//JavaScript
+
+const isBeautifulString = inputString => {
+  for (let i = 98; i <= 122; i++) {
+    if (inputString.split(String.fromCharCode(i)).length - 1 > inputString.split(String.fromCharCode(i - 1)).length - 1) return false;
+  }
+  return true;
+};
