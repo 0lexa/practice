@@ -1,0 +1,11 @@
+https://app.codesignal.com/arcade/intro/level-10/8RiRRM3yvbuAd3MNg
+
+//JavaScript
+
+const electionsWinners = (votes, k) => {
+  let count = 0;
+  const max = Math.max(...votes);
+  if (!k && votes.filter(value => value === max).length === 1) count = 1;
+  count += votes.filter(value => value + k > max).length;
+  return count;
+};
