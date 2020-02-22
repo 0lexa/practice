@@ -1,0 +1,12 @@
+https://app.codesignal.com/arcade/intro/level-10/ppZ9zSufpjyzAsSEx
+
+//JavaScript
+
+const isBeautifulString = inputString => {
+  const buildPalindrome = st => {
+    for (let i = 0; i <= st.length; i++) {
+      if (st === st.split(``).reverse().join(``)) return st;
+      st = st.slice(0, st.length - i) + st[i] + st.slice(st.length - i, st.length);
+    }
+  }
+};
