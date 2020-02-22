@@ -1,0 +1,5 @@
+https://app.codesignal.com/arcade/intro/level-10/TXFLopNcCNbJLQivP
+
+//JavaScript
+
+const findEmailDomain = address => address.match(/@([a-zA-Z0-9\.-]+$)/)[1];
