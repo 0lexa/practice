@@ -1,0 +1,8 @@
+https://app.codesignal.com/arcade/intro/level-11/vpfeqDwGZSzYNm2uX
+
+//JavaScript
+
+const deleteDigit = n => {
+  n = n.toString().split(``);
+  return Math.max(...n.map((_, idx) => +[].concat(n.slice(0, idx), n.slice(idx + 1)).join(``)));
+};
