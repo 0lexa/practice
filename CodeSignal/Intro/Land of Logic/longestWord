@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/intro/level-12/s9qvXv4yTaWg8g4ma
+
+//JavaScript
+
+const longestWord = text =>
+  text.match(/[a-z]+/ig).sort((a, b) => b.length - a.length)[0];
