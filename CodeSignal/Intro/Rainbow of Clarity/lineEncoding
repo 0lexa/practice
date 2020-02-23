@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/intro/level-11/o2uq6eTuvk7atGadR
+
+//JavaScript
+
+const lineEncoding = s => 
+  s.replace(/([a-z])\1+/g, val => val.length + val[0]);
