@@ -1,0 +1,5 @@
+https://app.codesignal.com/arcade/intro/level-11/Zr2XXEpkBPtYWqPJu
+
+//JavaScript
+
+const isDigit = symbol => !isNaN(symbol);
