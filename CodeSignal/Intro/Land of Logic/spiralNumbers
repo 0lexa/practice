@@ -1,0 +1,19 @@
+https://app.codesignal.com/arcade/intro/level-12/uRWu6K8E7uLi3Qtvx
+
+//JavaScript
+
+const spiralNumbers = n => {
+  let matrix = Array(n).fill(null).map(() => []);
+  let row = column = direction = cell = 0, segment = n;
+  for (let number = 1; number <= n ** 2; number++) {
+    matrix[row][column] = number;
+    if (++cell === segment) {
+      direction = (direction + 1) % 4;
+      segment -= direction % 2;
+      cell = 0;
+    }
+    if (direction % 2) row += direction > 1 ? -1 : 1;
+    else column += direction > 1 ? -1 : 1;
+  }
+  return matrix;
+};
