@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/intro/level-12/ywMyCTspqGXPWRZx5
+
+//JavaScript
+
+const validTime = time => 
+  time.slice(0, 2) < 24 && time.slice(3) < 60;
