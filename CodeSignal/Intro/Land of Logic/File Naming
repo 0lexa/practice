@@ -1,0 +1,14 @@
+https://app.codesignal.com/arcade/intro/level-12/sqZ9qDTFHXBNrQeLC
+
+//JavaScript
+
+const fileNaming = names => {
+  for (let i = 1; i < names.length; i++) {
+    let count = 0;
+    while (names.slice(0, i).includes(names[i])) {
+      count++;
+      names[i] = count === 1 ? names[i] + `(${count})` : names[i].replace(/\(\d+\)$/, `(${count})`);
+    }
+  }
+  return names;
+};
