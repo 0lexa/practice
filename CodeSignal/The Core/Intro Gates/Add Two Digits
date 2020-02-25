@@ -1,0 +1,5 @@
+https://app.codesignal.com/arcade/code-arcade/intro-gates/wAGdN6FMPkx7WBq66
+
+//JavaScript
+
+const addTwoDigits = n => (n / 10 ^ 0) + n % 10;
