@@ -1,0 +1,5 @@
+https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/m9wjpkCjgofg7gs8N
+
+//JavaScript
+
+const reachNextLevel = (experience, threshold, reward) => experience + reward >= threshold;
