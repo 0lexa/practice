@@ -1,0 +1,14 @@
+https://app.codesignal.com/arcade/code-arcade/intro-gates/mZAucMXhNMmT7JWta
+
+//JavaScript
+
+const phoneCall = (min1, min2_10, min11, s) => {
+  let count = 0;
+  let cost = min1;
+  while ((s -= cost) >= 0) {
+    count++;
+    if (count < 10) cost = min2_10;
+    else cost = min11;
+  }
+  return count;
+};
