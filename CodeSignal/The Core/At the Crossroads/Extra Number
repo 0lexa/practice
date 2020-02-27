@@ -1,0 +1,5 @@
+https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/sgDWKCFQHHi5D3Szj
+
+//JavaScript
+
+const extraNumber = (a, b, c) => a === b ? c : a === c ? b : a;
