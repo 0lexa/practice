@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/7jaup9HprdJno2diw
+
+//JavaScript
+
+const tennisSet = (score1, score2) =>
+  [`60`, `61`, `62`, `63`, `64`, `75`, `76`, `67`, `57`, `46`, `36`, `26`, `16`, `06`].includes(`${score1}${score2}`);
