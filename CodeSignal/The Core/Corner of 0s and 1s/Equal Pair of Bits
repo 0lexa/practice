@@ -1,0 +1,7 @@
+https://app.codesignal.com/arcade/code-arcade/corner-of-0s-and-1s/6SLJChm9N3fEgr2R7
+
+//JavaScript
+
+function equalPairOfBits(n, m) {
+  return 2 ** /1*$/.exec((n ^ m).toString(2))[0].length;
+}
