@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/corner-of-0s-and-1s/e3zfPNTwTa9qTQzcX
+
+//JavaScript
+
+const mirrorBits = a => 
+  parseInt([...a.toString(2)].reverse().join(``), 2);
