@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/corner-of-0s-and-1s/KeMqde6oqfF5wBXxf
+
+//JavaScript
+
+const arrayPacking = a =>
+  parseInt(a.reverse().reduce((pre, val) => pre + val.toString(2).padStart(8, `0`), ``), 2);
