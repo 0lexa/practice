@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/corner-of-0s-and-1s/eC2Zxu5H5SnuKxvPT
+
+//JavaScript
+
+const rangeBitCount = (a, b) =>
+  Array(b - --a).fill().reduce((pre) => pre + (++a).toString(2).split(`1`).length - 1, 0);
