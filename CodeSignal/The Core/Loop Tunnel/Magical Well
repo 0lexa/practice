@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/loop-tunnel/LbuWRHnMoJH9SAo4o
+
+//JavaScript
+
+const magicalWell = (a, b, n) =>
+  [...Array(n)].reduce(pre => pre += a++ * b++, 0);
