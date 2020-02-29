@@ -1,0 +1,11 @@
+https://app.codesignal.com/arcade/code-arcade/loop-tunnel/7BFPq6TpsNjzgcpXy
+
+//JavaScript
+
+const leastFactorial = n => {
+  let k = 1;
+  for (let i = 2; k < n; i++) {
+    k *= i;
+  }
+  return k;
+};
