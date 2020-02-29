@@ -1,0 +1,11 @@
+https://app.codesignal.com/arcade/code-arcade/loop-tunnel/hBw5BJiZ4LmXcy92u
+
+//JavaScript
+
+const countSumOfTwoRepresentations2 = (n, l, r) => {
+  let count = 0;
+  for (let i = l; i <= r; i++) {
+    if (n - i <= r && n - i >= i) count++;
+  }
+  return count;
+};
