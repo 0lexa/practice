@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/list-forest-edge/mCkmbxdMsMTjBc3Bm
+
+//JavaScript
+
+const arrayReplace = (inputArray, elemToReplace, substitutionElem) =>
+  inputArray.map(val => val === elemToReplace ? substitutionElem : val);
