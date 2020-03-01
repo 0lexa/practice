@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/list-forest-edge/APD5T5CybxTtfkdjL
+
+//JavaScript
+
+const replaceMiddle = arr =>
+  (!(arr.length % 2) ? arr.splice(arr.length / 2 - 1, 2, arr[arr.length / 2] + arr[arr.length / 2 - 1]) : arr, arr);
