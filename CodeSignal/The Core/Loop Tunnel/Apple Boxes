@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/loop-tunnel/scG8AFsPuqQGx8Qjf
+
+//JavaScript
+
+const appleBoxes = k =>
+  Array(k + 1).fill().reduce((pre, _, idx) => idx % 2 ? pre - idx ** 2 : pre + idx ** 2, 0);
