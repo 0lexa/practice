@@ -1,0 +1,5 @@
+https://app.codesignal.com/arcade/code-arcade/list-forest-edge/gmZFbpR9cirL3Jpf2
+
+//JavaScript
+
+const createArray = size => Array(size).fill(1);
