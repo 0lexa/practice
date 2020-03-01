@@ -1,0 +1,5 @@
+https://app.codesignal.com/arcade/code-arcade/loop-tunnel/KLbRMcWhaZi3dvYH5
+
+//JavaScript
+
+const increaseNumberRoundness = n => /0[1-9]/.test(n);
