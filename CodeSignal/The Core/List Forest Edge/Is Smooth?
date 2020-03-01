@@ -1,0 +1,7 @@
+https://app.codesignal.com/arcade/code-arcade/list-forest-edge/3LmZafR9wMCWpdgra
+
+//JavaScript
+
+const isSmooth = arr =>
+  new Set([arr[0], arr[arr.length - 1], arr[arr.length / 2 ^ 0] + (arr.length % 2 ? 0 : arr[--arr.length / 2 ^ 0])])
+    .size === 1;
