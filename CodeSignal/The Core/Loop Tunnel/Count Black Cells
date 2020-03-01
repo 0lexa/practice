@@ -1,0 +1,15 @@
+https://app.codesignal.com/arcade/code-arcade/loop-tunnel/RcK4vupi8sFhakjnh
+
+//JavaScript
+
+const rounders = n =>
+  n < 10 ? n : +(rounders((n / 10 ^ 0) + (n % 10 > 4)) + `0`);
+
+const countBlackCells = (n, m) => {
+  let div = ((a, b) => {
+    if (!a) return b;
+    while (b) a > b ? a -= b : b -= a;
+    return a;
+  })(n, m);
+  return n + m - div + --div * 2;
+};
