@@ -1,0 +1,10 @@
+https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/MvX84CA5HN6GKqv7R
+
+//JavaScript
+
+const squareDigitsSequence = (a, seq = []) =>
+  (
+    seq.push(a),
+    a = [...String(a)].reduce((pre, val) => pre + val ** 2, 0),
+    seq.includes(a) ? ++seq.length : squareDigitsSequence(a, seq)
+  );
