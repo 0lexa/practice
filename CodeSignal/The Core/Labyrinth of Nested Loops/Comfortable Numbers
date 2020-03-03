@@ -1,0 +1,12 @@
+https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/pNfGgNk46YZ4c4RW5
+
+//JavaScript
+
+const comfortableNumbers = (l, r) => {
+  let pairs = 0;
+  for (let a = l; a < r; a++)
+    for (let b = a + 1; b <= a + [...a.toString()].reduce((pre, val) => pre + +val, 0) && b <= r; b++)
+      if (b - [...b.toString()].reduce((pre, val) => pre + +val, 0) <= a)
+        pairs++;
+  return pairs;
+};
