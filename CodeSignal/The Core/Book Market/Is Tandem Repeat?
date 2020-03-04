@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/book-market/2SDWWyHY9Xw5CpphY
+
+//JavaScript
+
+const isTandemRepeat = inputString =>
+    inputString.slice(0, inputString.length / 2) === inputString.slice(inputString.length / 2);
