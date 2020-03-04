@@ -1,0 +1,10 @@
+https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/oL7YuygJKtMSNLeJn
+
+//JavaScript
+
+const weakNumbers = n => {
+  const divs = m => [...Array(m).keys()].map((_, idx) => idx + 1).reduce((pre, val) => pre + !(m % val), 0);
+  const arr1 = [...Array(n).keys()].map(val => divs(val + 1));
+  const arr2 = arr1.map((_, idx) => arr1.slice(0, idx).reduce((pre, val) => pre + (val > arr1[idx]), 0));
+  return [Math.max(...arr2), arr2.reduce((pre, val) => pre + (val === Math.max(...arr2)), 0)];
+};
