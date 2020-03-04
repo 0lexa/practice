@@ -1,0 +1,31 @@
+https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/W5Sq7taLSzNHh8GiF
+
+//JavaScript
+
+const crosswordFormation = w => {
+  const arr = [[0, 1, 2, 3], [0, 1, 3, 2], [0, 2, 1, 3], [0, 2, 3, 1], [0, 3, 1, 2], [0, 3, 2, 1],
+              [1, 0, 2, 3], [1, 0, 3, 2], [1, 2, 0, 3], [1, 2, 3, 0], [1, 3, 0, 2], [1, 3, 2, 0],
+              [2, 0, 1, 3], [2, 0, 3, 1], [2, 1, 0, 3], [2, 1, 3, 0], [2, 3, 0, 1], [2, 3, 1, 0],
+              [3, 0, 1, 2], [3, 0, 2, 1], [3, 1, 0, 2], [3, 1, 2, 0], [3, 2, 0, 1], [3, 2, 1, 0]];
+
+  const func = (w1, w2, w3, w4) => {
+    let count = 0;
+    for (let i = 0; i < w1.length; i++)
+      for (let j = i + 2; j < w1.length; j++)
+        for (let k = 0; k < w2.length; k++)
+          for (let l = k + 2; l < w2.length; l++)
+            for (let m = 0; m < w3.length; m++)
+              for (let n = 0; n < w4.length; n++) {
+                if (m + (j - i) < w3.length && n + (l - k) < w4.length) {
+                  if (w1.charAt(i) === w2.charAt(k)
+                    && w1.charAt(j) === w4.charAt(n)
+                    && w3.charAt(m) === w2.charAt(l)
+                    && w3.charAt(m + (j - i)) === w4.charAt(n + (l - k)))
+                    count++;
+                }
+              }
+    return count
+  };
+
+  return arr.reduce((pre, _, idx) => pre + func(w[arr[idx][0]], w[arr[idx][1]], w[arr[idx][2]], w[arr[idx][3]]), 0)
+};
