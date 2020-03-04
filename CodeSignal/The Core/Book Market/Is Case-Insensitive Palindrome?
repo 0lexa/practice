@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/book-market/G9wj2j6zaWwFWsise
+
+//JavaScript
+
+const isCaseInsensitivePalindrome = inputString =>
+  inputString.toLowerCase() === [...inputString.toLowerCase()].reverse().join(``);
