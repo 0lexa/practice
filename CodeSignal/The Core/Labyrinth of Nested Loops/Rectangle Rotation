@@ -1,0 +1,7 @@
+https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/tuKA5f3zpzkKKejJx
+
+//JavaScript
+
+const rectangleRotation = (a, b) =>
+  ((c, d) => (c * d + (c + d) / 2 ^ 0) * 2 + 1)
+  (a / Math.SQRT2 ^ 0, b / Math.SQRT2 ^ 0);
