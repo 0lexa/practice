@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/book-market/Ky2mjgmxnWLi6KNPp
+
+//JavaScript
+
+const isUnstablePair = (filename1, filename2) =>
+  (filename1 > filename2) !== (filename1.toUpperCase() > filename2.toUpperCase());
