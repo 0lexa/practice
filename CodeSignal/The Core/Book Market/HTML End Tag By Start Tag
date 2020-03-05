@@ -1,0 +1,5 @@
+https://app.codesignal.com/arcade/code-arcade/book-market/MX94DWTrwQw2gLrTi
+
+//JavaScript
+
+const htmlEndTagByStartTag = startTag => `</${startTag.match(/\w+/)[0]}>`;
