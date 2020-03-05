@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/mirror-lake/chW9F8bCgxYJBcgj3
+
+//JavaScript
+
+const stringsConstruction = (a, b) =>
+  Math.min(...[...a].map(val => ([...b].filter(v => v === val).length / a.match(new RegExp(val, `g`)).length) ^ 0));
