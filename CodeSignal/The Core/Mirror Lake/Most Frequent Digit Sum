@@ -1,0 +1,9 @@
+https://app.codesignal.com/arcade/code-arcade/mirror-lake/RpoP4Aqa5mbmC8koC
+
+//JavaScript
+
+const mostFrequentDigitSum = (n, obj = {}) => {
+  const sum = m => [...`${m}`].reduce((pre, val) => pre + +val, 0);
+  for (let i = n; i > 0; i -= sum(i)) obj[sum(i)] = -~obj[sum(i)];
+  return +Object.keys(obj).reduce((pre, val) => obj[pre] > obj[val] ? pre : val);
+};
