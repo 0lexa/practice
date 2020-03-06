@@ -1,0 +1,11 @@
+https://app.codesignal.com/arcade/code-arcade/mirror-lake/EeKpdMQXpBkgWjcvt
+
+//JavaScript
+
+const constructSquare = s => {
+  const func = (p, o = {}) => ([...p].forEach(val => o[val] = -~o[val]), Object.values(o).sort().join(``));
+  for (let i = (10 ** s.length) ** 0.5 ^ 0; i > 2; i--) {
+    if (`${i ** 2}`.length === s.length && func(`${i ** 2}`) === func(s)) return i ** 2;
+  }
+  return -1;
+};
