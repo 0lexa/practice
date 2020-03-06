@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/mirror-lake/kGeuCkJNbqczCCqgg
+
+//JavaScript
+
+const numbersGrouping = a =>
+  new Set(a.map(val => --val / 1e4 ^ 0)).size + a.length;
