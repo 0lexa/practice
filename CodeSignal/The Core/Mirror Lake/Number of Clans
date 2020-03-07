@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/mirror-lake/BLbGNY3kEcvKjBCFC
+
+//JavaScript
+
+const numberOfClans = (divisors, k) =>
+  new Set([...Array(k).keys()].map(val => divisors.reduce((pre, v, idx) => pre + (!((val + 1) % v) << idx), 0))).size;
