@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/well-of-integration/Z9opBsx5fX6XfQJdt
+
+//JavaScript
+
+const alphabetSubsequence = s =>
+  [...s].every((val, idx, arr) => !idx || val > arr[idx -1]);
