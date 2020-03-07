@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/well-of-integration/sGwCfM5FzX7LhLcdk
+
+//JavaScript
+
+const minimalNumberOfCoins = (coins, price, t) =>
+  coins.reverse().reduce((pre, val) => (t = price / val ^ 0, price = price % val, pre + t), 0);
