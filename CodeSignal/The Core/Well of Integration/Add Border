@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/well-of-integration/ZCD7NQnED724bJtjN
+
+//JavaScript
+
+const addBorder = (picture, t) =>
+  [t = `*`.repeat(picture[0].length + 2), ...picture.map(val => `*${val}*`), t];
