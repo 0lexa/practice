@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/well-of-integration/fzsCQGYbxaEcTr2bL
+
+//JavaScript
+
+const allLongestStrings = inputArray =>
+  inputArray.sort((a, b) => b.length - a.length).filter(val => val.length === inputArray[0].length);
