@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/well-of-integration/3QMXNwGfvLMoQwed7
+
+//JavaScript
+
+const houseNumbersSum = inputArray =>
+  inputArray.slice(0, inputArray.indexOf(0)).reduce((pre, val) => pre + val, 0);
