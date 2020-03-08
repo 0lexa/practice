@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/well-of-integration/mJr7vgtN4X4ecL7ZA
+
+//JavaScript
+
+const timedReading = (maxLength, text) =>
+  (text.match(/\w+/gi) || []).filter(val => val.length <= maxLength).length;
