@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/well-of-integration/8RiRRM3yvbuAd3MNg
+
+//JavaScript
+
+const electionsWinners = (votes, k, max = Math.max(...votes)) =>
+  (!k && votes.filter(val => val === max).length) === 1 ? 1 : votes.filter(val => val + k > max).length;
