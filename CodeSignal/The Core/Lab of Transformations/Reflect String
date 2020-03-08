@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/lab-of-transformations/8nAgfjhDvKCpxwGWF
+
+//JavaScript
+
+const reflectString = inputString => 
+  [...inputString].map(val => String.fromCharCode(122 - (val.charCodeAt() - 97))).join(``);
