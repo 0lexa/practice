@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/lab-of-transformations/QKnGhkoi4wKr6xY9b
+
+//JavaScript
+
+const characterParity = str =>
+  isNaN(str) ? `not a digit` : str & 1 ? `odd` : `even`;
