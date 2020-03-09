@@ -1,0 +1,8 @@
+https://app.codesignal.com/arcade/code-arcade/lab-of-transformations/JeDDnToFtitiiWDZn
+
+//JavaScript
+
+const cipher26 = (message, s = 0, c = ``) =>
+  [...message]
+    .map(val => (c = String.fromCharCode(val.charCodeAt() - s + (val.charCodeAt() - 97 < s ? 26 : 0)), s = val.charCodeAt() - 97, c))
+    .join``;
