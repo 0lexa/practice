@@ -1,0 +1,13 @@
+https://app.codesignal.com/arcade/code-arcade/lab-of-transformations/vsKRjYKv4SCjzJc8r
+
+//JavaScript
+
+const higherVersion = (ver1, ver2) => {
+  ver1 = ver1.split(`.`);
+  ver2 = ver2.split(`.`);
+  for (let i = 0; i < ver1.length; i++) {
+    if (+ver1[i] > +ver2[i]) return true;
+    if (+ver1[i] < +ver2[i]) return false;
+  }
+  return false;
+};
