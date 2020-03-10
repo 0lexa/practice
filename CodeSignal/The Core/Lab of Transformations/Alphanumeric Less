@@ -1,0 +1,11 @@
+https://app.codesignal.com/arcade/code-arcade/lab-of-transformations/bBgu7NEfk2GoQuNzf
+
+//JavaScript
+
+const alphanumericLess = (s1, s2) => {
+  let l1 = s1.length, l2 = s2.length;
+  s1 = s1.replace(/0/g, ``);
+  s2 = s2.replace(/0/g, ``);
+  if (!s1 && !s2) return false;
+  return (s1 < s2) ? true : (s1 > s2) ? false : l1 !== l2;
+};
