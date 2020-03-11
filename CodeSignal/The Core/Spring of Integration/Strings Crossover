@@ -1,0 +1,7 @@
+https://app.codesignal.com/arcade/code-arcade/spring-of-integration/6QDtjNr3WoL5W4Kvo
+
+//JavaScript
+
+const stringsCrossover = (inputArray, result) =>
+  inputArray.reduce((pre, val, idx) => pre + inputArray.slice(idx + 1)
+    .reduce((pre, v1) => pre + [...result].every((v2, idx) => v2 === val[idx] || v2 === v1[idx]), 0), 0);
