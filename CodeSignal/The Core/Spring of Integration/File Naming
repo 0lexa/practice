@@ -1,0 +1,14 @@
+https://app.codesignal.com/arcade/code-arcade/spring-of-integration/sqZ9qDTFHXBNrQeLC
+
+//JavaScript
+
+const fileNaming = names => {
+    for (let i = 1; i < names.length; i++) {
+        let c = 0;
+        while (names.slice(0, i).includes(names[i])) {
+            c++;
+            names[i] = c === 1 ? names[i] + `(${c})` : names[i].replace(/\(\d+\)$/, `(${c})`);
+        }
+    }
+    return names;
+};
