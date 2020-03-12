@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/list-backwoods/xKYm98etd9JRsTcZY
+
+//JavaScript
+
+const areIsomorphic = (array1, array2) =>
+  array1.length === array2.length && !array1.some((val, idx) => val.length !== array2[idx].length);
