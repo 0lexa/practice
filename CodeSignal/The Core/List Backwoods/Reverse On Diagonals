@@ -1,0 +1,11 @@
+https://app.codesignal.com/arcade/code-arcade/list-backwoods/Akspcu9ewiYapWkrp
+
+//JavaScript
+
+const reverseOnDiagonals = m => {
+  for (let i = 0, j = m.length - 1; i < m.length / 2; i++, j--) {
+    [m[i][i], m[j][j]] = [m[j][j], m[i][i]];
+    [m[i][j], m[j][i]] = [m[j][i], m[i][j]];
+  }
+  return m
+};
