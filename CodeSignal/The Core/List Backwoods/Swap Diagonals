@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/list-backwoods/kfwTN8pdx9uP8bcHS
+
+//JavaScript
+
+const swapDiagonals = (matrix, l = matrix.length - 1) =>
+  matrix.map((val, idx) => ([val[idx], val[l - idx]] = [val[l - idx], val[idx]], val));
