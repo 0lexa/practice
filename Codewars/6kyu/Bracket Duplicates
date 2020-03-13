@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5411c4205f3a7fd3f90009ea
+
+//JavaScript
+
+const stringParse = string =>
+  typeof string === `string` ? string.replace(/(\w)\1(\1+)/g, `$1$1[$2]`) : `Please enter a valid string`;
