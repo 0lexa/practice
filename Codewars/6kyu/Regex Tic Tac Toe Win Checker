@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/582e0450fe38013dbc0002d3
+
+//JavaScript
+
+const regexTicTacToeWinChecker = board =>
+  /([XO])(\1{2}(...)*|(.\1){2}..|(..\1){2}.{0,2}|(...\1){2})$/.test(board);
