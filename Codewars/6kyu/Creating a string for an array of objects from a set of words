@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5877786688976801ad000100
+
+//JavaScript
+
+const wordsToObject = input =>
+  `[${(input.replace(/([^ ]+) ([^ ]+)/g, "{name : '$1', id : '$2'},").slice(0, -1))}]`;
