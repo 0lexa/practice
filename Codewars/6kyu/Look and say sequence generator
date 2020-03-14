@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/592421cb7312c23a990000cf
+
+//JavaScript
+
+const lookAndSaySequence = (firstElement, n) =>
+  n - 1 ? lookAndSaySequence(firstElement.replace(/(\d)\1*/g, (val, gr) => val.length + gr), --n) : firstElement;
