@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/52c7c425f80c299ac60003df
+
+//JavaScript
+
+const escapeHTML = str =>
+  str.replace(/[<>"]/g, val => val === `<` ? `&lt;` : val === `>` ? `&gt;` : `&quot;`);
