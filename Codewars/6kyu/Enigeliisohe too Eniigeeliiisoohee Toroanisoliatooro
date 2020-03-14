@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/55a5d97d81a010881800004a
+
+//JavaScript
+
+const toexuto = text =>
+  text.replace(/([b-d])|([f-h])|([j-n])|([p-t])|([v-z])/gi, (val, g1, g2, g3, g4, g5) =>
+    val === g1 ? `${g1}a` : val === g2 ? `${g2}e` : val === g3 ? `${g3}i` : val === g4 ? `${g4}o` : `${g5}u`);
