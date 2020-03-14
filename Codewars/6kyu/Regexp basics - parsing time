@@ -1,0 +1,8 @@
+https://www.codewars.com/kata/568338ea371e86728c000002
+
+//JavaScript
+
+String.prototype.toSeconds = function () {
+  return (val => val ? val[1] * 3600 + val[2] * 60 + +val[3] : null)
+         (this.match(/^(\d{2}):([0-5]\d):([0-5]\d)$/))
+};
