@@ -1,0 +1,13 @@
+https://app.codesignal.com/arcade/code-arcade/list-backwoods/A5meC5REAcDfHeuFf
+
+//JavaScript
+
+const starRotation = (m, width, center, t, x = center[0], y = center[1]) => {
+  for (let i = 1; i <= (width - 1) / 2; i++) {
+    for (let j = t % 8; j > 0; j--) {
+      [m[x-i][y-i], m[x][y-i], m[x+i][y-i], m[x+i][y], m[x+i][y+i], m[x][y+i], m[x-i][y+i], m[x-i][y]] =
+      [m[x][y-i], m[x+i][y-i], m[x+i][y], m[x+i][y+i], m[x][y+i], m[x-i][y+i], m[x-i][y], m[x-i][y-i]];
+    }
+  }
+  return m
+};
