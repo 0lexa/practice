@@ -1,0 +1,7 @@
+https://app.codesignal.com/arcade/code-arcade/regular-hell/AMx2WqCoq2PEcJTEp
+
+//JavaScript
+
+function swapAdjacentWords(s) {
+  return s.replace(/(\S+)\s(\S+)/g, `$2 $1`);
+}
