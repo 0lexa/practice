@@ -1,0 +1,7 @@
+https://app.codesignal.com/arcade/code-arcade/regular-hell/YhqzFvdnHMffQA22q
+
+//JavaScript
+
+function replaceAllDigitsRegExp(input) {
+  return input.replace(/\d/g, `#`);
+}
