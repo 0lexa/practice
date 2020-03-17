@@ -1,0 +1,14 @@
+https://app.codesignal.com/arcade/code-arcade/regular-hell/jyaMHzCG4SGoEjASE
+
+//JavaScript
+
+function repetitionEncryption(letter) {
+  var pattern = /([A-Z]+)[^A-Z]+\1\b/ig;
+  var matches = letter.match(pattern);
+  if (matches) {
+    return matches.length;
+  }
+  else {
+    return 0;
+  }
+}
