@@ -1,0 +1,5 @@
+https://js.checkio.org/en/mission/multiply-intro/
+
+//JavaScript
+
+const multTwo = (a, b)=> a * b;
