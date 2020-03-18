@@ -1,0 +1,6 @@
+https://js.checkio.org/en/mission/correct-sentence/
+
+//JavaScript
+
+const correctSentence = text =>
+  text[0].toUpperCase() + (text.replace(/\.?$/, `.`)).slice(1);
