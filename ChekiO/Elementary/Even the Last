@@ -1,0 +1,6 @@
+https://js.checkio.org/en/mission/even-last/
+
+//JavaScript
+
+const evenLast = data =>
+  data.reduce((pre, val, idx) => pre + (idx & 1 ? 0 : val), 0) * data.pop() || 0;
