@@ -1,0 +1,9 @@
+https://js.checkio.org/en/mission/fizz-buzz/
+
+//JavaScript
+
+const fizzBuzz = data =>
+  !(data % 15) ? `Fizz Buzz`
+    : !(data % 3) ? `Fizz`
+    : !(data % 5) ? `Buzz`
+    : String(data);
