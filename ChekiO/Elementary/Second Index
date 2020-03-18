@@ -1,0 +1,6 @@
+https://js.checkio.org/en/mission/second-index/
+
+//JavaScript
+
+const secondIndex = (text, symbol) => 
+  text.replace(symbol, ``).indexOf(symbol) + 1 || undefined;
