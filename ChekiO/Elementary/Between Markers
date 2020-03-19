@@ -1,0 +1,7 @@
+https://js.checkio.org/en/mission/between-markers/
+
+//JavaScript
+
+const betweenMarkers = (text, begin, end) =>
+  text.slice(text.includes(begin) ? text.indexOf(begin) + begin.length : 0,
+    text.includes(end) ? text.indexOf(end) : text.length);
