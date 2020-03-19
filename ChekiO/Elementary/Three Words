@@ -1,0 +1,5 @@
+https://js.checkio.org/en/mission/three-words/
+
+//JavaScript
+
+const threeWords = data => /\D \D+ \D/.test(data);
