@@ -1,0 +1,6 @@
+https://js.checkio.org/en/mission/bigger-price/
+
+//JavaScript
+
+const biggerPrice = (limit, data) =>
+  data.sort((a, b) => b.price - a.price).slice(0, limit);
