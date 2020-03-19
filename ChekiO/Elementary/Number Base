@@ -1,0 +1,6 @@
+https://js.checkio.org/en/mission/number-radix/
+
+//JavaScript
+
+const numberRadix = (str_number, radix) =>
+  parseInt([...str_number].sort().pop(), radix) ? parseInt(str_number, radix) : -1;
