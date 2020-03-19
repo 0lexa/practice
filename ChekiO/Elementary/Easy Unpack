@@ -1,0 +1,6 @@
+https://js.checkio.org/en/mission/easy-unpack/
+
+//JavaScript
+
+const easyUnpack = elements =>
+  [elements[0], elements[2], elements[elements.length -2]];
