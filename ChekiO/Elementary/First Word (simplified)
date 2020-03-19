@@ -1,0 +1,5 @@
+https://js.checkio.org/en/mission/first-word-simplified/
+
+//JavaScript
+
+const firstWord = data => data.split(` `)[0];
