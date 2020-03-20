@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/55327e12f5363713200000e4
+
+//JavaScript
+
+const regex = /^(jo\w* (jo\w*|\w*jo)|gio\w* gio\w*)$/i;
+
+const isJojo = name =>
+  (val => val[0].startsWith(`jo`) && (val[1].startsWith(`jo`) || val[1].endsWith(`jo`))
+    || val[0].startsWith(`gio`) && (val[1].startsWith(`gio`)))
+  (name.toLowerCase().split(` `));
