@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/564e48ebaaad20181e000024
+
+//JavaScript
+
+const mixwords = str =>
+  typeof str !== `string` ? undefined :
+    str.replace(/(?<=\w)\w+(?=\w)/g, val => val.split(``).sort(() => Math.random() - 0.5).join(``));
