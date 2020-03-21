@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/580741302e14acaef900015a
+
+//JavaScript
+
+const getMichaelLastName = inputText =>
+  inputText.match(/(?<=Michael )[A-Z]\w+/g);
