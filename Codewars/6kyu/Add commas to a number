@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56a115cadb39a2faa000001e
+
+//JavaScript
+
+const commas = num =>
+  String(Math.round(num * 1000) / 1000).replace(/\B(?=(\d{3})+\b)/g, `,`);
