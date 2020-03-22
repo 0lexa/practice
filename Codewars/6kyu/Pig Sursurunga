@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/5536aba6e4609cc6a600003d
+
+//JavaScript
+
+const sursurungal = txt =>
+  txt.replace(/(\d+) (\w+)s/g, (val, num, word) =>
+    num < 2 ? val :
+      num < 3 ? `2 bu${word}` :
+        num < 10 ? `${num} ${word}zo` : `${num} ga${word}ga`);
