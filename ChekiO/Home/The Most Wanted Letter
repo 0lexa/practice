@@ -1,0 +1,11 @@
+https://js.checkio.org/en/mission/most-wanted-letter/
+
+//JavaScript
+
+const mostWanted = (data, obj = {}) => {
+  [...data.replace(/[^A-Z]/ig, ``).toLowerCase()].forEach(val => obj[val] = -~obj[val]);
+  for (let key in obj) {
+    if (obj[key] < Math.max(...Object.values(obj))) delete obj[key]
+  }
+  return Object.keys(obj).sort()[0]
+};
