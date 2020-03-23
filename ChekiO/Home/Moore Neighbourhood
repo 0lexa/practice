@@ -1,0 +1,9 @@
+https://js.checkio.org/en/mission/count-neighbours/
+
+//JavaScript
+
+const countNeighbours = (data, row, col) =>
+  data.filter((_, idx) => idx >= row - 1 && idx <= row + 1)
+    .map(((val) => val.filter(((_, idx) => idx >= col - 1 && idx <= col + 1))))
+    .reduce((pre, val) => pre.concat(val))   //flatMap() alternative
+    .filter(Boolean).length - data[row][col];
