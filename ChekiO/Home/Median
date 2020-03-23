@@ -1,0 +1,7 @@
+https://js.checkio.org/en/mission/median/
+
+//JavaScript
+
+const median = data =>
+  data.sort((a, b) => a - b).length & 1
+    ? data[~~(data.length / 2)] : (data[data.length / 2] + data[data.length / 2 - 1]) / 2;
