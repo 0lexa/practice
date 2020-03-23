@@ -1,0 +1,6 @@
+https://js.checkio.org/en/mission/non-unique-elements/
+
+//JavaScript
+
+const nonUniqueElements = data =>
+  data.filter(val => data.indexOf(val) !== data.lastIndexOf(val));
