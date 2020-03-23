@@ -1,0 +1,9 @@
+https://js.checkio.org/en/mission/weak-point/
+
+//JavaScript
+
+const weakPoint = matrix => {
+  const rows = matrix.map(val => val.reduce((pre, v) => pre + v));
+  const cols = matrix[0].map((_, idx) => matrix.reduce((pre, val) => pre + val[idx], 0));
+  return [rows.indexOf(Math.min(...rows)), cols.indexOf(Math.min(...cols))];
+};
