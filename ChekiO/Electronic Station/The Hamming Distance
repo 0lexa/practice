@@ -1,0 +1,6 @@
+https://js.checkio.org/en/mission/hamming-distance/
+
+//JavaScript
+
+const hammingDistance = (n, m) =>
+  [...(n ^ m).toString()].filter(val => +val).length;
