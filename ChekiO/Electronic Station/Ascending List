@@ -1,0 +1,6 @@
+https://js.checkio.org/en/mission/ascending-list/
+
+//JavaScript
+
+const isAscending = items =>
+  !(items.slice(1).some(((val, idx) => val <= items[idx])));
