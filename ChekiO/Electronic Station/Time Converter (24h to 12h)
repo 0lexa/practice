@@ -1,0 +1,6 @@
+https://js.checkio.org/en/mission/time-converter-24h-to-12h/
+
+//JavaScript
+
+const timeConverter = (dayTime, hours = dayTime.slice(0, 2)) =>
+  `${hours % 12 || 12}${dayTime.slice(2)}${hours < 12 ? ` a` : ` p`}.m.`;
