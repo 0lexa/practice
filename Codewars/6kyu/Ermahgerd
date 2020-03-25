@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/5660c1e9fae768c3b50000a6
+
+//JavaScript
+
+const ermahgerd = text =>
+  text.toUpperCase()
+    .replace(/[AEIOU]/g, `ER`)
+    .replace(/ER(ER|H)/g, `ER`)
+    .replace(/MY/g, `MAH`)
+    .replace(/RR/g, `R`)
+    .replace(/(?<=\w{4,})ER\b/g, ``);
