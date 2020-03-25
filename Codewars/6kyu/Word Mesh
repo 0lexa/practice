@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5c1ae703ba76f438530000a2
+
+//JavaScript
+
+const wordMesh = arr =>
+  (val => val.length === arr.length - 1 ? val.join(``) : `failed to mesh`)
+  (arr.join().match(/(\w+)(?=,\1)/g));
