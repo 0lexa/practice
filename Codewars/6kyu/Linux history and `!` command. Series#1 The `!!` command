@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58143221f9588e340e00009f
+
+//JavaScript
+
+const bangBang = history =>
+  history.match(/\d+\s+(.*)$/)[1];
