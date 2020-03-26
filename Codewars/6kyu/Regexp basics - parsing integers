@@ -1,0 +1,8 @@
+https://www.codewars.com/kata/5682e1082cc7862db5000039
+
+//JavaScript
+
+String.prototype.toInteger = function () {
+  let res = this.match(/^([-+])?(0b[01]+|0x[A-Fa-f\d]+|0o[0-7]+|[\d]+)$/);
+  return res ? `${res[1] || 0}1` * res[2] : null;
+};
