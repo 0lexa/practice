@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/59e61c577905df540000016b
+
+//JavaScript
+
+const hungrySeven = arr => {
+  let str = arr.join(``);
+  while (/789/.test(str)) {
+    str = str.replace(/789/g, `897`);
+  }
+  return [...str].map(Number)
+};
