@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5931614bb2f657c18c0001c3
+
+//JavaScript
+
+const cutCancerCells = organism =>
+  organism.replace(/(c|[a-z]?C[a-z]?)/g, ``);
