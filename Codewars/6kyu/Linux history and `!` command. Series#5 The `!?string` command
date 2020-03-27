@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/581b29b549b2c0daeb001454
+
+//JavaScript
+
+const bangContainString = (s,history) =>
+  (history.split(/\n/).reverse().find(val => val.includes(s)) || `!${s}: event not found`).replace(/\s+\d+\s+/, ``);
