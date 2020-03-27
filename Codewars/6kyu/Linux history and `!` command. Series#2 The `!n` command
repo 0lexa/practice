@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5814bf3f3db1ffc0180000d3
+
+//JavaScript
+
+const bangN = (n, history) =>
+  (history.match(new RegExp(`${n} +(.+)`)) || [,`!${n}: event not found`])[1];
