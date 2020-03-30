@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/548db0bd1df5bbf29b0000b7
+
+//JavaScript
+
+const validDate = /\[(?!(0[2469]|11)-31)(?!02-(29|30))(0[1-9]|1[0-2])-(?!00)([0-2]\d|3[01])\]/;
