@@ -1,3 +1,6 @@
 https://www.codewars.com/kata/582c297e56373f0426000098
 
 //JavaScript
+
+const stringify = list =>
+  list ? `${list.data} -> ${stringify(list.next)}` : `null`;
