@@ -1,3 +1,6 @@
 https://www.codewars.com/kata/586f6741c66d18c22800010a
 
 //JavaScript
+
+const sequenceSum = (begin, end, step) =>
+  begin > end ? 0 : begin + sequenceSum(begin + step, end, step);
