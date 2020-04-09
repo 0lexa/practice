@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a15a4db06d5b6d33c000018
+
+//JavaScript
+
+const sumNested = arr =>
+  arr.reduce((pre, val) => pre + (Array.isArray(val) ? sumNested(val) : val), 0);
