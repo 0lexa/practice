@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/569512b7707bc1b88200002f
+
+//JavaScript
+
+const fibonacci = n =>
+  n > 2 ? fibonacci(--n) + fibonacci(--n) : 1;
