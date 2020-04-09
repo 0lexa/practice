@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5b0d67c1cb35dfa10b0022c7
+
+//JavaScript
+
+const squaresNeeded = grains =>
+  !grains ? 0: grains.toString(2).length;
