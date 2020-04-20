@@ -1,1 +1,6 @@
 https://www.codewars.com/kata/571640812ad763313600132b
+
+//JavaScript
+
+const alexMistakes = (numberOfKata, timeLimit) =>
+  ~~Math.log2((timeLimit - numberOfKata * 6) / 5 + 1);
