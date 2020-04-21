@@ -1,0 +1,7 @@
+https://js.checkio.org/en/mission/simple-areas/
+
+//JavaScript
+
+const simpleAreas = (...args) =>
+  ((p, a, b, c) => (p * (p - a) * (p - b) * (p - c)) ** 0.5 || a * b || Math.PI * a ** 2 / 4)
+  (args.reduce((pre, val) => pre + val) / 2, ...args)
