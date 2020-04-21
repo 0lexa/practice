@@ -1,0 +1,8 @@
+https://js.checkio.org/en/mission/create-intervals/
+
+//JavaScript
+
+const createIntervals = data =>
+  data.sort((a, b) => a - b)
+    .filter(val => !data.includes(val - 1))
+    .map((val, idx) => [val, data.filter(val => !data.includes(val + 1))[idx]]);
