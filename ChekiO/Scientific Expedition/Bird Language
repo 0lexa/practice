@@ -1,0 +1,6 @@
+https://js.checkio.org/en/mission/bird-language/
+
+//JavaScript
+
+const translate = phrase =>
+  phrase.replace(/([^aeiouy ])[aeiouy]|([aeiouy])\2{2}/g, `$1$2`);
