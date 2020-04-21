@@ -1,0 +1,11 @@
+https://js.checkio.org/en/mission/super-root/
+
+//JavaScript
+
+const superRoot = (number, res = 10) => {
+  while (Math.abs(res ** res - number) >= 1e-3) {
+    res += number ** (res ** -1);
+    res /= 2;
+  }
+  return res;
+};
