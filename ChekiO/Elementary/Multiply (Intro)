@@ -1,5 +1,11 @@
 https://js.checkio.org/en/mission/multiply-intro/
 
+//TypeScript
+
+function multTwo(a: number, b: number): number {
+  return a * b;
+}
+
 //JavaScript
 
 const multTwo = (a, b)=> a * b;
