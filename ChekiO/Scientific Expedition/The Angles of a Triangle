@@ -1,0 +1,7 @@
+
+
+//JavaScript
+
+const triangleAngles = (a, b, c) =>
+  (val => [val(a, b, c), val(b, c, a), val(c, a, b)].map(val => val % 180).sort((a, b) => a - b))
+  ((a, b, c) => Math.round(Math.acos((a * a + b * b - c * c) / (2 * a * b)) * 180 / Math.PI));
