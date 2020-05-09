@@ -1,0 +1,5 @@
+https://www.hackerrank.com/challenges/matching-digits-non-digit-character
+
+//JavaScript
+
+const Regex_Pattern = /(\d\d\D){2}\d{4}/;
