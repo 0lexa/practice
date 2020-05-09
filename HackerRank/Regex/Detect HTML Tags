@@ -1,0 +1,9 @@
+https://www.hackerrank.com/challenges/detect-html-tags/problem
+
+//JavaScript
+
+const processData = input =>
+  console.log([...new Set(input.match(/<\w+[/> ]/g)
+    .map(val => val.slice(1, -1)))]
+    .sort()
+    .join(`;`));
