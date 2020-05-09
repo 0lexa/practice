@@ -1,0 +1,5 @@
+https://www.hackerrank.com/challenges/matching-anything-but-new-line
+
+//JavaScript
+
+const Regex_Pattern = /^(...\.){3}...$/g;
