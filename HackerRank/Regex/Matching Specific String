@@ -1,0 +1,5 @@
+https://www.hackerrank.com/challenges/matching-specific-string/problem
+
+//JavaScript
+
+const Regex_Pattern = `hackerrank`;
