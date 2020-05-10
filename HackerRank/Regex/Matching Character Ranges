@@ -1,0 +1,5 @@
+https://www.hackerrank.com/challenges/matching-range-of-characters/problem
+
+//JavaScript
+
+const Regex_Pattern = /^[a-z][1-9][^a-z][^A-Z][A-Z]/;
