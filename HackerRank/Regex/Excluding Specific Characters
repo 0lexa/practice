@@ -1,0 +1,5 @@
+https://www.hackerrank.com/challenges/excluding-specific-characters/problem
+
+//JavaScript
+
+const Regex_Pattern = /^\D[^aeiou][^bcDF]\S[^AEIOU][^.,]$/;
