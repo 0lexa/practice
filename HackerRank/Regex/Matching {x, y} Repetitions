@@ -1,0 +1,5 @@
+https://www.hackerrank.com/challenges/matching-x-y-repetitions/problem
+
+//JavaScript
+
+const Regex_Pattern = /^\d{1,2}[A-Za-z]{3,}\.{0,3}$/;
