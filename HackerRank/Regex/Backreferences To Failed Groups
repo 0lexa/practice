@@ -1,0 +1,5 @@
+https://www.hackerrank.com/challenges/backreferences-to-failed-groups/problem
+
+//JavaScript
+
+const Regex_Pattern = /^\d{2}(-?)\d{2}\1\d{2}\1\d{2}$/;
