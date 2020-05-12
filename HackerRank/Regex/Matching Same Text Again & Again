@@ -1,0 +1,5 @@
+https://www.hackerrank.com/challenges/matching-same-text-again-again/problem
+
+//JavaScript
+
+const Regex_Pattern = /^([a-z]\w\s\W\d\D[A-Z][a-zA-Z][aieouAEIOU]\S)\1$/;
