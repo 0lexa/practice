@@ -1,0 +1,5 @@
+https://www.hackerrank.com/challenges/capturing-non-capturing-groups/problem
+
+//JavaScript
+
+const Regex_Pattern = /(ok){3,}/;
