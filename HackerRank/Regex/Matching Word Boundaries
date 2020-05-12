@@ -1,0 +1,5 @@
+https://www.hackerrank.com/challenges/matching-word-boundaries/problem
+
+//JavaScript
+
+const Regex_Pattern = /\b[aeiouAEIOU][A-Za-z]*\b/;
