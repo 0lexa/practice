@@ -1,0 +1,5 @@
+https://www.hackerrank.com/challenges/matching-zero-or-more-repetitions/problem
+
+//JavaScript
+
+const Regex_Pattern = /^\d{2,}[a-z]*[A-Z]*$/;
