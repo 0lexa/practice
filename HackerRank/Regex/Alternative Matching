@@ -1,0 +1,5 @@
+https://www.hackerrank.com/challenges/alternative-matching/problem
+
+//JavaScript
+
+const Regex_Pattern = /^(Mr|Mrs|Ms|Dr|Er)\.[A-Za-z]+$/;
