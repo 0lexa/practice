@@ -1,0 +1,5 @@
+https://www.hackerrank.com/challenges/positive-lookbehind/problem
+
+//PHP
+
+$Regex_Pattern = '/(?<=[13579])\d/';
