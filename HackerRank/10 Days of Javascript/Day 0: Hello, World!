@@ -1,0 +1,6 @@
+https://www.hackerrank.com/challenges/js10-hello-world/problem
+
+//JavaScript
+
+const greeting = parameterVariable =>
+  console.log(`Hello, World! \n${parameterVariable}`);
