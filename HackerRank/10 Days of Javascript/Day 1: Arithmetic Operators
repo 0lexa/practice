@@ -1,0 +1,9 @@
+https://www.hackerrank.com/challenges/js10-arithmetic-operators/problem
+
+//JavaScript
+
+const getArea = (length, width) =>
+  length * width;
+
+const getPerimeter = (length, width) =>
+  (length + width) * 2;
