@@ -1,0 +1,8 @@
+https://www.hackerrank.com/challenges/js10-let-and-const/problem
+
+//JavaScript
+
+const main = () => {
+  const PI = Math.PI;
+  let r = readLine();
+  console.log(`${PI * r ** 2} \n${2 * PI * r}`);
