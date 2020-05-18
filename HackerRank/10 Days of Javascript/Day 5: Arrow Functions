@@ -1,0 +1,6 @@
+https://www.hackerrank.com/challenges/js10-arrows/problem
+
+//JavaScript
+
+const modifyArray = nums =>
+  nums.map(val => val & 1 ? val * 3 : val * 2);
