@@ -1,0 +1,6 @@
+https://www.hackerrank.com/challenges/js10-count-objects/problem
+
+//JavaScript
+
+const getCount = objects =>
+  objects.reduce((pre, val) => pre + (val.x === val.y), 0);
