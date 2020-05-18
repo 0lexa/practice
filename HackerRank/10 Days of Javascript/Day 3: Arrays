@@ -1,0 +1,6 @@
+https://www.hackerrank.com/challenges/js10-arrays/problem
+
+//JavaScript
+
+const getSecondLargest = nums =>
+  Math.max(...nums.filter(val => val !== Math.max(...nums)));
