@@ -1,0 +1,9 @@
+https://www.hackerrank.com/challenges/js10-loops/problem
+
+//JavaScript
+
+function vowelsAndConsonants(s) {
+  const consonants = [];
+  [...s].forEach(val => /[aeiou]/.test(val) ? console.log(val) : consonants.push(val));
+  consonants.forEach(val => console.log(val));
+}
