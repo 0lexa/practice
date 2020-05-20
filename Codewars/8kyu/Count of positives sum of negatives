@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/576bb71bbbcf0951d5000044
+
+//JavaScript
+
+const countPositivesSumNegatives = input =>
+  !(input && input.length) ? [] :
+    [input.filter(val => val > 0).length, input.filter(val => val < 0).reduce((pre, val) => pre + val, 0)];
