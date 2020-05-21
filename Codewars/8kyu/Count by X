@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5513795bd3fafb56c200049e
+
+//JavaScript
+
+const countBy = (x, n) =>
+  [...Array(n)].map((_, idx) => ++idx * x);
