@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57f780909f7e8e3183000078
+
+//JavaScript
+
+const grow = x =>
+  x.reduce((pre, val) => pre * val);
