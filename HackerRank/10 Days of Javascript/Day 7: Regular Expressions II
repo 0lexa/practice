@@ -1,0 +1,6 @@
+https://www.hackerrank.com/challenges/js10-regexp-2/problem
+
+//JavaScript
+
+const regexVar = () => 
+  /^(Mr|Mrs|Ms|Dr|Er)\.[A-Za-z]+$/;
