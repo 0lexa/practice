@@ -1,0 +1,5 @@
+https://www.hackerrank.com/challenges/js10-regexp-3/problem
+
+//JavaScript
+
+const regexVar = () => /\d+/g;
