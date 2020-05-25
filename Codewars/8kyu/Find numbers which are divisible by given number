@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55edaba99da3a9c84000003b
+
+//JavaScript
+
+const divisibleBy = (numbers, divisor) =>
+  numbers.filter(val => !(val % divisor));
