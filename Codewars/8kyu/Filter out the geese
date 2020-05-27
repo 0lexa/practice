@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/57ee4a67108d3fd9eb0000e7
+
+//JavaScript
+
+const gooseFilter = birds =>
+  (geese => birds.filter(val => !geese.includes(val)))
+  ([`African`, `Roman Tufted`, `Toulouse`, `Pilgrim`, `Steinbacher`]);
