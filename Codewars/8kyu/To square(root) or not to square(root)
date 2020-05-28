@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57f6ad55cca6e045d2000627
+
+//JavaScript
+
+const squareOrSquareRoot = array =>
+  array.map(val => Number.isInteger(val ** .5) ? val ** .5 : val ** 2);
