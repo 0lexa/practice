@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5709bdd2f088096786000008
+
+//JavaScript
+
+const superSize = num =>
+  +[...String(num)].sort((a, b) => b - a).join(``);
