@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a34b80155519e1a00000009
+
+//JavaScript
+
+const multipleOfIndex = array =>
+  array.filter((val, idx) => val % idx === 0);
