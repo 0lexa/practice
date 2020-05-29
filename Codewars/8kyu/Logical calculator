@@ -1,0 +1,8 @@
+https://www.codewars.com/kata/57096af70dad013aa200007b
+
+//JavaScript
+
+const logicalCalc = (array, op) =>
+  op === `AND` ? array.every(Boolean) :
+    op === `OR` ? array.some(Boolean) :
+      !!(array.filter(Boolean).length&1);
