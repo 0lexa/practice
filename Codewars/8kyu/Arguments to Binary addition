@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57642a90dee2da8dd3000161
+
+//JavaScript
+
+const arr2bin = arr =>
+  arr.reduce((pre, val) => typeof val === `number` ? pre + val : pre, 0).toString(2);
