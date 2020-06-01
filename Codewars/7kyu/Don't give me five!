@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5813d19765d81c592200001a
+
+//JavaScript
+
+const dontGiveMeFive = (start, end) =>
+  [...Array(++end - start)].reduce((pre, _, idx) => pre + !/5/.test(idx + start), 0);
