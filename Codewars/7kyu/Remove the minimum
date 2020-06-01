@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/563cf89eb4747c5fb100001b
+
+//JavaScript
+
+const removeSmallest = numbers =>
+  numbers.filter((_, idx) => idx !== numbers.indexOf(Math.min(...numbers)));
