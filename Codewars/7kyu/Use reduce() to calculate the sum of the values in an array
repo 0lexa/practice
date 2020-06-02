@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/532b4057484b0e58e8000766
+
+//JavaScript
+
+const sum = array =>
+  array.reduce((pre, val) => pre + val);
