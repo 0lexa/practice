@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5300901726d12b80e8000498
+
+//JavaScript
+
+const fizzbuzz = n =>
+  [...Array(n)].map((val, idx) => !(++idx % 15) ? `FizzBuzz` : !(idx % 5) ? `Buzz` : !(idx % 3) ? `Fizz` : idx);
