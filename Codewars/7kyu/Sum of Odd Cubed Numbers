@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/580dda86c40fa6c45f00028a
+
+//JavaScript
+
+const cubeOdd = arr =>
+  arr.some(val => isNaN(val)) ? undefined : arr.reduce((pre, val) => pre + (val&1 ? val ** 3 : 0), 0);
