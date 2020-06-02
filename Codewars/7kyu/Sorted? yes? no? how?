@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/580a4734d6df748060000045
+
+//JavaScript
+
+const isSortedAndHow = array =>
+  array.slice(1).every((val, idx) => val >= array[idx])? `yes, ascending` :
+    array.slice(1).every((val, idx) => val <= array[idx])? `yes, descending`: `no`;
