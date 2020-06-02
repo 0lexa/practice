@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5abd66a5ccfd1130b30000a9
+
+//JavaScript
+
+const rowWeights = array =>
+  array.reduce((pre, val, idx) => (pre[idx&1] += val, pre), [0, 0]);
