@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a4138acf28b82aa43000117
+
+//JavaScript
+
+const adjacentElementsProduct = array =>
+  Math.max(...array.slice(1).map((val, idx) => val * array[idx]));
