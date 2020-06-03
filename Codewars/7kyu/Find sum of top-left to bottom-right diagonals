@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5497a3c181dd7291ce000700
+
+//JavaScript
+
+const diagonalSum = matrix =>
+  matrix.reduce((pre, val, idx) => pre + val[idx], 0);
