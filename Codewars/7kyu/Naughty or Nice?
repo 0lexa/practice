@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/52a6b34e43c2484ac10000cd
+
+//JavaScript
+
+const getNiceNames = people =>
+  people.reduce((pre, val) => val.wasNice ? [...pre, val.name] : pre, []);
+
+const getNaughtyNames = people =>
+  people.reduce((pre, val) => val.wasNice ? pre : [...pre, val.name], []);
