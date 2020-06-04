@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5aa1bcda373c2eb596000112
+
+//JavaScript
+
+const maxTriSum = numbers =>
+  [...new Set(numbers)].sort((a, b) => a - b).slice(-3).reduce((pre, val) => pre + val);
