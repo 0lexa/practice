@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59b844528bcb7735560000a0
+
+//JavaScript
+
+const isNice = arr =>
+  !!arr.length && arr.every(val => arr.includes(val + 1) || arr.includes(val - 1));
