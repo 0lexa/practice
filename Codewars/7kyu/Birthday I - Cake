@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5805ed25c2799821cb000005
+
+//JavaScript
+
+const cake = (x, y) =>
+  [...y].reduce((pre, val, idx) => pre + val.charCodeAt() - 97 + (idx % 2 || 97), 0) > x * 0.7 ?
+    `Fire!` : `That was close!`;
