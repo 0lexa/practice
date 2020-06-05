@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/554dc2b88fbafd2e95000125
+
+//JavaScript
+
+const vectorLength = vector =>
+  Math.hypot(vector[1][0]-vector[0][0], vector[1][1]-vector[0][1]);
