@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56044de2aa75e28875000017
+
+//JavaScript
+
+const compoundArray = (a, b) =>
+    !a.length ? b : !b.length ? a : [a.shift(), b.shift(), ...compoundArray(a, b)];
