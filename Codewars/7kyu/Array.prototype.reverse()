@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/53b2ff49b82af296ce001139
+
+//JavaScript
+
+Array.prototype.reverse = function () {
+  return (this.forEach((_, idx) => this.push(...this.splice(-(++idx), 1))), this);
+};
