@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56a1c074f87bc2201200002e
+
+//JavaScript
+
+const smaller = nums => 
+  nums.map((val, idx) => nums.slice(++idx).filter(v => v < val).length);
