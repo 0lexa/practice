@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a9e86705ee396d6be000091
+
+//JavaScript
+
+const checkThreeAndTwo = array =>
+  [2, 3].includes(array.filter(val => val === array[0]).length) && new Set(array).size === 2;
