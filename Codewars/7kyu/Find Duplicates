@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5558cc216a7a231ac9000022
+
+//JavaScript
+
+const duplicates = arr =>
+  arr.filter((val, idx) => arr.indexOf(val) === idx && arr.lastIndexOf(val) !== idx);
