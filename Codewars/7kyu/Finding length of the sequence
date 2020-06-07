@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5566b0dd450172dfc4000005
+
+//JavaScript
+
+const lengthOfSequence = (arr, n) =>
+  arr.filter(val => val === n).length === 2 ? arr.lastIndexOf(n) - arr.indexOf(n) + 1 : 0;
