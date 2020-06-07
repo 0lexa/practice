@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/551614eb77dd9ee37100003e
+
+//JavaScript
+
+const getQuote = (quotes, hero) =>
+  `${{B: `Batman`, R: `Robin`, J: `Joker`}[hero[0]]}: ${quotes[hero.match(/\d/)]}`;
