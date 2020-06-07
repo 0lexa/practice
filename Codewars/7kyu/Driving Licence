@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/586a1af1c66d18ad81000134
+
+//JavaScript
+
+const driver = data =>
+  data[2].slice(0, 5).toUpperCase().padEnd(5, 9) +
+  data[3].slice(-2,-1) +
+  `${new Date(data[3]).getMonth() + (data[4] === `F` ? 51 : 1)}`.padStart(2, 0) +
+  `${new Date(data[3]).getDate()}`.padStart(2, 0) +
+  data[3].slice(-1) +
+  data[0][0] + (data[1][0] || 9) +
+  `9AA`;
