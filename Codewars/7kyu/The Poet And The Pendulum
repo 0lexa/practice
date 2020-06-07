@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5bd776533a7e2720c40000e5
+
+//JavaScript
+
+const pendulum = values =>
+  values.sort((a, b) => a - b).reduce((pre, val) => pre.length % 2 ? [...pre, val] : [val, ...pre], []);
