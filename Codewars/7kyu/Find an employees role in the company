@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/55c9fb1b407024afe6000055
+
+//JavaScript
+
+const findEmployeesRole = name =>
+  (val => val ? val.role : `Does not work here!`)
+  (employees.find(val => `${val.firstName} ${val.lastName}` === name));
