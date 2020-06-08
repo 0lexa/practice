@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56414fdc6488ee99db00002c
+
+//JavaScript
+
+const absentVowel = x =>
+  [...`aeiou`].findIndex(val => !x.includes(val));
