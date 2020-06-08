@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58287977ef8d4451f90001a0
+
+//JavaScript
+
+const isSameLanguage = list =>
+  list.every(val => val.language === list[0].language);
