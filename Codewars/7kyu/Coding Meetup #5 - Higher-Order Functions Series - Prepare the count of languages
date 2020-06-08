@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5828713ed04efde70e000346
+
+//JavaScript
+
+const countLanguages = list =>
+  list.reduce((pre, val) => (pre[val.language] = -~pre[val.language], pre), {});
