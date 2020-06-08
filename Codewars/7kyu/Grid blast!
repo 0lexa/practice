@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/54fdfe14762e2edf4a000a33
+
+//JavaScript
+
+const fire = (x,y) =>
+  grid[x + 3 * y];
