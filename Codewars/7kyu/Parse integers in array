@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/535d118ccdbf501816001101
+
+//JavaScript
+
+const parseNumbers = intStrs =>
+  intStrs.map(val => parseInt(val));
