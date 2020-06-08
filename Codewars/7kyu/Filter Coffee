@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56069d0c4af7f633910000d3
+
+//JavaScript
+
+const search = (budget, prices) =>
+  `${prices.filter(val => val <= budget).sort((a, b) => a - b)}`;
