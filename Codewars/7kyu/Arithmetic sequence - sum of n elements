@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55cb0597e12e896ab6000099
+
+//JavaScript
+
+const ArithmeticSequenceSum = (a, r, n) => 
+  n * (a + --n / 2 * r);
