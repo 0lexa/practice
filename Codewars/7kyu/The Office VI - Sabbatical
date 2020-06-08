@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57fe50d000d05166720000b1
+
+//JavaScript
+
+const sabb = (s, val, happiness) =>
+  (s.match(/[sabticl]/gi) || []).length + val + happiness > 22 ? `Sabbatical! Boom!` : `Back to your desk, boy.`;
