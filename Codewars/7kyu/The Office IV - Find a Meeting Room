@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57f604a21bd4fe771b00009c
+
+//JavaScript
+
+const meeting = x =>
+  !x.includes(`O`) ? `None available!` : x.indexOf(`O`);
