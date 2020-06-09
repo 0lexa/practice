@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/588a3c3ef0fbc9c8e1000095
+
+//JavaScript
+
+const maxDiff = arr => 
+  Math.max(...arr) - Math.min(...arr) | 0;
