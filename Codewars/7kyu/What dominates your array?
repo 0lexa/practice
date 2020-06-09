@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/559e10e2e162b69f750000b4
+
+//JavaScript
+
+const dominator = arr =>
+  (obj => arr.find(val => obj[val] > arr.length / 2) || -1)
+  (arr.reduce((pre, val) => (pre[val] = -~pre[val], pre), {}));
