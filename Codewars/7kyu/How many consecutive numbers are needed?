@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/559cc2d2b802a5c94700000c
+
+//JavaScript
+
+const consecutive = arr =>
+  Math.max(...arr) - Math.min(...arr) - arr.length + 1 | 0;
