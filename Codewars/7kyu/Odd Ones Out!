@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5d376cdc9bcee7001fcb84c0
+
+//JavaScript
+
+const oddOnesOut = nums =>
+  nums.filter(val => !(nums.filter(v => v === val).length % 2));
