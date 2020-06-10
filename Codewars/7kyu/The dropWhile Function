@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/54f9c37106098647f400080a
+
+//JavaScript
+
+const dropWhile = (arr, pred) =>
+  arr.length && pred(arr[0]) ? dropWhile(arr.slice(1), pred) : arr;
