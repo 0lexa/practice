@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/557592fcdfc2220bed000042
+
+//JavaScript
+
+const pattern = n =>
+  n > 0? [...Array(n)].map((_, idx) => [...Array(n)].map((_, i) => (i + idx) % n + 1).join(``)).join(`\n`) : ``;
