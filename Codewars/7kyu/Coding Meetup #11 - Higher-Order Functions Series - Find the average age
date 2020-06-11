@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/582ba36cc1901399a70005fc
+
+//JavaScript
+
+const getAverageAge = list =>
+  Math.round(list.reduce((pre, val) => pre + val.age, 0) / list.length);
