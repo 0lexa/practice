@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/57f22b0f1b5432ff09001cab
+
+//JavaScript
+
+const well = x =>
+  (val => val ? val > 2 ? `I smell a series!` : `Publish!` : `Fail!`)
+  ((`${x}`.match(/good/gi) || []).length);
