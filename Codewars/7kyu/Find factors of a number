@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/564fa92d1639fbefae00009d
+
+//JavaScript
+
+const factors = x =>
+  !Number.isInteger(x) || x < 1 ? -1 :
+    [...Array(x)].reduce((pre, _, idx) => !(x % (x - idx)) ? [...pre, x - idx] : pre, []);
