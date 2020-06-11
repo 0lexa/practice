@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58e0bd6a79716b7fcf0013b1
+
+//JavaScript
+
+const getAges = (sum, difference) =>
+  sum < 0 || difference < 0 || sum < difference ? null : [(sum + difference) / 2, (sum - difference) / 2];
