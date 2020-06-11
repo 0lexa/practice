@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55ed875819ae85ca8b00005c
+
+//JavaScript
+
+const multiplyAndFilter = (array, multiplier) =>
+  array.filter(Number.isFinite).map(val => val * multiplier);
