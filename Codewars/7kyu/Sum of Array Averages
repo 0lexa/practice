@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56d5166ec87df55dbe000063
+
+//JavaScript
+
+const sumAverage = arr =>
+  Math.floor(arr.reduce((pre, val) => pre + val.reduce((p, v) => p + v) / val.length, 0));
