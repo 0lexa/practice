@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/52f29bab392fb83e0d000656
+
+//JavaScript
+
+Array.prototype.removeValue = function (thing) {
+  if (this.includes(thing)) {
+    while (this.includes(thing)) this.splice(this.indexOf(thing), 1);
+    return this;
+  }
+  return false;
+};
