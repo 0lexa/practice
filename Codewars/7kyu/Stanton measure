@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/59a1cdde9f922b83ee00003b
+
+//JavaScript
+
+const stantonMeasure = arr =>
+  (val => val(val(1)))
+  (n => arr.filter(val => val === n).length);
