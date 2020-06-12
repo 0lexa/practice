@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56d02e6cc6c8b49c510005bb
+
+//JavaScript
+
+const findMissingNumbers = arr =>
+  Array.from({length: arr.slice(-1) - arr[0]}, (_, idx) => arr[0] + idx).filter(val => !arr.includes(val));
