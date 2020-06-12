@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/583952fbc23341c7180002fd
+
+//JavaScript
+
+const orderFood = list =>
+  list.reduce((pre, val) => (pre[val.meal] = -~ pre[val.meal], pre) ,{});
