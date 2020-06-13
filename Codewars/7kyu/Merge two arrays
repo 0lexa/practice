@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/583af10620dda4da270000c5
+
+//JavaScript
+
+const mergeArrays = (a, b) =>
+  a.reduce((pre, val) => b.length ? [...pre, val, b.shift()] : [...pre, val], []).concat(b);
