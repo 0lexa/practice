@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5662292ee7e2da24e900012f
+
+//JavaScript
+
+const getSocks = (name, socks) =>
+  ((diff, match) => name === `Punky` && diff ? [socks[0], diff] : name === `Henry` && match ? [match, match] : [])
+  (socks.find(val => val !== socks[0]), socks.find(val => socks.indexOf(val) !== socks.lastIndexOf(val)));
