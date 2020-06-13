@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/559e5b717dd758a3eb00005a
+
+//JavaScript
+
+const dropCap = n =>
+  n.replace(/\b(\w)(\w{2,})/g, (_, $1, $2) => $1.toUpperCase() + $2.toLowerCase());
