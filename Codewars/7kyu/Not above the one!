@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5b5097324a317afc740000fe
+
+//JavaScript
+
+const binaryCleaner = arr =>
+  arr.reduce((pre, val, idx) => (val < 2 ? pre[0].push(val) : pre[1].push(idx), pre), [[],[]]);
