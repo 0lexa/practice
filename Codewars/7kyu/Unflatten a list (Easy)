@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57e2dd0bec7d247e5600013a
+
+//JavaScript
+
+const unflatten = flatArray =>
+  flatArray.reduce((pre, val, idx) => (pre.push(val > 2 ? flatArray.splice(idx, val, null) : val), pre), []);
