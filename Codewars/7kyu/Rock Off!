@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5b097da6c3323ac067000036
+
+//JavaScript
+
+const solve = (a, b) =>
+  ((a, b) => `${a}, ${b}: ${a === b ? `that looks like a "draw"! Rock on!` : `${a > b ? `Alice made "Kurt` : `Bob made "Jeff`}" proud!`}`)
+  (...a.reduce((pre, val, idx) => [pre[0] + (val > b[idx]), pre[1] + (val < b[idx])], [0, 0]));
