@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55e3f27d5dee52d8dd0000a9
+
+//JavaScript
+
+const diffBig2 = arr =>
+  arr.splice(arr.indexOf(Math.max(...arr)), 1) - Math.max(...arr);
