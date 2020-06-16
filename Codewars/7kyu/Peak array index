@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a61a846cadebf9738000076
+
+//JavaScript
+
+const peak = arr =>
+  arr.findIndex((_, idx) => arr.slice(0, idx).reduce((pre, val) => pre + val, 0) === arr.slice(++idx).reduce((pre, val) => pre + val, 0));
