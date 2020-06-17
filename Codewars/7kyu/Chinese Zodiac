@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57a73e697cb1f31dd70000d2
+
+//JavaScript
+
+const chineseZodiac = year =>
+  `${elements[~~((year - 4) % 10 / 2)]} ${animals[(year - 4) % 12]}`;
