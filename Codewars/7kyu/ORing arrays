@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5ac5e9aa3853da25d9000102
+
+//JavaScript
+
+const orArrays = (arr1, arr2, def = 0) =>
+  [...arr1.map(val => val | (arr2[0] !== undefined ? arr2.shift() : def)), ...arr2.map(val => val | def)];
