@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/559fed8454b12433ff0000a2
+
+//JavaScript
+
+const total = arr =>
+  arr.length > 1 ? total(arr.slice(1).map((val, idx) => arr[idx] + val)) : arr[0];
