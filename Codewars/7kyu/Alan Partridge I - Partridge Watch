@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5808c8eff0ed4210de000008
+
+//JavaScript
+
+const part = x =>
+  (val => val ? `Mine's a Pint` + `!`.repeat(val) : `Lynn, I've pierced my foot on a spike!!`)
+  (x.filter(val => [`Partridge`, `PearTree`, `Chat`, `Dan`, `Toblerone`, `Lynn`, `AlphaPapa`, `Nomad`].includes(val)).length);
