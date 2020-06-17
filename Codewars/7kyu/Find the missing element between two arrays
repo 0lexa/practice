@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a5915b8d39ec5aa18000030
+
+//JavaScript
+
+const findMissing = (arr1, arr2) =>
+  arr1.reduce((pre, val) => pre + val) - arr2.reduce((pre, val) => pre + val, 0);
