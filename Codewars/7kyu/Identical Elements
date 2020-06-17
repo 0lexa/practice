@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/583ebb9328a0c034490001ba
+
+//JavaScript
+
+const duplicateElements = (m, n) =>
+  m.some(val => n.includes(val));
