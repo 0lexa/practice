@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a4ff3c5fd56cbaf9800003e
+
+//JavaScript
+
+const withoutLast = arr =>
+  arr.slice(0, -1);
