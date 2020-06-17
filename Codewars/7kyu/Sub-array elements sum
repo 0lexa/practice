@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5b5e0ef007a26632c400002a
+
+//JavaScript
+
+const elementsSum = (arr, d = 0) =>
+  arr.map((val, idx) => val[arr.length - 1 - idx]).reduce((pre, val = d) => pre + val, 0);
