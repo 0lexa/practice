@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/553f01db29490a69ff000049
+
+//JavaScript
+
+const validateSequence = x =>
+  x.every((val, idx) => val === x[0] + idx * (x[1] - x[0]));
