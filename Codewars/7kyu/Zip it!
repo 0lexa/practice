@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/56aaf25213edd3a88a000002
+
+//JavaScript
+
+Array.prototype.zip = function (arr, fn) {
+  return this.slice(0, arr.length).map((val, idx) => fn(val, arr[idx]));
+}
