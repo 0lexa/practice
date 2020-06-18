@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a84d485742ba347b90006b7
+
+//JavaScript
+
+const howManyGifts = (maxBudget, gifts) =>
+  gifts.sort((a, b) => a - b).filter(val => (maxBudget -= val) >= 0).length;
