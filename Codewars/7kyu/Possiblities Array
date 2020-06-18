@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59b710ed70a3b7dd8f000027
+
+//JavaScript
+
+const isAllPossibilities = x =>
+  !!x.length && x.every((_, idx) => x.includes(idx));
