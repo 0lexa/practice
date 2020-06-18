@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/582609930626631a9600003e
+
+//JavaScript
+
+const median = n =>
+  !!n.length && (n.sort((a, b) => a - b).length % 2 ? n[(n.length - 1) / 2] : (n[n.length / 2 - 1] + n[n.length / 2]) / 2);
