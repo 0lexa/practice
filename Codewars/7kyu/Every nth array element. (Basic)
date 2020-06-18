@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5753b987aeb792508d0010e2
+
+//JavaScript
+
+const every = (arr, interval, start) =>
+  arr.slice(start).filter((_, idx) => !(idx % interval));
