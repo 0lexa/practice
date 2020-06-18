@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59c6fa6972851e8959000067
+
+//JavaScript
+
+const ìsZeroBalanced = n =>
+  n.sort((a, b) => a - b).reduce((pre, val) => pre && !(val + n.pop()), !!n.length);
