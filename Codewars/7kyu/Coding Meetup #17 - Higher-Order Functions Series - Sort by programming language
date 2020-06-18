@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/583ea278c68d96a5fd000abd
+
+//JavaScript
+
+const sortByLanguage = list =>
+  list.sort((a, b) => a.language === b. language ? a.firstName.localeCompare(b.firstName) : a.language.localeCompare(b.language));
