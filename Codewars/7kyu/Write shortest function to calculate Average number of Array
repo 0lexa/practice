@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/56c22cdbe0c0f7cae2001789
+
+//JavaScript
+
+avg=a=>a.reduce((p,v)=>p+v)/a.length
