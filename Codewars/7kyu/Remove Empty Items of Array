@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5c857bab20089d4fe65a7f5b
+
+//JavaScript
+
+const clean = arr =>
+  Object.values(arr);
