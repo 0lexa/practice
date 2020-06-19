@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/5a7b3d08fd5777bf6a000121
+
+//JavaScript
+
+function removeNthElement(arr, n) {
+  const arrCopy = [...arr];
+  arrCopy.splice(n, 1);
+  return arrCopy;
+}
