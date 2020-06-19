@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55c098aa8468f3b9030000f1
+
+//JavaScript
+
+const move_zeros = (arrNum, isRight = true) =>
+  [...arrNum.filter(val => !!val === isRight), ...arrNum.filter(val => !!val !== isRight)];
