@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5a34f087c5e28462d9000082
+
+//JavaScript
+
+const swapHeadAndTail = arr =>
+  (val => [...arr.slice(-val), ...arr.slice(val, -val), ...arr.slice(0, val)])
+  (arr.length / 2);
