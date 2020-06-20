@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/560fbc2d636966b21e00009e
+
+//JavaScript
+
+const func = item =>
+  !(item % 2);
+
+const map = (arr, somefunction) =>
+  typeof somefunction !== `function` ? `given argument is not a function` :
+    arr.some(isNaN) ? `array should contain only numbers` :
+      arr.reduce((pre, val) => [...pre, somefunction(+val)], []);
