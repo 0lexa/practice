@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58644e8ddf95f81a38001d8d
+
+//JavaScript
+
+const box = n =>
+  [`-`.repeat(n), ...Array(n - 2).fill(`-${` `.repeat(n - 2)}-`), `-`.repeat(n)];
