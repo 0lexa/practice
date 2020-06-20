@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a8bcd980025e99381000099
+
+//JavaScript
+
+const squareUp = n =>
+  [].concat(...[...Array(n)].map((_, idx) => [...Array(n)].map((_, i) => i <= idx ? ++i: 0).reverse()));
