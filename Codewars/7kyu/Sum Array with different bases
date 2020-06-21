@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a005f4fba2a14897f000086
+
+//JavaScript
+
+const sumItUp = numbersWithBases =>
+  numbersWithBases.reduce((pre, val) => pre + parseInt(...val), 0);
