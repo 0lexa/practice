@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57d147bcc98a521016000320
+
+//JavaScript
+
+const pillow = s =>
+  [...s[0]].some((val, idx) => val === `n` && s[1][idx] === `B`);
