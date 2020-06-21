@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5b538734beb8654d6b00016d
+
+//JavaScript
+
+const queue = (queuers, pos) =>
+  queuers.reduce((pre, val, idx) => pre + Math.min(val, queuers[pos] - (idx > pos)), 0);
