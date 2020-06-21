@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58308360aeb69a460b0002b2
+
+//JavaScript
+
+const unique = arr =>
+  arr.filter((val, idx) => !arr.slice(0, idx).includes(val));
