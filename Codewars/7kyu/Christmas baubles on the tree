@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5856c5f7f37aeceaa100008e
+
+//JavaScript
+
+const baublesOnTree = (baubles, branches) =>
+  branches ? [...Array(branches)].map(() => Math.ceil(baubles-- / branches)) : `Grandma, we will have to buy a Christmas tree first!`;
