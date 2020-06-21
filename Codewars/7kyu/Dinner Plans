@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57212c55b6fa235edc0002a2
+
+//JavaScript
+
+const commonGround = (s1, s2) =>
+  s2.split(` `).filter(val => s1.includes(val)).join(` `) || `death`;
