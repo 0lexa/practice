@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/57d27a0a26427672b900046f
+
+//JavaScript
+
+const duckShoot = (ammo, aim, ducks) =>
+  (hits => ducks.replace(/2/g, val => hits-- > 0 ? `X` : val))
+  (ammo * aim ^ 0);
