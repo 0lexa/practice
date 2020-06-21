@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58d5e6c114286c8594000027
+
+//JavaScript
+
+const arrayManip = array =>
+  array.map((val, idx) => array.slice(idx).filter(v => v > val).sort((a, b) => a - b)[0] || -1);
