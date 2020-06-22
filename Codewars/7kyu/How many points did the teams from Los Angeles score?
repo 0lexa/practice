@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/580559b17ab3396c58000abb
+
+//JavaScript
+
+const getLosAngelesPoints = results =>
+  results.reduce((pre, val) => pre + (/^Los Angeles [A-Z][a-z]+$/.test(val[0]) ? +val[1].split(`:`)[0] : 0), 0);
