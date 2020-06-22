@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5610a8eeb9a84d624b000005
+
+//JavaScript
+
+Array.prototype.sortReloaded = function (dir = `asc`) {
+  return dir === `asc` ? [...this].sort((a, b) => a - b) : dir === `desc` ? [...this].sort((a, b) => b - a) : false;
+};
