@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59656c69253c365e58000046
+
+//JavaScript
+
+const maxPossibleScore = (obj, arr) =>
+  [...Object.keys(obj), ...arr].reduce((pre, val) => pre + (obj[val] || 0), 0);
