@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/565d6d1696e154b51b000076
+
+//JavaScript
+
+const semicolonSeparationToCommaSeparation = input => {
+  let res = ``;
+  [...input].forEach(val => res += val === `;` ? `,` : val);
+  return res;
+};
