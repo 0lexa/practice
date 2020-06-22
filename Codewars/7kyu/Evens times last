@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a1a9e5032b8b98477000004
+
+//JavaScript
+
+const evenLast = numbers =>
+  numbers.reduce((pre, val, idx) => pre + (!(idx % 2)  && val), 0) * numbers.pop() || 0;
