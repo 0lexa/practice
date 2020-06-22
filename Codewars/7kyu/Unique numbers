@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/568f9bd9cbe89334c900000c
+
+//JavaScript
+
+const uniqueNumbers = numbersArray =>
+  [...new Set(numbersArray)];
