@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5806c2f897dba05dd900004c
+
+//JavaScript
+
+const magnitude = vector => 
+  Math.hypot(...vector);
