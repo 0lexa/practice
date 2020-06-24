@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/586a3270c66d18ad810001d4
+
+//JavaScript
+
+Array.prototype.only = function(keys){
+  return this.filter((_, idx) => keys.includes(idx));
+};
