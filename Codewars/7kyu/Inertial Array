@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/59a151c53f64cdd94c00008f
+
+//JavaScript
+
+const isInertial = arr =>
+  arr.some(val => val % 2) && !(Math.max(...arr) % 2) &&
+  Math.min(...arr.filter(val => val % 2)) > Math.max(...arr.filter(val => !(val % 2) && val < Math.max(...arr)));
