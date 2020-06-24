@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/575690ee34a34efb37001796
+
+//JavaScript
+
+const multipleSplit = (string, delimiters = []) =>
+  string.split(new RegExp(`[${delimiters.join(`\\`)}]`)).filter(Boolean);
