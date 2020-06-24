@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/563c8540d50eb20bab00009a
+
+//JavaScript
+
+const perc = mins =>
+  isNaN(mins) || mins < 1 || mins > 100 ? `invalid track time` : [[120, `kicks`], [240, `hihats`], [60, `claps`]].map(val => `${Math.round(val[0] * mins)} ${val[1]}`);
