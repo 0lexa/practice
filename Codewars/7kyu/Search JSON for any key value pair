@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55d5da66a0e378b8bc0000c6
+
+//JavaScript
+
+const getCharacters = (obj, key, val) =>
+  obj.characters.filter(v => new RegExp(`^${val}$`, `i`).test(v[key]));
