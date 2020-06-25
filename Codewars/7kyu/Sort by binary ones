@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59eb28fb0a2bffafbb0000d6
+
+//JavaScript
+
+const sortByBinaryOnes = list =>
+  list.sort((a, b) => b.toString(2).replace(/0/g, ``).length - a.toString(2).replace(/0/g, ``).length || a - b);
