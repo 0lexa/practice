@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/578fe7e2149935740f000525
+
+//JavaScript
+
+const secondLargest = array =>
+  Array.isArray(array) ? [...new Set(array.filter(val => !isNaN(parseInt(val))).map(Number))].sort((a, b) => b - a)[1] : undefined;
