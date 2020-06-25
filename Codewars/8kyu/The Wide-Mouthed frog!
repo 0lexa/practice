@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57ec8bd8f670e9a47a000f89
+
+//JavaScript
+
+const mouthSize = animal =>
+  /alligator/i.test(animal) ? `small` : `wide`;
