@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5547929140907378f9000039
+
+//JavaScript
+
+const shortcut = string =>
+  string.replace(/[aeiou]/g, ``);
