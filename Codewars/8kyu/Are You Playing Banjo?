@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/53af2b8861023f1d88000832
+
+//JavaScript
+
+const areYouPlayingBanjo = name =>
+  `${name} ${/^r/i.test(name) ? `plays` : `does not play`} banjo`;
