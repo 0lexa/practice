@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/588ac50727eb94c87700001f
+
+//JavaScript
+
+const consecutiveOnes = (nums, cnt = 0) =>
+  nums.reduce((pre, val) => (pre = Math.max(pre, cnt = val * (cnt + 1)), pre), 0);
