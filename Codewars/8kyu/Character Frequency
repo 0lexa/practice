@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/548ef5b7f33a646ea50000b2
+
+//JavaScript
+
+const charFreq = message =>
+  [...message].reduce((pre, val) => (pre[val] = -~pre[val], pre), {});
