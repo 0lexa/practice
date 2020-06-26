@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce
+
+//JavaScript
+
+const multiTable = number =>
+  [...Array(10)].map((_, idx) => `${++idx} * ${number} = ${idx * number}`).join(`\n`);
