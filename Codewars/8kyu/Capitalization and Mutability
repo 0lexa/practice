@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/595970246c9b8fa0a8000086
+
+//JavaScript
+
+const capitalizeWord = word =>
+  word.replace(/^\w/, val => val.toUpperCase());
