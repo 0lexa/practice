@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a360620f28b82a711000047
+
+//JavaScript
+
+const defineSuit = card =>
+  ({'♣': `clubs`, '♦': `diamonds`, '♥': `hearts`, '♠': `spades`})[card.slice(-1)];
