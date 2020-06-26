@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57ab2d6072292dbf7c000039
+
+//JavaScript
+
+const correctPolishLetters = s =>
+  s.replace(/[ąćęłńóśźż]/g, val => `acelnoszz`[`ąćęłńóśźż`.indexOf(val)])
