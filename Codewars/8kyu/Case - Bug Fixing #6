@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/55c933c115a8c426ac000082
+
+//JavaScript
+
+const evalObject = value =>
+  ({'+': val => val.a + val.b,
+    '-': val => val.a - val.b,
+    '/': val => val.a / val.b,
+    '*': val => val.a * val.b,
+    '%': val => val.a % val.b,
+    '^': val => val.a ** val.b,
+  })[value.operation](value);
