@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5bb904724c47249b10000131
+
+//JavaScript
+
+const points = games =>
+  games.reduce((pre, [a, _, b]) => pre + (a > b) * 3 + +(a === b), 0);
