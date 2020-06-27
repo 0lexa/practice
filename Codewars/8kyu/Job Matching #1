@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56c22c5ae8b139416c00175d
+
+//JavaScript
+
+const match = (candidate, job) =>
+  candidate.minSalary && job.maxSalary ? candidate.minSalary * 0.9 <= job.maxSalary : (function () {throw new Error()})();
