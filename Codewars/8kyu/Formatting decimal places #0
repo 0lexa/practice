@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5641a03210e973055a00000d
+
+//JavaScript
+
+const twoDecimalPlaces = n =>
+  Math.round(n * 10**2) / 10**2;
