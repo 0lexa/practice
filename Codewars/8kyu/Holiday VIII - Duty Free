@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57e92e91b63b6cbac20001e5
+
+//JavaScript
+
+const dutyFree = (normPrice, discount, hol) =>
+  hol / (normPrice * discount / 100) ^ 0;
