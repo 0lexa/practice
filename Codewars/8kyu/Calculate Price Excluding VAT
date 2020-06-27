@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5890d8bc9f0f422cf200006b
+
+//JavaScript
+
+const excludingVatPrice = price =>
+  price === null ? -1 : Math.round(price / 1.15 * 10**2) / 10**2;
