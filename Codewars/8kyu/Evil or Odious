@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56fcfad9c7e1fa2472000034
+
+//JavaScript
+
+const evil = n => 
+  `It's ${n.toString(2).replace(/0/g, ``).length % 2 ? `Odious` : `Evil`}!`;
