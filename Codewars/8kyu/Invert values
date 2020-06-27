@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad
+
+//JavaScript
+
+const invert = array =>
+  array.map(val => -val);
