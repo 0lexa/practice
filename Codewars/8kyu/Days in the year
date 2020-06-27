@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56d6c333c9ae3fc32800070f
+
+//JavaScript
+
+const yearDays = year =>
+  `${year} has 36${6 - !!(year % 400 && !(year % 100) || year % 4)} days`;
