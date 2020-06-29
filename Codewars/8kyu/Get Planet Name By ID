@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/515e188a311df01cba000003
+
+//JavaScript
+
+const getPlanetName = id =>
+  [`Mercury`, `Venus`, `Earth`, `Mars`, `Jupiter`, `Saturn`, `Uranus`, `Neptune`][--id];
