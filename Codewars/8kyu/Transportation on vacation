@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/568d0dd208ee69389d000016
+
+//JavaScript
+
+const rentalCarCost = d =>
+  d * 40 - ((d > 6) * 50 || (d > 2) * 20);
