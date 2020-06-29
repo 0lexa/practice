@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a
+
+//JavaScript
+
+const past = (...args) =>
+  args.reduce((pre, val) => 60 * pre + val, 0) * 1e3;
