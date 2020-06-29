@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5601409514fc93442500010b
+
+//JavaScript
+
+const betterThanAverage = (classPoints, yourPoints) =>
+  yourPoints > classPoints.reduce((pre, val) => pre + val, yourPoints) / (classPoints.length + 1);
