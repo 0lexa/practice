@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/577bd026df78c19bca0002c0
+
+//JavaScript
+
+const correct = string =>
+  string.replace(/\d/g, val => `OI   S`[val]);
