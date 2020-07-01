@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/53f1015fa9fe02cbda00111a
+
+//JavaScript
+
+class Ghost {
+  constructor() {
+    this.color = [`red`, `yellow`, `purple`, `white`][Math.random() * 4 ^ 0];
+  }
+}
