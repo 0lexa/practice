@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/565f5825379664a26b00007c
+
+//JavaScript
+
+const getSize = (width, height, depth) =>
+  [(width * (height + depth) + height * depth) * 2, width * height * depth];
