@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a6663e9fd56cb5ab800008b
+
+//JavaScript
+
+const humanYearsCatYearsDogYears = humanYears =>
+  [humanYears, (--humanYears ? 20 : 15) + 4 * humanYears, (humanYears ? 19 : 15) + 5 * humanYears];
