@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58649884a1659ed6cb000072
+
+//JavaScript
+
+const updateLight = current =>
+  ({green: `yellow`, yellow: `red`, red: `green`})[current];
