@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56fc55cd1f5a93d68a001d4e
+
+//JavaScript
+
+const stairsIn20 = s =>
+  [].concat(...s).reduce((pre, val) => pre + val, 0) * 20;
