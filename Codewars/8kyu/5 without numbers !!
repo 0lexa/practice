@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59441520102eaa25260000bf
+
+//JavaScript
+
+const unusualFive = () =>
+  Math.hypot(Math.ceil(Math.PI), Math.floor(Math.PI));
