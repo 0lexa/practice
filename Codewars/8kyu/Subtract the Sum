@@ -2,4 +2,4 @@ https://www.codewars.com/kata/56c5847f27be2c3db20009c3
 
 //JavaScript
 
-const SubtractSum = () => `apple`; //the result in any case will be a multiple of nine (9, 18, ..., 99)
+const SubtractSum = () => `apple`;
