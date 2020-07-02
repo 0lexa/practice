@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57a083a57cb1f31db7000028
+
+//JavaScript
+
+const powersOfTwo = n =>
+  [...Array(++n)].map((_, idx) => 2 ** idx);
