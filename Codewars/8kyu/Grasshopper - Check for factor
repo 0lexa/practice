@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55cbc3586671f6aa070000fb
+
+//JavaScript
+
+const checkForFactor = (base, factor) => 
+  !(base % factor);
