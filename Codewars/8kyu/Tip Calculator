@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/56598d8076ee7a0759000087
+
+//JavaScript
+
+const calculateTip = (amount, rating) =>
+  (val => val < 0 ? `Rating not recognised` : Math.ceil(amount * val * .05))
+  ([`terrible`, `poor`, `good`, `great`, `excellent`].indexOf(rating.toLowerCase()));
