@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5704aea738428f4d30000914
+
+//JavaScript
+
+const tripleTrouble = (one, two, three) =>
+  one.replace(/\w/g, (val, idx) => val + two[idx] + three[idx]);
