@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57d814e4950d8489720008db
+
+//JavaScript
+
+const index = (array, n) =>
+  n < array.length ? array[n] ** n : -1;
