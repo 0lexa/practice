@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59dd3ccdded72fc78b000b25
+
+//JavaScript
+
+const whatday = num =>
+  [`Sunday`, `Monday`, `Tuesday`, `Wednesday`, `Thursday`, `Friday`, `Saturday`][--num] || `Wrong, please enter a number between 1 and 7`;
