@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/55cb854deb36f11f130000e1
+
+//JavaScript
+
+const weatherInfo = temp =>
+  (val => `${val} is ${val > 0 ? `above ` : ``}freezing temperature`)
+  ((temp - 32) * (5 / 9));
