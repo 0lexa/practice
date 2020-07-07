@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/559f80b87fa8512e3e0000f5
+
+//JavaScript
+
+const odds = values =>
+  values.filter(val => val % 2);
