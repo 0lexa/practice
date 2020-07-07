@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/54fdaa4a50f167b5c000005f
+
+//JavaScript
+
+const getStatus = isBusy => 
+  ({status: isBusy ? `busy` : `available`});
