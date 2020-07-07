@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5808e2006b65bff35500008f
+
+//JavaScript
+
+const position = letter =>
+  `Position of alphabet: ${letter.charCodeAt() - 96}`;
