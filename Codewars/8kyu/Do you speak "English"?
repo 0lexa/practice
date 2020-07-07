@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58dbdccee5ee8fa2f9000058
+
+//JavaScript
+
+const spEng = sentence => 
+  /english/i.test(sentence);
