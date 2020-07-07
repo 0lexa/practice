@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55a75e2d0803fea18f00009d
+
+//JavaScript
+
+const slope = ([x1, y1, x2, y2]) =>
+  x2 - x1 ? `${(y2 - y1) / (x2 - x1)}` : `undefined`;
