@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57241e0f440cd279b5000829
+
+//JavaScript
+
+const sumMul = (n, m) =>
+  m > n ? [...Array(m / n ^ 0)].map((_, idx) => ++idx * n).reduce((pre, val) => pre + val * (val < m)) : `INVALID`;
