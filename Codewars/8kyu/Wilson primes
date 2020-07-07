@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55dc4520094bbaf50e0000cb
+
+//JavaScript
+
+const amIWilson = p =>
+  [5, 13, 563].includes(p);
