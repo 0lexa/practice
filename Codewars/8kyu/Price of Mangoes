@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57a77726bb9944d000000b06
+
+//JavaScript
+
+const mango = (quantity, price) =>
+  (quantity - (quantity / 3 ^ 0)) * price;
