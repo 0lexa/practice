@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59811fd8a070625d4c000013
+
+//JavaScript
+
+const integrate = (coefficient, exponent) =>
+  `${coefficient/++exponent}x^${exponent}`;
