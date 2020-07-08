@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/572b6b2772a38bc1e700007a
+
+//JavaScript
+
+const uniTotal = str =>
+  [...str].reduce((pre, val) => pre + val.charCodeAt(), 0);
