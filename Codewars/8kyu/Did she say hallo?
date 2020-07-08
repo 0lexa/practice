@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56a4addbfd4a55694100001f
+
+//JavaScript
+
+const validateHello = greetings =>
+  /(h[ea]llo|ciao|salut|hola|ahoj|czesc)/i.test(greetings);
