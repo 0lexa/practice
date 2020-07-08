@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57e3f79c9cb119374600046b
+
+//JavaScript
+
+const hello = name =>
+  `Hello, ${name ? name.toLowerCase().replace(/^\w/, val => val.toUpperCase()) : `World`}!`;
