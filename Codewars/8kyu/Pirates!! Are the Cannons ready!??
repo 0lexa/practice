@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5748a883eb737cab000022a6
+
+//JavaScript
+
+const cannonsReady = gunners => 
+  Object.values(gunners).every(val => val === `aye`) ? `Fire!` : `Shiver me timbers!`;
