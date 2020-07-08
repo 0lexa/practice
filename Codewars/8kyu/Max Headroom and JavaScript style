@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/52a47dd7e950edabfa000391
+
+//JavaScript
+
+const getMax1 = () => {
+  const max = {name: `Max Headroom`};
+  return max;
+};
+
+const getMax2 = () =>
+  ({name: `Max Headroom`});
