@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57b58827d2a31c57720012e8
+
+//JavaScript
+
+const fuelPrice = (litres, pricePerLiter) =>
+  +(litres * (pricePerLiter - Math.min((litres / 2 ^ 0) * 0.05, 0.25))).toFixed(2);
