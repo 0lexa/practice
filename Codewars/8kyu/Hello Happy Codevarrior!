@@ -1,0 +1,18 @@
+https://www.codewars.com/kata/53f9ee9f64b19d4b1d0001ed
+
+//JavaScript
+
+class Warrior {
+  constructor(n) {
+    this.n = n;
+  }
+
+  name(name) {
+    this.n = name || this.n;
+    return this.n;
+  }
+
+  toString() {
+    return `Hi! my name's ${this.name()}`;
+  }
+}
