@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/575fa9afee048b293e000287
+
+//JavaScript
+
+const howMuchWater = (water, load, clothes) =>
+  clothes < load ? `Not enough clothes` : clothes > 2 * load ? `Too much clothes` : Math.round(water * 1.1 ** (clothes - load) * 1e2) / 1e2;
