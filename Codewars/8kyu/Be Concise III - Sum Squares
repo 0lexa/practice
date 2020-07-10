@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56f8fe6a2e6c0dc83b0008a7
+
+//JavaScript
+
+const sumSquares = array =>
+  array.reduce((pre, val) => pre + val ** 2, 0);
