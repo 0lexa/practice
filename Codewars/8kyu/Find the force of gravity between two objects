@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5b609ebc8f47bd595e000627
+
+//JavaScript
+
+const solution = ([m1, m2, r], [u1, u2, u3]) =>
+  (val => 6.67e-11 * m1 * val[u1] * m2 * val[u2] / (r * val[u3]) ** 2)
+  ({kg: 1, g: 1e-3, mg: 1e-6, μg: 1e-9, lb: .453592, m: 1, cm: 1e-2, mm: 1e-3, μm: 1e-6, ft: .3048});
