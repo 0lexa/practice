@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56be025f9347a066c7000e4f
+
+//JavaScript
+
+Math.roundTo = (number, precision) =>
+  Math.round(number * `1e${precision}`) / `1e${precision}`;
