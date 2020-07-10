@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59c287b16bddd291c700009a
+
+//JavaScript
+
+const iceBrickVolume = (radius, bottleLength, rimLength) =>
+  (bottleLength - rimLength) * 2 * radius ** 2;
