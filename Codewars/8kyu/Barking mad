@@ -1,0 +1,16 @@
+https://www.codewars.com/kata/54dba07f03e88a4cec000caf
+
+//JavaScript
+
+class Dog {
+  constructor(breed) {
+    this.breed = breed;
+  }
+
+  bark() {
+    return `Woof`;
+  }
+}
+
+let snoopy = new Dog(`Beagle`);
+let scoobydoo = new Dog(`Great Dane`);
