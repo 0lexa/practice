@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56bcaedfcf6b7f2125001118
+
+//JavaScript
+
+const htmlspecialchars = formData =>
+  formData.replace(/[<>"&]/g, val => `&${{['<']: `lt`, ['>']: `gt`, ['"']: `quot`, ['&']: `amp`}[val]};`);
