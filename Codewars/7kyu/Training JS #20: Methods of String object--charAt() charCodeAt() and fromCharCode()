@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57284d23e81185ae6200162a
+
+//JavaScript
+
+const topSecret = str =>
+  str.replace(/[a-z]/gi, val => String.fromCharCode(val.charCodeAt() + (`ABCabc`.includes(val) ? 23 : -3)));
