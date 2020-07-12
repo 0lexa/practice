@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57238ceaef9008adc7000603
+
+//JavaScript
+
+const colorOf = (r, g, b) =>
+  `#${[r, g, b].map(val => val.toString(16).padStart(2, 0)).join(``)}`;
