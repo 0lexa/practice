@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5722b3f0bd5583cf44001000
+
+//JavaScript
+
+const giveMeFive = obj =>
+  [].concat(...Object.entries(obj, `for( in `)).filter(val => val.length === 5);
