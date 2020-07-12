@@ -1,0 +1,13 @@
+https://www.codewars.com/kata/5721c189cdd71194c1000b9b
+
+//JavaScript
+
+const grabDoll = dolls => {
+  const bag = [];
+  for (const doll of dolls) {
+    if (bag.length === 3) break;
+    if (doll !== `Hello Kitty` && doll !== `Barbie doll`) continue;
+    bag.push(doll);
+  }
+  return bag;
+};
