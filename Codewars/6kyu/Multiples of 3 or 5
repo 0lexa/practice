@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/514b92a657cdc65150000006
+
+//JavaScript
+
+const solution = number =>
+  number < 3 ? 0 : [...Array(number)].reduce((pre, _, idx) => pre + idx * (!(idx % 3) || !(idx % 5)), 0);
