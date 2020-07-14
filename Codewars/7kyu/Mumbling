@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5667e8f4e3f572a8f2000039
+
+//JavaScript
+
+const accum = s =>
+  [...s].map((val, idx) => val.toUpperCase() + val.toLowerCase().repeat(idx)).join(`-`);
