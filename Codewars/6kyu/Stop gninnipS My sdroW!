@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5264d2b162488dc400000001
+
+//JavaScript
+
+const spinWords = str =>
+  str.replace(/\b\w{5,}/g, val => [...val].reverse().join(``));
