@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55f2b110f61eb01779000053
+
+//JavaScript
+
+const getSum = (a, b) =>
+  (a + b) / 2 * (Math.abs(a - b) + 1);
