@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/513e08acc600c94f01000001
+
+//JavaScript
+
+const rgb = (r, g, b) =>
+  [r, g, b].map(val => Math.max(0, Math.min(255, val)).toString(16).padStart(2, `0`)).join(``).toUpperCase();
