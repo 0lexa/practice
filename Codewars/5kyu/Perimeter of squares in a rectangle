@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/559a28007caad2ac4e000083
+
+//JavaScript
+
+const perimeter = n =>
+  4 * Math.round((((1 + 5 ** .5) / 2) ** (n + 3) / 5 ** .5) - 1);
