@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/546f922b54af40e1e90001da
+
+//JavaScript
+
+const alphabetPosition = text =>
+  [...text.toLowerCase().replace(/[^a-z]/g, ``)].map(val => val.charCodeAt() - 96).join(` `);
