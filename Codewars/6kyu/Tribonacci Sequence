@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/556deca17c58da83c00002db
+
+//JavaScript
+
+const tribonacci = (signature, n) =>
+  [...Array(n)].reduce((pre, _, idx) => [...pre, pre[idx] + pre[++idx] + pre[++idx]], signature).slice(0, n);
