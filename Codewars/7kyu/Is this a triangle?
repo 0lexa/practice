@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56606694ec01347ce800001b
+
+//JavaScript
+
+const isTriangle = (a, b, c) =>
+  a + b + c > 2 * Math.max(a, b, c);
