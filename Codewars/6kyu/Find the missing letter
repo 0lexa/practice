@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5839edaa6754d6fec10000a2
+
+//JavaScript
+
+const findMissingLetter = array =>
+  String.fromCharCode(array[0].charCodeAt() + array.slice(1).findIndex((val, idx) => val.charCodeAt() !== array[idx].charCodeAt() + 1) + 1);
