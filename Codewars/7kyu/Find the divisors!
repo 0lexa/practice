@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/544aed4c4a30184e960010f4
+
+//JavaScript
+
+const divisors = integer =>
+  (val => val.length ? val : `${integer} is prime`)
+  ([...Array((integer / 2 ^ 0) - 1)].map((_, idx) => idx + 2).filter(val => !(integer % val)))
