@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/53368a47e38700bd8300030d
+
+//JavaScript
+
+const list = names =>
+  names.map(val => val[`name`]).join(`, `).replace(/, (?=\w+$)/, ` & `);
