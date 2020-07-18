@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/552c028c030765286c00007d
+
+//JavaScript
+
+const iqTest = numbers =>
+  (val => val.search(/1.*(?=1)/.test(val) ? `0` : `1`) + 1)
+  (numbers.replace(/\s*\d+\s*/g, val => val % 2));
