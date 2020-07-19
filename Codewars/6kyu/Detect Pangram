@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/545cedaa9943f7fe7b000048
+
+//JavaScript
+
+const isPangram = string =>
+  new Set(string.toLowerCase().replace(/[^a-z]/gi, ``)).size === 26;
