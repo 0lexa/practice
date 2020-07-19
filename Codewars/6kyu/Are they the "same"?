@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/550498447451fbbd7600041c
+
+//JavaScript
+
+const comp = (array1, array2) =>
+  !!(array1 && array2) && `${array1.map(val => val ** 2).sort()}` === `${array2.sort()}`;
