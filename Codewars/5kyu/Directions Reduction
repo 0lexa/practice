@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/550f22f4d758534c1100025a
+
+//JavaScript
+
+const dirReduc = arr =>
+  arr.reduce((pre, val) => pre[pre.length - 1] === {NORTH : `SOUTH`, SOUTH : `NORTH`, EAST : `WEST`, WEST : `EAST`}[val] ? pre.slice(0, -1) : [...pre, val], []);
