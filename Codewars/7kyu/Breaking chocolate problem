@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/534ea96ebb17181947000ada
+
+//JavaScript
+
+const breakChocolate = (n, m) =>
+  Math.max(n * m - 1, 0);
