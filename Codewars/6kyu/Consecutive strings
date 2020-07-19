@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/56a5d994ac971f1ac500003e
+
+//JavaScript
+
+const longestConsec = (strarr, k) =>
+  k > strarr.length || k <= 0 ? `` :
+    [...Array(strarr.length - k + 1)].reduce((pre, _, idx) => (str => str.length > pre.length ? str : pre)(strarr.slice(idx, idx + k).join(``)), ``);
