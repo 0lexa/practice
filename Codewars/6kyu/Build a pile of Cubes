@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5592e3bd57b64d00f3000047
+
+//JavaScript
+
+const findNb = m =>
+  (val => Number.isInteger(val) ? val : -1)
+  ((2 * m ** .5 + .25) ** .5 - .5);
