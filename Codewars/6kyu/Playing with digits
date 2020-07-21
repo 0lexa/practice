@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5552101f47fc5178b1000050
+
+//JavaScript
+
+const digPow = (n, p) =>
+  (val => Number.isInteger(val) ? val : -1)
+  ([...`${n}`].reduce((pre, val) => pre + val ** p++, 0) / n);
