@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5842df8ccbd22792a4000245
+
+//JavaScript
+
+const expandedForm = num =>
+  [...`${num}`].reverse().map((val, idx) => val * 10 ** idx).reverse().filter(Boolean).join(` + `);
