@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5626b561280a42ecc50000d1
+
+//JavaScript
+
+const sumDigPow = (a, b) =>
+  [...Array(b - a + 1)].map((_, idx) => a + idx).filter(val => [...`${val}`].reduce((pre, val, idx) => pre + val ** ++idx, 0) === val);
