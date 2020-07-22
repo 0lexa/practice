@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/542c0f198e077084c0000c2e
+
+//JavaScript
+
+const getDivisorsCnt = n =>
+  [...Array(n / 2 ^ 0)].reduce((pre, _, idx) => n % ++idx ? pre : ++pre, 1);
