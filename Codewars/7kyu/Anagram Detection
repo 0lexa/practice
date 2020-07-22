@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/529eef7a9194e0cbc1000255
+
+//JavaScript
+
+const isAnagram = (test, original) =>
+  (fn => fn(test) === fn(original))
+  (val => [...val.toLowerCase()].sort().join(``));
