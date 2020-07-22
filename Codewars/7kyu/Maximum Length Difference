@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5663f5305102699bad000056
+
+//JavaScript
+
+const mxdiflg = (a1, a2) =>
+  a1.reduce((pre, val) => Math.max(pre, a2.reduce((p, v) => Math.max(p, Math.abs(val.length - v.length)), -1)), -1);
