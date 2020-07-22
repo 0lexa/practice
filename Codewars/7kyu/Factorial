@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/54ff0d1f355cfd20e60001fc
+
+//JavaScript
+
+const factorial = n =>
+  n < 0 || n > 12 ? (() => {throw new RangeError()})() : n < 2 ? 1 : n * factorial(n - 1);
