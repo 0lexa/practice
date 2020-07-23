@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/585a1a227cb58d8d740001c3
+
+//JavaScript
+
+const repeater = (str, n) => 
+  str.repeat(n);
