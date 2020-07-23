@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/526c7363236867513f0005ca
+
+//JavaScript
+
+const isLeapYear = year =>
+  !(year % 400) || !(year % 4) && !!(year % 100);
