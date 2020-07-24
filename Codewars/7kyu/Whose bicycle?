@@ -1,0 +1,10 @@
+class Son {
+  constructor(num, diary) {
+    this.num = num;
+    this.sum = Object.values(diary).reduce((pre, val) => pre + val);
+    this.age = ageTable[`${num}SonAge`];
+  }
+}
+
+const whoseBicycle = (diary1, diary2, diary3) =>
+  `I need to buy a bicycle for my ${[new Son(`first`, diary1), new Son(`second`, diary2), new Son(`third`, diary3)].sort((a, b) => b.sum - a.sum || a.age - b.age)[0].num} son.`;
