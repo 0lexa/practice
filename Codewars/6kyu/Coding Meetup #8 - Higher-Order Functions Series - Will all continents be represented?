@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58291fea7ff3f640980000f9
+
+//JavaScript
+
+const allContinents = list =>
+  [`Africa`, `Americas`, `Asia`, `Europe`, `Oceania`].every(val => list.some(v => v.continent === val));
