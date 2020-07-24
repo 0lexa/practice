@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/582a53ed261c2af9d200018c
+
+//JavaScript
+
+const addUsername = list =>
+  list.forEach(val => val.username = (val.firstName + val.lastName[0] + (new Date().getFullYear() - val.age)).toLowerCase()) || list;
