@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/583a8bde28019d615a000035
+
+//JavaScript
+
+const findOddNames = list =>
+  list.filter(val => [...val.firstName].reduce((pre, val) => pre + val.charCodeAt(), 0) % 2);
