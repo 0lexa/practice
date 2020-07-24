@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/582887f7d04efdaae3000090
+
+//JavaScript
+
+const findSenior = list =>
+  list.filter(val => val.age === Math.max(...list.map(val => val.age)));
