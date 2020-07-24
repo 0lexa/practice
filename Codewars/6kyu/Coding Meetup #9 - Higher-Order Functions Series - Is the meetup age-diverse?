@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5829ca646d02cd1a65000284
+
+//JavaScript
+
+const isAgeDiverse = list =>
+  [...Array(10)].every((_, idx) => list.some(val => idx === (val.age >= 100 ? 10 : val.age / 10 ^ 0) - 1));
