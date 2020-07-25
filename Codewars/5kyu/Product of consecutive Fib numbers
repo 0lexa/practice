@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5541f58a944b85ce6d00006a
+
+//JavaScript
+
+const productFib = (prod, n = 0, n1 = 1) =>
+  n * n1 >= prod ? [n, n1, n * n1 === prod] : productFib(prod, n1, n + n1);
