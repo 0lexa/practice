@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5735956413c2054a680009ec
+
+//JavaScript
+
+const rndCode = () =>
+  [...Array(8)].map((_, idx) => idx < 2 ? `ABCDEFGHIJKLM`[Math.random() * 13 ^ 0] : idx > 5 ? `~!@#$%^&*`[Math.random() * 9 ^ 0] : Math.random() * 10 ^ 0).join(``);
