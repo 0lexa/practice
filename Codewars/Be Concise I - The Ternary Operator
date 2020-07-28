@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56f3f6a82010832b02000f38
+
+//JavaScript
+
+const describeAge = age =>
+  `You're a(n) ${age > 64 ? `elderly` : age > 17 ? `adult` : age > 12 ? `teenager` : `kid`}`;
