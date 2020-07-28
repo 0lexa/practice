@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5763bb0af716cad8fb000580
+
+//JavaScript
+
+const countSquares = cuts =>
+  (6 * cuts ** 2 + 2) ** !!cuts;
