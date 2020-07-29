@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5434283682b0fdb0420000e6
+
+//JavaScript
+
+const caffeineBuzz = n =>
+  !(n % 3) ? `${!(n % 4) ? `Coffee` : `Java`}${!(n % 2) ? `Script` : ``}` : `mocha_missing!`;
