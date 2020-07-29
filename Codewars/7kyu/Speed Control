@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56484848ba95170a8000004d
+
+//JavaScript
+
+const gps = (s, x) =>
+  Math.max(...x.slice(1).map((val, idx) => 3600 * (val - x[idx]) / s)) ^ 0;
