@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5436f26c4e3d6c40e5000282
+
+//JavaScript
+
+const sumOfN = n =>
+  [...Array(Math.abs(n))].reduce((pre, _, idx) => [...pre, pre[idx] + Math.sign(n) * ++idx], [0]);
