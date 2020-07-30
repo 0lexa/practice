@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58f0ba42e89aa6158400000e
+
+//JavaScript
+
+const foldTo = distance =>
+  distance < 0 ? null : Math.max(Math.ceil(Math.log2(distance / 0.0001)), 0);
