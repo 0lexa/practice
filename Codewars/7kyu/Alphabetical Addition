@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5d50e3914861a500121e1958
+
+//JavaScript
+
+const addLetters = (...letters) =>
+  String.fromCharCode(96 + (letters.reduce((pre, val) => pre + val.charCodeAt() - 96, 0) % 26 || 26));
