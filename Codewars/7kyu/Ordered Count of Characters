@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57a6633153ba33189e000074
+
+//JavaScript
+
+const orderedCount = text =>
+  [...new Set(text)].map(val => [val, text.split(val).length - 1]);
