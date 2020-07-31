@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56a4872cbb65f3a610000026
+
+//JavaScript
+
+const maxRot = n =>
+  [...`${n}`].reduce((pre, _, idx) => Math.max(pre, n = `${n}`.slice(0, idx) + `${n}`.slice(idx + 1) + `${n}`.slice(idx, idx + 1)), n);
