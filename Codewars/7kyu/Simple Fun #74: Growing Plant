@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58941fec8afa3618c9000184
+
+//JavaScript
+
+const growingPlant = (upSpeed, downSpeed, desiredHeight) =>
+  Math.max(Math.ceil((desiredHeight - upSpeed) / (upSpeed - downSpeed)), 0) + 1;
