@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/52af7bf41f5a1291a6000025
+
+//JavaScript
+
+const timeForMilkAndCookies = date =>
+  date.getMonth() === 11 && date.getDate() === 24;
