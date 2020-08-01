@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/562f91ff6a8b77dfe900006e
+
+//JavaScript
+
+const movie = (card, ticket, perc) => {
+  let cnt = 0;
+  while (ticket * cnt <= Math.ceil(card)) {
+    cnt++;
+    card += ticket * perc ** cnt;
+  }
+  return cnt;
+}
