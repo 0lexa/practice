@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/54557d61126a00423b000a45
+
+//JavaScript
+
+const shorter_reverse_longer = (a, b) =>
+  b.length > a.length ? a + [...b].reverse().join(``) + a : b + [...a].reverse().join(``) + b;
