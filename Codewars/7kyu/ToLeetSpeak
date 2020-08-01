@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57c1ab3949324c321600013f
+
+//JavaScript
+
+const toLeetSpeak = str =>
+  str.replace(/./g, val => ({A: `@`, B: `8`, C: `(`, E: `3`, G: `6`, H: `#`, I: `!`, L: `1`, O: `0`, S: `$`, T: `7`, Z: `2`})[val] || val);
