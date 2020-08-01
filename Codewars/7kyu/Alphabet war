@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59377c53e66267c8f6000027
+
+//JavaScript
+
+const alphabetWar = fight =>
+  [`Right side wins!`, `Let's fight again!`, `Left side wins!`][Math.sign([...fight].reduce((pre, val) => pre + ((`mqdz sbpw`.indexOf(val) - 4) % 5), 0)) + 1];
