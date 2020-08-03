@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59cfc09a86a6fdf6df0000f1
+
+//JavaScript
+
+const capitalize = (s, arr) =>
+  s.replace(/\w/g, (val, idx) => arr.includes(idx) ? val.toUpperCase() : val);
