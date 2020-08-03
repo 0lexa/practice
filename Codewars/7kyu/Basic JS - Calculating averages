@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/529f32794a6db5d32a00071f
+
+//JavaScript
+
+Calculator.average = (...args) => 
+  args.reduce((pre, val) => pre + val, 0) / (args.length || 1);
