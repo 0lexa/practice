@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58acfe4ae0201e1708000075
+
+//JavaScript
+
+const inviteMoreWomen = L =>
+  L.reduce((pre, val) => pre + val) > 0;
