@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5413759479ba273f8100003d
+
+//JavaScript
+
+const reverse = array =>
+  array.reduce((pre, val) => [val, ...pre], []);
