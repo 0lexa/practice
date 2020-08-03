@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/52dbae61ca039685460001ae
+
+//JavaScript
+
+const change = string =>
+  [...Array(26)].map((_, idx) => +new RegExp(String.fromCharCode(65 + idx), `i`).test(string)).join(``);
