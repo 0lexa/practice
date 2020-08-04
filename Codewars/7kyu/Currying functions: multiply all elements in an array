@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/586909e4c66d18dd1800009b
+
+//JavaScript
+
+const multiplyAll = arr => 
+  n => arr.map(val => val * n);
