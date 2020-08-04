@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/5701e43f86306a615c001868
+
+//JavaScript
+
+const getIssuer = number =>
+  /^3[47]\d{13}$/g.test(number) ? `AMEX` : 
+  /^6011\d{12}$/g.test(number) ? `Discover` : 
+  /^5[1-5]\d{14}$/g.test(number) ? `Mastercard` : 
+  /^4(\d{12}|\d{15})$/g.test(number) ? `VISA` : `Unknown`;
