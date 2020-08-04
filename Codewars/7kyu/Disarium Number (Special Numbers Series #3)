@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a53a17bfd56cb9c14000003
+
+//JavaScript
+
+const disariumNumber = n =>
+  [...`${n}`].reduce((pre, val, idx) => pre + val ** ++idx, 0) === n ? `Disarium !!` : `Not !!`;
