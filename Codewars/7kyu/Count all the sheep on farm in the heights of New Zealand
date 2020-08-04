@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58e0f0bf92d04ccf0a000010
+
+//JavaScript
+
+const lostSheep = (friday, saturday, total) =>
+  [...friday, ...saturday].reduce((pre, val) => pre - val, total);
