@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/576bb3c4b1abc497ec000065
+
+//JavaScript
+
+const compare = (s1, s2) =>
+  (fn => fn(s1) === fn(s2))
+  (str => [...!str || /[^A-Z]/i.test(str) ? `` : str.toUpperCase()].reduce((pre, val) => pre + val.charCodeAt(), 0));
