@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a55f04be6be383a50000187
+
+//JavaScript
+
+const specialNumber = n =>
+  /[6-9]/.test(n) ? `NOT!!` : `Special!!`;
