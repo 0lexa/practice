@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/53da6a7e112bd15cbc000012
+
+//JavaScript
+
+const sortDict = dict =>
+  Object.keys(dict).map(val => [+val || val, dict[val]]).sort((a, b) => b[1] - a[1]);
