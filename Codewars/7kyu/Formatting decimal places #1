@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5641c3f809bf31f008000042
+
+//JavaScript
+
+const twoDecimalPlaces = number =>
+  (number * 1e2 ^ 0) / 1e2;
