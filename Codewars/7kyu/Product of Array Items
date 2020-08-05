@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5901f361927288d961000013
+
+//JavaScript
+
+const product = values =>
+  +values === 0 ? null : values.reduce((pre, val) => pre * val);
