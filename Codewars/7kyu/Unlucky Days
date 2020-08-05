@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56eb0be52caf798c630013c0
+
+//JavaScript
+
+const unluckyDays = year =>
+  [...Array(12)].filter((_, idx) => new Date(year, idx, 13).getDay() === 5).length;
