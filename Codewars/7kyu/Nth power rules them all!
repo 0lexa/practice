@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58aed2cafab8faca1d000e20
+
+//JavaScript
+
+const modifiedSum = (a, n) =>
+  a.reduce((pre, val) => pre + val ** n - val, 0);
