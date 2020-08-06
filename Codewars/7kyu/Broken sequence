@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5512e5662b34d88e44000060
+
+//JavaScript
+
+const findMissingNumber = sequence =>
+  /[^\d\s]/.test(sequence) ? 1 : (sequence.match(/\d+/g) || []).sort((a, b) => a - b).findIndex((val, idx) => val != ++idx) + 1;
