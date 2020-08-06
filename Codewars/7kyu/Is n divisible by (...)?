@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/558ee8415872565824000007
+
+//JavaScript
+
+const isDivisible = (n, ...rest) =>
+  rest.every(val => !(n % val));
