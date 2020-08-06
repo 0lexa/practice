@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/580755730b5a77650500010c
+
+//JavaScript
+
+const sortMyString = s =>
+  `${s.replace(/(.)./g, `$1`)} ${s.replace(/.(.)?/g, `$1`)}`;
