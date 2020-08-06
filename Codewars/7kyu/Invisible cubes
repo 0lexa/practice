@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/560d6ebe7a8c737c52000084
+
+//JavaScript
+
+const notVisibleCubes = n =>
+  Math.max(0, (n - 2) ** 3);
