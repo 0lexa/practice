@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57ad85bb7cb1f3ae7c000039
+
+//JavaScript
+
+const numbersWithDigitInside = (x, d) =>
+  [...Array(x)].reduce((pre, _, idx) => new RegExp(d).test(++idx) ? [++pre[0], pre[1] + idx, (pre[2] || 1) * idx] : pre, [0, 0, 0]);
