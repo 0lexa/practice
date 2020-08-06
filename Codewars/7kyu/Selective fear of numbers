@@ -1,0 +1,13 @@
+https://www.codewars.com/kata/55b1fd84a24ad00b32000075
+
+//JavaScript
+
+const AmIAfraid = (day, num) =>
+  ({Monday: num === 12,
+    Tuesday: num > 95,
+    Wednesday: num === 34,
+    Thursday: !num,
+    Friday: !(num % 2),
+    Saturday: num === 56,
+    Sunday: Math.abs(num) === 666
+  })[day];
