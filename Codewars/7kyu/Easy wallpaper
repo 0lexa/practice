@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/567501aec64b81e252000003
+
+//JavaScript
+
+const wallpaper = (l, w, h) =>
+  [`zero`, `one`, `two`, `three`, `four`, `five`, `six`, `seven`, `eight`, `nine`, `ten`, `eleven`, `twelve`, `thirteen`, `fourteen`, `fifteen`, `sixteen`, `seventeen`, `eighteen`, `nineteen`, `twenty`]
+    [l && w ? Math.ceil(2 * (l + w) * h / 5.2 * 1.15) : 0];
