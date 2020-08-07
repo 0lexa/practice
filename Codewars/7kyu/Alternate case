@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57a62154cf1fa5b25200031e
+
+//JavaScript
+
+const alternateCase = s =>
+  s.replace(/\w/g, val => val[`to${val < `a` ? `Low` : `Upp`}erCase`]());
