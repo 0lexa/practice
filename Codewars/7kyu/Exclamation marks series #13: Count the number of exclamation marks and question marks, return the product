@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57fb142297e0860073000064
+
+//JavaScript
+
+const product = s => 
+  s.replace(/[^!]/g, ``).length * s.replace(/[^?]/g, ``).length;
