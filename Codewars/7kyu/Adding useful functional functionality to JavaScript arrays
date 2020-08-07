@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/52195c9bb576caf14200007f
+
+//JavaScript
+
+Array.range = function(start, count) {
+  return [...Array(count)].map((_, idx) => idx + start);
+}
+
+Array.prototype.sum = function() {
+  return this.reduce((pre, val) => pre + val, 0);
+}
