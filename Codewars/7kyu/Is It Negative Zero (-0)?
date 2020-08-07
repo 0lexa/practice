@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5c5086287bc6600001c7589a
+
+//JavaScript
+
+const isNegativeZero = n =>
+  1 / Math.sign(n) === -Infinity;
