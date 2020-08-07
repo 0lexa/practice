@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5aee86c5783bb432cd000018
+
+//JavaScript
+
+const hydrate = s =>
+  (val => `${val} glass${val > 1 ? `es` : `` } of water`)
+  (s.match(/\d/g).reduce((pre, val) => pre + +val, 0));
