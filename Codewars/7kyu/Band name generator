@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59727ff285281a44e3000011
+
+//JavaScript
+
+const bandNameGenerator = str =>
+  (str.endsWith(str[0]) ? `${str.slice(0, -1)}${str}` : `the ${str}`).replace(/(^| )\w/g, val => val.toUpperCase());
