@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/558f9f51e85b46e9fa000025
+
+//JavaScript
+
+const differenceOfSquares = n =>
+  (n * (n + 1) / 2) ** 2 - (n * (n + 1) * (2 * n + 1) / 6);
