@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/51dda84f91f5b5608b0004cc
+
+//JavaScript
+
+const solution = number =>
+  (val => [(number / 3 ^ 0) - val, (number / 5 ^ 0) - val, val])
+  (--number / 15 ^ 0);
