@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/567d609f1c16d7369c000008
+
+//JavaScript
+
+const generate = length =>
+  [...Array(length)].map(val => Math.random() * 2 ^ 0).join(``);
