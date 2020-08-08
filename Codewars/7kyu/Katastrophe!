@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55a3cb91d1c9ecaa2900001b
+
+//JavaScript
+
+const strongEnough = (earthquake, age) =>
+  earthquake.reduce((pre, val) => pre * val.reduce((pre, val) => pre + val), 1) < 1000 * .99 ** age ? `Safe!` : `Needs Reinforcement!`;
