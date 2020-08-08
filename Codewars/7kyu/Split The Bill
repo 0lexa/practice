@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5641275f07335295f10000d0
+
+//JavaScript
+
+const splitTheBill = x =>
+  (avg => Object.keys(x).reduce((pre, val) => (pre[val] = Math.round((x[val] - avg) * 1e2) / 1e2, pre), {}))
+  (Object.values(x).reduce((pre, val) => pre + val) / Object.values(x).length);
