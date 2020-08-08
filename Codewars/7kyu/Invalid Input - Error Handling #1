@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/55e6125ad777b540d9000042
+
+//JavaScript
+
+const getCount = words =>
+  (words => ({vowels: (words.match(/[aieou]/ig) || []).length, consonants: (words.match(/[b-df-hj-np-tv-z]/ig) || []).length}))
+  (typeof words === `string` ? words : ``);
