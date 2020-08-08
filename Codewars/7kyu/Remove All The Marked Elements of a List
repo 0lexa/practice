@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/563089b9b7be03472d00002b
+
+//JavaScript
+
+Array.prototype.remove_ = (integer_list, values_list) =>
+  integer_list.filter(val => !values_list.includes(val));
