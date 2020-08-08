@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5635e7cb49adc7b54500001c
+
+//JavaScript
+
+const solve = n =>
+  (n % 10) ? -1 : [500, 200, 100, 50, 20, 10].reduce((pre, val) => (pre += n / val ^ 0, n %= val, pre), 0);
