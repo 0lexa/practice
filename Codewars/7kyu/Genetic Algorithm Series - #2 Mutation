@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/567b39b27d0a4606a5000057
+
+//JavaScript
+
+const mutate = (chromosome, p) => 
+  chromosome.replace(/\d/g, val => val ^ Math.random() < p);
