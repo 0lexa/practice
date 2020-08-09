@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/52567c56cb6ac86b56000516
+
+//JavaScript
+
+[`Adam`, `has`, `a`, `dog`, `The`, `name`, `of`, `the`, `is`, `also`].map(val => global[val] = arg => arg ? `${val} ${arg}` : `${val}.`);
