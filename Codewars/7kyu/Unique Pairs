@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/540c013634e6bac0350000a5
+
+//JavaScript
+
+const projectPartners = n =>
+  n * --n / 2;
