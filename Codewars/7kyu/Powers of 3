@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57be674b93687de78c0001d9
+
+//JavaScript
+
+const largestPower = n => 
+  --n ? Math.log(n) / Math.log(3) ^ 0 : -1;
