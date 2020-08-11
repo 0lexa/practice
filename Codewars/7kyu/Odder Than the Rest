@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5983cba828b2f1fd55000114
+
+//JavaScript
+
+const oddOne = arr =>
+  arr.findIndex(val => val % 2);
