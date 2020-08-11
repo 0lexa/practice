@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5bbd279c8f8bbd5ee500000f
+
+//JavaScript
+
+const findScreenHeight = (width, ratio) =>
+  ((w, h) => `${width}x${width / w * h}`)
+  (...ratio.split(`:`));
