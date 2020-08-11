@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/566efcfbf521a3cfd2000056
+
+//JavaScript
+
+const flipNumber = n =>
+  (arr => [...n].reduce(pre => pre + arr.reverse().shift(), ``))
+  ([...n])
