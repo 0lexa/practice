@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56b22765e1007b79f2000079
+
+//JavaScript
+
+const isNarcissistic = n =>
+  [...`${n}`].reduce((pre, val) => pre + val ** `${n}`.length, 0) === n;
