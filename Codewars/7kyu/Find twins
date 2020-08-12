@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5834315e06f227a6ac000099
+
+//JavaScript
+
+const elimination = arr =>
+  arr.find((val, idx) => idx !== arr.lastIndexOf(val)) || null;
