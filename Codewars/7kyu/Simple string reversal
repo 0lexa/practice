@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5a71939d373c2e634200008e
+
+//JavaScript
+
+const solve = str =>
+  (arr => str.replace(/\S/g, () => arr.pop()))
+  ([...str.replace(/\s/g, ``)]);
