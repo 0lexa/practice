@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/546ba103f0cf8f7982000df4
+
+//JavaScript
+
+const calculate = (n1, n2, o) =>
+  new Function(`n1`, `n2`, `return (parseInt(n1, 2) ${{add: `+`, subtract: `-`, multiply: `*`}[o]} parseInt(n2, 2)).toString(2)`)(n1, n2);
