@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5bbb8887484fcd36fb0020ca
+
+//JavaScript
+
+const catchSignChange = arr => 
+  arr.reduce((pre, val, idx) => idx && pre + (val < 0 !== arr[--idx] < 0), 0);
