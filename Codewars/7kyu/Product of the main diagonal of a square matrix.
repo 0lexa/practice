@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/551204b7509063d9ba000b45
+
+//JavaScript
+
+const mainDiagonalProduct = mat =>
+  mat.reduce((pre, val, idx) => pre * val[idx], 1);
