@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5831c204a31721e2ae000294
+
+//JavaScript
+
+const swap = st =>
+  st.replace(/[aeiou]/g, val => val.toUpperCase());
