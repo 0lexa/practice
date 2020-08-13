@@ -1,0 +1,17 @@
+https://www.codewars.com/kata/5313b713bb244a0eb20001fe
+
+//JavaScript
+
+class Counter {
+  constructor() {
+    this.cnt = 0;
+  }
+  
+  incr() {
+    this.cnt++;
+  }
+  
+  valueOf() {
+    return this.cnt;
+  }
+}
