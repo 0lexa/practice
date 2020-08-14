@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/52af0d380fcae83a560008af
+
+//JavaScript
+
+const handOutGift = ((arr = []) =>
+  name => arr.includes(name) ? function () {throw new Error()}() : arr.push(name))
+  ();
