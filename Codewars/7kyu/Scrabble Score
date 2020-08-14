@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/558fa34727c2d274c10000ae
+
+//JavaScript
+
+const scrabbleScore = str =>
+  [...str.toUpperCase()].reduce((pre, val) => pre + ($dict[val] || 0), 0);
