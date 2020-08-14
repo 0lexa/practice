@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5202ef17a402dd033c000009
+
+//JavaScript
+
+const titleCase = (title, minorWords) =>
+  title.replace(/\w+/g, val => val[0].toUpperCase() + val.slice(1).toLowerCase())
+  .replace(new RegExp(` ${(minorWords || ``).split(` `).join(`| `)}`, `gi`), val => val.toLowerCase());
