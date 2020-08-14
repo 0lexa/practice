@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/587731fda577b3d1b0001196
+
+//JavaScript
+
+String.prototype.camelCase = function () {
+  return this.trim().replace(/(?:^|\s)(\w)/g, (_, $1) => $1.toUpperCase());
+};
