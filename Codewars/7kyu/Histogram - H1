@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57d532d2164a67cded0001c7
+
+//JavaScript
+
+const histogram = results =>
+  results.reduce((pre, val, idx) => `${++idx}|${`#`.repeat(val)}${val ? ` ${val}` : ``}\n` + pre, ``);
