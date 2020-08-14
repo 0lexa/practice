@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55c5b03f8c28da9a51000045
+
+//JavaScript
+
+const findSum = (...args) =>
+  args.some(val => val < 0) ? -1 : args.reduce((pre, val) => pre + val, 0); 
