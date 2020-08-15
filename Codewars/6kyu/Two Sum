@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/52c31f8e6605bcc646000082
+
+//JavaScript
+
+const twoSum = (numbers, target, idx1 = 0) =>
+  (idx2 => ~idx2 ? [idx1, idx2] : twoSum(numbers, target, ++idx1))
+  (numbers.indexOf(target - numbers[idx1], idx1 + 1));
