@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/598f76a44f613e0e0b000026
+
+//JavaScript
+
+const sumOfIntegersInString = s =>
+  s.match(/\d+|$/g).reduce((pre, val) => pre + +val, 0);
