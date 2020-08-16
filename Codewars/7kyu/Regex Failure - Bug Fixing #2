@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55c423ecf847fbcba100002b
+
+//JavaScript
+
+const filterWords = phrase =>
+  phrase.replace(/bad|mean|ugly|horrible|hideous/gi, `awesome`);
