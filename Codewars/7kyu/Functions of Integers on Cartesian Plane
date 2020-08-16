@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/559e3224324a2b6e66000046
+
+//JavaScript
+
+const sumin = n =>
+  n * (2 * n + 1) / 6 * ++n;
+
+const sumax = n =>
+  n * (4 * n - 1) / 6 * ++n;
+
+const sumsum = n =>
+  n ** 2 * ++n;
