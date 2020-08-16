@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5533c2a50c4fea6832000101
+
+//JavaScript
+
+const createDict = (keys, values) =>
+  keys.reduce((pre, val, idx) => (pre[val] = idx in values ? values[idx] : null, pre), {});
