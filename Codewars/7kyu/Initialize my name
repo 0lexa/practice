@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5768a693a3205e1cc100071f
+
+//JavaScript
+
+const initializeNames = name =>
+  name.replace(/(?<=\s)(\w)\w+(?=\s)/g, `$1.`);
