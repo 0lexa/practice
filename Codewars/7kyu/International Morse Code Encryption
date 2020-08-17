@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55b8c0276a7930249e00003c
+
+//JavaScript
+
+const encryption = message =>
+  [...message].map(val => CHAR_TO_MORSE[val] || ` `).join(` `);
