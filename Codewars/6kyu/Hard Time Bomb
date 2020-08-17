@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/52532cc8e9ea83b89b000008
+
+//JavaScript
+
+Bomb.CutTheWire(Object.values(global).find(val => val === +val));
