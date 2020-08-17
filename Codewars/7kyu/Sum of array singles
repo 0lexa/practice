@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59f11118a5e129e591000134
+
+//JavaScript
+
+const repeats = arr =>
+  arr.filter(val => arr.indexOf(val) === arr.lastIndexOf(val)).reduce((pre, val) => pre + val);
