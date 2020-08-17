@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58ba6fece3614ba7c200017f
+
+//JavaScript
+
+const palindrome = num =>
+  Number.isInteger(num) && num >= 0 ? [...`${num}`].reverse().join(``) == num : `Not valid`;
