@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/547aadd5b84a1fd66800041e
+
+//JavaScript
+
+const sum = (a, b) =>
+  b !== undefined ? a + b : b => a + b;
