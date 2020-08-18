@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/534d80775371ece88d0010b5
+
+//JavaScript
+
+const isAN = value =>
+  (typeof value === `number` || value instanceof Number) && !isNaN(value);
