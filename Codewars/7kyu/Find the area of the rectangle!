@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/580a0347430590220e000091
+
+//JavaScript
+
+const area = (d, l) =>
+  Math.round((d ** 2 - l ** 2) ** .5 * l * 1e2) / 1e2 || `Not a rectangle`;
