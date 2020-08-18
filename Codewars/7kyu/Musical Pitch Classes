@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/54d472e98776e4eb5b000215
+
+//JavaScript
+
+const pitchClass = note =>
+  /^[A-G][#b]*$/.test(note) ? (`C D EF G A B`.indexOf(note[0]) + [undefined, `#`].indexOf(note[1]) + 12) % 12 : null;
