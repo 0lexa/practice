@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57d86d3d3c3f961278000005
+
+//JavaScript
+
+const last = xs =>
+  xs.length ? xs.pop() : null;
