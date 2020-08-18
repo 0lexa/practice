@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5865a28fa5f191d35f0000f8
+
+//JavaScript
+
+const takeUmbrella = (weather, chance) =>
+  weather === `rainy` || chance > .5 || weather === `cloudy` && chance > .2;
