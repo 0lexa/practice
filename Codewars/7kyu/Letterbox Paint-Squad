@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/597d75744f4190857a00008d
+
+//JavaScript
+
+const paintLetterboxes = (start, end) =>
+  [...Array(end - start + 1)].reduce((pre, _, idx) => ([...`${start + idx}`].forEach(val => pre[val]++), pre), Array(10).fill(0));
