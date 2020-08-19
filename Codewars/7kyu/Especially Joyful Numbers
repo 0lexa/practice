@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/570523c146edc287a50014b1
+
+//JavaScript
+
+const numberJoy = n =>
+  (val => val * [...`${val}`].reverse().join(``) === n)
+  ([...`${n}`].reduce((pre, val) => pre + +val, 0));
