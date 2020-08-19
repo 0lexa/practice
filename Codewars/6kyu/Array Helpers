@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/525d50d2037b7acd6e000534
+
+//JavaScript
+
+Object.assign(Array.prototype, {
+  square() {return this.map(val => val ** 2);},
+  cube() {return this.map(val => val ** 3);},
+  average() {return this.sum() / this.length;},
+  sum() {return this.reduce((pre, val) => pre + val, 0);},
+  even() {return this.filter(val => !(val % 2));},
+  odd() {return this.filter(val => val % 2);}
+});
