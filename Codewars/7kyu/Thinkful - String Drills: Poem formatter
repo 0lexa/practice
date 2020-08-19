@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/585af8f645376cda59000200
+
+//JavaScript
+
+const formatPoem = poem =>
+  poem.split(`. `).join(`.\n`);
