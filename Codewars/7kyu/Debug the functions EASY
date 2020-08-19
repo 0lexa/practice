@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/5844a422cbd2279a0c000281
+
+//JavaScript
+
+const multi = arr =>
+  arr.reduce((pre, val) => pre * val, 1);
+
+const add = arr =>
+  arr.reduce((pre, val) => pre + val, 0);
+
+const reverse = str =>
+  [...str].reverse().join(``);
