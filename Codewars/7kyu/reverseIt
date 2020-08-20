@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/557a2c136b19113912000010
+
+//JavaScript
+
+const reverseIt = data =>
+  typeof data === `number` ? +[...`${data}`].reverse().join(``) : typeof data === `string`? [...data].reverse().join(``) : data;
