@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5b043e3886d0752685000009
+
+//JavaScript
+
+const michaelPays = costs =>
+  Math.round(Math.max(costs < 5 && costs, 2 / 3 * costs, costs - 10) * 1e2) / 1e2;
