@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/570fd7ad34e6130455001835
+
+//JavaScript
+
+const zebulansNightmare = functionName =>
+  functionName.replace(/_(\w)/g, (_, $1) => $1.toUpperCase());
