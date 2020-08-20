@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5a8c1b06fd5777d4c00000dd
+
+//JavaScript
+
+const diagonal = matrix =>
+  (val => !val ? `Draw!` : `${val > 0 ? `Principal` : `Secondary`} Diagonal win!`)
+  (matrix.reduce((pre, _, idx) => pre + matrix[idx][idx] - matrix[idx][matrix.length - ++idx], 0));
