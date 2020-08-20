@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/585a033e3a36cdc50a00011c
+
+//JavaScript
+
+const freqSeq = (str, sep) =>
+  [...str].map(val => --str.split(val).length).join(sep);
