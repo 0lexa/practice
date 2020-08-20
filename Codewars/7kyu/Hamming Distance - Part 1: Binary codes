@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5624e574ec6034c3a20000e6
+
+//JavaScript
+
+const hammingDistance = (a, b) =>
+  [...a].filter((val, idx) => val ^ b[idx]).length;
