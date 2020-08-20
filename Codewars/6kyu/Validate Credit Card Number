@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5418a1dd6d8216e18a0012b2
+
+//JavaScript
+
+const validate = n =>
+  !([...`${n}`].reverse().reduce((pre, val, idx) => pre + (idx % 2 ? (val * 2 - 1) % 9 + 1 : +val), 0) % 10);
