@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55e2adece53b4cdcb900006c
+
+//JavaScript
+
+const race = (v1, v2, g, t = g / (v2 - v1)) =>
+  v1 < v2 && [t ^ 0, t * 60 % 60 ^ 0, t * 3600 % 60 ^ 0] || null;
