@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5254ca2719453dcc0b00027d
+
+//JavaScript
+
+const permutations = string =>
+  string.length < 2 ? [string] : [...string].reduce((pre, val, idx) => string.indexOf(val) === idx ? [...pre, ...permutations(string.slice(0, idx) + string.slice(idx + 1)).map(v => val + v)] : pre, []);
