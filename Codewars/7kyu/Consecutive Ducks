@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5dae2599a8f7d90025d2f15f
+
+//JavaScript
+
+const consecutiveDucks = num =>
+  !!(num & --num);
