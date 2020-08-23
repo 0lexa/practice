@@ -1,0 +1,13 @@
+https://www.codewars.com/kata/55983863da40caa2c900004e
+
+//JavaScript
+
+const nextBigger = n => {
+  const left = [...`${n}`];
+  const right = [];
+  do {right.unshift(left.pop());}
+  while (right[0] <= left[left.length - 1]);
+  const idx = right.sort().findIndex(val => val > left[left.length - 1]);
+  left.push(...right.splice(idx, 1, left.pop()));
+  return idx < 0 ? idx : +[...left, ...right].join(``);
+};
