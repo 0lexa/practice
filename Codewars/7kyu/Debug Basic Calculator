@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56368f37d464c0a43c00007f
+
+//JavaScript
+
+const calculate = (a, o, b) =>
+  o === `+` ? a + b : o === `-` ? a - b : o === `*` ? a * b : o === `/` && b ? a / b : null;
