@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55147ff29cd40b43c600058b
+
+//JavaScript
+
+const charConcat = string =>
+  [...string.slice(0, string.length / 2)].map((val, idx) => val + string[string.length - idx - 1] + ++idx).join(``);
