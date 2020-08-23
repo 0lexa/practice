@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5592fc599a7f40adac0000a8
+
+//JavaScript
+
+const sum = matrix =>
+  matrix.reduce((pre, val, idx) => pre + val[idx] + val[val.length - ++idx], 0);
