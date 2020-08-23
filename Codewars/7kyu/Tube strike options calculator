@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/568ade64cfd7a55d9300003e
+
+//JavaScript
+
+const calculator = (distance, busDrive, busWalk) =>
+  ((w, b) => b < w && b > 1 / 6 || w >= 2 ? `Bus` : `Walk`)
+  (distance / walk, busDrive / bus + busWalk / walk);
