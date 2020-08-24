@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57d0089e05c186ccb600035e
+
+//JavaScript
+
+const equableTriangle = (a, b, c) =>
+  a + b + c === (4 * a ** 2 * b ** 2 - (a ** 2 + b ** 2 - c ** 2) ** 2) ** .5 / 4;
