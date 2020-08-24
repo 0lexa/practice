@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/52f78966747862fc9a0009ae
+
+//JavaScript
+
+const calc = expr =>
+  /[-+*/](\s|$)/.test(expr) ? calc(expr.replace(/([\d.]+)\s([\d.]+)\s([-+*/])/, (_, a, b, o) => o === `+` ? +a + +b : o === `-` ? a - b : o === `*` ? a * b : a / b)) : +expr;
