@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/596f6385e7cd727fff0000d6
+
+//JavaScript
+
+const avgArray = arr =>
+  arr[0].map((_, idx) => arr.reduce((pre, val) => pre + val[idx], 0) / arr.length);
