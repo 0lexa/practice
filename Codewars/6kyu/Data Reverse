@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/569d488d61b812a0f7000015
+
+//JavaScript
+
+const dataReverse = data =>
+  [...data.join(``).match(/.{8}|$/g).reverse().join(``)].map(Number);
