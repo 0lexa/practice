@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/5263c6999e0f40dee200059d
+
+//JavaScript
+
+const getPINs = observed =>
+  (arr => observed.length < 2 ? arr[observed] : arr[observed[0]].reduce((pre, val) => [...pre, ...getPINs(observed.slice(1)).reduce((pre, v) => [...pre, val + v], [])], []))
+  ([[`0`, `8`], [`1`, `2`, `4`], [`1`, `2`, `3`, `5`], [`2`, `3`, `6`], [`1`, `4`, `5`, `7`], [`2`, `4`, `5`, `6`, `8`], [`3`, `5`, `6`, `9`], [`4`, `7`, `8`], [`5`, `7`, `8`, `9`, `0`], [`6`, `8`, `9`]]);
+  
+//const getPINs = observed =>
+//   [...observed].map(val => [...[`08`, `124`, `1235`, `236`, `1457`, `24568`, `3569`, `478`, `57890`, `689`][val]]).reduce((pre, val) => [].concat(...pre.map(a => val.map(b => a + b))));  
