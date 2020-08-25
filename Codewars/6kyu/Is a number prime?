@@ -8,3 +8,6 @@ const isPrime = num => {
   }
   return num > 1;
 }
+
+//const isPrime = num =>
+//  !Array(num).fill(1).join(``).match(/^1?$|^(11+?)\1+$/);
