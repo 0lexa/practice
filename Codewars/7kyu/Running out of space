@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56576f82ab83ee8268000059
+
+//JavaScript
+
+const spacey = array =>
+  array.map((_, idx) => array.slice(0, ++idx).join(``));
