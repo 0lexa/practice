@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5ce399e0047a45001c853c2b
+
+//JavaScript
+
+const partsSums = ls =>
+  (sum => [sum, ...ls.map(val => sum = sum - val)])
+  (ls.reduce((pre, val) => pre + val, 0));
