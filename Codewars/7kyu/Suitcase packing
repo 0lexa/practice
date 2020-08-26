@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5c556845d7e0334c74698706
+
+//JavaScript
+
+const fit_in = (a, b, m, n) =>
+  a + b <= Math.max(m, n) && Math.max(a, b) <= Math.min(m, n);
