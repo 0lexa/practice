@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59df2f8f08c6cec835000012
+
+//JavaScript
+
+const meeting = s =>
+  s.split(`;`).map(val => val.toUpperCase().replace(/(\w+):(\w+)/, `($2, $1)`)).sort().join(``);
