@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56a75b91688b49ad94000015
+
+//JavaScript
+
+const abundantNumber = num =>
+  [...Array(num >> 1)].reduce((pre, _, idx) => pre + (!(num % ++idx) && idx), 0) > num;
