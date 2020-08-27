@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5832db03d5bafb7d96000107
+
+//JavaScript
+
+const lottery = str =>
+  [...new Set(str.replace(/\D/g, ``))].join(``) || `One more run!`;
