@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/53907ac3cd51b69f790006c5
+
+//JavaScript
+
+const triangleType = (a, b, c) =>
+  ([a, b, c] = [a, b, c].sort((a, b) => a - b), a + b <= c ? 0 : a ** 2 + b ** 2 > c ** 2 ? 1 : a ** 2 + b ** 2 < c ** 2 ? 3 : 2);
