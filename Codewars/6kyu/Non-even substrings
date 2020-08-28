@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59da47fa27ee00a8b90000b4
+
+//JavaScript
+
+const solve = s =>
+  [...s].reduce((pre, val, idx) => pre + val % 2 * ++idx, 0);
