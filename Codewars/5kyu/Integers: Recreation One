@@ -1,0 +1,15 @@
+https://www.codewars.com/kata/55aa075506463dac6600010d
+
+//JavaScript
+
+const listSquared = (m, n) => {
+  const res = [];
+  for (let i = m; i <= n; i++) {
+    let sum = 0;
+    for (let j = 1; j <= n; j++) {
+      if (!(i % j)) sum += j ** 2;
+    }
+    if (Number.isInteger(sum ** .5)) res.push([i, sum]);
+  }
+  return res;
+};
