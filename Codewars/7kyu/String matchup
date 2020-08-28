@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59ca8e8e1a68b7de740001f4
+
+//JavaScript
+
+const solve = (a, b) =>
+  b.map(val => a.filter(v => v === val).length);
