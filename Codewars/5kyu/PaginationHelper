@@ -1,0 +1,25 @@
+https://www.codewars.com/kata/515bb423de843ea99400000a
+
+//JavaScript
+
+class PaginationHelper {
+  constructor(collection, itemsPerPage) {
+    Object.assign(this, {collection, itemsPerPage});
+  }
+
+  itemCount() {
+    return this.collection.length;
+  }
+
+  pageCount() {
+    return Math.ceil(this.collection.length / this.itemsPerPage);
+  }
+
+  pageItemCount(pageIndex) {
+    return pageIndex < 0 || pageIndex >= this.pageCount() ? -1 : pageIndex < this.pageCount() - 1 ? this.itemsPerPage : this.itemCount() % this.itemsPerPage;
+  }
+
+  pageIndex(itemIndex) {
+    return itemIndex < 0 || itemIndex >= this.itemCount() ? -1 : itemIndex / this.itemsPerPage ^ 0;
+  }
+}
