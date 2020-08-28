@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/5d076515e102162ac0dc514e
+
+//JavaScript
+
+babySharkLyrics=_=>[...[`Baby`,`Mommy`,`Daddy`,`Grandma`,`Grandpa`].map(v=>v+` shark`),`Let's go hunt`].map(v=>`${v},${` doo`.repeat(6)}\n`.repeat(3)+v+`!\n`).join``+`Run away,…`
