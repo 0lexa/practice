@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57741d8f10a0a66915000001
+
+//JavaScript
+
+const intDiff = (arr, n) => 
+  arr.reduce((pre, val, idx) => pre + arr.slice(++idx).filter(v => Math.abs(v - val) === n).length, 0);
