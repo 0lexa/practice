@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/57cf3dad05c186ba22000348
+
+//JavaScript
+
+const decodeResistorColors = bands => {
+  const obj = {black: 0, brown: 1, red: 2, orange: 3, yellow: 4, green: 5, blue: 6, violet: 7, gray: 8, white: 9, gold: 5, silver: 10};
+  const arr = bands.split(` `);
+  const res = (10 * obj[arr[0]] + obj[arr[1]]) * 10 ** obj[arr[2]];
+  return `${res >= 1e6 ? `${res / 1e6}M` : res >= 1e3 ? `${res / 1e3}k` : res} ohms, ${obj[arr[3]] || 20}%`;
+};
