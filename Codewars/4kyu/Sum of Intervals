@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/52b7ed099cdc285c300001cd
+
+//JavaScript
+
+const sumIntervals = intervals =>
+  new Set([].concat(...intervals.map(([a, b]) => [...Array(b - a)].map((_, idx) => a + idx)))).size;
