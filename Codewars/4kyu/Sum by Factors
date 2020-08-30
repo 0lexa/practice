@@ -1,0 +1,14 @@
+https://www.codewars.com/kata/54d496788776e49e6b00052f
+
+//JavaScript
+
+const sumOfDivided = lst => {
+  const obj = {};
+  lst.forEach((val, idx) => {
+    const arr = [];
+    let i = 2;
+    while(Math.abs(val) > 1) !(val % i) ? (!arr.includes(i) && arr.push(i), val /= i) : i++;
+    arr.forEach(val => obj[val] = (obj[val] || 0) + lst[idx]);
+  });
+  return Object.entries(obj).map(([a, b]) => [+a, b]);
+};
