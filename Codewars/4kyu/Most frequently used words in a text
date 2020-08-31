@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/51e056fe544cf36c410000fb
+
+//JavaScript
+
+const topThreeWords = text => {
+  const obj = {};
+  text.toLowerCase().replace(/(\w'?)+/g, val => (obj[val] = -~obj[val], val));
+  return Object.keys(obj).sort((a, b) => obj[b] - obj[a]).slice(0, 3);
+};
