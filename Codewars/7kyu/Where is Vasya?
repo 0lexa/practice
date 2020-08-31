@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/554754ac9d8ac3be120000b2
+
+//JavaScript
+
+const whereIsHe = (p, bef, aft) =>
+  Math.min(p - bef, ++aft);
