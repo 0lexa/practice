@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/53670c5867e9f2222f000225
+
+//JavaScript
+
+const isOrthogonal = (u,v) =>
+  !u.reduce((pre, val, idx) => pre + val * v[idx], 0);
