@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a6d3bd238f80014a2000187
+
+//JavaScript
+
+const ownedCatAndDog = (...args) =>
+  args.map((val, idx) => val < 15 ? 0 : val < 24 ? 1 : ((val - 24) / (idx + 4) ^ 0) + 2);
