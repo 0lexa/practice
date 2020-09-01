@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5f3142b3a28d9b002ef58f5e
+
+//JavaScript
+
+const wordPattern = word =>
+  [...word.toLowerCase()].map(val => [...new Set(word.toLowerCase())].indexOf(val)).join(`.`);
