@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/55d17ddd6d7868493e000074
+
+//JavaScript
+
+class Node {
+  constructor(data) {
+    Object.assign(this, {data, next: null});
+  }
+}
+
+const append = (listA, listB) =>
+  !listA ? listB : (listA.next = append(listA.next, listB), listA);
