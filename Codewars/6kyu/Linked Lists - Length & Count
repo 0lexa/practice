@@ -1,0 +1,15 @@
+https://www.codewars.com/kata/55beec7dd347078289000021
+
+//JavaScript
+
+class Node {
+  constructor(data) {
+    Object.assign(this, {data, next: null});
+  }
+}
+
+const length = head =>
+  head ? 1 + length(head.next) : 0;
+
+const count = (head, data) =>
+  head ? (head.data === data) + count(head.next, data) : 0;
