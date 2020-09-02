@@ -1,0 +1,12 @@
+https://leetcode.com/problems/two-sum/
+
+//JavaScript
+
+const twoSum = (nums, target) => {
+  const obj = {};
+  for (let i = 0; i < nums.length; i++) {
+    let num = target - nums[i];
+    if (obj.hasOwnProperty(num)) return [obj[num], i];
+    obj[nums[i]] = i;
+  }
+};
