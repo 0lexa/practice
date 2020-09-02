@@ -1,0 +1,13 @@
+https://www.codewars.com/kata/55befc42bfe4d13ab1000007
+
+//JavaScript
+
+class Node {
+  constructor(data) {
+    this.data = data;
+    this.next = null;
+  }
+}
+
+const getNth = (node, index) =>
+  !node ? (() => {throw new Error()})() : index ? getNth(node.next, --index) : node;
