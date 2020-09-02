@@ -1,0 +1,6 @@
+https://leetcode.com/problems/max-consecutive-ones/
+
+//JavaScript
+
+const findMaxConsecutiveOnes = nums =>
+  Math.max(...nums.join(``).split(0).map(val => val.length));
