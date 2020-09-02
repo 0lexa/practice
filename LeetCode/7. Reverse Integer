@@ -1,0 +1,7 @@
+https://leetcode.com/problems/reverse-integer/
+
+//JavaScript
+
+const reverse = x =>
+  (num => num > 0x7FFFFFFF || -num < -0x80000000 ? 0 : Math.sign(x) * num)
+  (parseInt([...`${x}`].reverse().join(``)));
