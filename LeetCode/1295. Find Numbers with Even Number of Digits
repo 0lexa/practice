@@ -1,0 +1,6 @@
+https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
+
+//JavaScript
+
+const findNumbers = nums =>
+  nums.reduce((pre, val) => pre + !(`${val}`.length % 2), 0);
