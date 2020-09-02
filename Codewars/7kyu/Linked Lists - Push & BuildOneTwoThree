@@ -1,0 +1,15 @@
+https://www.codewars.com/kata/55be95786abade3c71000079
+
+//JavaScript
+
+class Node {
+  constructor(data, next = null) {
+    Object.assign(this, {data, next});
+  }
+}
+
+const push = (head, data) =>
+  new Node(data, head);
+
+const buildOneTwoThree = () =>
+  [3, 2, 1].reduce(push, null);
