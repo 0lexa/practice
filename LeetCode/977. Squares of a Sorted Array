@@ -1,0 +1,6 @@
+https://leetcode.com/problems/squares-of-a-sorted-array/
+
+//JavaScript
+
+const sortedSquares = A =>
+  A.map(val => val ** 2).sort((a, b) => a - b);
