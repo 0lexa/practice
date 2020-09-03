@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57fd696e26b06857eb0011e7
+
+//JavaScript
+
+const dative = word =>
+  `${word}n${/[eéiíöőüű][^eéiíöőüűaáoóuú]*$/.test(word) ? `e` : `a`}k`;
