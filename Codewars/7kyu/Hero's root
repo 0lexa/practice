@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/55efecb8680f47654c000095
+
+//JavaScript
+
+const intRac = (n, guess) =>
+  (val => Math.abs(guess - val) < 1 ? 1 : 1 + intRac(n, val))
+  (Math.floor((guess + n / guess) / 2));
