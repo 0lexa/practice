@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56e7d40129035aed6c000632
+
+//JavaScript
+
+const easyLine = n =>
+  Math.round(Math.log([...Array(n)].reduce((pre, _, idx) => pre * (++idx + n) / idx, 1)));
