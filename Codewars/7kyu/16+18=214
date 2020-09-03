@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5effa412233ac3002a9e471d
+
+//JavaScript
+
+const add = (num1, num2) =>
+  num1 && num2 ? +`${add(num1 / 10 ^ 0, num2 / 10 ^ 0)}${num1 % 10 + num2 % 10}` : num1 + num2;
