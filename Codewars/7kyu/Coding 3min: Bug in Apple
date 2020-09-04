@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56fe97b3cc08ca00e4000dc9
+
+//JavaScript
+
+const sc = apple =>
+  apple.reduce((pre, val, idx) => val.includes(`B`) && [idx, val.indexOf(`B`)] || pre, [,]);
