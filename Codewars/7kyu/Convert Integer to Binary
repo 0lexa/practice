@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55606aeebf1f0305f900006f
+
+//JavaScript
+
+const toBinary = n =>
+  (n >>> 0).toString(2);
