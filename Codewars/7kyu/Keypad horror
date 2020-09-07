@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5572392fee5b0180480001ae
+
+//JavaScript
+
+const computerToPhone = numbers =>
+  numbers.replace(/\d/g, val => `0789456123`[val]);
