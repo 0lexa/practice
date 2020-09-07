@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55c9a8cda33889d69e00008b
+
+//JavaScript
+
+const bob = str =>
+  `${drunkenDoodling[str] || `I have friggin no idea yet`}, idjits!`;
