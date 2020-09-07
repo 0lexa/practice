@@ -1,0 +1,13 @@
+https://www.codewars.com/kata/587f1e1f39d444cee6000ad4
+
+//JavaScript
+
+class Vector {
+  constructor(x, y) {
+    Object.assign(this, {x, y});
+  }
+
+  add(v) {
+    return new Vector(this.x + v.x, this.y + v.y);
+  }
+}
