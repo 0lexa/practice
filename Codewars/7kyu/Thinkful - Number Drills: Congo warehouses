@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5862e7c63f8628a126000e18
+
+//JavaScript
+
+const boxCapacity = (...args) =>
+  args.reduce((pre, val) => pre * (val * 3 >> 2), 1);
