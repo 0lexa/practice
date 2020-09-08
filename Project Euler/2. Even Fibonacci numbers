@@ -1,0 +1,8 @@
+https://projecteuler.net/problem=2
+
+//JavaScript
+
+const sum = n =>
+  n < 4000000 && n + sum(Math.round(n * ((1 + 5 ** .5) / 2) ** 3));
+
+sum(2);
