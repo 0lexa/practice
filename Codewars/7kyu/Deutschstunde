@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/552cd8624a414ec2b2000086
+
+//JavaScript
+
+const derDieDas = wort =>
+  (val => `${val < 2 ? `das` : val > 3 ? `der` : `die`} ${wort}`)
+  ((wort.match(/[aeiouäöü]/gi) || []).length);
