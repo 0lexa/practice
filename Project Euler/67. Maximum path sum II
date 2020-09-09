@@ -1,0 +1,12 @@
+https://projecteuler.net/problem=67
+
+//JavaScript
+
+const maximumPathSum = arr =>
+  arr.reduceRight((pre, val) => val.map((val, idx) => val + Math.max(pre[idx], pre[++idx])))[0];
+
+maximumPathSum([[59],
+                [73, 41],
+                [52, 40,9],
+                [26, 53,6, 34],
+                [10, 51, 87, 86, 81], ... );
