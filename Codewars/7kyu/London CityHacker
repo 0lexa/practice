@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5bce125d3bb2adff0d000245
+
+//JavaScript
+
+const londonCityHacker = journey =>
+  `£${journey.reduce((pre, val, idx) => pre + (isNaN(val) ? 2.4 : (Number.isFinite(journey[++idx]) && journey.splice(idx, 1), 1.5)), 0).toFixed(2)}`;
