@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/551f23362ff852e2ab000037
+
+//JavaScript
+
+const longestSlideDown = pyramid =>
+  pyramid.reduceRight((pre, val) => val.map((val, idx) => val + Math.max(...pre.slice(idx, idx + 2))))[0];
