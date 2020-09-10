@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5aa3af22ba1bb5209f000037
+
+//JavaScript
+
+const solve = eq =>
+  eq.split(/([-+*/])/).reverse().join(``);
