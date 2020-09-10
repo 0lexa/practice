@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/560a4962c0cc5c2a16000068
+
+//JavaScript
+
+const eqSumPowdig = (hMax, exp) =>
+  [...Array(hMax - 1)].map((_, idx) => idx + 2).filter(val => [...`${val}`].reduce((pre, val) => pre + val ** exp, 0) === val);
