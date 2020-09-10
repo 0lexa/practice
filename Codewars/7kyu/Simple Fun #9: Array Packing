@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/588453ea56daa4af920000ca
+
+//JavaScript
+
+const arrayPacking = a =>
+  a.reduceRight((pre, val) => pre * 256 + val, 0);
