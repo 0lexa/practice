@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/588425ee4e8efb583d000088
+
+//JavaScript
+
+const phoneCall = (min1, min2_10, min11, s) =>
+  s < min1 ? 0 : s < min1 + min2_10 * 9 ? 1 + (s - min1) / min2_10 ^ 0 : 10 + (s - min1 - min2_10 * 9) / min11 ^ 0;
