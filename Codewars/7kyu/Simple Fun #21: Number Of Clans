@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5886cab0a95e17e61600009d
+
+//JavaScript
+
+const numberOfClans = (divisors, k) =>
+  new Set([...Array(k)].map((_, idx) => `${divisors.map(val => !((idx + 1) % val))}`)).size;
