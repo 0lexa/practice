@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5884658d02accbd0a7000039
+
+//JavaScript
+
+const lineUp = (commands, flag = true) =>
+  [...commands].reduce((pre, val) => pre + (flag = val !== `A` ? !flag : flag), 0);
