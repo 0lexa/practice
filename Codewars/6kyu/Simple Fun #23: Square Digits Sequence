@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5886d65e427c27afeb0000c1
+
+//JavaScript
+
+const squareDigitsSequence = (a0, seq = []) =>
+  (seq.push(a0), a0 = [...`${a0}`].reduce((pre, val) => pre + val ** 2, 0), seq.includes(a0) ? ++seq.length : squareDigitsSequence(a0, seq));
