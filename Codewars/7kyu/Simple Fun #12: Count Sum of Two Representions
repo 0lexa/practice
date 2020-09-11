@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5884615cbd573356ab000050
+
+//JavaScript
+
+const countSumOfTwoRepresentations = (n, l, r) =>
+  Math.max((Math.min(r, n - l) - Math.max(l, n - r)) / 2 + 1 ^ 0, 0);
