@@ -3,4 +3,4 @@ https://app.codesignal.com/arcade/code-arcade/well-of-integration/Z9opBsx5fX6XfQ
 //JavaScript
 
 const alphabetSubsequence = s =>
-  [...s].every((val, idx, arr) => !idx || val > arr[idx -1]);
+  s === [...new Set(s)].sort().join(``);
