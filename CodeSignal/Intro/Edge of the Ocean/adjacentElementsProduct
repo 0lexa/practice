@@ -3,6 +3,4 @@ https://app.codesignal.com/arcade/intro/level-2/xzKiBHjhoinnpdh6m
 //JavaScript
 
 const adjacentElementsProduct = inputArray =>
-  Math.max(...inputArray
-    .slice(1)
-    .map((value, index) => value * inputArray[index]));
+  Math.max(...inputArray.slice(1).map((val, idx) => val * inputArray[idx]));
