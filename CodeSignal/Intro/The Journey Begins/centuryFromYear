@@ -2,4 +2,5 @@ https://app.codesignal.com/arcade/intro/level-1/egbueTZRRL5Mm4TXN
 
 //JavaScript
 
-const centuryFromYear = year => Math.ceil(year / 100);
+const centuryFromYear = year => 
+  Math.ceil(year / 100);
