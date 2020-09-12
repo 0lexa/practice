@@ -2,13 +2,5 @@ https://app.codesignal.com/arcade/intro/level-3/9DgaPsE2a7M6M2Hu6
 
 //JavaScript
 
-function reverseInParentheses(inputString) {
-  if (inputString.match(/\([a-z]*\)/)) {
-    return reverseInParentheses(
-      inputString.replace(/\([a-z]*\)/, [...inputString.match(/\([a-z]*\)/)[0].replace(/[()]/g, ``)]
-        .reverse()
-        .join(``)
-      )
-    );
-  } else return inputString;
-}
+const reverseInParentheses = inputString =>
+  inputString.includes(`(`) ? reverseInParentheses(inputString.replace(/\(([^()]*)\)/, (_, $1) => [...$1].reverse().join(``))) : inputString;
