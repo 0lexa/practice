@@ -5,6 +5,6 @@ https://app.codesignal.com/arcade/code-arcade/well-of-integration/Ghe6HWhFft8h6f
 const adaNumber = line => {
   line = line.replace(/_/g, ``);
   if (line.match(/^\d+$/)) return true;
-  const num = line.match(/^(\d{1,2})#([0-9a-f]+)#$/i);
-  return num ? [...num[2]].every(val => !isNaN(parseInt(val, num[1]))) && num[1] >= 2 && num[1] <= 16 : false;
+  let [match, base, num] = (line.match(/^(\d+)#([\da-f]+)#$/i) || []);
+  return !!match && ![...num].some(val => isNaN(parseInt(val, base))) && base > 1 && base < 17;
 };
