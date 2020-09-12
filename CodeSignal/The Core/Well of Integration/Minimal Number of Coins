@@ -2,5 +2,5 @@ https://app.codesignal.com/arcade/code-arcade/well-of-integration/sGwCfM5FzX7LhL
 
 //JavaScript
 
-const minimalNumberOfCoins = (coins, price, t) =>
-  coins.reverse().reduce((pre, val) => (t = price / val ^ 0, price = price % val, pre + t), 0);
+const minimalNumberOfCoins = (coins, price) =>
+  coins.reduceRight((pre, val) => (pre = pre + price / val ^ 0, price = price % val, pre), 0);
