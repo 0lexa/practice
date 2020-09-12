@@ -3,5 +3,5 @@ https://app.codesignal.com/arcade/intro/level-3/D6qmdBL2NYz49XHwM
 //JavaScript
 
 const sortByHeight = a =>
-  (val => a.map(v => v !== -1 ? val.shift() : -1))
-  (a.filter(val => val > 0).sort((a, b) => a - b));
+  (arr => a.map(val => ~val ? arr.shift() : -1))
+  (a.filter(val => ~val).sort((a, b) => a - b));
