@@ -3,4 +3,4 @@ https://app.codesignal.com/arcade/code-arcade/well-of-integration/kvGfZZxGyjNbD7
 //JavaScript
 
 const integerToStringOfFixedWidth = (number, width) =>
-  `${number}`.length > width ? `${number}`.slice(-width) : `${number}`.padStart(width, `0`);
+  `${number}`.padStart(width, `0`).slice(-width);
