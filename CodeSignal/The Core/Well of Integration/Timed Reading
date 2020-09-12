@@ -3,4 +3,4 @@ https://app.codesignal.com/arcade/code-arcade/well-of-integration/mJr7vgtN4X4ecL
 //JavaScript
 
 const timedReading = (maxLength, text) =>
-  (text.match(/\w+/gi) || []).filter(val => val.length <= maxLength).length;
+  text.match(/\w+|$/g).filter(val => val.length <= maxLength).length - 1;
