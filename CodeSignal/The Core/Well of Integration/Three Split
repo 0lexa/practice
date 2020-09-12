@@ -3,18 +3,12 @@ https://app.codesignal.com/arcade/code-arcade/well-of-integration/QmK8kHTyKqh8xD
 //JavaScript
 
 const threeSplit = a => {
-  const sum = a.reduce((pre, val) => pre + val, 0) / 3;
-  let ways = 0;
-  let sum1 = a[0];
-  for (let i = 1; i < a.length; i++) {
-    if (sum1 === sum) {
-      let sum2 = a[i];
-      for (let j = i + 1; j < a.length; j++) {
-        if (sum2 === sum) ways += 1;
-        sum2 += a[j];
-      }
-    }
-    sum1 += a[i];
+  const third = a.reduce((pre, val) => pre + val, 0) / 3;
+  let cur = 0, part = 0, res = 0;
+  for (let el of a.slice(0, -1)) {
+    cur += el;
+    if (cur === 2 * third) res += part;
+    if (cur === third) part++;
   }
-  return ways;
+  return res;
 };
