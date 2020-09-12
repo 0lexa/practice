@@ -3,4 +3,4 @@ https://app.codesignal.com/arcade/code-arcade/well-of-integration/RaWLwT2eb96hp4
 //JavaScript
 
 const houseOfCats = legs =>
-  [...Array(legs / 2 + 1).keys()].map((_, idx) => 2 * idx).filter(val => (legs - val) % 4 === 0).map(val => val / 2);
+  [...Array(legs / 2 + 1).keys()].filter(val => !((legs - 2 * val) % 4));
