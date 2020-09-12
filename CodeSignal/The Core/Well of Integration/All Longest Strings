@@ -3,4 +3,4 @@ https://app.codesignal.com/arcade/code-arcade/well-of-integration/fzsCQGYbxaEcTr
 //JavaScript
 
 const allLongestStrings = inputArray =>
-  inputArray.sort((a, b) => b.length - a.length).filter(val => val.length === inputArray[0].length);
+  inputArray.filter(val => val.length === Math.max(...inputArray.map(val => val.length)));
