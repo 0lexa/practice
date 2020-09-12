@@ -2,4 +2,5 @@ https://app.codesignal.com/arcade/intro/level-1/jwr339Kq6e3LQTsfa
 
 //JaaScript
 
-const add = (param1, param2) => param1 + param2;
+const add = (param1, param2) => 
+  param1 + param2;
