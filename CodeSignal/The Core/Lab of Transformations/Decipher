@@ -2,5 +2,5 @@ https://app.codesignal.com/arcade/code-arcade/lab-of-transformations/dB9drnfWzpi
 
 //JavaScript
 
-const decipher = cipher => 
-  cipher.replace(/97|98|99|1\d\d/g, val => String.fromCharCode(val));
+const decipher = cipher =>
+  String.fromCharCode(...cipher.match(/1?\d\d/g));
