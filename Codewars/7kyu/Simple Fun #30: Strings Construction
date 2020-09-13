@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58870402c81516bbdb000088
+
+//JavaScript
+
+const stringsConstruction = (A, B) =>
+  Math.min(...[...A].map(val => ([...B].filter(v => v === val).length / A.match(new RegExp(val, `g`)).length) ^ 0));
