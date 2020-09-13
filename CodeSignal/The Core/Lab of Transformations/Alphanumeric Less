@@ -2,10 +2,6 @@ https://app.codesignal.com/arcade/code-arcade/lab-of-transformations/bBgu7NEfk2G
 
 //JavaScript
 
-const alphanumericLess = (s1, s2) => {
-  let l1 = s1.length, l2 = s2.length;
-  s1 = s1.replace(/0/g, ``);
-  s2 = s2.replace(/0/g, ``);
-  if (!s1 && !s2) return false;
-  return (s1 < s2) ? true : (s1 > s2) ? false : l1 !== l2;
-};
+const alphanumericLess = (s1, s2) =>
+  (fn => fn(s1) < fn(s2) ? true : fn(s1) > fn(s2) ? false : s1.padEnd(20, `Z`) < s2.padEnd(20, `Z`))
+  (str => str.replace(/\d+/g, val => val.padStart(20, 0)));
