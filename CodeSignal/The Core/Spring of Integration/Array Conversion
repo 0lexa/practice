@@ -2,11 +2,5 @@ https://app.codesignal.com/arcade/code-arcade/spring-of-integration/dwA8RtDF86Wu
 
 //JavaScript
 
-const arrayConversion = (inputArray, toggle) => {
-  while (inputArray.length > 1) {
-    inputArray.forEach((val, idx) =>
-      inputArray.splice(idx, 2, toggle ? val * inputArray[idx + 1] : val + inputArray[idx + 1]));
-    toggle ^= 1
-  }
-  return inputArray[0];
-};
+const arrayConversion = (arr, flag = 0) =>
+  arr.length > 1 ? arrayConversion(arr.reduce((pre, val, idx) => (idx % 2 && pre.push(flag ? arr[idx - 1] * arr[idx] : arr[idx - 1] + arr[idx]), pre), []), !flag) : arr[0];
