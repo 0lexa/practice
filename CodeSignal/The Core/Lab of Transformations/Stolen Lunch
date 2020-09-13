@@ -2,5 +2,5 @@ https://app.codesignal.com/arcade/code-arcade/lab-of-transformations/M97sbwRp3tG
 
 //JavaScript
 
-// const stolenLunch = note =>
-//   note.replace(/[\da-j]/g, val => String.fromCharCode(val.charCodeAt() - (isNaN(val) ? 49 : -49)));
+const stolenLunch = note =>
+  note.replace(/[\da-j]/g, val => String.fromCharCode(val.charCodeAt() - (isNaN(val) ? 49 : -49)));
