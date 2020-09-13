@@ -2,5 +2,5 @@ https://app.codesignal.com/arcade/code-arcade/lab-of-transformations/ngQTG9kra7G
 
 //JavaScript
 
-const newNumeralSystem = (number, c = number.charCodeAt(0) - 65) =>
-  [...Array(c / 2 + 1 ^ 0).keys()].map(val => `${String.fromCharCode(val + 65)} + ${String.fromCharCode(c - val + 65)}`);
+const newNumeralSystem = number =>
+  [...Array((number.charCodeAt() - 65) / 2 + 1 ^ 0).keys()].map(val => `${String.fromCharCode(val + 65)} + ${String.fromCharCode(number.charCodeAt() - val)}`);
