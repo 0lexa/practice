@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5886e082a836a691340000c3
+
+//JavaScript
+
+const rectangleRotation = (a, b) =>
+  (fn => (fn(a) * fn(b) + (fn(a) + fn(b)) / 2 ^ 0) * 2 + 1)
+  (val => val / Math.SQRT2 ^ 0);
