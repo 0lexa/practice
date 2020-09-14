@@ -2,5 +2,5 @@ https://app.codesignal.com/arcade/code-arcade/spring-of-integration/tKwbrKAQhoCZ
 
 //JavaScript
 
-const cyclicString = (s, i = 1) => 
-    s.slice(0, i).repeat(s.length).startsWith(s) ? i : cyclicString(s, ++i);
+const cyclicString = (s, i = 1) =>
+  s.startsWith(s.slice(i)) ? i : cyclicString(s, ++i);
