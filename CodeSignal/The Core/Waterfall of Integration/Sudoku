@@ -5,13 +5,11 @@ https://app.codesignal.com/arcade/code-arcade/waterfall-of-integration/tQgasP8b6
 const sudoku = grid => {
   for (let row = 0; row < 9; row++) {
     if (new Set(grid[row]).size < 9) return false;
-    if (new Set([...Array(9).keys()].map((_, idx) => grid[idx][row])).size < 9) return false;
+    if (new Set([...Array(9)].map((_, idx) => grid[idx][row])).size < 9) return false;
   }
   for (let i = 1; i < 9; i += 3) {
     for (let j = 1; j < 9; j += 3) {
-      if (new Set([grid[i - 1][j - 1], grid[i - 1][j], grid[i - 1][j + 1],
-                   grid[i][j - 1], grid[i][j], grid[i][j + 1], grid[i + 1][j - 1],
-                   grid[i + 1][j], grid[i + 1][j + 1]]).size < 9) return false;
+      if (new Set([grid[i - 1][j - 1], grid[i - 1][j], grid[i - 1][j + 1], grid[i][j - 1], grid[i][j], grid[i][j + 1], grid[i + 1][j - 1], grid[i + 1][j], grid[i + 1][j + 1]]).size < 9) return false;
     }
   }
   return true
