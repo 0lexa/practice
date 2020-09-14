@@ -3,4 +3,4 @@ https://app.codesignal.com/arcade/code-arcade/list-backwoods/uFQEiM4trARdm2z46
 //JavaScript
 
 const drawRectangle = (canvas, [x1, y1, x2, y2]) =>
-  canvas.map((row, i) => row.map((col, j) => j > x1 && j < x2 && (i === y1 || i === y2) ? `-` : i > y1 && i < y2 && (j === x1 || j === x2) ? `|` :(j === x1 || j === x2) && (i === y1 || i === y2) ? `*` : col));
+  canvas.map((row, i) => row.map((col, j) => j > x1 && j < x2 && (i === y1 || i === y2) ? `-` : i > y1 && i < y2 && (j === x1 || j === x2) ? `|` : (j === x1 || j === x2) && (i === y1 || i === y2) ? `*` : col));
