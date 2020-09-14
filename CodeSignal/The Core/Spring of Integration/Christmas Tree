@@ -2,11 +2,12 @@ https://app.codesignal.com/arcade/code-arcade/spring-of-integration/FvMZwyYRsGaA
 
 //JavaScript
 
-const christmasTree = (levelNum, levelHeight, w = levelNum + levelHeight, t = []) => {
+const christmasTree = (levelNum, levelHeight) => {
+  const arr = [];
   const draw = (a, b, c, d) => {
     for (let i = 0; i < a; i++) {
       for (let j = 0; j < b; j++) {
-        t.push(`*`.repeat((i + j) * d + c).padStart(w, ` `) + `*` + `*`.repeat((i + j) * d + c));
+        arr.push(`*`.repeat((i + j) * d + c).padStart(levelNum + levelHeight) + `*` + `*`.repeat((i + j) * d + c));
       }
     }
   };
@@ -15,5 +16,5 @@ const christmasTree = (levelNum, levelHeight, w = levelNum + levelHeight, t = []
   draw(1, 1, 1, 1);
   draw(levelNum, levelHeight, 2, 1);
   draw(1, levelNum, levelHeight / 2, 0);
-  return t
+  return arr;
 };
