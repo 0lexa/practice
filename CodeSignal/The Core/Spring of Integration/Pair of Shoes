@@ -2,6 +2,5 @@ https://app.codesignal.com/arcade/code-arcade/spring-of-integration/picP24ieQnuq
 
 //JavaScript
 
-const pairOfShoes = (shoes, obj = {}) =>
-  (shoes.map(val => (obj[val[1]] = 0, val[0] ? val : [-1, val[1]]))
-    .forEach(val => obj[val[1]] += val[0]), !Object.values(obj).some(val => val));
+const pairOfShoes = shoes =>
+  Object.values(shoes.reduce((pre, val) => (pre[val[1]] = (pre[val[1]] || 0) + (val[0] || -1), pre), {})).every(val => !val);
