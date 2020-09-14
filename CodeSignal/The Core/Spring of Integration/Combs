@@ -2,18 +2,6 @@ https://app.codesignal.com/arcade/code-arcade/spring-of-integration/6ceKutpnCs4L
 
 //JavaScript
 
-const combs = (comb1, comb2) => {
-  let len = comb1.length + comb2.length;
-  let n1 = +[...comb1.padEnd(len, `0`)].map(val => val === `*` ? 1 : 0).join(``);
-  let n2 = +[...comb2].map(val => val === `*` ? 1 : 0).join(``);
-
-  for (let i = 0; i < comb1.length + comb2.length; i++) {
-    if (/^[01]+$/.test(`${n1 + n2}`)) {
-      let cur = `${n1 + n2}`.replace(/^0+|0+$/g, ``).length;
-      len = len > cur ? cur : len;
-    }
-    n2 *= 10;
-  }
-
-  return len
-};
+const combs = (comb1, comb2) =>
+  (fn => Math.min(fn(comb1, comb2), fn(comb2, comb1)))
+  ((a, b) => Math.max(a.length, (a + `.`.repeat(b.length)).search(new RegExp(b.replace(/\*/g, `\\.`))) + b.length));
