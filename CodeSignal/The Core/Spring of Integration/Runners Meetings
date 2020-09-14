@@ -2,12 +2,6 @@ https://app.codesignal.com/arcade/code-arcade/spring-of-integration/Hb9Cppx4pCY4
 
 //JavaScript
 
-const runnersMeetings = (startPosition, speed, o = {}, m = -1) => {
-  for (let i = 0; i < startPosition.length - 1; i++) {
-    for (let j = i + 1; j < startPosition.length; j++) {
-      let t = (speed[i] - speed[j]) / (startPosition[i] - startPosition[j]);
-      if (t < 0) o[t] = -~o[t];
-    }
-  }
-  return !Object.values(o).length ? m : (m = Math.max(...Object.values(o))) > speed.length ? speed.length : m + (m < 2)
-};
+const runnersMeetings = (startPosition, speed) =>
+  Math.max(-1, ...startPosition.map((val, idx) => startPosition.map((v, i) => (val - v) / (speed[idx] - speed[i]))).
+    map(val => Math.max(...Object.values(val.reduce((pre, val) => (Number.isFinite(val) && val < 0 && (pre[val] = -~pre[val]), pre), {}))) + 1));
