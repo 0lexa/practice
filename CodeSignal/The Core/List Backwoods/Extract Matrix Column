@@ -2,4 +2,5 @@ https://app.codesignal.com/arcade/code-arcade/list-backwoods/zwXiykHLor6eKHaLY
 
 //JavaScript
 
-const extractMatrixColumn = (matrix, column) => matrix.map(val => val[column]);
+const extractMatrixColumn = (matrix, column) => 
+  matrix.map(val => val[column]);
