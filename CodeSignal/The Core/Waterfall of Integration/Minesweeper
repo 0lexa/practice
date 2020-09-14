@@ -2,8 +2,6 @@ https://app.codesignal.com/arcade/code-arcade/waterfall-of-integration/ZMR5n7vJb
 
 //JavaScript
 
-const minesweeper = (matrix, a = [[1, -1], [1, 0], [1, 1], [0, -1], [0, 1], [-1, -1], [-1, 0], [-1, 1]]) =>
-  matrix.map((val, i) =>
-    val.map((_, j) =>
-      a.reduce((pre, val) =>
-        pre + !!(matrix[i + val[0]] && matrix[i + val[0]][j + val[1]]), 0)));
+const minesweeper = matrix =>
+  (arr => matrix.map((val, i) => val.map((_, j) => arr.reduce((pre, val) => pre + !!(matrix[i + val[0]] && matrix[i + val[0]][j + val[1]]), 0))))
+  ([[1, -1], [1, 0], [1, 1], [0, -1], [0, 1], [-1, -1], [-1, 0], [-1, 1]]);
