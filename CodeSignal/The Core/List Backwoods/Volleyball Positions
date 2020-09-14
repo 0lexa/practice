@@ -2,6 +2,6 @@ https://app.codesignal.com/arcade/code-arcade/list-backwoods/fmYdsYcGfaTu4yTQt
 
 //JavaScript
 
-const volleyballPositions = (f, k) =>
-  k % 6 > 0 ? volleyballPositions(f, --k, [f[2][1], f[3][0], f[1][0], f[0][1], f[1][2], f[3][2]] =
-                                          [f[3][0], f[1][0], f[0][1], f[1][2], f[3][2], f[2][1]]) : f;
+const volleyballPositions = (formation, k) =>
+  k % 6 > 0 ? ([formation[2][1], formation[3][0], formation[1][0], formation[0][1], formation[1][2], formation[3][2]] = [formation[3][0], formation[1][0], formation[0][1], formation[1][2], formation[3][2], formation[2][1]], 
+    volleyballPositions(formation, --k)) : formation;
