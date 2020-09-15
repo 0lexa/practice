@@ -2,4 +2,5 @@ https://app.codesignal.com/arcade/intro/level-6/6cmcmszJQr6GQzRwW
 
 //JavaScript
 
-const evenDigitsOnly = n => !(n + ``).match(/[13579]/);
+const evenDigitsOnly = n =>
+  !(`${n}`.match(/[13579]/));
