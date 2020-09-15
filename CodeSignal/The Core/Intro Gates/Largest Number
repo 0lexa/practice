@@ -2,4 +2,5 @@ https://app.codesignal.com/arcade/code-arcade/intro-gates/SZB5XypsMokGusDhX
 
 //JavaScript
 
-const largestNumber = n => 10 ** n - 1;
+const largestNumber = n => 
+  10 ** n - 1;
