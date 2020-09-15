@@ -3,4 +3,4 @@ https://app.codesignal.com/arcade/code-arcade/intro-gates/aiKck9MwwAKyF8D4L
 //JavaScript
 
 const lateRide = n =>
-  `${n / 60 ^ 0}${n % 60}`.split(``).reduce((pre, val)=> pre + +val, 0);
+  [...`${n / 60 ^ 0}` + n % 60].reduce((pre, val) => pre + +val, 0);
