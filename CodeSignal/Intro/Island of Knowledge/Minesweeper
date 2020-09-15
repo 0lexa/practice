@@ -2,18 +2,6 @@ https://app.codesignal.com/arcade/intro/level-5/ZMR5n7vJbexnLrgaM
 
 //JavaScript
 
-const minesweeper = matrix => {
-  const res = Array(matrix.length).fill().map(() => []);
-  matrix.map(val => {
-    val.unshift(0);
-    val.push(0)
-  });
-  matrix.unshift(Array(matrix[0].length).fill(0));
-  matrix.push(Array(matrix[0].length).fill(0));
-  for (let i = 1; i < matrix.length - 1; i++) {
-    for (let j = 1; j < matrix[0].length - 1; j++) {
-      res[i - 1][j - 1] = matrix[i - 1][j - 1] + matrix[i - 1][j] + matrix[i - 1][j + 1] + matrix[i][j - 1] + matrix[i][j + 1] + matrix[i + 1][j - 1] + matrix[i + 1][j] + matrix[i + 1][j + 1];
-    }
-  }
-  return res;
-};
+const minesweeper = matrix =>
+  (arr => matrix.map((val, i) => val.map((_, j) => arr.reduce((pre, val) => pre + !!(matrix[i + val[0]] && matrix[i + val[0]][j + val[1]]), 0))))
+  ([[1, -1], [1, 0], [1, 1], [0, -1], [0, 1], [-1, -1], [-1, 0], [-1, 1]]);
