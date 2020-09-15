@@ -3,5 +3,4 @@ https://app.codesignal.com/arcade/intro/level-5/veW5xJednTy4qcjso
 //JavaScript
 
 const isIPv4Address = inputString =>
-  (val => val.length === 4 && val.every(v => v !== `` && !isNaN(v) && (v >= 0 && v <= 255)))
-  (inputString.split(`.`));
+  /^((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(\.(?!$)|$)){4}$/.test(inputString);
