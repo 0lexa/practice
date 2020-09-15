@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/588810c99fb63e49e1000606
+
+//JavaScript
+
+const houseOfCats = legs =>
+  [...Array(legs / 2 + 1).keys()].filter(val => !((legs - 2 * val) % 4));
