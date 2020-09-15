@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/588711735ea0b4649e000001
+
+//JavaScript
+
+const numbersGrouping = a =>
+  new Set(a.map(val => --val / 1e4 ^ 0)).size + a.length;
