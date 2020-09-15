@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5888145122fe8620950000f0
+
+//JavaScript
+
+const switchLights = a =>
+  a.map((_, idx, arr) => arr.slice(++idx).reduce((pre, val) => val ^ pre, 0));
