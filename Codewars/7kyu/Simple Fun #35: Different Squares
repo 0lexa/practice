@@ -1,0 +1,8 @@
+https://www.codewars.com/kata/588805ca44c7e8c3a100013c
+
+//JavaScript
+
+const differentSquares = matrix =>
+  new Set([...Array(matrix.length - 1).keys()].reduce((pre, val) => 
+    [...pre, ...[...Array(matrix[val].length - 1)].map((_, idx) => 
+      `` + matrix[val][idx] + matrix[val][idx + 1] + matrix[val + 1][idx] + matrix[val + 1][idx + 1])], [])).size;
