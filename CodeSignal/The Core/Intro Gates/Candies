@@ -2,4 +2,5 @@ https://app.codesignal.com/arcade/code-arcade/intro-gates/DdNKFA3XCX6XN7bNz
 
 //JavaScript
 
-const candies = (n, m) => (m / n ^ 0) * n;
+const candies = (n, m) => 
+  m - m % n;
