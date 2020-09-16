@@ -3,4 +3,4 @@ https://app.codesignal.com/arcade/intro/level-9/AACpNbZANCkhHWNs3
 //JavaScript
 
 const longestDigitsPrefix = inputString => 
-  inputString.match(/\d*/)[0] || ``;
+  inputString.split(/\D/)[0];
