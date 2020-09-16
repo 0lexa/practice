@@ -3,4 +3,4 @@ https://app.codesignal.com/arcade/intro/level-9/xHvruDnQCx7mYom3T
 //JavaScript
 
 const growingPlant = (upSpeed, downSpeed, desiredHeight) =>
-  upSpeed >= desiredHeight ? 1 : Math.ceil((desiredHeight - upSpeed) / (upSpeed - downSpeed)) + 1;
+  Math.max(Math.ceil((desiredHeight - upSpeed) / (upSpeed - downSpeed)), 0) + 1;
