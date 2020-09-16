@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/588847702ffea657ba00001b
+
+//JavaScript
+
+const cipher26 = message =>
+  (str => [...message].reduce((pre, val, idx) => pre + str[(str.indexOf(val) - (idx && str.indexOf(message[--idx])) + 26) % 26], ``))
+  (`abcdefghijklmnopqrstuvwxyz`);
