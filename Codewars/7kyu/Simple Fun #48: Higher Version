@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58884e352ffea6d2f8000082
+
+//JavaScript
+
+const higherVersion = (ver1, ver2) =>
+  ver1.split(`.`).reduce((pre, val, idx) => pre || val - ver2.split(`.`)[idx], 0) > 0;
