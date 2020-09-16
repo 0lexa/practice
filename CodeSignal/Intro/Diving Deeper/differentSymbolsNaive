@@ -2,4 +2,5 @@ https://app.codesignal.com/arcade/intro/level-8/8N7p3MqzGQg5vFJfZ
 
 //JavaScript
 
-const differentSymbolsNaive = s => new Set(s).size;
+const differentSymbolsNaive = s => 
+  new Set(s).size;
