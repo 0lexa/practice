@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/588820169ab1e053240000e0
+
+//JavaScript
+
+const areSimilar = (A, B) =>
+  A.filter((val, idx) => val !== B[idx]).length < 3 && `${A.sort()}` === `${B.sort()}`;
