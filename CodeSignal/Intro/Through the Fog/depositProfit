@@ -2,11 +2,5 @@ https://app.codesignal.com/arcade/intro/level-7/8PxjMSncp9ApA4DAb
 
 //JavaScript
 
-function depositProfit(deposit, rate, threshold) {
-  let year = 0;
-  while (deposit < threshold) {
-    deposit *= (rate / 100 + 1);
-    year++;
-  }
-  return year;
-}
+const depositProfit = (deposit, rate, threshold) =>
+  Math.ceil(Math.log(threshold / deposit) / Math.log(1 + rate / 100));
