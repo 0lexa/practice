@@ -1,0 +1,14 @@
+https://www.codewars.com/kata/588833be1418face580000d8
+
+//JavaScript
+
+const threeSplit = a => {
+  const third = a.reduce((pre, val) => pre + val, 0) / 3;
+  let sum = 0, part = 0, res = 0;
+  for (let el of a.slice(0, -1)) {
+    sum += el;
+    if (sum === 2 * third) res += part;
+    if (sum === third) part++;
+  }
+  return res;
+};
