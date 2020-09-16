@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58884a65f06a3d3bef000049
+
+//JavaScript
+
+const stolenLunch = note =>
+  note.replace(/[\da-j]/g, val => String.fromCharCode(val.charCodeAt() - (isNaN(val) ? 49 : -49)));
