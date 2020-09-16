@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/588854201361435f5e0000bd
+
+//JavaScript
+
+const arrayConversion = (arr, flag = false) =>
+  arr.length > 1 ? arrayConversion(arr.reduce((pre, val, idx) => (idx % 2 && pre.push(flag ? arr[idx - 1] * arr[idx] : arr[idx - 1] + arr[idx]), pre), []), !flag) : arr[0];
