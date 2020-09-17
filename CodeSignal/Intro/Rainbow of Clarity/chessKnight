@@ -2,11 +2,6 @@ https://app.codesignal.com/arcade/intro/level-11/pwRLrkrNpnsbgMndb
 
 //JavaScript
 
-const chessKnight = cell => {
-  let str = ``;
-  const column = cell.charCodeAt(0);
-  const row = +cell[1] - 1;
-  const moves = [[-2, -1],[-2, 1],[-1, -2],[-1, 2],[1, -2],[1, 2],[2, -1],[2, 1]];
-  moves.forEach(el => str += String.fromCharCode(column + el[0]) + (row + el[1]));
-  return str.match(/[a-h][0-7]/g).length;
-};
+const chessKnight = cell =>
+  [[-2, -1], [-2, 1], [-1, -2], [-1, 2], [1, -2], [1, 2], [2, -1], [2, 1]].
+  filter(val => /[a-h]/.test(String.fromCharCode(cell.charCodeAt() + val[0])) && /^[1-8]$/.test(+cell[1] + val[1])).length;
