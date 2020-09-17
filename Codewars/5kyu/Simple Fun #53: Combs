@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/58898b50b832f8046a0000ec
+
+//JavaScript
+
+const combs = (comb1, comb2) =>
+  (fn => Math.min(fn(comb1, comb2), fn(comb2, comb1)))
+  ((a, b) => Math.max(a.length, (a + `.`.repeat(b.length)).search(new RegExp(b.replace(/\*/g, `\\.`))) + b.length));
