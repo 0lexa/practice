@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5889a0706069af1cb9000176
+
+//JavaScript
+
+const runnersMeetings = (startPosition, speed) =>
+  Math.max(-1, ...startPosition.map((val, idx) => startPosition.map((v, i) => (val - v) / (speed[idx] - speed[i]))).map(val => Math.max(...Object.values(val.reduce((pre, val) => (Number.isFinite(val) && val < 0 && (pre[val] = -~pre[val]), pre), {}))) + 1));
