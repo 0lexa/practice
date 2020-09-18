@@ -2,5 +2,5 @@ https://app.codesignal.com/arcade/intro/level-12/ywMyCTspqGXPWRZx5
 
 //JavaScript
 
-const validTime = time => 
-  time.slice(0, 2) < 24 && time.slice(3) < 60;
+const validTime = time =>
+  /^([0-1]?\d|2[0-3]):[0-5]\d$/.test(time);
