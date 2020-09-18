@@ -3,9 +3,13 @@ https://app.codesignal.com/arcade/intro/level-12/NJJhENpgheFRQbPRA
 //JavaScript
 
 const digitsProduct = product => {
-  if (product < 10) return product > 0 ? product : 10;
-  for (let i = 25; i < product * 6; i++) {
-    if ([...`${i}`].reduce((pre, val) => pre * +val, 1) === product) return i;
-  }
-  return -1;
+    let res = ``;
+    if (product < 10) return product > 0 ? product : 10;
+    for (let i = 9; i > 1; i--) {
+        while (!(product % i)) {
+            product /= i;
+            res = i + res;
+        }
+    }
+    return product -1 ? -1 : +res;
 };
