@@ -2,5 +2,5 @@ https://app.codesignal.com/arcade/intro/level-12/YqZwMJguZBY7Hz84T
 
 //JavaScript
 
-const sumUpNumbers = inputString => 
-  (inputString.match(/\d+/g) || []).reduce((pre, val) => pre + +val, 0);
+const sumUpNumbers = inputString =>
+  inputString.match(/\d+|$/g).reduce((pre, val) => pre + +val, 0);
