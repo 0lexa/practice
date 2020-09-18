@@ -4,10 +4,10 @@ https://app.codesignal.com/arcade/intro/level-12/sqZ9qDTFHXBNrQeLC
 
 const fileNaming = names => {
   for (let i = 1; i < names.length; i++) {
-    let count = 0;
+    let cnt = 0;
     while (names.slice(0, i).includes(names[i])) {
-      count++;
-      names[i] = count === 1 ? names[i] + `(${count})` : names[i].replace(/\(\d+\)$/, `(${count})`);
+      cnt++;
+      names[i] = cnt === 1 ? names[i] + `(${cnt})` : names[i].replace(/\(\d+\)$/, `(${cnt})`);
     }
   }
   return names;
