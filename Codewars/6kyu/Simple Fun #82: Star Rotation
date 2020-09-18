@@ -1,0 +1,14 @@
+https://www.codewars.com/kata/58943e3e8a8a238752000118
+
+//JavaScript
+
+const starRotation = (matrix, width, center, t) => {
+  let [x, y] = [center[0], center[1]];
+  for (let i = 1; i <= (width - 1) / 2; i++) {
+    for (let j = t % 8; j > 0; j--) {
+      [matrix[x - i][y - i], matrix[x][y - i], matrix[x + i][y - i], matrix[x + i][y], matrix[x + i][y + i], matrix[x][y + i], matrix[x - i][y + i], matrix[x - i][y]] =
+      [matrix[x][y - i], matrix[x + i][y - i], matrix[x + i][y], matrix[x + i][y + i], matrix[x][y + i], matrix[x - i][y + i], matrix[x - i][y], matrix[x - i][y - i]];
+    }
+  }
+  return matrix;
+};
