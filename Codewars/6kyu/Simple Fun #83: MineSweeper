@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/58952e29f0902eae8b0000cb
+
+//JavaScript
+
+const minesweeper = matrix =>
+  (arr => matrix.map((val, i) => val.map((_, j) => arr.reduce((pre, val) => pre + !!(matrix[i + val[0]] && matrix[i + val[0]][j + val[1]]), 0))))
+  ([[1, -1], [1, 0], [1, 1], [0, -1], [0, 1], [-1, -1], [-1, 0], [-1, 1]]);
