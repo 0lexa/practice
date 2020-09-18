@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5893fa478a8a23ef82000031
+
+//JavaScript
+
+const palindromeRearranging = s =>
+  [...s].sort().join(``).replace(/(\w)\1/g, ``).length < 2;
