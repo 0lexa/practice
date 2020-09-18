@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5894017082b9fb62c50000df
+
+//JavaScript
+
+const areEquallyStrong = (yourLeft, yourRight, friendsLeft, friendsRight) =>
+  yourLeft === friendsLeft && yourRight === friendsRight || friendsLeft === yourRight && friendsRight === yourLeft;
