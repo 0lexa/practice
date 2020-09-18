@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5889ae4f7af7f99a9a000019
+
+//JavaScript
+
+const drawRectangle = (canvas, [x1, y1, x2, y2]) =>
+  canvas.map((row, i) => row.map((col, j) => j > x1 && j < x2 && (i === y1 || i === y2) ? `-` : i > y1 && i < y2 && (j === x1 || j === x2) ? `|` :(j === x1 || j === x2) && (i === y1 || i === y2) ? `*` : col));
