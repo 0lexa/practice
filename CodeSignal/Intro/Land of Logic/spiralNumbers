@@ -4,7 +4,7 @@ https://app.codesignal.com/arcade/intro/level-12/uRWu6K8E7uLi3Qtvx
 
 const spiralNumbers = n => {
   let matrix = Array(n).fill(null).map(() => []);
-  let row = column = direction = cell = 0, segment = n;
+  let row = 0, column = 0, direction = 0, cell = 0, segment = n;
   for (let number = 1; number <= n ** 2; number++) {
     matrix[row][column] = number;
     if (++cell === segment) {
