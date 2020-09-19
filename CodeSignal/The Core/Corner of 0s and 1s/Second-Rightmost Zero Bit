@@ -3,5 +3,5 @@ https://app.codesignal.com/arcade/code-arcade/corner-of-0s-and-1s/9nSj6DgqLDsBeP
 //JavaScript
 
 function secondRightmostZeroBit(n) {
-  return 2 ** (n.toString(2).split(``).reverse().join(``).split(`0`, 2).join(`0`).length);
+  return 2 ** ([...n.toString(2)].reverse().join(``).split(`0`, 2).join(`0`).length);
 }
