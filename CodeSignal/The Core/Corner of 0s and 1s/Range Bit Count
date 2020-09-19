@@ -3,4 +3,4 @@ https://app.codesignal.com/arcade/code-arcade/corner-of-0s-and-1s/eC2Zxu5H5SnuKx
 //JavaScript
 
 const rangeBitCount = (a, b) =>
-  Array(b - --a).fill().reduce((pre) => pre + (++a).toString(2).split(`1`).length - 1, 0);
+  [...Array(b - a + 1)].reduce((pre, _, idx) => pre + (idx + a).toString(2).replace(/0/g, ``).length, 0);
