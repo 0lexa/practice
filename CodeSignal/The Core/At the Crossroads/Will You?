@@ -2,4 +2,5 @@ https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/jZ4ZSiGohzFTeg4y
 
 //JavaScript
 
-const willYou = (young, beautiful, loved) => (young && beautiful) !== loved;
+const willYou = (young, beautiful, loved) =>
+  !!(young & beautiful ^ loved);
