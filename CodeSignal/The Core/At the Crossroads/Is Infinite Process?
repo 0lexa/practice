@@ -2,4 +2,5 @@ https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/aFF9HDm2Rsti9j5k
 
 //JavaScript
 
-const isInfiniteProcess = (a, b) => b < a || (b - a) % 2;
+const isInfiniteProcess = (a, b) =>
+  a > b || (b - a) % 2 > 0;
