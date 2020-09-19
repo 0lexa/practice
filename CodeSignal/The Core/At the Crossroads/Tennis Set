@@ -3,4 +3,4 @@ https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/7jaup9HprdJno2di
 //JavaScript
 
 const tennisSet = (score1, score2) =>
-  [`60`, `61`, `62`, `63`, `64`, `75`, `76`, `67`, `57`, `46`, `36`, `26`, `16`, `06`].includes(`${score1}${score2}`);
+  score1 !== score2 && Math.max(score1, score2) === (Math.min(score1, score2) < 5 ? 6 : 7);
