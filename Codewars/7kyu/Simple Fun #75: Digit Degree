@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/589422431a88082ea600002a
+
+//JavaScript
+
+const digitDegree = n =>
+  n < 10 ? 0 : 1 + digitDegree([...`${n}`].reduce((pre, val) => pre + +val, 0));
