@@ -2,8 +2,5 @@ https://app.codesignal.com/arcade/code-arcade/loop-tunnel/xzeZqCQjpfDJuN72S
 
 //JavaScript
 
-const additionWithoutCarrying = (param1, param2) => {
-  param1 = [...param1.toString().padStart(5)].map(val => +val);
-  param2 = [...param2.toString().padStart(5)].map(val => +val);
-  return +param1.map(val => (val + param2.shift()) % 10).join(``);
-};
+const additionWithoutCarrying = (a, b) =>
+  +[...`${a}`.padStart(5)].map((val, idx) => (+val + +`${b}`.padStart(5)[idx]) % 10).join(``);
