@@ -2,11 +2,6 @@ https://app.codesignal.com/arcade/code-arcade/loop-tunnel/RcK4vupi8sFhakjnh
 
 //JavaScript
 
-const countBlackCells = (n, m) => {
-  let div = ((a, b) => {
-    if (!a) return b;
-    while (b) a > b ? a -= b : b -= a;
-    return a;
-  })(n, m);
-  return n + m - div + --div * 2;
-};
+const countBlackCells = (n, m) =>
+  (fn => n + m + fn(n, m) - 2)
+  (function fn(a, b) {return b ? fn(b, a % b) : a});
