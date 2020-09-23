@@ -3,5 +3,4 @@ https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/yBFfNv5f
 //JavaScript
 
 const isPower = n =>
-  [...Array((n ** 0.5 ^ 0) - 1).keys()].some(val => Number.isInteger(+(Math.log(n) / Math.log(val + 2)).toFixed(5)))
-    ? true : n === 1;
+  [...Array((n ** 0.5 ^ 0) - 1).keys()].some(val => Number.isInteger(+(Math.log(n) / Math.log(val + 2)).toFixed(5))) || n === 1;
