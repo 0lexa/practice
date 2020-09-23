@@ -3,4 +3,4 @@ https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/EQSjA5PR
 //JavaScript
 
 const isSumOfConsecutive2 = n =>
-  Array.from(Array(n / 2 ^ 0), (_, idx) => 3 + idx * 2).reduce((pre, val) => pre + !(n % val), 0);
+  [...Array(n << 1)].map((_, idx) => 3 + idx * 2).reduce((pre, val) => pre + !(n % val), 0);
