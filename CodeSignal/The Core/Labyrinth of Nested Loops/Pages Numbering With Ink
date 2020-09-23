@@ -2,7 +2,5 @@ https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/pdw3izd7
 
 //JavaScript
 
-const pagesNumberingWithInk = (current, numberOfDigits) => {
-  while ((numberOfDigits -= (current++).toString().length) >= 0) ;
-  return current - 2;
-};
+const pagesNumberingWithInk = (current, numberOfDigits) =>
+  numberOfDigits < `${current}`.length ? current - 1 : pagesNumberingWithInk(current + 1, numberOfDigits - `${current}`.length);
