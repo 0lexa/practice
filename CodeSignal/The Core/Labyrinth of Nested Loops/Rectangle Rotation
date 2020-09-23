@@ -3,5 +3,5 @@ https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/tuKA5f3z
 //JavaScript
 
 const rectangleRotation = (a, b) =>
-  ((c, d) => (c * d + (c + d) / 2 ^ 0) * 2 + 1)
-  (a / Math.SQRT2 ^ 0, b / Math.SQRT2 ^ 0);
+  (fn => (fn(a) * fn(b) + (fn(a) + fn(b)) / 2 ^ 0) * 2 + 1)
+  (val => val / Math.SQRT2 ^ 0);
