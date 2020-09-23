@@ -2,4 +2,5 @@ https://app.codesignal.com/arcade/code-arcade/list-forest-edge/vPJB7T28fyCeh2Ljn
 
 //JavaScript
 
-const removeArrayPart = (a, l, r) => (a.splice(l, ++r - l), a);
+const removeArrayPart = (a, l, r) => 
+  (a.splice(l, ++r - l), a);
