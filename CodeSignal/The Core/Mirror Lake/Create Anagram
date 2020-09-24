@@ -3,4 +3,4 @@ https://app.codesignal.com/arcade/code-arcade/mirror-lake/BsShkFDfbkWxozmMN
 //JavaScript
 
 const createAnagram = (s, t) =>
-  ([...t].forEach(val => s = s.replace(val, ``)), s.length);
+  [...s].reduce((pre, val) => pre.replace(val, ``), t).length;
