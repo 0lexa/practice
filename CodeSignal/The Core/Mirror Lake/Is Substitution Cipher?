@@ -3,4 +3,4 @@ https://app.codesignal.com/arcade/code-arcade/mirror-lake/rNrF4v5etMdFNKD3s
 //JavaScript
 
 const isSubstitutionCipher = (string1, string2) =>
-  [...string1].every((val,idx) => string1.indexOf(val) === string2.indexOf(string2[idx]));
+  [...string1].every((val, idx) => string1.indexOf(val) === string2.indexOf(string2[idx]));
