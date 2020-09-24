@@ -3,4 +3,4 @@ https://app.codesignal.com/arcade/code-arcade/book-market/HJ2thsvjL25iCvvdm
 //JavaScript
 
 const isMAC48Address = inputString =>
-  /^([0-9A-F]{2}-){5}[0-9A-F]{2}$/.test(inputString);
+  /^([\dA-F]{2}-){6}$/.test(inputString + `-`);
