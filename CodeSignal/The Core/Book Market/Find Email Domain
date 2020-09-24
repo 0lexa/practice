@@ -2,4 +2,5 @@ https://app.codesignal.com/arcade/code-arcade/book-market/TXFLopNcCNbJLQivP
 
 //JavaScript
 
-const findEmailDomain = address => address.split('@').pop();
+const findEmailDomain = address =>
+  address.split(`@`).pop();
