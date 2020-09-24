@@ -2,4 +2,5 @@ https://app.codesignal.com/arcade/code-arcade/book-market/K2ieDm98sPDzzMepz
 
 //JavaScript
 
-const encloseInBrackets = inputString => `(${inputString})`;
+const encloseInBrackets = inputString =>
+  `(${inputString})`;
