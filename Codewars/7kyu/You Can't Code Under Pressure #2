@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/5546ea9bddfc5c0c38000026
+
+//JavaScript
+
+function Counter() {
+  let cnt = 0;
+  this.check = () => cnt;
+  this.increment = () => cnt++;
+}
