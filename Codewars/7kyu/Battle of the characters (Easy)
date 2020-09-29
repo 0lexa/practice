@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/595519279be6c575b5000016
+
+//JavaScript
+
+const battle = (x, y) =>
+  (fn => fn(x) > fn(y) ? x : fn(y) > fn(x) ? y : `Tie!`)
+  (str => [...str].reduce((pre, val) => pre + val.charCodeAt() - 64, 0));
