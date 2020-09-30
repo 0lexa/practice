@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5eb27d81077a7400171c6820
+
+//JavaScript
+
+const gracefulTipping = bill =>
+  (val => Math.ceil(bill / val) * val)
+  (Math.ceil(5 * 10 ** (~~Math.log10(bill *= 1.15) - 1)));
