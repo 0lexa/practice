@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5dd5128f16eced000e4c42ba
+
+//JavaScript
+
+const solve = st =>
+  [...new Set(st)].map(val => [val, st.lastIndexOf(val) - st.indexOf(val)]).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0][0];
