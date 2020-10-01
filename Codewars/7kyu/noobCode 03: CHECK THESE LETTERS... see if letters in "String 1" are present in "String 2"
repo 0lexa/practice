@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57470efebf81fea166001627
+
+//JavaScript
+
+const letterCheck = ([str1, str2]) => 
+  !new RegExp(`[^${str1}]`, `i`).test(str2);
