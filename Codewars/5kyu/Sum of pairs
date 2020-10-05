@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/54d81488b981293527000c8f
+
+//JavaScript
+
+const sum_pairs = (ints, s) => {
+  const set = new Set();
+  for (const elm of ints) {
+    if (set.has(s - elm)) return [s - elm, elm];
+    set.add(elm);
+  }
+};
