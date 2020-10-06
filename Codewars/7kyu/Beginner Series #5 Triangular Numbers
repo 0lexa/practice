@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56d0a591c6c8b466ca00118b
+
+//JavaScript
+
+const isTriangular = t =>
+  Number.isInteger((1 + (t << 3)) ** .5);
