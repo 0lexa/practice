@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/551dd1f424b7a4cdae0001f0
+
+//JavaScript
+
+const whoIsNext = (names, r) =>
+  r > names.length ? whoIsNext(names, Math.floor((r - names.length + 1) / 2)) : names[--r];
