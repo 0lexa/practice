@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/529adbf7533b761c560004e5
+
+//JavaScript
+
+const fibonacci = (arr => n => arr[n] !== undefined ? arr[n] : arr[n] = fibonacci(n - 1) + fibonacci(n - 2))([0, 1]);
