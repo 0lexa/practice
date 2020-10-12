@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/54d4c8b08776e4ad92000835
+
+//JavaScript
+
+const isPP = n => {
+  for (let m = 2; m <= n ** .5; m++) {
+    let k = Math.round(Math.log(n) / Math.log(m));
+    if (m ** k === n) return [m, k];
+  }
+  return null;
+};
