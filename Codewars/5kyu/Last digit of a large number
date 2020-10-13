@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5511b2f550906349a70004e1
+
+//JavaScript
+
+const lastDigit = (str1, str2) =>
+  +str2 ? str1.slice(-1) ** (str2.slice(-2) % 4 || 4) % 10 : 1;
