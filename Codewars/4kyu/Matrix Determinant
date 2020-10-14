@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/52a382ee44408cea2500074c
+
+//JavaScript
+
+const determinant = m =>
+  m.length - 1 ? m[0].reduce((pre, val, idx) => pre + (idx % 2 ? -1 : 1) * val * determinant(m.slice(1).map(val => val.filter((_, i) => i !== idx))), 0) : m[0][0];
