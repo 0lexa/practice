@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5bf774a81505a7413400006a
+
+//JavaScript
+
+const fix = paragraph =>
+  paragraph.replace(/(^|\. )[a-z]/g, val => val.toUpperCase());
