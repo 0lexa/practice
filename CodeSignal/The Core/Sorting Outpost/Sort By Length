@@ -1,0 +1,6 @@
+https://app.codesignal.com/arcade/code-arcade/sorting-outpost/QQB7f8ouAqY6jf7xi
+
+//JavaScript
+
+const sortByLength = inputArray =>
+  inputArray.sort((a, b) => a.length - b.length);
