@@ -1,0 +1,7 @@
+https://app.codesignal.com/arcade/code-arcade/sorting-outpost/9y4wLpcqnNozn92tG
+
+//JavaScript
+
+const boxesPacking = (length, width, height) =>
+  (arr => arr.every((val, idx) => !idx || val.every((v, i) => v > arr[idx - 1][i])))
+  (length.map((_, idx) => [length[idx], width[idx], height[idx]].sort((a, b) => a - b)).sort((a, b) => a[0] - b[0] || a[1] - b[1] || a[2] - b[2]));
