@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5f6d533e1475f30001e47514
+
+//JavaScript
+
+const consecutive = (arr, a, b) =>
+  new RegExp(`${a},${b}|${b},${a}`).test(arr);
