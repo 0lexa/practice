@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5b728f801db5cec7320000c7
+
+//JavaScript
+
+const solve = (s, k) =>
+  [...s].sort().slice(0, k).reduce((pre, val) => pre.replace(val, ``), s);
