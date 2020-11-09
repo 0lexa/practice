@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/54129112fb7c188740000162
+
+//JavaScript
+
+const prefill = (n, v) =>
+  /\D/.test(n) ? (() => {throw new TypeError(`${n} is invalid`)})() : Array(+n).fill(v);
