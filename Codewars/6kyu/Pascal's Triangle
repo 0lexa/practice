@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5226eb40316b56c8d500030f
+
+//JavaScript
+
+const pascalsTriangle = (n, arr = [], i = 0) =>
+  n - i ? (arr[i] = [...(arr[i - 1] || arr).map((val, idx) => val + (arr[i - 1][idx - 1] || 0)), 1], pascalsTriangle(n, arr, ++i)) : [].concat(...arr);
