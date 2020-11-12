@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/525caa5c1bf619d28c000335
+
+//JavaScript
+
+const isSolved = board =>
+  (val => /^111|111$|...111...|1..1..1|1...1...1|..1.1.1../.test(val) ? 1 : /^222|222$|...222...|2..2..2|2...2...2|..2.2.2../.test(val) ? 2 : /0/.test(val) ? -1 : 0)
+  (`${board}`.replace(/,/g, ``));
