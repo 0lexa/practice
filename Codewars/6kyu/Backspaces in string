@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5727bb0fe81185ae62000ae3
+
+//JavaScript
+
+cleanString = s =>
+  s.includes(`#`) ? cleanString(s.replace(/[^#]?#/, ``)) : s;
