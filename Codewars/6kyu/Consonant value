@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59c633e7dcc4053512000073
+
+//JavaScript
+
+const solve = s =>
+  Math.max(...s.split(/[aeiou]+/).map(val => [...val].reduce((pre, val) => pre + val.charCodeAt() - 96, 0)));
