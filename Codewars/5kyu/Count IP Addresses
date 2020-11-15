@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/526989a41034285187000de4
+
+//JavaScript
+
+const ipsBetween = (start, end) =>
+  (fn => fn(end) - fn(start))
+  (val => val.split(`.`).reduce((pre, val) => (pre << 8) | val, 0));
