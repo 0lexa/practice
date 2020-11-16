@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/526233aefd4764272800036f
+
+//JavaScript
+
+const matrixAddition = (a, b) =>
+  a.map((val, idx) => val.map((v, i) => v + b[idx][i]));
