@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5432fd1c913a65b28f000342
+
+//JavaScript
+
+const multiplicationTable = (row, col) =>
+  [...Array(row)].map((_, idx) => [...Array(col)].map((_, i) => ++i * (idx + 1)));
