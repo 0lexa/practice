@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/529b418d533b76924600085d
+
+//JavaScript
+
+const toUnderscore = string =>
+  `${string}`.replace(/.(?=[A-Z])/g, `$&_`).toLowerCase();
