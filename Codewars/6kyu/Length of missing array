@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/57b6f5aadb5b3d0ae3000611
+
+//JavaScript
+
+const getLengthOfMissingArray = arrayOfArrays =>
+  (arr => arr.length && arr.every(Boolean) ? arr.find((val, idx) => val !== arr[++idx] - 1) + 1 : 0)
+  (Array.isArray(arrayOfArrays) && arrayOfArrays.map(val => val && val.length || 0).sort((a, b) => a - b) || []);
