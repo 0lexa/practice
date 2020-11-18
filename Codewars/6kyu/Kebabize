@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57f8ff867a28db569e000c4a
+
+//JavaScript
+
+const kebabize = str =>
+  str.replace(/[^A-Z]/gi, ``).replace(/.(?=[A-Z])/g, `$&-`).toLowerCase();
