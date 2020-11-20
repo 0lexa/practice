@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/54c9fcad28ec4c6e680011aa
+
+//JavaScript
+
+const isMerge = (s, part1, part2) =>
+  (fn => !s ? !(part1 || part2) : fn(part1, part2) || fn(part2, part1))
+  ((p1, p2) => s[0] === p1[0] && isMerge(s.slice(1), p1.slice(1), p2));
