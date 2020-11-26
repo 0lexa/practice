@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5c4cb8fc3cf185147a5bdd02
+
+//JavaScript
+
+const sumOrProduct = (array, n) =>
+  (([p, s]) => p > s ? `product` : p < s ? `sum` : `same`)
+  (array.sort((a, b) => a - b).reduce(([p, s], val, idx) => [p * (idx < n ? val : 1), s + (idx >= array.length - n && val)], [1, 0]));
