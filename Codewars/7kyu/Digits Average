@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a32526ae1ce0ec0f10000b2
+
+//JavaScript
+
+const digitsAverage = input =>
+  input > 9? digitsAverage([...`${input}`].reduce((pre, val, idx, arr) => idx ? pre + Math.ceil((+val + +arr[--idx]) / 2) : pre, ``)) : +input;
