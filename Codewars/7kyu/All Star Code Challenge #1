@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5863f97fb3a675d9a700003f
+
+//JavaScript
+
+const sumPPG = ({ppg: ppg1}, {ppg: ppg2}) => 
+  ppg1 + ppg2;
