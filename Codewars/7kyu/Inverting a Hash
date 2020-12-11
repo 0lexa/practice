@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5b5604e26dc79e6832000101
+
+//JavaScript
+
+const invertHash = hash =>
+  Object.entries(hash).reduce((pre, [key, val]) => (pre[val] = key, pre), {});
