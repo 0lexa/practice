@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/515f51d438015969f7000013
+
+//JavaScript
+
+const pyramid = n =>
+  [...Array(n)].map((_, idx) => [...Array(++idx).fill(1)]);
