@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5276c18121e20900c0000235
+
+//JavaScript
+
+const findNumber = array =>
+  ++array.length / 2 * ++array.length - array.reduce((pre, val) => pre + val, 0);
