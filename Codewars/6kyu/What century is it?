@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/52fb87703c1351ebd200081f
+
+//JavaScript
+
+const whatCentury = year =>
+  (val => val + (val > 10 && val < 21 ? `th` : [`th`, `st`, `nd`, `rd`][val % 10] || `th`))
+  (Math.ceil(year / 100));
