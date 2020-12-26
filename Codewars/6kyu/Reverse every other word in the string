@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58d76854024c72c3e20000de
+
+//JavaScript
+
+const reverse = str =>
+  str.trim().split(` `).map((val, idx) => idx % 2 ? [...val].reverse().join(``) : val).join(` `);
