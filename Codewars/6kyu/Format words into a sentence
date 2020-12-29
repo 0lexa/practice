@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/51689e27fe9a00b126000004
+
+//JavaScript
+
+const formatWords = words =>
+  (words || []).filter(val => val).join(`, `).replace(/, (?=\w+$)/, ` and `);
