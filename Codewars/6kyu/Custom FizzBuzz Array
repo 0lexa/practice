@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5355a811a93a501adf000ab7
+
+//JavaScript
+
+const fizzBuzzCustom = (stringOne = `Fizz`, stringTwo = `Buzz`, numOne = 3, numTwo = 5) =>
+  [...Array(100)].map((_, idx) => !(++idx % (numOne * numTwo)) ? stringOne + stringTwo : !(idx % numOne) ? stringOne : !(idx % numTwo) ? stringTwo : idx);
