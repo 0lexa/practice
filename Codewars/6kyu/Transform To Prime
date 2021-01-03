@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a946d9fba1bb5135100007c
+
+//JavaScript
+
+const minimumNumber = (numbers, sum = numbers.reduce((pre, val) => pre + val), min = 0) =>
+  Array(sum + min).fill(1).join(``).match(/^1?$|^(11+?)\1+$/) ? minimumNumber(numbers, sum, ++min) : min;
