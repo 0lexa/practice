@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5966847f4025872c7d00015b
+
+//JavaScript
+
+const averageString = str =>
+  ((nums, arr) => arr.every(val => nums.includes(val)) && nums[arr.reduce((pre, val) => pre + nums.indexOf(val), 0) / arr.length ^ 0] || `n/a`)
+  ([`zero`, `one`, `two`, `three`, `four`, `five`, `six`, `seven`, `eight`, `nine`], str.split(` `));
