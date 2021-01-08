@@ -1,0 +1,18 @@
+https://www.codewars.com/kata/5539fecef69c483c5a000015
+
+//JavaScript
+
+const backwardsPrime = (start, stop) => {
+  
+  const pri = num => {
+    for (let i = 2; i <= num ** .5; i++) {
+      if (!(num % i)) return false;
+    }
+    return num > 1;
+  };
+
+  const rev = num =>
+    +[...`${num}`].reverse().join(``);
+
+  return [...Array(++stop - start)].map((_, idx) => start + idx).filter(val => val !== rev(val) && pri(val) && pri(rev(val)));
+};
