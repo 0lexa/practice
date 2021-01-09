@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5514e5b77e6b2f38e0000ca9
+
+//JavaScript
+
+const upArray = arr =>
+  !arr.length || arr.some(val => val < 0 || val > 9) ? null :
+    [...arr.join(``).replace(/(\d)(9*$)/, (_, $1, $2) => ++$1 + `0`.repeat($2.length))].map(Number);
