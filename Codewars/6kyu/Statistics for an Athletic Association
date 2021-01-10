@@ -1,0 +1,16 @@
+https://www.codewars.com/kata/55b3425df71c1201a800009c
+
+//JavaScript
+
+const stat = strg => {
+  if (!strg) return strg;
+  const arr = strg.split(`, `).map(val => val.split(`|`).reduce((pre, val) => +val + pre * 60, 0)).sort((a, b) => a - b);
+  const range = Math.max(...arr) - Math.min(...arr);
+  const average = arr.reduce((pre, val) => pre + val) / arr.length ^ 0;
+  const median = arr.length % 2 ? arr[arr.length >> 1] : (arr[arr.length >> 1] + arr[--arr.length >> 1]) >> 1;
+  
+  const toStr = num =>
+    [num / 3600 ^ 0, num / 60 % 60 ^ 0, num % 60].map(val => `${val}`.padStart(2, `0`)).join(`|`);
+
+  return `Range: ${toStr(range)} Average: ${toStr(average)} Median: ${toStr(median)}`;
+};
