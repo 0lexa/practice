@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/52fea6fd158f0576b8000089
+
+//JavaScript
+
+const Converter = {
+  toAscii : hex =>
+    hex.replace(/.{2}/g, val => String.fromCharCode(parseInt(val, 16))),
+  toHex: ascii =>
+    ascii.replace(/./g, val => val.charCodeAt().toString(16))
+};
