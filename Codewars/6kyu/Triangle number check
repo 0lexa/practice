@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/557e8a141ca1f4caa70000a6
+
+//JavaScript
+
+const isTriangleNumber = n =>
+  Number.isInteger((8 * n + 1) ** .5);
