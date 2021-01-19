@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/5853213063adbd1b9b0000be
+
+//JavaScript
+
+const streetFighterSelection = (fighters, [v, h], moves) =>
+  (obj => moves.map(val => (obj[val](), fighters[v][h])))
+  ({
+    up: () => v = Math.max(--v, 0),
+    down: () => v = Math.min(++v, 1),
+    left: () => h = (--h + 6) % 6,
+    right: () => h = (++h + 6) % 6
+  });
