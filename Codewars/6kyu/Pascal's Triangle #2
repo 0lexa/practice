@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/52945ce49bb38560fe0001d9
+
+//JavaScript
+
+const pascal = (depth, arr = [], i = 0) =>
+  depth - i ? (arr[i] = [...(arr[i - 1] || arr).map((val, idx) => val + (arr[i - 1][idx - 1] || 0)), 1], pascal(depth, arr, ++i)) : arr;
