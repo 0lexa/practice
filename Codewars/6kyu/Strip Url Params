@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/51646de80fd67f442c000013
+
+//JavaScript
+
+const stripUrlParams = (url, paramsToStrip = []) =>
+  url.replace(/&?((\w+)=)\w+/g, (val, $1, $2, idx) => url.slice(0, idx).includes($1) || paramsToStrip.includes($2) ? `` : val).replace(/\?$/, ``);
