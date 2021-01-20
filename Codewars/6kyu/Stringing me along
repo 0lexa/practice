@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55f4a44eb72a0fa91600001e
+
+//JavaScript
+
+const createMessage = (...arr) =>
+  str => str ? createMessage(...arr, str) : arr.join(` `);
