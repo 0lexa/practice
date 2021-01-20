@@ -1,0 +1,21 @@
+https://www.codewars.com/kata/5613d06cee1e7da6d5000055
+
+//JavaScript
+
+const isPrime = num => {
+  for (let i = 2; i <= num ** .5; i++) {
+    if (!(num % i)) return false;
+  }
+  return num > 1;
+};
+
+const step = (g, m, n) => {
+  let arr = [];
+  for (let i = m; i <= n; i++) {
+    if (isPrime(i)) {
+      if (arr.includes(i - g)) return [i - g, i];
+      else arr.push(i);
+    }
+  }
+  return null;
+};
