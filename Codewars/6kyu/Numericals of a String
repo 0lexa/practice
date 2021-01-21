@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5b4070144d7d8bbfe7000001
+
+//JavaScript
+
+const numericals = (s, obj = {}) =>
+  s.replace(/./g, val => obj[val] = -~obj[val]);
