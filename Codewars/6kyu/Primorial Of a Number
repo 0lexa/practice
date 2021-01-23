@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/5a99a03e4a6b34bb3c000124
+
+//JavaScript
+
+const numPrimorial = n => {
+  const arr = [];
+  let num = 0;
+  while (arr.length < n) {
+    if (!Array(++num).fill(1).join(``).match(/^1?$|^(11+?)\1+$/)) arr.push(num);
+  }
+  return arr.reduce((pre, val) => pre * val);
+};
