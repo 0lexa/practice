@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/559ce00b70041bc7b600013d
+
+//JavaScript
+
+const finance = n =>
+  n * ++n * ++n / 2;
