@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/550527b108b86f700000073f
+
+//JavaScript
+
+const iterPi = epsilon => {
+  let [i, sum] = [0, 0];
+  while (Math.abs(sum * 4 - Math.PI) >= epsilon) {
+    sum += (i % 2 ? -1 : 1) / (1 + 2 * i++);
+  }
+  return [i, Math.round(sum * 4e10) / 1e10];
+};
