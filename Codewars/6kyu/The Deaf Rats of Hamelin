@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/598106cb34e205e074000031
+
+//JavaScript
+
+const countDeafRats = town =>
+  [...town.replace(/\s/g, ``)].filter((val, idx) => --idx % 2 && val === `O`).length;
