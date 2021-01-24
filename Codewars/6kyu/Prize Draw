@@ -2,10 +2,7 @@ https://www.codewars.com/kata/5616868c81a0f281e500005c
 
 //JavaScript
 
-const rank = (st, we, n) => {
-  if (!st) return `No participants`;
-  const arr = st.split(`,`);
-  if (n > arr.length) return `Not enough participants`;
-  const obj = arr.reduce((pre, val, idx) => ({...pre, [val] : [...val.toLowerCase()].reduce((pre, v) => pre + v.charCodeAt() - 96, val.length) * we[idx]}), {});
-  return arr.sort((a, b) => obj[b] - obj[a] || a.localeCompare(b))[--n];
-};
+const rank = (st, we, n) =>
+  (arr => !st ? `No participants` : n > arr.length ? `Not enough participants` : arr[--n][0])
+  (st.split(`,`).map((val, idx) => [val, [...val.toLowerCase()].reduce((pre, v) => pre + v.charCodeAt() - 96, val.length) * we[idx]])
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])));
