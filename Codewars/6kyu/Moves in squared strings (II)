@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/56dbe7f113c2f63570000b86
+
+//JavaScript
+
+const rot = strng =>
+  [...strng].reverse().join(``);
+
+const selfieAndRot = strng =>
+  (strng = strng.replace(/.+/g, val => val + `.`.repeat(val.length))) + `\n` + rot(strng);
+
+const oper = (fct, s) =>
+  fct(s);
