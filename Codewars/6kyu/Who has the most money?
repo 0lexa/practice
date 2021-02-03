@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/528d36d7cc451cd7e4000339
+
+//JavaScript
+
+const mostMoney = students =>
+  (arr => arr.length > 1 && Math.max(...arr) === Math.min(...arr) ? `all` : students[arr.indexOf(Math.max(...arr))].name)
+  (students.map(obj => obj.fives * 5 + obj.tens * 10 + obj.twenties * 20));
