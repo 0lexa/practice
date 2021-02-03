@@ -1,0 +1,8 @@
+https://www.codewars.com/kata/52eb114b2d55f0e69800078d
+
+//JavaScript
+
+function SubstitutionCipher(abc1, abc2) {
+  this.encode = str => str.replace(/./g, val => abc2[abc1.indexOf(val)] || val);
+  this.decode = str => str.replace(/./g, val => abc1[abc2.indexOf(val)] || val);
+}
