@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58539230879867a8cd00011c
+
+//JavaScript
+
+const findChildren = dancingBrigade =>
+  [...dancingBrigade].sort((a, b) => a.localeCompare(b, `kf`, {caseFirst: `upper`})).join(``);
