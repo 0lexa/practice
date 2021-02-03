@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/55f3da49e83ca1ddae0000ad
+
+//JavaScript
+
+const tankvol = (h, d, vt) =>
+  (val => Math.floor(vt * (val - Math.sin(val)) / (2 * Math.PI)))
+  (Math.acos(1 - h / (d / 2)) * 2);
