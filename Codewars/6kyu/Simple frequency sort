@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5a8d2bf60025e9163c0000bc
+
+//JavaScript
+
+const solve = arr =>
+  (obj => arr.sort((a, b) => obj[b] - obj[a] || a - b))
+  (arr.reduce((pre, val) => ({...pre, [val]: -~pre[val]}), {}));
