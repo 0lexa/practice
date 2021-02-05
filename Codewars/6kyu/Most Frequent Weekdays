@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/56eb16655250549e4b0013f4
+
+//JavaScript
+
+const mostFrequentDays = year =>
+  (arr => [...new Set([(new Date(year, 0, 1).getDay() + 6) % 7, (new Date(year, 11, 31).getDay() + 6) % 7])].sort().map(val => arr[val]))
+  ([`Monday`, `Tuesday`, `Wednesday`, `Thursday`, `Friday`, `Saturday`, `Sunday`]);
