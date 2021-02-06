@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/5517fcb0236c8826940003c9
+
+//JavaScript
+
+const gcd = (num, den) =>
+  den ? gcd(den, num % den) : num;
+
+const sumFracts = l =>
+  (arr => !l.length ? null : arr[1] === 1 ? arr[0] : arr)
+  (l.reduce(([n, d], val) => [n * val[1] + d * val[0], d * val[1]], [0, 1]).map((val, _, arr) => val / gcd(...arr)));
