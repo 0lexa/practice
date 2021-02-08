@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/586305e8916e244b66001a93
+
+//JavaScript
+
+const mirror = obj =>
+  Object.keys(obj).reduce((pre, val) => (pre[val] = [...val].reverse().join(``), pre), {});
