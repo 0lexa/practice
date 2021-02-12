@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/586bca7fa44cfc833e00005c
+
+//JavaScript
+
+const createArrayOfTiers = num =>
+  [...`${num}`].map((_, idx) => `${num}`.slice(0, ++idx));
