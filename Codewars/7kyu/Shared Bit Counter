@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58a5aeb893b79949eb0000f1
+
+//JavaScript
+
+const sharedBits = (a, b) =>
+  !!(a & b & (a & b) - 1);
