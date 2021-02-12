@@ -1,0 +1,8 @@
+https://www.codewars.com/kata/558710234f02dcc4a8000005
+
+//JavaScript
+
+const myFunction = () => ({
+  objProperty: `string`,
+  objMethod() {return this.objProperty;}
+});
