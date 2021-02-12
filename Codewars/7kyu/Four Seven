@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5ff50f64c0afc50008861bf0
+
+//JavaScript
+
+const fourSeven = n =>
+  ({4: 7, 7: 4})[n] || 0;
