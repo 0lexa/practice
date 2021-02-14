@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/57a153e872292d7c030009d4
+
+//JavaScript
+
+const simpleTransposition = text =>
+  (fn => fn(1) + fn(0))
+  (val => [...text].filter((_, idx) => idx % 2 - val).join(``));
