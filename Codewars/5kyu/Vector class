@@ -1,0 +1,36 @@
+https://www.codewars.com/kata/526dad7f8c0eb5c4640000a4
+
+//JavaScript
+
+class Vector {
+  constructor(components) {
+    this.arr = components;
+  }
+  
+  add({arr}) {
+    if (this.arr.length !== arr.length) throw new Error();
+    return new Vector(this.arr.map((val, idx) => val + arr[idx]));
+  }
+  
+  subtract({arr}) {
+    if (this.arr.length !== arr.length) throw new Error();
+    return new Vector(this.arr.map((val, idx) => val - arr[idx]));
+  }
+  
+  dot({arr}) {
+    if (this.arr.length !== arr.length) throw new Error();
+    return this.arr.reduce((pre, val, idx) => pre + val * arr[idx], 0);
+  }
+  
+  norm() {
+    return Math.hypot(...this.arr);
+  }
+  
+  toString() {
+    return `(${this.arr})`;
+  }
+  
+  equals({arr}) {
+    return this.arr.every((val, idx) => val === arr[idx]);
+  }
+}
