@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/56548dad6dae7b8756000037
+
+//JavaScript
+
+const WhatIsTheTime = timeInMirror => {
+  let [hh, mm] = timeInMirror.split(`:`);
+  mm = `${(60 - mm) % 60}`.padStart(2, `0`);
+  hh = `${12 - (+mm ? ++hh : hh) % 12}`.padStart(2, `0`);
+  return `${hh}:${mm}`;
+};
