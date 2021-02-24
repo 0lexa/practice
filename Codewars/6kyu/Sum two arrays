@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/59c3e8c9f5d5e40cab000ca6
+
+//JavaScript
+
+const addArrays = (arrayToNumber1, arrayToNumber2) =>
+  (val => val ? `${val}`.split(/(?<=\d)/).map(Number) : [])
+  (+arrayToNumber1.join(``) + +arrayToNumber2.join(``));
