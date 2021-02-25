@@ -1,0 +1,16 @@
+https://www.codewars.com/kata/526d84b98f428f14a60008da
+
+//JavaScript
+
+const hamming = n => {
+  let arr = [1];
+  let [i, j, k, i2, j3, k5] = [0, 0, 0, 2, 3, 5];
+  while (arr.length < n) {
+    let min = Math.min(i2, j3, k5);
+    arr.push(min);
+    if (i2 === min) i2 = arr[++i] * 2;
+    if (j3 === min) j3 = arr[++j] * 3;
+    if (k5 === min) k5 = arr[++k] * 5;
+  }
+  return arr.pop();
+};
