@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5571f712ddf00b54420000ee
+
+//JavaScript
+
+const looseChange = cents =>
+  (val => ({Quarters: val / 25 ^ 0, Dimes: val % 25 / 10 ^ 0, Nickels: val % 25 % 10 / 5 ^ 0, Pennies: val % 5 ^ 0}))
+  (Math.max(cents, 0));
