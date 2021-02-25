@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5410c0e6a0e736cf5b000e69
+
+//JavaScript
+
+const hamming = (a, b) =>
+  [...a].reduce((pre, val, idx) => pre + (val !== b[idx]), 0);
