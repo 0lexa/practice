@@ -1,0 +1,16 @@
+https://www.codewars.com/kata/51b66044bce5799a7f000003
+
+//JavaScript
+
+const dec = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
+const rom = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I'];
+
+class RomanNumerals {
+  static fromRoman(str) {
+    return str.match(/CM|CD|XC|XL|IX|IV|\w/g).reduce((pre, val) => pre + dec[rom.indexOf(val)], 0);
+  }
+  
+  static toRoman(num) {
+    return dec.reduce((pre, val, idx) => pre + rom[idx].repeat(num / val ^ 0, num -= val * (num / val ^ 0)), ``);
+  }
+}
