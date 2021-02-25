@@ -1,0 +1,14 @@
+https://www.codewars.com/kata/557f6437bf8dcdd135000010
+
+//JavaScript
+
+const factorial = n => {
+  if (!n) return `1`;
+  let arr = [n];
+  while (n-- > 1) {
+    let add = 0;
+    arr = arr.reduceRight((pre, val) => (add += val * n, pre.unshift(add % 10), add = add / 10 ^ 0, pre), []);
+    if (add) arr = [...`${add}`].concat(arr);
+  }
+  return arr.join(``);
+};
