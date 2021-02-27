@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5158bfce931c51b69b000001
+
+//JavaScript
+
+const extractIds = ({id, items}) =>
+  id && items ? [id].concat(...items.map(extractIds)) : !id ? [] : [id];
