@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/53ea07c9247bc3fcaa00084d
+
+//JavaScript
+
+const lookAndSay = (data, len) =>
+  [...Array(len)].map(() => data = data.replace(/(\d)\1*/g, val => val.length + val[0]));
