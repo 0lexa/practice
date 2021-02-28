@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55b22ef242ad87345c0000b2
+
+//JavaScript
+
+const choose = (n, k) =>
+  k ? Math.round(n / k * choose(--n, --k)) : 1;
