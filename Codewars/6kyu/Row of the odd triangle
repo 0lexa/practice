@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5d5a7525207a674b71aa25b5
+
+//JavaScript
+
+const oddRow = n =>
+  [...Array(n)].fill(1 + n * (n - 1)).map((val, idx) => val + idx * 2);
