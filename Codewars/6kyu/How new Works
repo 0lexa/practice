@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/525a5b2185a9a4f5670006c1
+
+//JavaScript
+
+const myObj = Object.create(MyObject.prototype);
+MyObject.call(myObj);
