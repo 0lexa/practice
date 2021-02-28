@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/551186edce486caa61000f5c
+
+//JavaScript
+
+const countSquares = n =>
+  Math.round(n ** 3 / 3 + n ** 2 / 2 + n / 6);
