@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5239f06d20eeab9deb00049b
+
+//JavaScript
+
+const fibonacci = n =>
+  n < 1 ? [] : n < 2 ? [0] : [...Array(n - 2)].reduce((pre, _, idx) => (pre.push(pre[idx] + pre[++idx]), pre), [0, 1]);
