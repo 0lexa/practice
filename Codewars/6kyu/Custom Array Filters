@@ -1,0 +1,23 @@
+https://www.codewars.com/kata/53fc954904a45eda6b00097f
+
+//JavaScript
+
+Array.prototype.even = function () {
+  return this.filter(Number.isInteger).filter(val => ~val & 1);
+};
+
+Array.prototype.odd = function () {
+  return this.filter(Number.isInteger).filter(val => val & 1);
+};
+
+Array.prototype.under = function (x) {
+  return this.filter(Number.isInteger).filter(val => val < x);
+};
+
+Array.prototype.over = function (x) {
+  return this.filter(Number.isInteger).filter(val => val > x);
+};
+
+Array.prototype.inRange = function (min, max) {
+  return this.filter(Number.isInteger).filter(val => val >= min && val <= max);
+};
