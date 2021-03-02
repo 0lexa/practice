@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/596f72bbe7cd7296d1000029
+
+//JavaScript
+
+const deepCount = a =>
+  a.reduce((pre, val) => ++pre + (Array.isArray(val) && deepCount(val)), 0);
