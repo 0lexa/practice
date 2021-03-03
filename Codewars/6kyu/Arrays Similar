@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/51e704f2d8dbace389000279
+
+//JavaScript
+
+const arraysSimilar = (arr1, arr2) =>
+  JSON.stringify(arr1.sort()) === JSON.stringify(arr2.sort());
