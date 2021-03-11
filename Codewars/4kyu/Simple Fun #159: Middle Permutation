@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/58ad317d1541651a740000c5
+
+//JavaScript
+
+const middlePermutation = s =>
+  (arr => [...arr.splice(arr.length >> 1, arr.length % 2 + 1), ...arr].join(``))
+  ([...s].sort().reverse());
