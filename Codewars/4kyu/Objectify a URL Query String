@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/5286d92ec6b5a9045c000087
+
+//JavaScript
+
+const convertQueryToMap = query =>
+  query.split(`&`).map(val => val.split(/[=.]/)).reduce((obj, arr) => {
+    const value = arr.pop();
+    arr.reduce((pre, val, idx) => (pre[val] = ++idx === arr.length ? decodeURIComponent(value) : pre[val] || {}, pre[val]), obj);
+    return obj;
+  }, {});
