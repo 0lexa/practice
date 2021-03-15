@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5282b48bb70058e4c4000fa7
+
+//JavaScript
+
+const hexStringToRGB = hexString =>
+  (([r, g, b]) => ({r, g, b}))
+  (hexString.match(/\w{2}/g).map(val => parseInt(val, 16)));
