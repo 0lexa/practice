@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/51e04f6b544cf3f6550000c1
+
+//JavaScript
+
+const beeramid = (bonus, price, lvl = 1) =>
+  lvl ** 3 / 3 + lvl ** 2 / 2 + lvl / 6 <= bonus / price ? beeramid(bonus, price, ++lvl) : --lvl;
