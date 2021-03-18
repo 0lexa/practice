@@ -1,0 +1,19 @@
+https://www.codewars.com/kata/545a5dd961aa4c0987000980
+
+//JavaScript
+
+Number.prototype.add = function (val) {
+  return this + val;
+};
+Number.prototype.subtract = function (val) {
+  return this - val;
+};
+Number.prototype.multiply = function (val) {
+  return this * val;
+};
+Number.prototype.divide = function (val) {
+  return this / val;
+};
+Number.prototype.square = function () {
+  return this ** 2;
+};
