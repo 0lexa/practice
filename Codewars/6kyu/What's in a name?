@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59daf400beec9780a9000045
+
+//JavaScript
+
+const nameInStr = (str, name) =>
+  new RegExp([...name].join(`.*`), `i`).test(str);
