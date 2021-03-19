@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5fc7d2d2682ff3000e1a3fbc
+
+//JavaScript
+
+const isAValidMessage = message =>
+  !message.replace(/(\d+)(\D+)/g, (_, $1, $2) => $1 - $2.length || ``);
