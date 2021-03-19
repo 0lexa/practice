@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5302f383be2a91e4d70002c6
+
+//JavaScript
+
+const zeroFill = (number, size) =>
+  `${Math.abs(~~number)}`.padStart(size, `0`);
