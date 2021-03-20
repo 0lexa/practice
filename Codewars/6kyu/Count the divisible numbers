@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55a5c82cd8e9baa49000004c
+
+//JavaScript
+
+const divisibleCount = (x, y, k) =>
+  Math.floor(y / k) - Math.floor(--x / k);
