@@ -1,0 +1,16 @@
+https://www.codewars.com/kata/556b85b433fb5e899200003f
+
+//JavaScript
+
+const mixedFraction = s => {
+  const gcd = (a, b) =>
+    b ? gcd(b, a % b) : a;
+  
+  let [num, den] = s.split(`/`).map(Math.abs);
+  const sign = s.match(/-|$/g).length % 2 ? `` : `-`;
+  const int = num / den ^ 0;
+  if (!den) throw new Error();
+  if (!(num % den)) return int ? `${sign}${int}` : `0`;
+  const div = gcd(num, den);
+  return `${sign}${num < den ? `` : int + ` `}${num % den / div}/${den / div}`;
+};
