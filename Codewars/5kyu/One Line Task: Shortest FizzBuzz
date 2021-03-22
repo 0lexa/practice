@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/59dc2c563d09a77d7c000031
+
+//JvaScript
+
+fizzBuzz=(a,b,c,d)=>[...Array(b- --a)].map(_=>(++a%c?``:`Fizz`)+(a%d?``:`Buzz`)||a)
