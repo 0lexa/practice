@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/58c21e99c80e0eac25000235
+
+//JavaScript
+
+brickCombos=(a,b)=>3*a*b-a-b+1
