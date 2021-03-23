@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/58a510fa8dff50aa56000030
+
+//JavaScript
+
+toASCIINumber=(a,b)=>+Buffer.from(a+b).join``
