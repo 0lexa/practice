@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/5a9d8cfb5084d79178000150
+
+//JavaScript
+
+sq=x=>x/(1/x)- -.5^0
