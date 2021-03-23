@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/58c8b9b026d93acc23000140
+
+//JavaScript
+
+esperanzasPies=t=>t*5>>2
