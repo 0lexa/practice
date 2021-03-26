@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/591be6fdb873a7722700008f
+
+//JavaScript
+
+countWord=s=>--s.split(/w.*?o.*?r.*?d/i).length
