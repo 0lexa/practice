@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/5a905291fd57772be0000039
+
+//JavaScript
+
+threesAndFives=n=>[--n/3-(m=n/15^0)^0,n/5-m^0,m]
