@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/570db6dade4dc8966600051c
+
+//JavaScript
+
+sc = (w, s = [0, 0, 0, 0]) =>
+  w.map((a, i) => a.map((b, j) => s[(j > 3) + (i > 3) * 2] += b)) && s.reduce((p, v) => p + v * (v > 5), 0)
