@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/570e8d5693214b0095001b08
+
+//JavaScript
+
+sc=(s,a)=>`${a.filter(v=>RegExp(`^${s.replace(/~/g,`.`)}`,`i`).test(v))}`
