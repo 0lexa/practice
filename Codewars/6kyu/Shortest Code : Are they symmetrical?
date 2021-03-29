@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/5705b59f5eef1f04f1000f84
+
+//JavaScript
+
+sc=o=>o===+o?sc(o+``):[...o].every((v,_,a)=>v==a.pop())
