@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56fe9d579b7bb6b027000001
+
+//JavaScript
+
+const sc = (arr, num) =>
+  num ? sc(arr.reduce((pre, val, idx) => pre.concat(val % 2 ? (arr.shift(), val * 3 + 1 + (arr[idx] || 0) ) : [val / 2, val / 2]), []), --num) : arr;
