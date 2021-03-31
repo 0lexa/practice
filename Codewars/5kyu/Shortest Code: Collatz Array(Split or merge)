@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/56fc7a29fca8b900eb001fac
+
+//JavaScript
+
+sc=(a,n)=>n?sc(a.reduce((p,v,i)=>p.concat(v%2?a.splice(i,1)*3+1+~~a[i]:[v/2,v/2]),[]),--n):a
