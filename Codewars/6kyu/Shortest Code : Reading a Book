@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/570c560c15944a98e9000fd2
+
+//JavaScript
+
+sc=w=>w.toLowerCase().replace(/[^a-z ]+/g,``).split(` `).reduce((p,v,i,a)=>a.indexOf(v)-i?++p:p+v.length,0)
