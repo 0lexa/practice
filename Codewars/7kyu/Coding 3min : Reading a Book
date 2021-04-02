@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/570ca6a520c69f39dd0016d4
+
+//JavaScript
+
+const sc = words =>
+  words.toLowerCase().replace(/[^a-z ]+/g, ``).split(` `).reduce((pre, val, idx, arr) => arr.indexOf(val) - idx ? ++pre : pre + val.length, 0);
