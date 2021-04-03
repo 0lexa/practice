@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/57109bf197b4b3853a000274
+
+//JavaScript
+
+sc=s=>[...s].reduce((p,v,i)=>v==s[++i]?p+2:p+7,0)-6
