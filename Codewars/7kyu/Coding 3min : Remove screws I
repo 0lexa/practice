@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5710a50d336aed828100055a
+
+//JavaScript
+
+const sc = screws =>
+  [...screws].reduce((pre, val, idx) => val === screws[++idx] ? pre + 2 : pre + 7, 0) - 6;
