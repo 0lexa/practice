@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/57049a1946edc26dbc00074a
+
+//JavaScript
+
+sc=a=>a.sort((a,b)=>a-b).reduceRight((p,v,i)=>i%2?[...p,v]:[v,...p],[])
