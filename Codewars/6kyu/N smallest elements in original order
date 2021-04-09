@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5aec1ed7de4c7f3517000079
+
+//JavaScript
+
+const firstNSmallest = (array, n, idx = array.lastIndexOf(Math.max(...array))) =>
+  array.length - n ? firstNSmallest([...array.slice(0, idx), ...array.slice(++idx)], n) : array;
