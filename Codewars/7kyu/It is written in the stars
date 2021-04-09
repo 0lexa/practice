@@ -1,0 +1,17 @@
+https://www.codewars.com/kata/5888a57cbf87c25c840000c6
+
+//JavaScript
+
+const starSign = (date, y = date.getFullYear()) =>
+  date < new Date(y, 0, 21) ? `Capricorn` :
+    date < new Date(y, 1, 20) ? `Aquarius` :
+      date < new Date(y, 2, 21) ? `Pisces` :
+        date < new Date(y, 3, 21) ? `Aries` :
+          date < new Date(y, 4, 22) ? `Taurus` :
+            date < new Date(y, 5, 22) ? `Gemini` :
+              date < new Date(y, 6, 23) ? `Cancer` :
+                date < new Date(y, 7, 24) ? `Leo` :
+                  date < new Date(y, 8, 24) ? `Virgo` :
+                    date < new Date(y, 9, 24) ? `Libra` :
+                      date < new Date(y, 10, 23) ? `Scorpio` :
+                        date < new Date(y, 11, 22) ? `Sagittarius` : `Capricorn`;
