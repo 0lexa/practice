@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/58068479c27998b11900056e
+
+//JavaScript
+
+const sortTwisted37 = array =>
+  (fn => [...array].sort((a, b) => fn(a) - fn(b)))
+  (val => `${val}`.replace(/[37]/g, v => v === `3` ? 7 : 3));
