@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/54b679eaac3d54e6ca0008c9
+
+//JavaScript
+
+const createIterator = (func, n) =>
+  n - 1 ? val => func(createIterator(func, n - 1)(val)) : func;
