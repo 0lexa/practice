@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/540954232a3259755d000039
+
+//JavaScript
+
+const fridayTheThirteenths = (start, end = start) =>
+  [...Array((end - start + 1) * 12).keys()]
+    .filter(val => new Date(start, val, 13).getDay() === 5)
+    .map(val => `${val % 12 + 1}/13/${start + val / 12 ^ 0}`)
+    .join(` `);
