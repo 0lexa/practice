@@ -1,0 +1,15 @@
+https://www.codewars.com/kata/5aeed69804a92621a7000077
+
+//JavaScript
+
+const performantSmallest = (arr, n) => {
+  const a = arr.reduce((pre, val) => (pre[val] = -~pre[val], pre), []);
+  for (let i in a) {
+    if (n >= a[i]) n -= a[i];
+    else {
+      a[i] = n;
+      a.length = ++i;
+    }
+  }
+  return arr.filter(val => --a[val] >= 0);
+};
