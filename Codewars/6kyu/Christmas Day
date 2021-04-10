@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/52af9d951f5a1298b2000170
+
+//JavaScript
+
+const findOutChristmasWeekday = date =>
+  new Date(date).toLocaleDateString(`en-US`, {weekday: 'long'});
