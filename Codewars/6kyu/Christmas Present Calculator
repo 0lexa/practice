@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/585b989c45376c73e30000d1
+
+//JavaScript
+
+const countPresents = (prod, presents) => {
+  let time = Object.values(prod).reduce((pre, val) => pre + val) * 8.64e4;
+  presents = presents.map(val => val.split(`:`)).map(([h, m, s]) => h * 3600 + m * 60 + +s).sort((a, b) => a - b);
+  for (let i = 0; i < presents.length; i++) {
+    if ((time -= presents[i]) < 0) return i;
+  }
+  return presents.length;
+};
