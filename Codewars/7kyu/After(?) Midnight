@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56fac4cfda8ca6ec0f001746
+
+//JavaScript
+
+const dayAndTime = n=>
+  new Date(new Date(1970, 0, 4).setMinutes(n)).toLocaleDateString('en-US', {weekday: `long`, hour12 : false, hour: `2-digit`, minute: `2-digit`});
