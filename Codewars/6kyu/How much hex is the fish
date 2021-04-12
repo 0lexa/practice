@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5714eb80e1bf814e53000c06
+
+//JavaScript
+
+const fisHex = name =>
+  [...name].reduce((pre, val) => pre ^ `0x${val}`, 0);
