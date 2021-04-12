@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5857e8bb9948644aa1000246
+
+//JavaScript
+
+const determineTime = durations =>
+  durations.map(val => val.split(`:`)).reduce((pre, [h, m, s]) => pre + h * 3600 + m * 60 + +s, 0) <= 8.64e4;
