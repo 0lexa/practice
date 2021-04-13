@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a0d6d8c6975982b5b000383
+
+//JavaScript
+
+const lastDayIsFriday = (initialYear, endYear = initialYear) =>
+  [...Array(12 * (endYear - initialYear + 1))].reduce((pre, _, idx) => pre + (new Date(initialYear, ++idx, 0).getDay() === 5), 0);
