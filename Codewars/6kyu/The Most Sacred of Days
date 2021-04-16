@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/52dd673c80db65531e000488
+
+//JavaScript
+
+const blackFriday = year =>
+  29 - new Date(year, 11, 1).getDay();
