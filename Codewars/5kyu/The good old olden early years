@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/52de672aa5bde77f360003bf
+
+//JavaScript
+
+const getGoodOldDay = input =>
+  ((day, month, year) => new Date(new Date().setFullYear(year, --month, day)).toLocaleDateString(`en-US`, {weekday: `long`}))
+  (...input.split(`-`));
