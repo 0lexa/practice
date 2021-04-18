@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/588d54c2ce8a3532a500001b
+
+//JavaScript
+
+const getDayOfTheWeek = date =>
+  new Date(date).toLocaleString(`en-US`, {weekday: `long`});
