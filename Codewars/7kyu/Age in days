@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5803753aab6c2099e600000e
+
+//JavaScript
+
+const ageInDays = (year, month, day) =>
+  `You are ${(new Date() - new Date(year, --month, day)) / 8.64e7 ^ 0} days old`;
