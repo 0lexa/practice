@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/579fa665bb9944f9340005d2
+
+//JavaScript
+
+const rotateToMax = n =>
+  +[...`${n}`].sort().reverse().join(``);
