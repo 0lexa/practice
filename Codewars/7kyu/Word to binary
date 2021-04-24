@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59859f435f5d18ede7000050
+
+//JavaScript
+
+const wordToBin = str =>
+  [...str].map(val => `0${val.charCodeAt().toString(2)}`);
