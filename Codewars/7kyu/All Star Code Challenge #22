@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5865cff66b5699883f0001aa
+
+//JavaScript
+
+const toTime = seconds =>
+  `${seconds / 3600 ^ 0} hour(s) and ${seconds % 3600 / 60 ^ 0} minute(s)`;
