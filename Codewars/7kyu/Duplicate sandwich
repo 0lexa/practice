@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5f8a15c06dbd530016be0c19
+
+//JavaScript
+
+const duplicateSandwich = a =>
+  ((start, end) => a.slice(++start, end))
+  (...[...a].reduce((pre, val, idx) => a.indexOf(val) === a.lastIndexOf(val) ? pre : [...pre, idx], []));
