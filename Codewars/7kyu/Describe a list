@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57a4a3e653ba3346bc000810
+
+//JavaScript
+
+const describeList = x =>
+  [`empty`, `singleton`, `longer`][Math.min(x.length, 2)];
