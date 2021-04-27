@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56242b89689c35449b000059
+
+//JavaScript
+
+const chessBoard = (rows, columns) =>
+  [...Array(rows)].map((_, idx) => [...Array(columns)].map((_, i) => `OX`[idx + i & 1]));
