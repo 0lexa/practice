@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/58e3e62f20617b6d7700120a
+
+//JavaScript
+
+const trianglePerimeter = ({a, b, c}) =>
+  (fn => fn(a, b) + fn(b, c) + fn(c, a))
+  ((p1, p2) => Math.hypot(p2.x - p1.x, p2.y - p1.y));
