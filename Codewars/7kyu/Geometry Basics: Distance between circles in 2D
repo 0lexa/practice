@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58e3031ce265671f6a000542
+
+//JavaScript
+
+const distanceBetweenCircles = (a, b) =>
+  Math.max(Math.hypot(b.center.x - a.center.x, b.center.y - a.center.y) - a.radius - b.radius, 0);
