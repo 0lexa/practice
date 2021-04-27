@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58e4377c46e371aee7001262
+
+//JavaScript
+
+const triangleArea = ({a, b, c}) =>
+  Math.abs((a.x - c.x) * (b.y - c.y) - (b.x - c.x) * (a.y - c.y)) / 2;
