@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5932c94f6aa4d1d786000028
+
+//JavaScript
+
+const perfectRoots = n => 
+  !(n ** (1 / 8) % 1);
