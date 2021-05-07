@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/599db0a227ca9f294b0000c8
+
+//JavaScript
+
+const testResult = array =>
+  (obj => [Math.round(array.reduce((pre, val) => pre + val) / array.length * 1e3) / 1e3, obj].concat(obj.a || obj.l ? [] : `They did well`))
+  (array.reduce((pre, val) => (val > 8 ? pre.h++ : val > 6 ? pre.a++ : pre.l++, pre), {h: 0, a: 0, l: 0}));
