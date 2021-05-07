@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/603b2bb1c7646d000f900083
+
+//JavaScript
+
+const shifter = s =>
+  new Set(s.match(/\b[HINOSXZMW]+\b/g)).size;
