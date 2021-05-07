@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/5b5e0c0d83d64866bc00001d
+
+//JavaScript
+
+const sayMeOperations = str =>
+  (arr => arr.slice(2).map((val, idx) =>
+    val === arr[idx] + arr[idx + 1] ? `addition` :
+      val === arr[idx] - arr[idx + 1] ? `subtraction` :
+        val === arr[idx] * arr[idx + 1] ? `multiplication` : `division`).join(`, `))
+  (str.split(` `).map(Number));
