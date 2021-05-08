@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a40c250c5e284a76400008c
+
+//JavaScript
+
+const bouncingBall = (initial, proportion) =>
+  initial > 1 && bouncingBall(initial *= proportion, proportion) + 1;
