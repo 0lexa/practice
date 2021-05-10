@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56eff1e64794404a720002d2
+
+//JavaScript
+
+const testit = s =>
+  (s.match(/w.*?o.*?r.*?d/ig) || []).length;
