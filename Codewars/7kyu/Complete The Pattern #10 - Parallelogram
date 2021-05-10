@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5581a7651185fe13190000ee
+
+//JavaScript
+
+const pattern = n =>
+  (nums => Array.from({length: n}, (_, idx) => ` `.repeat(n - idx - 1) + nums + ` `.repeat(idx)).join(`\n`))
+  (Array.from({length: n}, (_, idx) => ++idx % 10).join(``));
