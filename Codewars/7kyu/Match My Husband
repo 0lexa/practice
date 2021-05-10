@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5750699bcac40b3ed80001ca
+
+//JavaScript
+
+const match = (usefulness, months) =>
+  `${usefulness.reduce((pre, val) => pre + val / 100, 0) < .85 ** months? `No m` : `M`}atch!`;
