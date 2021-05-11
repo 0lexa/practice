@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57b2020eb69bfcbf64000375
+
+//JavaScript
+
+const nextLetter = str =>
+  str.replace(/[a-z]/gi, val => val.charCodeAt() === 90 ? `A` : val.charCodeAt() === 122 ? `a` : String.fromCharCode(val.charCodeAt() + 1));
