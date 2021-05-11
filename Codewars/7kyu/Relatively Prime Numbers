@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/56b0f5f84de0afafce00004e
+
+//JavaScript
+
+const gcd = (a, b) =>
+  b ? gcd(b, a % b) : a;
+
+const relativelyPrime = (n, l) =>
+  l.filter(val => gcd(val, n) === 1);
