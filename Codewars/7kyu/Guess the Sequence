@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5b45e4b3f41dd36bf9000090
+
+//JavaScript
+
+const sequence = x =>
+  [...Array(x)].map((_, idx) => ++idx).sort();
