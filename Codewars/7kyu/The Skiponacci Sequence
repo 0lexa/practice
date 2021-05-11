@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/580777ee2e14accd9f000165
+
+//JavaScript
+
+const skiponacci = n =>
+  [...Array(n)].map((_, idx) => ++idx & 1 ? Math.round(((1 + 5 ** .5) / 2) ** idx / 5 ** .5) : `skip`).join(` `);
