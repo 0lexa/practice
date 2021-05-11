@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5734c38da41454b7f700106e
+
+//JavaScript
+
+const onlyOne = (...args) => 
+  args.filter(Boolean).length === 1;
