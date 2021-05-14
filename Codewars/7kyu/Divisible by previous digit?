@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a2809dbe1ce0e07f800004d
+
+//JavaScript
+
+const divisibleByLast = n =>
+  [...`${n}`].map((val, idx, arr) => val % arr[--idx] === 0);
