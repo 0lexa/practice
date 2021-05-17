@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59b11f57f322e5da45000254
+
+//Javascript
+
+const onesComplement = n =>
+  n.replace(/./g, val => val ^ 1);
