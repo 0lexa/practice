@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/52180ce6f626d55cf8000071
+
+//JavaScript
+
+const strToHash = str =>
+  JSON.parse(`{${str.replace(/(\w+)=(\d+)/g, (_, key, val) => `"${key}":${val}`)}}`);
