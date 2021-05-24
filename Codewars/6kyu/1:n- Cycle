@@ -1,0 +1,14 @@
+https://www.codewars.com/kata/5a057ec846d843c81a0000ad
+
+//JavaScript
+
+const cycle = n => {
+  if (!(n % 2 * n % 5)) return -1;
+  let i = 1;
+  let r = 10 % n;
+  while (r - 1) {
+    r = r * 10 % n;
+    i++;
+  }
+  return i;
+};
