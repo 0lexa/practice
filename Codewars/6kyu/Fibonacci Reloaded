@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/52549d3e19453df56f0000fe
+
+//JavaScript
+
+const fib = n =>
+  Math.round(((1 + 5 ** .5) / 2) ** --n / 5 ** .5);
