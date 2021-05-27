@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/606efc6a9409580033837dfb
+
+//JavaScript
+
+const plant = (seed, water, fert, temp) =>
+  temp < 20 || temp > 30 ? `-`.repeat(water * water) + seed : (`-`.repeat(water) + seed.repeat(fert)).repeat(water);
