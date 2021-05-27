@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58c21c4ff130b7cab400009e
+
+//JavaScript
+
+const guessHatColor = (a, b, c, d) =>
+  2 - (b === c);
