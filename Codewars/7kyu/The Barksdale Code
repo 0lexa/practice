@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/573d498eb90ccf20a000002a
+
+//JavaScript
+
+const decode = string =>
+  string.replace(/./g, val => `5987604321`[val]);
