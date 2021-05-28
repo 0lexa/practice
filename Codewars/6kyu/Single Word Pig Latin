@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/558878ab7591c911a4000007
+
+//JavaScript
+
+const pigLatin = string =>
+  /[^a-z]/i.test(string) ? null : string.toLowerCase().replace(/(^[^aeiou]*)(\w*$)/, (_, $1, $2) => $2 + ($1 || `w`) + `ay`);
