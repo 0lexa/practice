@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/56b5dc75d362eac53d000bc8
+
+//JavaScript
+
+const calculateString = st =>
+  (([a, op, b]) => (op === `+` ? +a + +b : op === `-` ? a - b : op === `*` ? a * b : a / b).toFixed())
+  (st.replace(/[^\d./+*-]/g, ``).match(/\d+\.*\d*|[/+*-]/g));
