@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/53ad69892a27079b34000bd9
+
+//JavaScript
+
+const Ackermann = (m, n) =>
+  !(Number.isInteger(m) && Number.isInteger(n) && m >= 0 && n >= 0) ? null :
+    !m ? ++n : m > 0 && !n ? Ackermann(--m, 1) : Ackermann(m - 1, Ackermann(m, --n));
