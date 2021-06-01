@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/59f4a0acbee84576800000af
+
+//JavaScript
+
+const posAverage = s => {
+  const arr = s.split(/\D+/);
+  const max = arr.length * (arr.length - 1) / 2 * arr[0].length;
+  const match = arr.reduce((pre, val, idx) => pre + arr.slice(++idx).reduce((pr, va) => pr + va.replace(/\d/g, (v, i) => v === val[i] ? v : ``).length, 0), 0);
+  return Math.round(match / max * 1e12) / 1e10;
+};
