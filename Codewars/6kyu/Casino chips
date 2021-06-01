@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5e0b72d2d772160011133654
+
+//JavaScript
+
+const solve = arr =>
+  Math.min(arr.sort((a, b) => a - b).reduce((pre, val) => pre + val) >> 1, arr[0] + arr[1]);
