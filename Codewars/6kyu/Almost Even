@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/529e2e1f16cb0fcccb000a6b
+
+//JavaScript
+
+const splitInteger = (n, p) => 
+  [...Array(p)].map((_, idx) => (n / p ^ 0) + (p - ++idx < n % p));
