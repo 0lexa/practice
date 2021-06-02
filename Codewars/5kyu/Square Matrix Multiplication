@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5263a84ffcadb968b6000513
+
+//JavaScript
+
+const matrixMultiplication = (a, b) =>
+  a.map(val => val.map((_, idx) => val.reduce((pre, v, i) => pre + v * b[i][idx], 0)));
