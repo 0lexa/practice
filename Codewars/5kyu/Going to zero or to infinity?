@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55a29405bc7d2efaff00007c
+
+//JavaScript
+
+const going = n =>
+  ([...Array(--n)].reduce((pre, _, idx) => pre / (idx + 2) + 1, 1) * 1e6 ^ 0) / 1e6;
