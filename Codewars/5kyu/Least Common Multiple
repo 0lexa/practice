@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/5259acb16021e9d8a60010af
+
+//JavaScript
+
+const gcd = (...args) =>
+  args.reduce((pre, val) => !val && pre || gcd(val, pre % val));
+
+const lcm = (...args) =>
+  args.reduce((pre, val) => Math.abs(pre * val) / gcd(pre, val));
