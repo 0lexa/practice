@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/52503c77e5b972f21600000e
+
+//JavaScript
+
+const largestDifference = data =>
+  Math.max(...data.map((val, idx) => data.slice(idx).reduce((pre, v, i) => v >= val ? i : pre, 0)));
