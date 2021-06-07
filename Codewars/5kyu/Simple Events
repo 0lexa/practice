@@ -1,0 +1,21 @@
+https://www.codewars.com/kata/52d3b68215be7c2d5300022f
+
+//JavaScript
+
+class Event {
+  constructor() {
+    this.handlers = new Set();
+  }
+
+  subscribe(fn) {
+    this.handlers.add(fn);
+  }
+
+  unsubscribe(fn) {
+    this.handlers.delete(fn);
+  }
+
+  emit(...args) {
+    this.handlers.forEach(fn => fn(...args));
+  }
+}
