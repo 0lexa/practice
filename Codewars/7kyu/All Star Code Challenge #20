@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5865a75da5f19147370000c7
+
+//JavaScript
+
+const addArrays = (array1, array2) =>
+  array1.length === array2.length ? array1.map((val, idx) => val + array2[idx]) : (() => {throw new Error()})();
