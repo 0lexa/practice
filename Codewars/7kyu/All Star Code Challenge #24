@@ -1,0 +1,8 @@
+https://www.codewars.com/kata/5866c6cf442e3f16f9000089
+
+//JavaScript
+
+const hypotenuse = Math.hypot;
+
+const leg = (c, a) => 
+  (c ** 2 - a ** 2) ** .5;
