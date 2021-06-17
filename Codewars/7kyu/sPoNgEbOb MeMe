@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5982619d2671576e90000017
+
+//JavaScript
+
+const spongeMeme = sentence =>
+  sentence.replace(/./g, (val, idx) => val[`to${idx % 2 ? `Low` : `Upp`}erCase`]());
