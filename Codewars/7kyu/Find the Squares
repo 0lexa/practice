@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/60908bc1d5811f0025474291
+
+//JavaScript
+
+const findSquares = num =>
+  `${((num >> 1) + 1) ** 2}-${(num >> 1) ** 2}`;
