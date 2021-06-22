@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5899f1df27926b7d000000eb
+
+//JavaScript
+
+const towerOfHanoi = rings =>
+  2 ** rings - 1;
