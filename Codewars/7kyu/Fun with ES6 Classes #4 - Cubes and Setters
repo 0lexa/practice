@@ -1,0 +1,25 @@
+https://www.codewars.com/kata/56fcc1ee45040039ab0016da
+
+//JavaScript
+
+class Cube {
+  constructor(length) {
+    this.length = length;
+  }
+  
+  get surfaceArea() {
+    return this.length ** 2 * 6;
+  }
+  
+  set surfaceArea(val) {
+    this.length = Math.sqrt(val / 6);
+  }
+  
+  get volume() {
+    return this.length ** 3;
+  }
+  
+  set volume(val) {
+    this.length = Math.cbrt(val);
+  }
+}
