@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5b04be641839f1a0ab000151
+
+//JavaScript
+
+const shiritori = words =>
+  (idx => words[0] === `` ? [] : idx === -1 ? words : words.slice(0, idx))
+  (words.findIndex((val, idx) => idx && [...val].shift() !== [...words[--idx]].pop()));
