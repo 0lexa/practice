@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/543da2dd23ccbd1fb600048e
+
+//JavaScript
+
+const sign = n =>
+  !+n || isNaN(n) ? +n : n > 0 ? 1 : -1;
