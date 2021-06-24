@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58999425006ee3f97c00011f
+
+//JavaScript
+
+const passed = list =>
+  Math.round(list.filter(val => val <= 18).reduce((pre, val, _, arr) => pre + val / arr.length, 0)) || `No pass scores registered.`;
