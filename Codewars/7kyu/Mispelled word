@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5892595f190ca40ad0000095
+
+//JavaScript
+
+const mispelled = (word1, word2) =>
+  (len => len === 1 ? word2.includes(word1) || word1.includes(word2) : !len ? [...word1].reduce((pre, val, idx) => pre + (word2[idx] !== val), 0) === 1 : false)
+  (Math.abs(word1.length - word2.length));
