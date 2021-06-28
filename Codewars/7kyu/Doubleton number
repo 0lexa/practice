@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/604287495a72ae00131685c7
+
+//JavaScript
+
+const doubleton = num =>
+  new Set([...`${++num}`]).size === 2 ? num : doubleton(num);
