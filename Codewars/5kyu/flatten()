@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/513fa1d75e4297ba38000003
+
+//JavaScript
+
+const flatten = (...args) =>
+  args.reduce((pre, val) => pre.concat(Array.isArray(val) ? flatten(...val) : val), []);
