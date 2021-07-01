@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/592915cc1fad49252f000006
+
+//JavaScript
+
+const noIfsNoButs = (a, b) =>
+  `${a} is ${[`smaller than`, `equal to`, `greater than`][Math.sign(a - b) + 1]} ${b}`;
