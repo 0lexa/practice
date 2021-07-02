@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/580751a40b5a777a200000a1
+
+//JavaScript
+
+const vowelOne = s =>
+  s.replace(/./g, val => +/[aeiou]/gi.test(val));
