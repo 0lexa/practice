@@ -3,4 +3,4 @@ https://www.codewars.com/kata/586efc2dcf7be0f217000619
 //JavaScript
 
 const reverseSlice = str =>
-  [...Array(str.length)].fill(str.replace(/./g, (_, idx) => str[str.length - ++idx])).map((val, idx) => val.slice(idx));
+  Array(str.length).fill(str.replace(/./g, (_, idx) => str[str.length - ++idx])).map((val, idx) => val.slice(idx));
