@@ -1,0 +1,18 @@
+https://www.codewars.com/kata/5434d8487abffa2f64000db6
+
+//JavaScript
+
+const BARK  = `woof woof`;
+const SLEEP = `zzzzzzzzz....`;
+
+const dog_bark_by_default = (bark = true) =>
+  bark ? BARK : SLEEP;
+
+const dog_bark_only_if_told_so = bark =>
+  bark ? BARK : SLEEP;
+
+const dog_dont_bark_by_default = (dont_bark = true) =>
+  dont_bark ? SLEEP : BARK;
+
+const dog_dont_bark_only_if_told_so = dont_bark =>
+  dont_bark ? SLEEP : BARK;
