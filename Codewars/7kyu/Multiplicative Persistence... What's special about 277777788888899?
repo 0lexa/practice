@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5c942f40bc4575001a3ea7ec
+
+//JavaScript
+
+const per = n =>
+  n > 9 ? [n = [...`${n}`].reduce((pre, val) => pre * val, 1), ...per(n)] : [];
