@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/599f403119afacf9f1000051
+
+//JavaScript
+
+const nextPerfectSquare = n =>
+  (n ** .5 + 1 ^ 0) ** 2 || 0;
