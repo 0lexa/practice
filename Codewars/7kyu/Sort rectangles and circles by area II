@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5a1ebc2480171f29cf0000e5
+
+//JavaScript
+
+const sortByArea = array =>
+  (fn => [...array].sort((a, b) => fn(a) - fn(b)))
+  (val => val[0] * val[1] || val ** 2 * Math.PI);
