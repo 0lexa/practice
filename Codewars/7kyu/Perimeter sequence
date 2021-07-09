@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/589519d1f0902e01af000054
+
+//JavaScript
+
+const perimeterSequence = (a, n) =>
+  4 * a * n;
