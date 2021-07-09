@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55b4f9906ac454650900007d
+
+//JavaScript
+
+const stringChunk = (str, n) =>
+  str && n > 0 ? str.match(new RegExp(`.{1,${n}}`,`g`)) : [];
