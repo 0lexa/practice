@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/587e18b97a25e865530000d8
+
+//JavaScript
+
+const anagramCounter = wordsArray =>
+  (arr => [...new Set(arr)].map(val => arr.filter(v => v === val).length).reduce((pre, val) => pre + val * --val / 2, 0))
+  (wordsArray.map(val => [...val].sort().join(``)));
