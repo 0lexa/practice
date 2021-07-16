@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/541db50c259d9c55c00007b9
+
+//JavaScript
+
+String.prototype.toBase64 = function () {
+  return new Buffer(`${this}`).toString(`base64`);
+};
+
+String.prototype.fromBase64 = function () {
+  return new Buffer(`${this}`, `base64`).toString(`utf8`);
+};
