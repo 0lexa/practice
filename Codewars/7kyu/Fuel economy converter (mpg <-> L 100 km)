@@ -1,0 +1,8 @@
+https://www.codewars.com/kata/558aa460dcfb4a94c40001d7
+
+//JavaScript
+
+const mpg2lp100km = x =>
+  Math.round(23521.4583 / x) / 1e2;
+
+const lp100km2mpg = mpg2lp100km;
