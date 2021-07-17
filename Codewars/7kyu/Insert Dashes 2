@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55c3026406402936bc000026
+
+//JavaScript
+
+const insertDashII = num =>
+  `${num}`.replace(/[13579](?=[13579])/g, `$&-`).replace(/[2468](?=[2468])/g, `$&*`);
