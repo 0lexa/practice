@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57193a349906afdf67000f50
+
+//JavaScript
+
+const magicSum = numbers =>
+  Array.isArray(numbers) ? numbers.reduce((pre, val) => pre + (/3/.test(val) && val % 2 && val), 0) : 0;
