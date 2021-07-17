@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/59cd155d1a68b70f8e000117
+
+//JavaScript
+
+const middleMe = (N, X, Y) =>
+  (Y => Y + X + Y)
+  (N % 2 ? `` : Y.repeat(N / 2));
