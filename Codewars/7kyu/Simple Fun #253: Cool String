@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/590fd3220f05b4f1ad00007c
+
+//JavaScript
+
+const coolString = s =>
+  !/[^A-Za-z]|[A-Z]{2,}|[a-z]{2,}/.test(s);
