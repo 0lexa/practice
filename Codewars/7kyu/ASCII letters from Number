@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/589ebcb9926baae92e000001
+
+//JavaScript
+
+const convert = number =>
+  String.fromCharCode(...number.match(/\d{2}/g));
