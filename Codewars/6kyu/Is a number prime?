@@ -10,4 +10,4 @@ const isPrime = num => {
 }
 
 //const isPrime = num =>
-//  !/^1?$|^(11+?)\1+$/.test(Array(num).fill(1).join(``);
+//  !/^x?$|^(xx+?)\1+$/.test(`x`.repeat(num));
