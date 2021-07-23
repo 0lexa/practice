@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5785cd91a1b8d5c06e000007
+
+//JavaScript
+
+const reOrdering = text =>
+  text.replace(/^(.*) ([A-Z]\w*)(.*)$/, `$2 $1$3`);
