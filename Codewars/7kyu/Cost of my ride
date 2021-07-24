@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/586430a5b3a675296a000395
+
+//JavaScript
+
+const insurance = (age, size, numofdays) =>
+  (50 + (age < 25 && 10) + (size === `medium` && 10 || size !== `economy` && 15)) * (numofdays > 0 && numofdays);
