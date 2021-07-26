@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5e2c7639b5d728001489d910
+
+//JavaScript
+
+const getProductId = url =>
+  url.match(/\d+(?=-\d+)/)[0];
