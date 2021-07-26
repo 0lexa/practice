@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5630d1747935943168000013
+
+//JavaScript
+
+const scoreToTally = score =>
+  `e <br>`.repeat(score / 5) + [``, `a`, `b`, `c`, `d`][score % 5];
