@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a05fe8a06d5b6208e00010b
+
+//JavaScript
+
+const seqToOne = n =>
+  [...Array(Math.abs(n - 1) + 1)].map((_, idx) => n + (n > 0 ? -idx : idx));
