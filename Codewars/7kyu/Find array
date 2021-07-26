@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59a2a3ba5eb5d4e609000055
+
+//JavaScript
+
+const findArray = (arr1, arr2) =>
+  arr2.filter(val => val < arr1.length).map(val => arr1[val]);
