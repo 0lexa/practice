@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/581214d54624a8232100005f
+
+//JavaScript
+
+const matrix = array =>
+  array.map((val, idx) => val.map((v, i) => i === idx ? +(v >= 0) : v));
