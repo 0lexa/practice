@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56d9b46113f38864b8000c5a
+
+//JavaScript
+
+const testit = ([a, b, c, d]) =>
+  a * d + b * c;
