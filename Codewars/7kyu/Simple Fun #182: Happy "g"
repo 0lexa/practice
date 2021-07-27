@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58bcd27b7288983803000002
+
+//JavaScript
+
+const gHappy = str =>
+  !/(^|[^g])g([^g]|$)/.test(str);
