@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5723b111101f5f905f0000a5
+
+//JavaScript
+
+const resistor_parallel = (...args) =>
+  args.reduce((pre, val) => pre + val ** -1, 0) ** -1;
