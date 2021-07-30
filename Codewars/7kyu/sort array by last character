@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55aea0a123c33fa3400000e7
+
+//JavaScript
+
+const sortMe = arr =>
+  [...arr].sort((a, b) => `${a}`.slice(-1).localeCompare(`${b}`.slice(-1)) || arr.indexOf(a) - arr.indexOf(b));
