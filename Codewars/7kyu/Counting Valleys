@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5da9973d06119a000e604cb6
+
+//JavaScript
+
+const countingValleys = s =>
+  [...s].reduce((pre, val) => (val === `U` && pre[0] === -1 && ++pre[1], val === `U` && ++pre[0], val === `D` && --pre[0], pre), [0, 0])[1];
