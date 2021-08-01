@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56f399b59821793533000683
+
+//JavaScript
+
+const sortCards = array =>
+  array.sort((a, b) => `A23456789TJQK`.indexOf(a) - `A23456789TJQK`.indexOf(b));
