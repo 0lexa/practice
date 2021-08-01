@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/563cc8c1a3895d7d30000049
+
+//JavaScript
+
+const mul = (a, b, c = 0) =>
+  b ? mul(a, --b, c + a) : c;
