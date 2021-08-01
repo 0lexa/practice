@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5702f077e55d30a7af000115
+
+//JavaScript
+
+const countName = (anArr, name) =>
+  anArr.reduce((pre, val) => pre + (val === name), 0);
