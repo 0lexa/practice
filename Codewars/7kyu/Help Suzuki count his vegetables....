@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/56ff1667cc08cacf4b00171b
+
+//JavaScript
+
+const countVegetables = string =>
+  (arr => [...new Set(arr)].map(val => [arr.filter(v => v === val).length, val]).sort((a, b) => b[0] - a[0] || b[1].localeCompare(a[1])))
+  (string.match(/cabbage|carrot|celery|cucumber|mushroom|onion|pepper|potato|tofu|turnip/g));
