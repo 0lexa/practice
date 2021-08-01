@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55d8dc4c8e629e55dc000068
+
+//JavaScript
+
+const trigrams = phrase =>
+  phrase.replace(/\s/g, `_`).replace(/.(?=(.{2}))/g, `$&$1 `).slice(0, -3);
