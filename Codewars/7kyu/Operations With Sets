@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5609fd5b44e602b2ff00003a
+
+//JavaScript
+
+const process2Arrays = (arr1, arr2) =>
+  ((a, b) => [arr1.length + arr2.length - new Set(arr1.concat(arr2)).size, a + b, a, b])
+  (...[arr1.filter(val => !arr2.includes(val)).length, arr2.filter(val => !arr1.includes(val)).length]);
