@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5899e054aa1498da6b0000cc
+
+//JavaScript
+
+const reverseInvert = array =>
+  array.filter(val => Number.isInteger(val)).map(val => [...`${Math.abs(val)}`].reverse().join(``) * -Math.sign(val));
