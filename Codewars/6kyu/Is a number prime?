@@ -11,3 +11,5 @@ const isPrime = num => {
 
 //const isPrime = num =>
 //  !/^x?$|^(xx+?)\1+$/.test(`x`.repeat(num));
+//
+//num < 6_710_860
