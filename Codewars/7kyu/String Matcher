@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/565ce4ab24ef4aee6a000074
+
+//JavaScript
+
+const isMatching = (string, str1, str2) =>
+  (fn => fn(string) === fn(str1 + str2))
+  (val => [...val.replace(/\s/g, ``).toLowerCase()].sort().join(``));
