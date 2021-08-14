@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59cf805aaeb28438fe00001c
+
+//JavaScript
+
+const sum = digits =>
+  digits || digits === 0 ? [...`${digits}`].join(` + `) + ` = ` + [...`${digits}`].reduce((pre, val) => +val + pre, 0) : ``;
