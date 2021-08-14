@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/550aea365951383698000727
+
+//JavaScript
+
+const split = (arr, prop) =>
+  arr.reduce((pre, val) => (pre[+!val[prop]].push(val), pre), [[], []]);
