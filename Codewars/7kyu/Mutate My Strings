@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59bc0059bf10a498a6000025
+
+//JavaScript
+
+const mutateMyStrings = (str1, str2) =>
+  [...new Set([...`${str1} `].map((_, idx) => `${str2.slice(0, idx)}${str1.slice(idx)}\n`))].join(``);
