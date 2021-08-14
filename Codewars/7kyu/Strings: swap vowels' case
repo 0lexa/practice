@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5803c0c6ab6c20a06f000026
+
+//JavaScript
+
+const swapVowelCase = str =>
+  str.replace(/[aeiou]/gi, val => val[`to${val < `a` ? `Low` : `Upp`}erCase`]());
