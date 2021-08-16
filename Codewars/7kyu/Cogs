@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59e1b9ce7997cbecb9000014
+
+//JavaScript
+
+const cogRpm = cogs =>
+  (cogs.length % 2 * 2 - 1) * cogs.shift() / cogs.pop();
