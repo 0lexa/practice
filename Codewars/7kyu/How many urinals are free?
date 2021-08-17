@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5e2733f0e7432a000fb5ecc4
+
+//JavaScript
+
+const getFreeUrinals = urinals =>
+  /11/.test(urinals) ? -1 : (`0${urinals}0`.match(/00(?=0)/g) || []).length;
