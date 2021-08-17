@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5710443187a36a9cee0005a1
+
+//JavaScript
+
+const sc = (width, length, gaps) =>
+  (width = (width + length - 2) * 2 / ++gaps) % 1 ? 0 : width;
