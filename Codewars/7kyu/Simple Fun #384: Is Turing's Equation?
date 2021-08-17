@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a1e6323ffe75f71ae000026
+
+//JavaScript
+
+const isTuringEquation = s =>
+  ![...s].reverse().join(``).split(/\D/).reduce((pre, val) => pre - val);
