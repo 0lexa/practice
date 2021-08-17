@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/53daa9e5af55c184db00025f
+
+//JavaScript
+
+const isPrime = n =>
+ !/^x?$|^(xx+?)\1+$/.test(`x`.repeat(n));
