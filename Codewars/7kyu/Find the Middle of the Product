@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5ac54bcbb925d9b437000001
+
+//JavaScript
+
+const findMiddle = str =>
+  (s => s ? +s.slice(Math.ceil(s.length / 2 - 1), s.length / 2 + 1) : -1)
+  (typeof str === `string` && /\d/.test(str) && `${str.match(/\d/g).reduce((pre, val) => pre * val)}`);
