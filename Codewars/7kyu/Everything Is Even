@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59c0cdbd5fb133c82b00007d
+
+//JavaScript
+
+const ensureEven = n => 
+  n % 2 ? n << 1 : n;
