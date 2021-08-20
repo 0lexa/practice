@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57293671c98f77e84b000065
+
+//JavaScript
+
+const type = value =>
+  Object.prototype.toString.call(value).toLowerCase().slice(8, -1);
