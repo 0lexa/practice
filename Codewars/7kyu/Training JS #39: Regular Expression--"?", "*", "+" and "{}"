@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/573bca07dffc1aa693000139
+
+//JavaScript
+
+const regex = /^-?9.*0{4}$/;
