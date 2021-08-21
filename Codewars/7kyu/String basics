@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56326c13e63f90538d00004e
+
+//JavaScript
+
+const getUsersIds = str =>
+  str.toLowerCase().split(`,`).map(val => val.replace(/#/g, ``).replace(/uid/, ``).trim());
