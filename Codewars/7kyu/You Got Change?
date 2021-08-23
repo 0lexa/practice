@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5966f6343c0702d1dc00004c
+
+// JavaScript
+
+const giveChange = amount =>
+  [100, 50, 20, 10, 5, 1].reduce((pre, val) => (pre = [...pre, amount / val ^ 0], amount = amount % val, pre), []).reverse();
