@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56b5dd1702a30326ce000b02
+
+//JavaScript
+
+const rotateMatrix = arr =>
+  arr[0].map((_, idx) => arr.map(val => val[idx])).reverse();
