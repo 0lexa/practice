@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58da7ae9b340a2440500009c
+
+//JavaScript
+
+const pointInCircle = (x, y) =>
+  Math.hypot(x, y) < 1;
