@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/571965ccdf7fdb10a00000ea
+
+//JavaScript
+
+const sumLength = arr =>
+  arr.filter(Boolean).reduce((pre, val) => (val > 0 ? pre[0] += val : ++pre[1], pre), [0, Math.ceil(arr.filter(val => !val).length / 2)]).join(` `);
