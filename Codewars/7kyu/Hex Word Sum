@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5c46ea433dd41b19af1ca3b3
+
+//JavaScript
+
+const hexWordSum = string =>
+  string.replace(/O/g, 0).replace(/S/g, 5).split(` `).reduce((pre, val) => pre + (+`0x${val}` || 0), 0);
