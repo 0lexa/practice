@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/59d2fc6c23dacca182000068
+
+//JavaScript
+
+const notes = [`C`, `C#`, `D`, `D#`, `E`, `F`, `F#`, `G`, `G#`, `A`, `A#`, `B`];
+
+const chords = root =>
+  (idx => [4, 3].map(val => [root, notes[(idx + val) % 12], notes[(idx + 7) % 12]]))
+  (notes.indexOf(root));
