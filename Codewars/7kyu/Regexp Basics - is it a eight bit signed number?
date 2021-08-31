@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/567ed73340895395c100002e
+
+//JavaScript
+
+String.prototype.signedEightBitNumber = function () {
+  return `${+this}` == this && +this < 128 && +this >= -128;
+};
