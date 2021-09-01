@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/599da159a30addffd00000af
+
+//JavaScript
+
+const collision = (x1, y1, radius1, x2, y2, radius2) =>
+  Math.hypot(x1 - x2, y1 - y2) < radius1 + radius2;
