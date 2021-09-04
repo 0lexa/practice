@@ -1,0 +1,18 @@
+https://www.codewars.com/kata/570e6e32de4dc8a8340016dd
+
+//JavaScript
+
+class Lamp {
+  constructor(color) {
+    this.color = color;
+    this.on = false;
+  }
+
+  toggleSwitch() {
+    this.on = !this.on;
+  }
+
+  state() {
+    return `The lamp is o${this.on ? `n` : `ff`}.`;
+  }
+}
