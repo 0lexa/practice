@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/52dffa05467ee54b93000712
+
+//JavaScript
+
+const sort = sentence =>
+  [...(sentence.match(/\b[a-z]+/g) || []).sort(), ...(sentence.match(/[A-Z][a-z]*/g) || []).sort().reverse()].join(` `);
