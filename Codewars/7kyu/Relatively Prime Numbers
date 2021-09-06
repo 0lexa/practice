@@ -7,3 +7,7 @@ const gcd = (a, b) =>
 
 const relativelyPrime = (n, l) =>
   l.filter(val => gcd(val, n) === 1);
+
+// for fun
+//const gcd = (a, b) =>
+//  `${`x`.repeat(a)} ${`x`.repeat(b)}`.replace(/(x+)\1* \1+$/, `$1`).length;
