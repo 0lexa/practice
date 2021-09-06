@@ -3,4 +3,4 @@ https://www.codewars.com/kata/5714803d2817ffce17000a35
 //JavaScript
 
 const findAB = ([n, ...numbers], c) =>
-  !numbers.length ? null : ~numbers.indexOf(c / n) ? [n, c / n ^ 0] : findAB(numbers, c);
+  !numbers.length ? null : numbers.includes(c / n) ? [n, c / n ^ 0] : findAB(numbers, c);
