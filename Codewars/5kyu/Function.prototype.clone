@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/53381a646068efc50100072c
+
+//JavaScript
+
+Function.prototype.clone = function () {
+  return new Function(`return ${this}`)();
+};
