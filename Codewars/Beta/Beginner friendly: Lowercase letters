@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58aacf3e048560c705000799
+
+//JavaScript
+
+const convertLowerCase = str =>
+  str.toLowerCase();
