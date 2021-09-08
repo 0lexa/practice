@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55f2c3dde50947271200006a
+
+//JavaScript
+
+const addProperty = (obj, prop, value) =>
+  prop in obj ? (() => {throw new Error()})() : obj[prop] = value;
