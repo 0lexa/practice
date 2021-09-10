@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5862e0db4f7ab47bed0000e5
+
+//JavaScript
+
+const findUniq = arr =>
+  (set => set[+(arr.filter(val => val === set[0]).length !== 1)])
+  ([...new Set(arr)]);
