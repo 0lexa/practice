@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/54809175ab03a2cecb000ae4
+
+//JavaScript
+
+const dice = (minimum, maximum) => 
+  Math.random() * (++maximum - minimum) + minimum ^ 0;
