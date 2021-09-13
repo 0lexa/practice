@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5977387e131c07082b000098
+
+//JavaScript
+
+const getRes = myScore =>
+  `${myScore < 70 ? `Sorry, you have failed. Better luck next time` : `Congratulations, you have passed`}! Thank you for taking part.`;
