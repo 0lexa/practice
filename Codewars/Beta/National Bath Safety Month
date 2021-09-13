@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57d14a9d95497e9912000267
+
+//JavaScript
+
+const bath = (string, bath) =>
+  --bath.length <= string.length;
