@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5532686f0408dfe458000117
+
+//JavaScript
+
+const evalLikes = words =>
+  words.filter(val => /^like$/i.test(val)).length * 20 > words.length;
