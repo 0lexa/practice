@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/589c414a139f7ef9bc00003b
+
+//JavaScript
+
+const decToBin = d =>
+  d > 1 ? decToBin(d >> 1) + decToBin(d % 2) : `${d}`;
