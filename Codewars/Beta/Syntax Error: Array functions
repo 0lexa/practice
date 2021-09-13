@@ -1,0 +1,18 @@
+https://www.codewars.com/kata/556cb06665814377d700006d
+
+//JavaScript
+
+function Foo() {
+    this.arrOfFuncs = [
+        function(num) {
+            return parseInt(num, 2);
+        },
+        function(num) {
+            return parseInt(num, 8);
+        }
+    ];
+}
+
+Foo.prototype.convert = function(num, base) {
+    return this.arrOfFuncs[base](num);
+};
