@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57227b32785220c82b000b93
+
+//JavaScript
+
+const main = input =>
+  ({[input] : () => `Not a valid input.`, forward, backward}[input]());
