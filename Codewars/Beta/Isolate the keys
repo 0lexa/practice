@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/573b4dbdffc3d1a51800137f
+
+//JavaScript
+
+const getPropsFromObj = obj =>
+  Object.keys(obj);
