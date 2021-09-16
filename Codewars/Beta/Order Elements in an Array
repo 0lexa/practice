@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/586edf5fb98de0ffda0002d5
+
+//JavaScript
+
+const order = array =>
+  array.sort();
