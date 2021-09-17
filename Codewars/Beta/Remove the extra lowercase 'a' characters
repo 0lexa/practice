@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/597f3434ba9e2f8efa000090
+
+//JavaScript
+
+const removeA = str =>
+  str.replace(/a/g, ``);
