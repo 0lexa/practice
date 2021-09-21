@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/552d408407fdbd0a45000050
+
+//JavaScript
+
+const organize = (...args) =>
+  `${args}`.split(`,`).sort();
