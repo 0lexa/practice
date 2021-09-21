@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5526a3e41d58a2e980001073
+
+//JavaScript
+
+const root = (x, nth) =>
+  x ** nth ** -1;
