@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/588960bb7b276bb0a0000a06
+
+//JavaScript
+
+const lightYear = meters =>
+  meters / ly(1);
