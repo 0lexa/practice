@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5708e9dcc69b48047b000d22
+
+//JavaScript
+
+const palindrome = str =>
+  str.toLowerCase() === [...str].reverse().join(``).toLowerCase();
