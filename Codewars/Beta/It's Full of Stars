@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56c5f95027be2cbe660017a7
+
+//JavaScript
+
+const printStars = (rows, columns) =>
+  rows > 0 && columns > 0 ? Array(rows).fill(`*`.repeat(columns)).join(`\n`) : ``;
