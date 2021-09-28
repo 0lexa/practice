@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5630de6e99308f1fc8000061
+
+//JavaScript
+
+const methodFunc = i =>
+  val => val + i;
