@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57b6f1bab69bfc9fb80002ca
+
+//JavaScript
+
+const milkPrice = (litres, pricePerLitre) =>
+  Math.round((litres > 1 ? (pricePerLitre -= .05) * 2 + milkPrice(litres - 2, pricePerLitre) : pricePerLitre * litres) * 1e2) / 1e2;
