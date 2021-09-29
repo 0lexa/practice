@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59580a14838112d91f000174
+
+//JavaScript
+
+const canClimb = (ropeLength, climbHeight) =>
+  Number.isFinite(ropeLength + climbHeight) ? ropeLength >= climbHeight * 0.6096 : null;
