@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a7778790136a132a00000c1
+
+//JavaScript
+
+const singleDigit = n =>
+  n < 10 ? n : singleDigit(n.toString(2).replace(/0/g, ``).length);
