@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5840586b5225616069000001
+
+//JavaScript
+
+const highestValue = (a, b) =>
+  (fn => fn(b) > fn(a) ? b : a)
+  (str => [...str].reduce((pre, val) => pre + val.charCodeAt(), 0));
