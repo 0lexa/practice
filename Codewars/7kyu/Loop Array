@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5fd8aa5743b49e0012d43e50
+
+//JavaScript
+
+const loopArr = (arr, direction, steps) =>
+  [...arr.splice((direction === `left` || -1) * steps), ...arr];
