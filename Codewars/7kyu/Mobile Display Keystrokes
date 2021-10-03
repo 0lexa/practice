@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59564a286e595346de000079
+
+//JavaScript
+
+const mobileKeyboard = str =>
+  [...str].reduce((pre, val) => pre + (/[\d*#]/.test(val) ? 1 : /[adgjmptw]/.test(val) ? 2 : /[behknqux]/.test(val) ? 3 : /[cfilorvy]/.test(val) ? 4 : 5), 0);
