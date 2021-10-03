@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5e4217e476126b000170489b
+
+//JavaScript
+
+const polydivisible = x =>
+  ![...`${x}`].some((_, idx) => `${x}`.slice(0, ++idx) % idx);
