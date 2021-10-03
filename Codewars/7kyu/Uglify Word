@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5ce6cf94cb83dc0020da1929
+
+//JavaScript
+
+const uglifyWord = s =>
+  s.replace(/[A-Z]+/gi, val => [...val].reduce((pre, char, idx) => pre + char[`to${idx & 1 ? `Low` : `Upp`}erCase`](), ``));
