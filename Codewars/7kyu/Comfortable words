@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56684677dc75e3de2500002b
+
+//JavaScript
+
+const comfortable_word = word =>
+  !/[h-puy]{2}|[^h-puy]{2}/.test(word);
