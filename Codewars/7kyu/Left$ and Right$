@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/53f211b159c3fcec3d000efa
+
+//JavaScript
+
+const left$ = (str, i = 1) =>
+  typeof i === `string` ? str.split(i).shift() : str.slice(0, i);
+
+const right$ = (str, i = 1) =>
+  typeof i === `string` ? str.split(i).pop() : i ? str.slice(-i) : ``;
