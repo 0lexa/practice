@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56c2acc8c44a3ad6e400050a
+
+//JavaScript
+
+const countzero = s =>
+  (s.replace(/\(\)|[abdegopq069DOPQR]/g, `0`).replace(/[%&B8]/g, `00`).match(/0/g) || []).length;
