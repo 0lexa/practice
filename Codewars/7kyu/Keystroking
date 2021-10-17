@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5be085e418bcfd260b000028
+
+//JavaScript
+
+const numKeyStrokes = text =>
+  [...text].reduce((pre, val) => pre + /[A-Z~!@#$%^&*()_+{}|:"<>?]/.test(val), text.length);
