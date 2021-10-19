@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55d38b959f9c33f3fb00007d
+
+//JavaScript
+
+const adjust = (coin, price) =>
+  coin * Math.ceil(price / coin);
