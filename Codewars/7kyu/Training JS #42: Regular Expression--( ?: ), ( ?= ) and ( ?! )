@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/573fb9223f9793e485000453
+
+//JavaScript
+
+const regex = /(?<=\d+)(?=(\d{3})+$)/g;
+const addCommas = (money, reg) =>
+  money.replace(reg, `,`);
