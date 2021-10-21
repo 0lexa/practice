@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56eee006ff32e1b5b0000c32
+
+//JavaScript
+
+const testit = (s, n) =>
+  n.toString(2).replace(/./g, (val, idx) => +val && s[idx] || ``);
