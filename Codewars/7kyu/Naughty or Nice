@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5662b14e0a1fb8320a00005c
+
+//JavaScript
+
+const naughtyOrNice = data =>
+  (str => str.match(/Nice/g).length < str.match(/Naughty/g).length ? `Naughty!` : `Nice!`)
+  (JSON.stringify(data));
