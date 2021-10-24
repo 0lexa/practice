@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/590f5b4a7bbb3e246000007d
+
+//JavaScript
+
+const comes_after = (str, l) =>
+  (str.match(new RegExp(`(?<=${l})[A-Z]`, `gi`)) || []).join(``);
