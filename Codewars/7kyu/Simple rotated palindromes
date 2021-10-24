@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a8fbe73373c2e904700008c
+
+//JavaScript
+
+const solve = st =>
+  [...Array(st.length)].some(() => (st = st.replace(/(.+)(.$)/, (_, $1, $2) => $2 + $1)) === [...st].reverse().join(``));
