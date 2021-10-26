@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59126cd3379de6ca5f00019c
+
+//JavaScript
+
+const caseUnification = s =>
+  s[`to${s.replace(/[a-z]/g, ``).length > s.length / 2 ? `Upp` : `Low`}erCase`]();
