@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5596700a386158e3aa000011
+
+//JavaScript
+
+const BinaryPyramid = (m, n) =>
+  [...Array(n - m + 1)].reduce((pre, _, idx) => +(m + idx).toString(2) + pre, 0).toString(2);
