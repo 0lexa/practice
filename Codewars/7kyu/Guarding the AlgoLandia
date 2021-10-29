@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5d0d1c14c843440026d7958e
+
+//JavaScript
+
+const findNeededGuards = k =>
+  (k.join(``).match(/(false)\1/g) || []).length;
