@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59a1ea8b70e25ef8e3002992
+
+//JavaScript
+
+const describeTheShape = angles =>
+  angles > 2 ? `This shape has ${angles} sides and each angle measures ${180 - 360 / angles ^ 0}` : `this will be a line segment or a dot`;
