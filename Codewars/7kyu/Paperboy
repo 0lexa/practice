@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56ed5f13c4e5d6c5b3000745
+
+//JavaScript
+
+const cheapestQuote = newspapers =>
+  Math.round([40, 20, 10, 5, 1].reduce((pre, val, idx, arr) => pre + ((idx ? newspapers % arr[idx - 1] : newspapers) / val ^ 0) * [3.85, 1.93, 0.97, 0.49, 0.1][idx], 0) * 1e2) / 1e2;
