@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59afff65f1c8274f270020f5
+
+//JavaScript
+
+const spinningRings = (innerMax, outerMax, res = 0) =>
+  res % (outerMax + 1) !== innerMax - (res - 1) % (innerMax + 1) ? spinningRings(innerMax, outerMax, ++res) : res;
