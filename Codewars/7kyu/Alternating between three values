@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/596776fbb4f24d0d82000141
+
+//JavaScript
+
+const f = (x, cc) =>
+  (arr => arr[(arr.indexOf(x) + 1) % arr.length])
+  (Object.values(cc));
