@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5864eb8039c5ab9cd400005c
+
+//JavaScript
+
+const median = array =>
+  array.sort((a, b) => a - b).length % 2 ? array[array.length >> 1] : (array[array.length >> 1] + array[--array.length >> 1]) / 2;
