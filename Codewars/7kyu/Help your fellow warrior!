@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5660aa6fa60f03856c000045
+
+//JavaScript
+
+const getHonorPath = (honorScore, targetHonorScore) =>
+  (val => val < 0 ? {} : {'1kyus': val >> 1, '2kyus': val & 1})
+  (targetHonorScore - honorScore);
