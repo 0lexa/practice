@@ -1,0 +1,13 @@
+https://www.codewars.com/kata/56919e637b2b971492000036
+
+//JavaScript
+
+class MarioAdapter {
+  constructor(obj) {
+    this.obj = obj;
+  }
+
+  attack(target) {
+    target.health -= this.obj.jumpAttack();
+  }
+}
