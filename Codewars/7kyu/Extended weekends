@@ -1,0 +1,8 @@
+https://www.codewars.com/kata/5be7f613f59e0355ee00000f
+
+//JavaScript
+
+const solve = (a, b) =>
+  [...Array((b - a + 1) * 12)].reduce((pre, _, idx) =>
+    (val => [pre[0] || val, val || pre[1], pre[2] + !!val])
+    (new Date(a, idx).getDay() === 5 && new Date(a, idx + 1).getDay() === 1 && new Date(a, idx).toDateString().slice(4, 7)), [``, ``, 0]);
