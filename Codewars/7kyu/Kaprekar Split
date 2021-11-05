@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5b6ee22ac5cc71833f0010d7
+
+//JavaScript
+
+const kaprekarSplit = n =>
+  [...`${n ** 2}`].findIndex((_, idx, arr) => +arr.slice(0, idx).join(``) + +arr.slice(idx).join(``) === n);
