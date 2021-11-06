@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5b2f6ad842b27ea689000082
+
+//JavaScript
+
+const isSmooth = (n, idx = 0) =>
+  n > 1 && idx < 4 ? n % [2, 3, 5, 7][idx] ? isSmooth(n, ++idx) : isSmooth(n / [2, 3, 5, 7][idx], idx) : [`power of 2`, `3-smooth`, `Hamming number`, `humble number`][idx] || `non-smooth`;
