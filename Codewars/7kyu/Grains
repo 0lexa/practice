@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55f7eb009e6614447b000099
+
+//JavaScript
+
+const square = number =>
+  2 ** --number;
