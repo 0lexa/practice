@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56b8b0ae1d36bb86b2000eaa
+
+//JavaScript
+
+const convert = time =>
+  time.toISOString().slice(11,23).replace(`.`, `,`);
