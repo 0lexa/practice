@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56ce2f90aa4ac7a4770019fa
+
+//JavaScript
+
+const evenator = str =>
+  str.replace(/[^A-Z\d ]/gi, ``).replace(/\w+/g, val => val + (val.length % 2 ? val.slice(-1) : ``));
