@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57af26297f75b57d1f000225
+
+//JavaScript
+
+const truncateString = (str, num) =>
+  str.length > num ? str.slice(0, num - (num > 3) * 3) + `...` : str;
