@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5b8be3ae36332f341e00015e
+
+//JavaScript
+
+const solve = (s, k) =>
+  s.split(` `).reduce((pre, val, idx, arr) => pre + arr.filter((v, i) => idx !== i && (val + v) % k === 0).length, 0);
