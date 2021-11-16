@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5747a9bbe2fab9a0c400012f
+
+//JavaScript
+
+const gcContent = dna =>
+  dna ? dna.replace(/[^CG]/gi, ``).length / dna.length * 100 : 0;
