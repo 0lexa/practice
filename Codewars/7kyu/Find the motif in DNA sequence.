@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5760c1c7f2717b91e20001a4
+
+//JavaScript
+
+const motifLocator = (sequence, motif) =>
+  [...sequence].reduce((pre, _, idx) => sequence.startsWith(motif, idx) ? [...pre, ++idx] : pre, []);
