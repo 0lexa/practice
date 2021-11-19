@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5896616336c4bad1c50000d7
+
+//JavaScript
+
+const annulusArea = a =>
+  Math.round(Math.PI * a ** 2 * 25) / 1e2;
