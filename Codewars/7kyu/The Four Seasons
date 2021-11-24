@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5846174c5955406d02000b59
+
+//JavaScript
+
+const fourSeasons = d =>
+  d > 365 ? `The year flew by!` : d > 354 ? `Winter Season` : d > 263 ? `Autumn Season` : d > 171 ? `Summer Season` : d > 79 ? `Spring Season` : `Winter Season`;
