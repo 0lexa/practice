@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5551dc71101b2cf599000023
+
+//JavaScript
+
+const maxPizza = cuts =>
+  cuts < 0 ? -1 : (cuts ** 2 + cuts + 2) / 2;
