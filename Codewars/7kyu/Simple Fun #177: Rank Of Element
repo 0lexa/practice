@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/58b8cc7e8e7121740700002d
+
+//JavaScript
+
+const rankOfElement = (arr, i) =>
+  arr.reduce((pre, val, idx) => pre + (val < arr[i] + (idx < i)), 0);
