@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/585c50e75d0930e6a7000336
+
+//JavaScript
+
+const isCoprime = (x, y) =>
+  `${`@`.repeat(x)} ${`@`.repeat(y)}`.replace(/(@+)\1* \1+$/, `$1`).length === 1;
