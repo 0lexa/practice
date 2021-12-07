@@ -3,4 +3,4 @@ https://www.codewars.com/kata/588a7d45019c42be61000009
 //JavaScript
 
 const interweave = (s1, s2) =>
-  [...s1].reduce((pre, val, idx) => pre + val + (s2[idx] || ``), ``).replace(/\d/g, ``).trim();
+  s1.replace(/(?<=.)/g, (_, idx) => s2[--idx] || ``).replace(/\d/g, ``).trim();
