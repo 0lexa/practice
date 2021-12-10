@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/56b18992240660a97c00000a
+
+//JavaScript
+
+const permutationAverage = n =>
+  (val => Math.round([...`${n}`].reduce(pre => pre * 10 + val, 0)))
+  ([...`${n}`].reduce((pre, val, _, arr) => pre + val / arr.length, 0));
