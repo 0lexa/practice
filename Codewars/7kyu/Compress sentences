@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/59de469cfc3c492da80000c5
+
+//JavaScript
+
+const compress = sentence =>
+  (arr => arr.reduce(([set, str], val) => [set, str += set.indexOf(val)], [[...new Set(arr)], ``])[1])
+  (sentence.toLowerCase().split(` `));
