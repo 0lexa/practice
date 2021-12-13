@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/584c702256c98fc0a0000043
+
+//JavaScript
+
+const fizzBuzz = n =>
+  !(n % 15) && `FizzBuzz` || !(n % 3) && `Fizz` || !(n % 5) && `Buzz` || n;
