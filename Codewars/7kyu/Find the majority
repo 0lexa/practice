@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/5af974846bf32304a2000e98
+
+//JavaScript
+
+const majority = arr => {
+  const obj = arr.reduce((pre, val) => (pre[val] = -~pre[val], pre), {});
+  const fArr = Object.keys(obj).filter(val => obj[val] === Math.max(...Object.values(obj)));
+  return fArr.length === 1 ? fArr[0] : null;
+}
