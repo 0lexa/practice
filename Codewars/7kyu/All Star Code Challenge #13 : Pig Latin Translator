@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5864e2c473bd9c67b70002ba
+
+//JavaScript
+
+const translate = word =>
+  word.length > 1 ? word.replace(/^([^aeiou])(\w+)/g, `$2$1`) + `ay` : word;
