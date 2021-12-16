@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5508b1d298b3238397000a56
+
+//JavaScript
+
+const returnSpecifics = obj =>
+  (arr => arr.length ? arr : [`The Object is Empty`])
+  ([...Object.values(obj).filter(val => typeof val === `number`), ...Object.keys(obj).filter(val => typeof obj[val] === `function`)]);
