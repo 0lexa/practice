@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5716955a794d3013d00013f9
+
+//JavaScript
+
+const theVar = theVariables =>
+  theVariables.charCodeAt() + theVariables.charCodeAt(2) - 192;
