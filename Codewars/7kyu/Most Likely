@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/56644a421b7c94c622000056
+
+//JavaScript
+
+const mostLikely = (prob1, prob2) =>
+  (fn => fn(prob1) > fn(prob2))
+  (str => str.split(`:`).reduce((pre, val) => pre / val));
