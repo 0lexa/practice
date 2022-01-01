@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/559af787b4b8eac78b000022
+
+//JavaScript
+
+const countMe = data =>
+  /\D/.test(data) ? `` : data.replace(/(\d)\1*/g, (val, $1) => val.length + $1);
