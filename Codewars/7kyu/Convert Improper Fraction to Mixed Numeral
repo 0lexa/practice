@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/574e4175ff5b0a554a00000b
+
+//JavaScript
+
+const convertToMixedNumeral = parm => {
+  const [num, den] = parm.split(`/`);
+  const int = num / den ^ 0;
+  return `${num / den === int ? int : int ? `${int} ${Math.abs(num) % den}/${den}` : parm}`;
+};
