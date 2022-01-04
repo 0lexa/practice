@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57b71a89b69bfc92c7000170
+
+//JavaScript
+
+const getNumberOfSquares = (n, m = 1) =>
+  n > m ** 2 ? getNumberOfSquares(n - m ** 2, ++m) : --m;
