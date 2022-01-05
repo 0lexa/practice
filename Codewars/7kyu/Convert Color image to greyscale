@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/590ee3c979ae8923bf00095b
+
+//JavaScript
+
+const color2grey = image =>
+  image.map(p => p.map(([r, g, b]) => Array(3).fill(Math.round((r + g + b) / 3))));
