@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/55031bba8cba40ada90011c4
+
+//JavaScript
+
+const isSumOfCubes = s =>
+  (arr => arr.length && `${arr.join(` `)} ${arr.reduce((pre, val) => pre + val, 0)} Lucky` || `Unlucky`)
+  ((s.match(/\d{1,3}/g) || []).filter(val => [...val].reduce((pre, v) => pre + v ** 3, 0) == val).map(Number));
