@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/59f7597716049833200001eb
+
+//JavaScript
+
+const solve = (x, y) =>
+  (fn => [...new Array(y - x)].map((_, idx) => x + idx).reduce((pre, val) => pre + (val == fn(val)), 0))
+  (num => [...`${num}`].reverse().map(val => [0,1,,,,,9,,8,6][val]).join(``));
