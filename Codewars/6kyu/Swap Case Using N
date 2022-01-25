@@ -3,4 +3,4 @@ https://www.codewars.com/kata/5f3afc40b24f090028233490
 //JavaScript
 
 const swap = (s, n, bin = n.toString(2), idx = 0) =>
-  s.replace(/./g, val => /[^a-z]/i.test(val) ? val : +bin[idx++ % bin.length] ? val[`to${val > `Z` ? 'Upp' : 'Low'}erCase`]() : val );
+  s.replace(/./g, val => /[^a-z]/i.test(val) ? val : +bin[idx++ % bin.length] ? val[`to${val > `Z` ? `Upp` : `Low`}erCase`]() : val);
