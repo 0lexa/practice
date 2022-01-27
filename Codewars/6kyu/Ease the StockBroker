@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/54de3257f565801d96001200
+
+//JavaScript
+
+const balanceStatements = list => {
+  const [bad, corr] = list.split(`, `).reduce((pre, val) => (pre[+/[A-Z]+ \d+ \d*\.\d+ [BS]/.test(val)].push(val), pre), ([[], []]));
+  const [buy, sell] = corr.reduce((pre, val) => (pre[+/.+S$/.test(val)] += val.split(` `)[1] * val.split(` `)[2], pre), [0, 0]);
+  return `Buy: ${Math.round(buy)} Sell: ${Math.round(sell)}${list && bad.length ? `; Badly formed ${bad.length}: ${bad.join(` ;`)} ;` : ``}`;
+};
