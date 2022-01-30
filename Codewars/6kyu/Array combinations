@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/59e66e48fc3c499ec5000103
+
+//JavaScript
+
+const solve = arr =>
+  arr.reduce((pre, val) => pre * new Set(val).size, 1);
