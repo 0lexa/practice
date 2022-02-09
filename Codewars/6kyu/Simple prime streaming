@@ -1,0 +1,17 @@
+https://www.codewars.com/kata/5a908da30025e995880000e3
+
+//JavaScript
+
+const isPrime = num => {
+  for (let i = 2; i <= num ** .5; i++) {
+    if (!(num % i)) return false;
+  }
+  return num > 1;
+};
+
+const solve = (a, b) => {
+  let str = ``;
+  let num = 1;
+  while (str.length < a + b) str += isPrime(++num) ? num : ``;
+  return str.slice(a, a + b)
+};
