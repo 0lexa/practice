@@ -1,6 +1,6 @@
-https://www.codewars.com/kata/585d7d5adb20cf33cb000235
+https://www.codewars.com/kata/55f81f9aa51f9b72a200002f
 
 //JavaScript
 
-const findUniq = arr =>
-  arr.find(val => arr.indexOf(val) === arr.lastIndexOf(val));
+const findUnique = numbers =>
+  numbers.reduce((pre, val) => pre ^ val);
