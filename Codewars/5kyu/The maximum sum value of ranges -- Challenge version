@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/583d171f28a0c04b7c00009c
+
+//JavaScript
+
+const maxSum = (arr, ranges) =>
+  (sum => Math.max(...ranges.map(([a, b]) => sum[++b] - sum[a])))
+  (arr.reduce((pre, val, idx) => (pre.push(pre[idx] + val), pre), [0]));
