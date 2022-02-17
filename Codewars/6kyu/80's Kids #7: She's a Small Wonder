@@ -1,0 +1,15 @@
+https://www.codewars.com/kata/56743fd3a12043ffbb000049
+
+//JavaScript
+
+class Robot {
+  constructor() {
+    this.set = new Set(`Thank you for teaching me I already know the word I do not understand the`.toLowerCase().split(` `));
+  }
+
+  learnWord(word) {
+    return !word || /[^a-z]/i.test(word) ? `I do not understand the input`
+      : this.set.has(word.toLowerCase()) ? `I already know the word ${word}`
+      : (this.set.add(word.toLowerCase()), `Thank you for teaching me ${word}`)
+  }
+}
