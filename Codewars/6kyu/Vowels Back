@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57cfd92c05c1864df2001563
+
+//JavaScript
+
+const vowelBack = s =>
+  s.replace(/[a-z]/g, val => `vkbaafpqistuvwnyzabtpvfghi`[val.charCodeAt() - 97]);
