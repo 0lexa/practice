@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5491689aff74b9b292000334
+
+//JavaScript
+
+const f = s =>
+  (val => [val, s.length / val.length])
+  (s.match(/^(\w+?)\1*$/)[1]);
