@@ -1,0 +1,15 @@
+https://www.codewars.com/kata/5981ff1daf72e8747d000091
+
+//JavaScript
+
+class Potion {
+  constructor(color, volume) {
+    this.color = color;
+    this.volume = volume;
+  }
+
+  mix(pot) {
+    let volume = this.volume + pot.volume;
+    return new Potion(pot.color.map((val, idx) => Math.ceil((val * pot.volume + this.color[idx] * this.volume) / volume)), volume);
+  }
+}
