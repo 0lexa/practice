@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5dd462a573ee6d0014ce715b
+
+//JavaScript
+
+const sameCase = (a, b) =>
+  -/[^a-z]/i.test(a + b) || +!(/[a-z]/.test(a) ^ /[a-z]/.test(b));
