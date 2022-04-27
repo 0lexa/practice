@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/545af3d185166a3dec001190
+
+//JavaScript
+
+const eachCons = (array, n) =>
+  array.slice(0, 1 - n || array.length).map((_, idx) => array.slice(idx, idx + n));
