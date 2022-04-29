@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55c2a1ee7fe3ccfee5000058
+
+//JavaScript
+
+const countCombinations = (string, key) =>
+  --string.split(new RegExp(key, `i`)).length;
