@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55b2549a781b5336c0000103
+
+//JavaScript
+
+const comparePowers = (n1, n2) =>
+  Math.sign(n2[0] - n1[0] ** (n1[1] / n2[1]));
