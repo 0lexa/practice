@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/622de76d28bf330057cd6af8
+
+//JavaScript
+
+const amountOfPages = summary => {
+  let n = 0;
+  while (summary > 0) {
+    summary -= `${++n}`.length;
+  }
+  return n;
+};
