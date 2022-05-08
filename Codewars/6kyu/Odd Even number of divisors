@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55830eec3e6b6c44ff000040
+
+//JavaScript
+
+const oddity = n =>
+  n ** .5 % 1 ? `even` : `odd`;
