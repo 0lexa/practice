@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5a62da60d39ec5d947000093
+
+//JavaScript
+
+const findSquares = (x, y) =>
+  (3 * x - y + 1) * y * ++y / 6;
