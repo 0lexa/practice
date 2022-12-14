@@ -1,5 +1,0 @@
-https://www.codewars.com/kata/570f45fab29c705d330004e3
-
-//JavaScript
-
-sc=(w,l,g)=>(w=(w+l-2)*2/++g)%1?0:w

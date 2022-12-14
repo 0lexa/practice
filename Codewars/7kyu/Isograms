@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/54ba84be607a92aa900000f1
-
-//JavaScript
-
-const isIsogram = str =>
-  !/(\w).*\1/i.test(str);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/555a7dc335d4c407af00006e
-
-//JavaScript
-
-const tea42 = input =>
-  `${input}`.replace(/2/g, `t`);

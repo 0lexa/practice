@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57238766214e4b04b8000011
-
-//JavaScript
-
-const changeMe = moneyIn =>
-  moneyIn.replace(/^£5$|^£2$|^£1$|^50p$|^20p$/, val => isNaN(val[0]) ? '20p '.repeat(val[1] * 5).trim() : val[0] == 5 ? `20p 20p 10p` : `10p 10p`);

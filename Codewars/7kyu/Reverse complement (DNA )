@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/574a7d0dca4a8a0fbe000100
-
-//JavaScript
-
-const reverseComplement = dna =>
-  /[^ACGT]/i.test(dna) ? `Invalid sequence` : [...dna.toUpperCase()].reverse().map(val => val === `A` ? `T` : val === `C` ? `G` : val === `T` ? `A` : `C`).join(``);

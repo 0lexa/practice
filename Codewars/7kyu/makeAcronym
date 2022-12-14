@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/557efeb04effce569d000022
-
-//JavaScript
-
-const makeAcronym = string =>
-  typeof string !== `string` ? `Not a string` : /[^A-Za-z ]/.test(string) ? `Not letters` : string.replace(/\s?(\w)\w*/g, (_, $1) => $1.toUpperCase());

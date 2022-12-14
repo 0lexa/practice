@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59901fb5917839fe41000029
-
-//JavaScript
-
-const numericFormatter = (template, num = `1234567890`, i = 0) =>
-  template.replace(/[a-z]/gi, () => num[i++ % num.length]);

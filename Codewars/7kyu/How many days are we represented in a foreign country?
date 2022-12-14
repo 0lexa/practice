@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58e93b4706db4d24ee000096
-
-//JavaScript
-
-const daysRepresented = trips =>
-  new Set(trips.reduce((pre, [arr, dep]) => [...pre, ...[...Array(++dep - arr)].map((_, idx) => arr + idx)], [])).size;

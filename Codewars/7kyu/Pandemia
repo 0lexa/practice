@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5e2596a9ad937f002e510435
-
-//JavaScript
-
-const infected = s =>
-  s.split(`X`).filter(Number).join(``).length / s.replace(/\D/g, ``).length * 100 || 0;

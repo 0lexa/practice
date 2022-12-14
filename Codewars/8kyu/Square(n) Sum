@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/515e271a311df0350d00000f
-
-//JavaScript
-
-const squareSum = numbers =>
-  numbers.reduce((pre, val) => pre + val ** 2, 0);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56f3a1e899b386da78000732
-
-//JavaScript
-
-const partlist = arr =>
-  arr.slice(1).map((_, idx) => [arr.slice(0, ++idx).join(` `), arr.slice(idx).join(` `)]);

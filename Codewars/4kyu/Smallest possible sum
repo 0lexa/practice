@@ -1,9 +1,0 @@
-https://www.codewars.com/kata/52f677797c461daaf7000740
-
-//JavaScript
-
-const gcd = (a, b) =>
-  b ? gcd(b, a % b) : a;
-
-const solution = numbers =>
-  numbers.length * numbers.reduce(gcd);

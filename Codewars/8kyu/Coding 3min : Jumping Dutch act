@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/570bcd9715944a2c8e000009
-
-//JavaScript
-
-const sc = floor =>
-  floor < 2.00000000000000 ? `` : `${`Aa~ `.repeat(--floor)}Pa!${floor < 6 ? ` Aa!` : ``}`;

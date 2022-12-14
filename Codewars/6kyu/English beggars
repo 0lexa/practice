@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59590976838112bfea0000fa
-
-//JavaScript
-
-const beggars = (values, n) =>
-  [...Array(n)].map((_, i) => values.reduce((pre, val, idx) => pre + (idx % n === i) * val, 0));

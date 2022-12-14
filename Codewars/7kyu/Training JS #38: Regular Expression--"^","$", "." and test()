@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/573975d3ac3eec695b0013e0
-
-//JavaScript
-
-const findSimilarity = (str, word) =>
-  (reg => str.split(` `).filter(val => reg.test(val)).join(` `))
-  (new RegExp(`\\b${word.replace(/(?<!^)\w(?!$)/gi, `\\w`)}\\b`));

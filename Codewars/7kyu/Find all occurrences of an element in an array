@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59a9919107157a45220000e1
-
-//JavaScript
-
-const findAll = (array, n) =>
-  array.reduce((pre, val, idx) => val === n ? [...pre, idx] : pre, []);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5259b20d6021e9e14c0010d4
-
-//JavaScript
-
-const reverseWords = str =>
-  str.replace(/\S+/g, val => [...val].reverse().join(``));

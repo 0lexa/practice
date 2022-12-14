@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55eeddff3f64c954c2000059
-
-//JavaScript
-
-const sumConsecutives = s =>
-  s.reduce((pre, val, idx) => pre.concat(val === s[--idx] ? pre.pop() + val : val), []);

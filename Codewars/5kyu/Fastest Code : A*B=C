@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5714594d2817ff681c000783
-
-//JavaScript
-
-const findAB = (numbers, c) =>
-  (num => num ? [num, c / num ^ 0] : null)
-  ([...new Set(numbers)].find((val, _, arr) => c !== val ** 2 && arr.includes(c / val) || c === val ** 2 && numbers.indexOf(val) !== numbers.lastIndexOf(val)));

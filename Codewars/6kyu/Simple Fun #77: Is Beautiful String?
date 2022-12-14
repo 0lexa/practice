@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58942c43c5d31a77eb0000ea
-
-//JavaScript
-
-const isBeautifulString = s =>
-  [...`abcdefghijklmnopqrstuvwxyz`].map(val => s.split(val).length).every((val, idx, arr) => !idx || val <= arr[--idx]);

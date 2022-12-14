@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56ae72854d005c7447000023
-
-//JavaScript
-
-const createTemplate = template =>
-  person => template.replace(/{{(\w+)}}/g, (_, tag) => person[tag] || ``);

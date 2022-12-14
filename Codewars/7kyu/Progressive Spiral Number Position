@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a254114e1ce0ecf6a000168
-
-//JavaScript
-
-const layers = n =>
-  Math.ceil((n ** .5 + 1) / 2);

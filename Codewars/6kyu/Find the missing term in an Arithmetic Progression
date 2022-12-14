@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/52de553ebb55d1fca3000371
-
-//JavaScript
-
-const findMissing = list =>
-  (list[0] + list[list.length - 1]) / 2 * (list.length + 1) - list.reduce((pre, val) => pre + val);

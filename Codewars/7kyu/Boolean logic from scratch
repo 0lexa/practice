@@ -1,9 +1,0 @@
-https://www.codewars.com/kata/584d2c19766c2b2f6a00004f
-
-//JavaScript
-
-const or = (a, b) =>
-  !(!a && !b);
-
-const xor = (a, b) =>
-  !a !== !b;

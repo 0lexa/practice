@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58dd95d4b4b74ca604000068
-
-//JavaScript
-
-const lastDigit = arr => 
-  arr.reduce((pre, val) => Number.isInteger(val) ? Math.abs(val % 10) : pre, `No integers found.`);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56f7493f5d7c12d1690000b6
-
-//JavaScript
-
-const mean = lst =>
-  lst.reduce(([num, str], val) => isNaN(val) ? [num, str + val] : [(num * 10 + +val) / 10, str], [0, ``]);

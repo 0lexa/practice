@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/528d9adf0e03778b9e00067e
-
-//JavaScript
-
-const mineLocation = field =>
-  (idx => [idx, field[idx].indexOf(1)])
-  (field.findIndex(val => val.includes(1)));

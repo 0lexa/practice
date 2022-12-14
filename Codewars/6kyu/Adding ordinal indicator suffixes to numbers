@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/52dca71390c32d8fb900002b
-
-//JavaScript
-
-const numberToOrdinal = n =>
-  n ? `${n}${/1[1-3]$/.test(n) ? `th` : /3$/.test(n) ? `rd` : /2$/.test(n) ? `nd` : /1$/.test(n) ? `st` : `th`}` : `0`;

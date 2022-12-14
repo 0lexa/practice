@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/58856a06760b85c4e6000055
-
-//JavaScript
-
-const bitsBattle = numbers =>
-  (val => val ? `${val < 0 ? `odds` : `evens`} win` : `tie`)
-  (numbers.reduce((pre, val) => pre + (val & 1 ? -1 : 1) * (val.toString(2).split(val & 1).length - 1), 0));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57658f3dedc6f7a751000e7b
-
-//JavaScript
-
-const robot = skinScan =>
-  skinScan.map(val => val.map(val => val === `X` ? `*` : val));

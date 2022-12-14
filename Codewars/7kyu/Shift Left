@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5bdc191306a8a678f6000187
-
-//JavaScript
-
-const shiftLeft = (s, t) =>
-  (s + t).length - [...s].reduce((pre, _, idx) => pre + (s.slice(-++idx) === t.slice(-idx)) * 2, 0);

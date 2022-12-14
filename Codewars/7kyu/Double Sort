@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57cc79ec484cf991c900018d
-
-//JavaScript
-
-const dbSort = a =>
-  a.sort((a, b) => (b === +b) - (a === +a) || b < a || -1);

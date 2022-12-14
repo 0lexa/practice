@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59c1302ecb7fb48757000013
-
-//JavaScript
-
-const typeValidation = (variable, type) =>
-  typeof variable === type;

@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/5d774cfde98179002a7cb3c8
-
-//JavaScript
-
-const makeClass = (...keys) =>
-  function (...values) {
-    keys.forEach((val, idx) => this[val] = values[idx]);
-  };

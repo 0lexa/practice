@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/54da539698b8a2ad76000228
-
-//JavaScript
-
-const isValidWalk = walk =>
-  (fn => walk.length === 10 && fn(`n`) === fn(`s`) && fn(`e`) === fn(`w`))
-  (dir => walk.filter(val => val === dir).length);

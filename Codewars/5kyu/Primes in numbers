@@ -1,9 +1,0 @@
-https://www.codewars.com/kata/54d512e62a5e54c96200019e
-
-//JavaScript
-
-const primeFactors = n => {
-  const obj = {}; let i = 2;
-  while (n > 1) !(n % i) ? (obj[i] = -~obj[i], n /= i) : i++;
-  return Object.keys(obj).reduce((pre, val) => pre + `(${val}${obj[val] > 1 ? `**${obj[val]}` : ``})`, ``);
-}

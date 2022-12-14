@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/56e56756404bb1c950000992
-
-//JavaScript
-
-const sumDifferencesBetweenProductsAndLCMs = pairs =>
-  (val => pairs.reduce((pre, [a, b]) => pre + a * b - a * b / (val(a, b) || 1), 0))
-  (function gcd(a, b) { return b ? gcd(b, a % b) : a});

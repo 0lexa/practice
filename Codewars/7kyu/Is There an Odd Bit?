@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5d6f49d85e45290016bf4718
-
-//JavaScript
-
-const anyOdd = x =>
-  2_863_311_530 & x && 1;

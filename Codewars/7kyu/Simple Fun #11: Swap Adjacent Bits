@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58845a92bd573378f4000035
-
-//JavaScript
-
-const swapAdjacentBits = n =>
-  parseInt(n.toString(2).padStart(32, `0`).replace(/(.)(.)/g, `$2$1`), 2);

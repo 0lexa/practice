@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/51675d17e0c1bed195000001
-
-//JavaScript
-
-const solution = digits =>
-  [...digits].reduce((pre, _, idx) => Math.max(pre, digits.slice(idx, idx + 5)));

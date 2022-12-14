@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/555de49a04b7d1c13c00000e
-
-//JavaScript
-
-const add = (...args) =>
-  Math.round(args.reduce((pre, val, idx) => pre + val / ++idx, 0));

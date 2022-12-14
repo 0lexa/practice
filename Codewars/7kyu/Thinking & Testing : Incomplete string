@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56d9292cc11bcc3629000533
-
-//JavaScript
-
-const testit = s =>
-  s.replace(/\w{2}/g, val => String.fromCharCode((val.charCodeAt(0) + val.charCodeAt(1)) / 2));

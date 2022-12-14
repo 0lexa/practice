@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/563f879ecbb8fcab31000041
-
-//JavaScript
-
-const factory = x =>
-  arr => arr.map(val => x * val);

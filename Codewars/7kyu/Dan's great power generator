@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/582c42e0f000e54a7d000086
-
-//JavaScript
-
-const danspower = (num, power) =>
-  (val => val % 2 ? Math.round(val / 10) * 10 : val)
-  (num ** power);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/546dba39fa8da224e8000467
-
-//JavaScript
-
-const runLengthEncoding = str =>
-  (str.match(/(.)\1*/g) || []).map(val => [val.length, val[0]]);

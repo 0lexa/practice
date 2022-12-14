@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/583710ccaa6717322c000105
-
-//JavaScript
-
-const simpleMultiplication = number =>
-  (8 + number % 2) * number;

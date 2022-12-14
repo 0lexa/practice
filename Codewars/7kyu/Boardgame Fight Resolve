@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/58558673b6b0e5a16b000028
-
-//JavaScript
-
-const fightResolve = (defender, attacker) =>
-  (val => /[A-Z]{2}|[a-z]{2}/.test(val) ? -1 : /(ka|sp|as|pk)/i.test(val) ? defender : attacker)
-  (defender + attacker);

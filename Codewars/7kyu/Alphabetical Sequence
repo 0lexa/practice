@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5bd00c99dbc73908bb00057a
-
-//JavaScript
-
-const alphaSeq = str =>
-  [...str.toLowerCase()].sort().map(val => val.toUpperCase() + val.repeat(val.charCodeAt() - 97)).join();

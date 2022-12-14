@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5b94d7eb1d5ed297680000ca
-
-//JavaScript
-
-const solve = arr =>
-  arr.reverse().map((val, idx) => val.replace(/^\w+/, () => idx ? /^Left/.test(arr[--idx]) ? `Right` : `Left` : `Begin`));

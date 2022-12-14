@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/54bb6ee72c4715684d0008f9
-
-//JavaScript
-
-const solution = number =>
-  (fn => fn(3) + fn(5) - fn(15))
-  ((--number, val => val * (number / val ^ 0) * (number / val + 1 ^ 0) / 2));

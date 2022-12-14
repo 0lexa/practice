@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/525f039017c7cd0e1a000a26
-
-//JavaScript
-
-const palindromeChainLength = n =>
-  (rev => n === rev ? 0 : 1 + palindromeChainLength(n + rev))
-  (+[...`${n}`].reverse().join(``));

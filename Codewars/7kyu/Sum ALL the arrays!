@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5594463eaf1701909c0000d4
-
-//JavaScript
-
-const arraySum = arr =>
-  arr.reduce((pre, val) => pre + (Array.isArray(val) ? arraySum(val) : +val === val ? val : 0), 0);

@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/52190daefe9c702a460003dd
-
-//JavaScript
-
-function searchSubstr(fullText, searchText, allowOverlap) {
-  return fullText && searchText ? fullText.match(new RegExp(allowOverlap ? `(?=${searchText})` : searchText, `g`) || []).length : 0;
-}

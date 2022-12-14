@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57d448c6ba30875437000138
-
-//JavaScript
-
-const roots = (a, b, c) =>
-  b ** 2 - 4 * a * c < 0 ? null : Math.round(-b / a * 1e2) / 1e2;

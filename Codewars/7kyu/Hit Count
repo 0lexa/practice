@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57b6f850a6fdc76523001162
-
-//JavaScript
-
-const counterEffect = hitCount =>
-  [...hitCount].map(val => [...Array(++val).keys()]);

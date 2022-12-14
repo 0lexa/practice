@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5700c9acc1555755be00027e
-
-//JavaScript
-
-const containAllRots = (strng, arr) =>
-  [...strng].map((_, idx) => strng.slice(idx) + strng.slice(0, idx)).every(val => arr.includes(val));

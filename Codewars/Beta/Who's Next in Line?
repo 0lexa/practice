@@ -1,9 +1,0 @@
-https://www.codewars.com/kata/582b327fc19013405e000014
-
-//JavaScript
-
-class Kata {
-  static findInQueue(queue, n) {
-    return queue[--n];
-  }
-}

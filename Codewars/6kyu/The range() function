@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5298961d9ce954d77b0003a6
-
-//JavaScript
-
-const range = (start, end, step = 1) =>
-  end !== undefined ? Array.from({length: Math.ceil((end - start) / (step || 1))}, (_, idx) => start + idx * step) : range(0, start, step);

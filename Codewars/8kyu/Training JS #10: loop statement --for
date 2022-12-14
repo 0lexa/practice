@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5721a78c283129e416000999
-
-//JavaScript
-
-const pickIt = arr =>
-  arr.reduce((pre, val) => (pre[val % 2].push(val), pre), [[], []]).reverse(`for(`);

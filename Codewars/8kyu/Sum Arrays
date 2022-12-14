@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/53dc54212259ed3d4f00071c
-
-//JavaScript
-
-const sum = numbers =>
-  numbers.reduce((pre, val) => pre + val, 0);

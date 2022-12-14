@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5516ab668915478845000780
-
-//JavaScript
-
-const reverseByCenter = s =>
-  (val => s.replace(new RegExp(`(.{${val}})(.?)(.{${val}})`), `$3$2$1`))
-  (s.length / 2 ^ 0);

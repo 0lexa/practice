@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/52ea928a1ef5cfec800003ee
-
-//JavaScript
-
-const ipToInt32 = ip =>
-  ip.split(`.`).reduce((pre, val) => 2 ** 8 * pre + +val);

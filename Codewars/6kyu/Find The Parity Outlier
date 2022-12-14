@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5526fc09a1bbd946250002dc
-
-//JavaScript
-
-const findOutlier = integers =>
-  integers.find(val => (val&1) != integers.slice(0, 3).filter(val => val % 2).length > 1);

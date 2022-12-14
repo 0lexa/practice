@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55563df50dda59adf900004d
-
-//JavaScript
-
-const validateEAN = eanCode =>
-  (10 - [...eanCode.slice(0, -1)].reduce((pre, val, idx) => pre + val * (idx % 2 ? 3 : 1), 0) % 10) % 10 == eanCode[12];

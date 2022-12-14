@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/54fb853b2c8785dd5e000957
-
-//JavaScript
-
-const chain = (input, fs) =>
-  fs.reduce((pre, val) => val(pre), input);

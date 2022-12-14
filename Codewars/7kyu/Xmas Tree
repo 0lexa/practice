@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/577c349edf78c178a1000108
-
-//JavaScript
-
-const xMasTree = n =>
-  (arr => [...arr, arr[0], arr[0]])
-  ([...Array(n)].map((_, idx) => `_`.repeat(n - ++idx) + `#`.repeat(idx * 2 - 1) + `_`.repeat(n - idx)));

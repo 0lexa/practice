@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/568dc69683322417eb00002c
-
-//JavaScript
-
-const tripleX = str =>
-  /(?<!x.+)x{3}/.test(str);

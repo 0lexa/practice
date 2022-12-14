@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/576b93db1129fcf2200001e6
-
-//JavaScript
-
-const sumArray = array =>
-  array ? array.sort((a, b) => a - b).slice(1, -1).reduce((pre, val) => pre + val, 0) : 0;

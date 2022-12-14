@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/578aa45ee9fd15ff4600090d
-
-//JavaScript
-
-const sortArray = array =>
-  (odd => array.map(val => val % 2 ? odd.shift() : val))
-  (array.filter(val => val % 2).sort((a, b) => a - b));

@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/56af1a20509ce5b9b000001e
-
-//JavaScript
-
-const travel = (r, zipcode) =>
-  (arr => `${zipcode}:${arr.map(val => val[2])}/${arr.map(val => val[1])}`)
-  (r.split(`,`).map(val => val.match(/(\d+)\s(.+)\s(\w{2}\s\d{5})/)).filter(val => val[3] === zipcode));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/581f4ac139dc423f04000b99
-
-//JavaScript
-
-const transposeTwoStrings = arr =>
-  [...arr[0].padEnd(arr[1].length)].map((val, idx) => `${val} ${arr[1].padEnd(arr[0].length)[idx]}`).join(`\n`);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56ba8a9b022c16017d0001f3
-
-//JavaScript
-
-const sequence = (n, pattern) =>
-  [...Array(n)][typeof pattern === `function` ? `map` : `fill`](pattern);

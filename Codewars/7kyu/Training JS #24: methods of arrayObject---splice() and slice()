@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/572cb264362806af46000793
-
-//JavaScript
-
-const threeInOne = arr =>
-  [...Array(arr.length / 3)].map((_, idx) => arr.slice(idx *= 3, idx + 3).reduce((pre, val) => pre + val));

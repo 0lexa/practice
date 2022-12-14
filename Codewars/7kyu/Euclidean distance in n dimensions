@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/595877be60d17855980013d3
-
-//JavaScript
-
-const euclideanDistance = (point1, point2) =>
-  Math.round(Math.hypot(...point1.map((val, idx) => val - point2[idx])) * 1e2) / 1e2;

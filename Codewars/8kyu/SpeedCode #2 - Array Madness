@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56ff6a70e1a63ccdfa0001b1
-
-//JavaScript
-
-const arrayMadness = (a, b) =>
-  a.reduce((pre, val) => pre + val ** 2, 0) > b.reduce((pre, val) => pre + val ** 3, 0);

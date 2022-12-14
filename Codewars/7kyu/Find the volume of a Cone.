@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57b2e428d24156b312000114
-
-//JavaScript
-
-const volume = (r, h) =>
-  Math.PI * r ** 2 * h / 3 ^ 0;

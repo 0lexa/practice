@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57cc4853fa9fc57a6a0002c2
-
-//JavaScript
-
-const smallEnough = (a, limit) =>
-  a.every(val => val <= limit);

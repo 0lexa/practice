@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/57eb8fcdf670e99d9b000272
-
-//JavaScript
-
-const high = x =>
-  (fn => x.split(` `).sort((a, b) => fn(b) - fn(a))[0])
-  (word => [...word].reduce((pre, val) => pre + val.charCodeAt() - 96, 0));

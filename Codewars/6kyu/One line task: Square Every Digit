@@ -1,5 +1,0 @@
-https://www.codewars.com/kata/5acd142a2ec8c48521000104
-
-//JavaScript
-
-sd=x=>+`${x}`.replace(/./g,v=>v*v)

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57a84137cf1fa5f9f80000d6
-
-//JavaScript
-
-const sumR = x =>
-  x.length ? x.pop() + sumR(x) : 0;

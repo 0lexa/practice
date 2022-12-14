@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5886da134703f125a6000033
-
-//JavaScript
-
-const pagesNumberingWithInk = (current, numberOfDigits) =>
-  numberOfDigits < `${current}`.length ? current - 1 : pagesNumberingWithInk(current + 1, numberOfDigits - `${current}`.length);

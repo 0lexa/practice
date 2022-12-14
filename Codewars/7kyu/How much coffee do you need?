@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/57de78848a8b8df8f10005b1
-
-//JavaScript
-
-const howMuchCoffee = events =>
-  (coffee => coffee > 3 ? `You need extra sleep` : coffee)
-  (events.filter(val => /^(cw|cat|dog|movie)$/i.test(val))
-    .reduce((pre, val) => pre + (/[A-Z]/g.test(val) ? 2 : 1), 0));

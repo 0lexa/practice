@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/589b1c15081bcbfe6700017a
-
-//JavaScript
-
-const cost = mins =>
-  30 + 10 * Math.max(0, Math.ceil((mins - 65) / 30));

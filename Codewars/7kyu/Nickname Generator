@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/593b1909e68ff627c9000186
-
-//JavaScript
-
-const nicknameGenerator = name =>
-  name.length < 4 ? `Error: Name too short` : name.replace(/(?<=\w{2}([^aeiou]|[aeiou]\w)).*/, ``);

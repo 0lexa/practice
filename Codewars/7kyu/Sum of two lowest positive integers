@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/558fc85d8fd1938afb000014
-
-//JavaScript
-
-const sumTwoSmallestNumbers = numbers =>
-  numbers.sort((a, b) => a - b).slice(0, 2).reduce((pre, val) => pre + val);

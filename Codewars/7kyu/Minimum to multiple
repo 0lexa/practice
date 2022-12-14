@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5e030f77cec18900322c535d
-
-//JavaScript
-
-const minimum = (a, x) =>
-  Math.min(a % x, x - a % x);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56c2578be8b139bd5c001bd8
-
-//JavaScript
-
-const match = (job, candidates) =>
-  candidates.filter(val => job.locations.some(v => [val.currentLocation, ...val.desiredLocations].includes(v)) && (job.equityMax || !val.desiresEquity));

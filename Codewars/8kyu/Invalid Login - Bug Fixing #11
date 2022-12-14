@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55e4c52ad58df7509c00007e
-
-//JavaScript
-
-const validate = (username, password) =>
-  /\/\/|\|\|/.test(password) ? `Wrong username or password!` : new Database().login(username, password);

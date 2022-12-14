@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5705cc3161944b10fd0004ba
-
-//JavaScript
-
-const sc = obj =>
-  Array.isArray(obj) ? `${obj}` === `${obj.reverse()}` : sc([...`${obj}`]);

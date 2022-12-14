@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5715eaedb436cf5606000381
-
-//JavaScript
-
-const positiveSum = arr =>
-  arr.reduce((pre, val) => pre + (val > 0 ? val : 0), 0);

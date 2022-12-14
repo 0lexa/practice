@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5ab363ff6a176b29880000dd
-
-//JavaScript
-
-const hexHash = code =>
-  [...code.replace(/./g, val => val.charCodeAt().toString(16)).replace(/\D/g, ``)].reduce((pre, val) => pre + +val, 0);

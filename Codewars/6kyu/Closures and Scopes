@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/526ec46d6f5e255e150002d1
-
-//JavaScript
-
-const createFunctions = n =>
-  [...Array(n)].map((_, idx) => () => idx);

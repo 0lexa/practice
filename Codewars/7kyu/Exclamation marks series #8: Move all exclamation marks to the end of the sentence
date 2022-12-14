@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57fafd0ed80daac48800019f
-
-//JavaScript
-
-const remove = s =>
-  s.replace(/!/g, ``) + s.replace(/[^!]/g, ``);

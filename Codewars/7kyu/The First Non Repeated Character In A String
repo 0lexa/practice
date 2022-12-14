@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/570f6436b29c708a32000826
-
-//JavaScript
-
-const firstNonRepeated = s =>
-  [...s].find(val => s.indexOf(val) === s.lastIndexOf(val)) || null;

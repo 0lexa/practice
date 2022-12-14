@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56b97b776ffcea598a0006f2
-
-//JavaScript
-
-const bubblesortOnce = a =>
-  a.reduce((pre, val, idx) => (idx && val > pre[--idx] ? pre.push(val) : pre.splice(idx, 0, val), pre), []);

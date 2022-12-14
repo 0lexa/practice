@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5b93fecd8463745630001d05
-
-//JavaScript
-
-const snail = (column, day, night) =>
-  Math.max(Math.ceil(1 + (column - day) / (day - night)), 1);

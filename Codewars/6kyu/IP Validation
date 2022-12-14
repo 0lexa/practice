@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/515decfd9dcfc23bb6000006
-
-//JavaScript
-
-const isValidIP = str =>
-  str.split(`.`).filter(val => val === String(+val) && +val >= 0 && +val < 256).length === 4;

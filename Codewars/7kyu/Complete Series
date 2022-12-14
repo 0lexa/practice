@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/580a4001d6df740d61000301
-
-//JavaScript
-
-const completeSeries = arr =>
-  new Set(arr).size === arr.length ? [...Array(Math.max(...arr) + 1).keys()] : [0];

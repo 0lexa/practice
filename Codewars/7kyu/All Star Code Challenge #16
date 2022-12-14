@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/586566b773bd9cbe2b000013
-
-//JavaScript
-
-const noRepeat = str =>
-  [...str].find(val => str.indexOf(val) === str.lastIndexOf(val));

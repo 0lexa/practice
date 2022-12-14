@@ -1,9 +1,0 @@
-https://www.codewars.com/kata/54fa3fe80609866d77001094
-
-//JavaScript
-
-const dstStart = year =>
-  new Date(year, 2, (15 - (new Date(year, 2, 1).getDay() || 7)));
-
-const dstEnd = year =>
-  new Date(year, 10, (8 - (new Date(year, 10, 1).getDay() || 7)));

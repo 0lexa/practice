@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57a83e447cb1f32de80000d5
-
-//JavaScript
-
-const lenR = x =>
-  x.length ? 1 + lenR(x.slice(1)) : 0;

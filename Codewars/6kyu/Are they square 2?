@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5697a0d35f754d1592000018
-
-//JavaScript
-
-const isSquare = arr =>
-  arr.length ? arr.every(val => val.length ? isSquare(val) : !(val ** .5 % 1)) : undefined;

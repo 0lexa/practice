@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a433c7a8f27f23bb00000dc
-
-//JavaScript
-
-const splitByValue = (k, elements) =>
-  [...elements.filter(val => val < k), ...elements.filter(val => val >= k)];

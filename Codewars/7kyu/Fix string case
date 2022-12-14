@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5b180e9fedaa564a7000009a
-
-//JavaScript
-
-const solve = s =>
-  s.replace(/[a-z]/g, ``).length > s.length / 2 ? s.toUpperCase() : s.toLowerCase();

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55caf1fd8063ddfa8e000018
-
-//JavaScript
-
-const arithmeticSequenceElements = (a, r, n) =>
-  [...Array(n)].map((_, idx) => a + r * idx).join(`, `);

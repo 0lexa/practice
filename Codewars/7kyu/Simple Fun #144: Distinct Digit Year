@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58aa68605aab54a26c0001a6
-
-//JavaScript
-
-const distinctDigitYear = year =>
-  /(.).*\1/.test(`${++year}`) ? distinctDigitYear(year) : year;

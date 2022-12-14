@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58899594b832f80348000122
-
-//JavaScript
-
-const cyclicString = (s, i = 1) =>
-  s.startsWith(s.slice(i)) ? i : cyclicString(s, ++i);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/54d84dc118438a0eed000a42
-
-//JavaScript
-
-const toPitchClass = n =>
-  [...Array(5)].map((_, idx) => ` BC D EF G A`[(idx + n) % 12] + [`x`, `#`, ``, `b`, `bb`][idx]).filter(val => !/\s/.test(val));

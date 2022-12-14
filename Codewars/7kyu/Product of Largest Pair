@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5784c89be5553370e000061b
-
-//JavaScript
-
-const maxProduct = a => 
-  a.splice(a.indexOf(Math.max(...a)), 1) * Math.max(...a);

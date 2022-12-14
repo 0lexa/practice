@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/586c3070b98de0a57000012e
-
-//JavaScript
-
-const splitter = str =>
-  str.replace(/(?<=[^A-Z\s])(?=[A-Z])/g, ` `);

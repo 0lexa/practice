@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/570f3fc5b29c702c5500043e
-
-//JavaScript
-
-const sc = (said, suspects) =>
-  suspects.filter(val => new RegExp(`^${said.replace(/~/g, `.`)}`, `i`).test(val)).join();

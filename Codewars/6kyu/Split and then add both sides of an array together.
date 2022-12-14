@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5946a0a64a2c5b596500019a
-
-//JavaScript
-
-const splitAndAdd = (arr, n) =>
-  n && arr.length > 1 ? splitAndAdd(arr.slice(arr.length / 2).map((val, idx) => val + (arr.length % 2 ? [0, ...arr] : arr)[idx]), --n) : arr;

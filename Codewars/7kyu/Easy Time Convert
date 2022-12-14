@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a084a098ba9146690000969
-
-//JavaScript
-
-const timeConvert = num =>
-  [num / 60, num % 60].map(val => `${Math.max(0, val) ^ 0}`.padStart(2, 0)).join(`:`);

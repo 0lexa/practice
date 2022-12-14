@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/593406b8f3d071d83c00005d
-
-//JavaScript
-
-const countAnimals = sentence =>
-  sentence.match(/\d+|$/g).reduce((pre, val) => pre + +val, 0);

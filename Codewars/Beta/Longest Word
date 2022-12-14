@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59e2877fe155cf834a00019e
-
-//JavaScript
-
-const theLongest = text =>
-  text.match(/[a-z']+/ig).sort((a, b) => b.length - a.length)[0];

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5803956ddb07c5c74200144e
-
-//JavaScript
-
-const datingRange = age =>
-  age > 14 ? `${age / 2 + 7 ^ 0}-${(age - 7) * 2 ^ 0}` : `${0.9 * age ^ 0}-${1.1 * age ^ 0}`;

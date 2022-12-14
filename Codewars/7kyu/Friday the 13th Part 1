@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5925acf31a9825d616000e74
-
-//JavaScript
-
-const killcount = (counselors, jason) =>
-  counselors.filter(val => val[1] < jason).map(val => val[0]);

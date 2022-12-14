@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a63948acadebff56f000018
-
-//JavaScript
-
-const maxProduct = (numbers, size) =>
-  numbers.sort((a, b) => b - a).reduce((pre, val, idx) => idx < size ? pre * val : pre);

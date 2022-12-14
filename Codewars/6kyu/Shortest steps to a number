@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5cd4aec6abc7260028dcd942
-
-//JavaScript
-
-const shortestStepsToNum = num =>
-  (arr => arr.reduce((pre, val) => +val + pre, arr.length - 2))
-  ([...num.toString(2)]);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58841cb52a077503c4000015
-
-//JavaScript
-
-const circleOfNumbers = (n, firstNumber) =>
-  (firstNumber + n / 2) % n;

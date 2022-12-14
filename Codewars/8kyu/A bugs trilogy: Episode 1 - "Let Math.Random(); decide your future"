@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/562e98755e9214cd2500003d
-
-//JavaScript
-
-const yourFutureCareer = () =>
-  (career => `${career <= 0.32 ? `FrontEnd` : career <= 0.65 ? `BackEnd` : `Full-Stack`} Developer`)
-  (Math.random());

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a431c0de1ce0ec33a00000c
-
-//JavaScript
-
-const evenNumbers = (array, number) =>
-  array.filter(val => !(val & 1)).slice(-number);

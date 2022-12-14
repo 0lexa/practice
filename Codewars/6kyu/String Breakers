@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59d398bb86a6fdf100000031
-
-//JavaScript
-
-const stringBreakers = (n, string) =>
-  string.replace(/\s/g, ``).match(new RegExp(`\\w{1,${n}}`, `g`)).join(`\n`);

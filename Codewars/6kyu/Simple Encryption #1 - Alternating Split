@@ -1,9 +1,0 @@
-https://www.codewars.com/kata/57814d79a56c88e3e0000786
-
-//JavaScript
-
-const encrypt = (text, n) =>
-  n > 0 && text ? encrypt([...[...text].filter((_, idx) => idx % 2), ...[...text].filter((_, idx) => !(idx % 2))].join(``), --n) : text;
-
-const decrypt = (encryptedText, n) =>
-  n > 0 && encryptedText? decrypt([...encryptedText].map((_, idx) => encryptedText[~~(idx / 2) + !(idx % 2) * ~~(encryptedText.length / 2)]).join(``), --n) : encryptedText;

@@ -1,9 +1,0 @@
-https://www.codewars.com/kata/56311e4fdd811616810000ce
-
-//JavaScript
-
-class List {
-  countSpecDigits (integersList, digitsList) {
-    return digitsList.map(val => [val, `${integersList}`.split(val).length - 1]);
-  }
-}

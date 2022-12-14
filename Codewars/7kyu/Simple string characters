@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a29a0898f27f2d9c9000058
-
-//JavaScript
-
-const solve = s =>
-  [/[^A-Z]/g, /[^a-z]/g, /\D/g, /\w/g].map(val => s.replace(val, ``).length);

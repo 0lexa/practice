@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5fc4349ddb878a0017838d0f
-
-//JavaScript
-
-const redKnight = (N, P) =>
-  [(N + P) % 2 ? `Black` : `White`, P * 2];

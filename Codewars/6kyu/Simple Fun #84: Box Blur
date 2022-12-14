@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5895326bcc949f496b00003e
-
-//JavaScript
-
-const boxBlur = image =>
-  image.slice(1, -1).map(val => val.slice(1, -1)).map((val, i) => val.map((_, j) => [...Array(3).keys()].reduce((pre, x, _, arr) => pre + arr.reduce((pre, y) => pre + image[i + x][j + y], 0), 0) / 9 ^ 0));

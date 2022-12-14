@@ -1,9 +1,0 @@
-https://www.codewars.com/kata/5630c850ed4343c1d0000083
-
-//JavaScript
-
-class Player {
-  constructor(name, position, age, dribbling, pass, shoot) {
-    Object.assign(this, {name, position, age, dribbling, pass, shoot})
-  }
-}

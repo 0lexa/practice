@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/530017aac7c0f49926000084
-
-//JavaScript
-
-const pluck = (objs, name) => 
-  objs.map(val => val[name]);

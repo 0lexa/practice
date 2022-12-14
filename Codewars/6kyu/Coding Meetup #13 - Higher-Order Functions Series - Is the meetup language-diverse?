@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/58381907f8ac48ae070000de
-
-//JavaScript
-
-const isLanguageDiverse = list =>
-  (arr => Math.max(...arr) / Math.min(...arr) <= 2)
-  (Object.values(list.reduce((pre, val) => (pre[val.language] = -~pre[val.language], pre), {})));

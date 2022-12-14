@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59cdb2b3a25c8c6d56000005
-
-//JavaScript
-
-const findUnknowNumber = (x, y, z, n = 1) =>
-  n % 7 !== z || n % 5 !== y || n % 3 !== x ? findUnknowNumber(x, y, z, ++n) : n;

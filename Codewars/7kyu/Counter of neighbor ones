@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56ec1e8492446a415e000b63
-
-//JavaScript
-
-const onesCounter = input =>
-  (input.join(``).match(/1+/g) || []).map(val => val.length);

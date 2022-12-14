@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/595249fc10b69f4f7a000003
-
-//JavaScript
-
-const toQueryString = obj =>
-  [].concat(...Object.entries(obj).map(([key, val]) => (Array.isArray(val) ? val : [val]).map(v => `${key}=${v}`))).join(`&`);

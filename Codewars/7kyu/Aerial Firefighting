@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5d10d53a4b67bb00211ca8af
-
-//JavaScript
-
-const waterbombs = (fire, w) =>
-  --fire.match(new RegExp(`x{1,${w}}|$`, `g`)).length;

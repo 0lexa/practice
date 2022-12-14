@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5970df092ef474680a0000c9
-
-//JavaScript
-
-const alphabetized = s =>
-  `abcdefghijklmnopqrstuvwxyz`.replace(/./g, val => s.match(new RegExp(`${val}|$`, `gi`)).join(``));

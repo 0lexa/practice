@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5913152be0b295cf99000001
-
-//JavaScript
-
-const divisions = (n, divisor) =>
-  Math.log(n) / Math.log(divisor) ^ 0;

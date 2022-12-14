@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/555b73a81a6285b6ce000047
-
-//JavaScript
-
-const add = (...args) =>
-  args.reduce((pre, val, idx) => pre + val * ++idx, 0);

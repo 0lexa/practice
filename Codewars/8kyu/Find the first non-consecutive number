@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/58f8a3a27a5c28d92e000144
-
-//JavaScript
-
-const firstNonConsecutive = array =>
-  (val => val % 1 === 0 ? val : null)
-  (array.find((val, idx) => val !== array[0] + idx));

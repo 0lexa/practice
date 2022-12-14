@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/59ff4709ba2a14501500003a
-
-//JavaScript
-
-const arrange = arr =>
-  (val => arr.sort((a, b) => val(a) - val(b)))
-  (val => parseInt(val) * {G: 1, KG: 1000, T: 1000000}[val.replace(/\d/g, ``)]);

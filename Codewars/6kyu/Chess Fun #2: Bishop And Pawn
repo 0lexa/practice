@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/589425c2561a35dd1a0000a2
-
-//JavaScript
-
-const bishopAndPawn = (bishop, pawn) =>
-  Math.abs(bishop.charCodeAt(0) - pawn.charCodeAt(0)) === Math.abs(bishop[1] - pawn[1]);

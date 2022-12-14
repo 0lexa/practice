@@ -1,9 +1,0 @@
-https://www.codewars.com/kata/56f54d45af5b1fec4b000cce
-
-//JavaScript
-
-const isValidHKPhoneNumber = number =>
-  /^\d{4} \d{4}$/.test(number);
-  
-const hasValidHKPhoneNumber = number =>
-  /\d{4} \d{4}/.test(number);

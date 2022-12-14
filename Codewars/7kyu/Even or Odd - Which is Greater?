@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/57f7b8271e3d9283300000b4
-
-//JavaScript
-
-const evenOrOdd = str =>
-  (val => val > 0 ? `Even is greater than Odd` : val < 0 ? `Odd is greater than Even` : `Even and Odd are the same`)
-  ([...str].reduce((pre, val) => pre + (val % 2 ? -val : +val), 0));

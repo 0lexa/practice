@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/57a429e253ba3381850000fb
-
-//JavaScript
-
-const bmi = (weight, height) =>
-  (val => val <= 18.5 ? `Underweight` : val <= 25 ? `Normal` : val <= 30 ? `Overweight` : `Obese`)
-  (weight / height ** 2);

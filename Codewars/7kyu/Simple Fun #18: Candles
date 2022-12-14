@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5884731139a9b4b7a8000002
-
-//JavaScript
-
-const candles = (candlesNumber, makeNew) =>
-  candlesNumber + --candlesNumber / --makeNew ^ 0;

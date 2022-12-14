@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/598d91785d4ce3ec4f000018
-
-//JavaScript
-
-const wordValue = a =>
-  a.map((val, idx) => (val.match(/\w/g) || []).reduce((pre, val) => pre + val.charCodeAt() - 96, 0) * ++idx);

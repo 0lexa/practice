@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5ba38ba180824a86850000f7
-
-//JavaScript
-
-const solve = arr =>
-  arr.filter((val, idx) => idx === arr.lastIndexOf(val));

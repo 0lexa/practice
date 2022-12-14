@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/557af4c6169ac832300000ba
-
-//JavaScript
-
-const removeRotten = bagOfFruits =>
-  bagOfFruits ? bagOfFruits.map(val => val.replace(`rotten`, ``).toLowerCase()) : [];

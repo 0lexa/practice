@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59752e1f064d1261cb0000ec
-
-//JavaScript
-
-const whatTimeIsIt = angle =>
-  [(angle / 30 ^ 0) || 12, angle * 2 % 60 ^ 0].map(val => `${val}`.padStart(2, `0`)).join(`:`);

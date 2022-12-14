@@ -1,5 +1,0 @@
-https://www.codewars.com/kata/59fc72fe235f93838b002235
-
-//JavaScript
-
-const power = (x, y) => x ** y;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5c563cb78dac1951c2d60f01
-
-//JavaScript
-
-const passTheDoorMan = word =>
-  (word.toLowerCase().match(/(\w)\1/)[1].charCodeAt() - 96) * 3;

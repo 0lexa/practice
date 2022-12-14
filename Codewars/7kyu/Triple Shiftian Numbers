@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56b7526481290c2ff1000c75
-
-//JavaScript
-
-const tripleShiftian = ([T1, T2, T3], n) =>
-  n < 3 ? [T1, T2, T3][n] : tripleShiftian([T2, T3, 4 * T3 - 5 * T2 + 3 * T1], --n);

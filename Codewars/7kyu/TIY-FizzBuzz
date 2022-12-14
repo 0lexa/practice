@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5889177bf148eddd150002cc
-
-//JavaScript
-
-const tiyFizzBuzz = sentence =>
-  sentence.replace(/[A-Zaeiou]/g, val => /[AEIOU]/.test(val) ? `Iron Yard` : /[aeiou]/.test(val) ? `Yard` : `Iron`);

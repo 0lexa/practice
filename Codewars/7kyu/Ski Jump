@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/57ed7214f670e99f7a000c73
-
-//JavaScript
-
-const skiJump = mountain =>
-  (val => `${val} metres: ${val < 50 ? `He's ${[`flying`, `ok`, `crap`][(val < 10) + (val < 25)]}` : `Gold!`}!`)
-  ((mountain.length ** 2 * 1.35).toFixed(2));

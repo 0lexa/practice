@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5b715fd11db5ce5912000019
-
-//JavaScript
-
-const cupAndBalls = (b, arr) =>
-  arr.reduce((pre, val) => pre - val[0] ? pre - val[1] ? pre : val[0] : val [1], b);

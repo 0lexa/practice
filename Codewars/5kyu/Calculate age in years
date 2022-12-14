@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/521660e064dc2ccdd900008d
-
-//JavaScript
-
-const getAge = (birthDate, nowDate = new Date()) =>
-  (val => nowDate.getFullYear() - birthDate.getFullYear() - val)
-  (nowDate.toLocaleDateString(`en-US`).slice(0, -5) < birthDate.toLocaleDateString(`en-US`).slice(0, -5));

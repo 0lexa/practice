@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5b18e9e06aefb52e1d0001e9
-
-//JavaScript
-
-const riders = stations =>
-  stations.reduce(([dist, rid], val) => val + dist > 100 ? [val, ++rid] : [dist + val, rid], [0, 1])[1];

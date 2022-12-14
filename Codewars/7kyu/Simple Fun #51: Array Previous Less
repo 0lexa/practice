@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/588856a82ffea640c80000cc
-
-//JavaScript
-
-const arrayPreviousLess = arr =>
-  arr.map((val, idx) => arr.slice(0, idx).reverse().find(v => v < val) || -1);

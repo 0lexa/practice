@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5b56e42805f04b1780000073
-
-//JavaScript
-
-const furthestDistance = arr =>
-  +Math.max(...arr.reduce((pre, [a, b]) => [...pre, ...arr.slice(1).map(([c, d]) => Math.hypot(a - c, b - d))], [])).toFixed(2);

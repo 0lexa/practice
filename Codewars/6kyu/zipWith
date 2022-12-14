@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5825792ada030e9601000782
-
-//JavaScript
-
-const zipWith = (fn, a0, a1) =>
-  a0.slice(0, a1.length).map((val, idx) => fn(val, a1[idx]));

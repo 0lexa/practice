@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/54b42f9314d9229fd6000d9c
-
-//JavaScript
-
-const duplicateEncode = word =>
-  word.replace(/./g, val => new RegExp(`([${val}]).*\\1`, `gi`).test(word) ? `)` : `(`);

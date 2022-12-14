@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/547336f44481cf5ecc000dde
-
-//JavaScript
-
-const nextBirthdayOfTheWeek = (birthday, day = birthday.getDay()) =>
-  new Date(birthday.setFullYear(birthday.getFullYear() + 1)).getDay() !== day ? 1 + nextBirthdayOfTheWeek(birthday, day) : 1;

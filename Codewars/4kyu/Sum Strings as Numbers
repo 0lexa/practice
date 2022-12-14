@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5324945e2ece5e1f32000370
-
-//JavaScript
-
-const sumStrings = (a, b) =>
-  ((a, b, c) => [...a].reduceRight((pre, val, idx) => (sum => (c = sum / 10 ^ 0, sum % 10 + pre))(+val + +b[idx] + c), ``).replace(/^0+/, ``))
-  (a.padStart(Math.max(a.length, b.length) + 1, `0`), b.padStart(Math.max(a.length, b.length) + 1, `0`), 0);

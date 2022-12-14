@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/559ac78160f0be07c200005a
-
-//JavaScript
-
-const nameShuffler = str =>
-  str.replace(/([^\s]+) ([^\s]+)/, `$2 $1`);

@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/52449b062fb80683ec000024
-
-//JavaScript
-
-const generateHashtag = str =>
-  (val => !!str.trim() && val.length <= 140 && val)
-  (`#${str.replace(/(?:^|\s+)(\w)/g, (_, $1) => $1.toUpperCase())}`);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58ac59d21c9e1d7dc5000150
-
-//JavaScript
-
-const makeParts = (arr, chunkSize) =>
-  [...Array(Math.ceil(arr.length / chunkSize))].map(val => arr.splice(0, chunkSize));

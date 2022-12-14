@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/57eb936de1051801d500008a
-
-//JavaScript
-
-const explode = x =>
-  (val => val ? Array(val).fill(x) : `Void!`)
-  (~~x[0] + ~~x[1]);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55a5bfaa756cfede78000026
-
-//JavaScript
-
-const problem = x =>
-  Number.isFinite(x) ? x * 50 + 6 : `Error`;

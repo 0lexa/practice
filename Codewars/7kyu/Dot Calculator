@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/6071ef9cbe6ec400228d9531
-
-//JavaScript
-
-const dotCalculator = equation =>
-  ((a, op, b) => `.`.repeat(op === `+` ? +a + +b : op === `-` ? a - b : op === `*` ? a * b : a / b))
-  (...equation.replace(/\.+/g, val => val.length).split(` `));

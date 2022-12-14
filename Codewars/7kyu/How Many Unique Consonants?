@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a19226646d843de9000007d
-
-//JavaScript
-
-const countConsonants = str =>
-  new Set(str.toLowerCase().replace(/[^a-z]|[aeiou]/g, ``)).size;

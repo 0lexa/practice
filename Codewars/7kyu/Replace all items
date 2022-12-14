@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/57ae18c6e298a7a6d5000c7a
-
-//JavaScript
-
-const replaceAll = (seq, find, replace) =>
-  (val => Array.isArray(seq) ? val : val.join(``))
-  ([...seq].map(val => val === find ? replace : val));

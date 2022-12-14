@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5d0365accfd09600130a00c9
-
-//JavaScript
-
-const solve = arr =>
-  Math.max(...arr.reduce((pre, val) => [].concat(...pre.map(v => val.map(val => val * v)))));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/51fc12de24a9d8cb0e000001
-
-//JavaScript
-
-const validISBN10 = isbn =>
-  /\d{9}[\dX]/.test(isbn) && !([...isbn].reduce((prev, val, idx) => prev + ((val===`X`? 10 : val) * ++idx), 0) % 11);

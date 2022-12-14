@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/589577f0d1b93ae32a000001
-
-//JavaScript
-
-const sortByHeight = a =>
-  (arr => a.map(val => ~val ? arr.shift() : -1))
-  (a.filter(val => ~val).sort((a, b) => a - b));

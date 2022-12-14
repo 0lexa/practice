@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55736129f78b30311300010f
-
-//JavaScript
-
-const pattern = (n, str = ``) =>
-  [...Array(Math.max(0, n))].map(() => str = n-- + str).reverse().join(`\n`);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56c0ca8c6d88fdb61b000f06
-
-//JavaScript
-
-const nextVersion = v =>
-  v.replace(/(\d+)((\.9)*)$/, (_, $1, $2) => ++$1 + `.0`.repeat($2.length / 2));

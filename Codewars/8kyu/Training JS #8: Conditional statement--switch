@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/572059afc2f4612825000d8a
-
-//JavaScript
-
-const howManydays = month =>
-  new Date(1970, month, 0).getUTCDate(`switch :)`);

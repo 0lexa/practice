@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/582cb3a637c5583f2200005d
-
-//JavaScript
-
-const getWeight = name =>
-  [...name.replace(/[^A-Z]/ig, ``)].reduce((pre, val) => pre + val.charCodeAt() + 32 * (val < `a` ? 1 : -1), 0);

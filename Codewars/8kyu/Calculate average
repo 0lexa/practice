@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57a2013acf1fa5bfc4000921
-
-//JavaScript
-
-const find_average = array =>
-  array.reduce((pre, val) => pre + val, 0) / array.length;

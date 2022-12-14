@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/586d6cefbcc21eed7a001155
-
-//JavaScript
-
-const longestRepetition = s =>
-  s.match(/(.)\1*|$/g).reduce(([c, l], val) => val.length > l ? [val[0], val.length] : [c, l], [``, 0]);

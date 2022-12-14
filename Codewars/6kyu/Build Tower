@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/576757b1df89ecf5bd00073b
-
-//JavaScript
-
-const towerBuilder = nFloors =>
-  [...Array(nFloors)].map((_, idx) => `${`*`.repeat(2 * idx + 1)}`.padStart(nFloors + idx, ` `).padEnd(2 * nFloors - 1, ` `));

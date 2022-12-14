@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/56efc695740d30f963000557
-
-//JavaScript
-
-String.prototype.toAlternatingCase = function () {
-  return this.replace(/[a-z]/gi, val => val < `a` ? val.toLowerCase() : val.toUpperCase());
-};

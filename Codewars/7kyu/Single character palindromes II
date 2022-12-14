@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5a66ea69e6be38219f000110
-
-//JavaScript
-
-const solve = str =>
-  (val => str.length % 2 && !val || val === 2)
-  ([...str].reverse().filter((val, idx) => val !== str[idx]).length);

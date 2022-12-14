@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57efa1a2108d3f73f60000e9
-
-//JavaScript
-
-const trim = x =>
-  x.map((val, idx) => idx < x.length - 1 ? val.map(v => v.replace(/J/, `|`)) : val.map(v => `...`));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/51e000d070fe4414000003f0
-
-//JavaScript
-
-const solution = hour =>
-  hour > 99 && hour < 10000 ? `${hour}`.replace(/(?=\d{2}$)/, `:`) : (() => {throw new Error()})();

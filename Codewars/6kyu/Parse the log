@@ -1,5 +1,0 @@
-https://www.codewars.com/kata/558ecd6398ae4ed3350000c2
-
-//JavaScript
-
-const logparser = /^(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3})\s+(ERROR|INFO|DEBUG)\s+\[(\w+):(\w+):?(\w+)?\]\s+(.*$)/;

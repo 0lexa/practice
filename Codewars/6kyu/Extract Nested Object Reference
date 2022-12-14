@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/527a6e602a7db3456e000a2b
-
-//JavaScript
-
-Object.prototype.hash = function (string) {
-  return string.split(`.`).reduce((pre = this, val) => pre[val], this);
-};

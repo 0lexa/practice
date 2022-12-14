@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5806445c3f1f9c2f72000031
-
-//JavaScript
-
-const meanVsMedian = numbers =>
-  (val => val > 0 ? `mean` : val ? `median` : `same`)
-  (numbers.reduce((pre, val) => pre + val) / numbers.length - numbers.sort((a, b) => a - b)[numbers.length / 2 | 0]);

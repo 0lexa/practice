@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5786f8404c4709148f0006bf
-
-//JavaScript
-
-const startingMark = bodyHeight =>
-  +(bodyHeight * 3.9354 + 3.4681).toFixed(2);

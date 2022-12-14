@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55da6c52a94744b379000036
-
-//JavaScript
-
-const sumFromString = str =>
-  str.match(/\d+|$/g).reduce((pre, val) => pre + +val, 0);

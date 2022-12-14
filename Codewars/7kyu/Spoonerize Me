@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56b8903933dbe5831e000c76
-
-//JavaScript
-
-const spoonerize = words =>
-  words.replace(/(\w)(.*)(\b\w)/, `$3$2$1`);

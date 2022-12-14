@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/6066ae080168ff0032c4107a
-
-//JavaScript
-
-const maxSumBetweenTwoNegatives = a =>
-  a.reduce(([sum, max], val) => val < 0 ? [0, Math.max(sum, max)] : [sum < 0 ? sum : sum + val, max], [-1, -1]).pop();

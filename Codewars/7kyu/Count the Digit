@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/566fc12495810954b1000030
-
-//JavaScript
-
-const nbDig = (n, d) =>
-  [...Array(++n)].map((_, idx) => idx ** 2).join(``).split(d).length - 1;

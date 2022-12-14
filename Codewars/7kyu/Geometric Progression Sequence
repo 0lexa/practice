@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55caef80d691f65cb6000040
-
-//JavaScript
-
-const geometricSequenceElements = (a, r, n) =>
-  [...Array(n)].map((_, idx) => a * r ** idx).join(`, `);

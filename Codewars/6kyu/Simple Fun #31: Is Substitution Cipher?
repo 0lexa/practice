@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58870742c815166a960000af
-
-//JavaScript
-
-const isSubstitutionCipher = (string1, string2) =>
-  [...string1].every((val, idx) => string1.indexOf(val) === string2.indexOf(string2[idx]));

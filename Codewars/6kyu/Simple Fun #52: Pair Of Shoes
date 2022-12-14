@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58885a7bf06a3d466e0000e3
-
-//JavaScript
-
-const pairOfShoes = shoes =>
-  Object.values(shoes.reduce((pre, val) => (pre[val[1]] = (pre[val[1]] || 0) + (val[0] || -1), pre), {})).every(val => !val);

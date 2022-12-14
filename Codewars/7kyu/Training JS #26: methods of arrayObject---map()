@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/572fdeb4380bb703fc00002c
-
-//JavaScript
-
-const isolateIt = arr =>
-  arr.map(val => `${val.slice(0, val.length / 2)}|${val.slice(-val.length / 2)}`);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58846b46f4456a8919000025
-
-//JavaScript
-
-const appleBoxes = k =>
-  (k ** 2 + k) / (k % 2 ? -2 : 2);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/557226cd3554219bdf00019b
-
-//JavaScript
-
-const fib = (num, a = 0, b = 1) =>
-  num ? fib(--num, b, a + b) : a;

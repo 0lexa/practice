@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5aefd0a686d075d5f3000091
-
-//JavaScript
-
-const cookingTime = (neededPower, minutes, seconds, power) =>
-  (val => `${val / 60 ^ 0} minutes ${val % 60} seconds`)
-  (Math.ceil(parseInt(neededPower) / parseInt(power) * (minutes * 60 + seconds)));

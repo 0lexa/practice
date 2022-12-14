@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59a1ec603203e862bb00004f
-
-//JavaScript
-
-const checkConcatenatedSum = (num, n) =>
-  [...`${Math.abs(num)}`].reduce((pre, val) => pre + Math.sign(num) * val.repeat(n), 0) === num;

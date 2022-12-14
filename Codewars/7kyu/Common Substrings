@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5669a5113c8ebf16ed00004c
-
-//JavaScript
-
-const SubstringTest = (str1, str2) =>
-  [...str1].some((val, idx) => idx && new RegExp(str1[--idx] + val, `i`).test(str2));

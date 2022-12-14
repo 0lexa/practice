@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/550554fd08b86f84fe000a58
-
-//JavaScript
-
-const inArray = (array1,array2) =>
-  array1.filter(val => array2.join(` `).includes(val)).sort();

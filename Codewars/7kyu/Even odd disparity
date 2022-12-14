@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59c62f1bdcc40560a2000060
-
-//JavaScript
-
-const solve = a =>
-  a.reduce((pre, val) => pre + (val % 2 === 0) - (val % 2 === 1), 0);

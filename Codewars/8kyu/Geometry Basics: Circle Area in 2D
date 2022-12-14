@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58e3f824a33b52c1dc0001c0
-
-//JavaScript
-
-const circleArea = circle =>
-  Math.round(Math.PI * circle.radius ** 2 * 1e6) / 1e6;

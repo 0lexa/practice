@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56b71b1dbd06e6d88100092a
-
-//JavaScript
-
-const buildFun = n =>
-  [...Array(n)].map((_, idx) => () => idx);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5296455e4fe0cdf2e000059f
-
-//JavaScript
-
-const calculate = (num1, operation, num2) =>
-  /[-+*/]/.test(operation) ? {'+' : num1 + num2, '-' : num1 - num2, '*' : num1 * num2, '/' : num2 ? num1 / num2 : null}[operation] : null;

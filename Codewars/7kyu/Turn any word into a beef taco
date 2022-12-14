@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/59414b46d040b7b8f7000021
-
-//JavaScript
-
-const tacofy = word =>
-  (obj => [`shell`, ...[...word.toLowerCase().replace(/[^aeioutlcgs]/g, ``)].map(val => obj[val] || `beef`), `shell`])
-  ({t: `tomato`, l: `lettuce`, c: `cheese`, g: `guacamole`, s: `salsa`});

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5875b200d520904a04000003
-
-//JavaScript
-
-const enough = (cap, on, wait) =>
-  Math.max(0, on + wait - cap);

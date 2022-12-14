@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5864614683f7e6e7830000c1
-
-//JavaScript
-
-const bite = thing =>
-  (`race` in thing && (thing.race === `human`) && (thing.race = `zombie`), thing);

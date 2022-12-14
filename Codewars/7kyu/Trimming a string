@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/563fb342f47611dae800003c
-
-//JavaScript
-
-const trim = (arr, size) =>
-  arr.length > size ? `${arr.slice(0, size - (arr.length > 3) * 3)}...` : arr;

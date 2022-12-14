@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a0c5b3206d5b696940000b8
-
-//JavaScript
-
-const ballCollector = detritus =>
-  ({weight: detritus.reduce((pre, val) => pre + (val === 58) * 58, 0)});

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/581e1d083a4820eb4f00004f
-
-//JavaScript
-
-const mod256WithoutMod = number =>
-  number - (number / 256 ^ 0) * 256;

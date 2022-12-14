@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/557cffec8c3e8e55cc00010f
-
-//JavaScript
-
-const countZeros = n =>
-  [...Array(n)].reduce((pre, _, idx) => pre + ++idx, ``).replace(/[^0]/g, ``).length;

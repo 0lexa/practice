@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/541629460b198da04e000bb9
-
-//JavaScript
-
-const last = (...list) =>
-  (val => val[val.length - 1] || val)
-  (list[list.length - 1]);

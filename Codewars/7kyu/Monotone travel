@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/54466996990c921f90000d61
-
-//JavaScript
-
-const isMonotone = arr =>
-  !arr.some((val, idx) => val < arr[--idx]);

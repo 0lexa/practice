@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/6097a9f20d32c2000d0bdb98
-
-//JavaScript
-
-const i = word =>
-  /^[a-zI]/.test(word) || word.replace(/[aeiou]/ig, ``).length <= word.length / 2 ? `Invalid word` : `i` + word;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/523a86aa4230ebb5420001e1
-
-//JavaScript
-
-const anagrams = (word, words) =>
-  words.filter(val => [...val].sort().join(``) === [...word].sort().join(``));

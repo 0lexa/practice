@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58f6f87a55d759439b000073
-
-//JavaScript
-
-const negationValue = (string, value) =>
-  string.length % 2 == !value;

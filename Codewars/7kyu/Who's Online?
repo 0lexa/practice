@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/5b6375f707a2664ada00002a
-
-//JavaScript
-
-const whosOnline = friends =>
-  friends.reduce((pre, {username, status, lastActivity}) =>
-    ((val => pre[val] ? pre[val].push(username) : pre[val] = [username])
-    (status === `online` && lastActivity > 10 ? `away` : status), pre), {});

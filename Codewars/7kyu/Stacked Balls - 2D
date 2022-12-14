@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5bb804397274c772b40000ca
-
-//JavaScript
-
-const stackHeight2d = layers =>
-  layers && (--layers * 3 ** .5 / 2) + 1;

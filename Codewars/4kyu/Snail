@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
-
-//JavaScript
-
-const snail = array =>
-  [...Array(array.length)].reduce(pre => (pre.push(...array.shift(), ...array.map(val => val.pop())), array.reverse().map(val => val.reverse()), pre), []);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a4b16435f08299c7000274f
-
-//JavaScript
-
-const sumSquareEvenRootOdd = ns =>
-  Math.round(ns.reduce((pre, val) => pre + val ** (val % 2 ? .5 : 2), 0) * 1e2) / 1e2;

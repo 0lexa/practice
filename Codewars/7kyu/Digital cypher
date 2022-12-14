@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/592e830e043b99888600002d
-
-//JavaScript
-
-const encode = (str, n) =>
-  [...str].map((val, idx) => `${n}`[idx % `${n}`.length] - 96 + val.charCodeAt());

@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5667525f0f157f7a0a000004
-
-//JavaScript
-
-const bucketOf = (str) =>
-  ((w, s) => w && s ? `sludge` : w ? `water` : s ? `slime` : `air`)
-  (/(water|wet|wash)/i.test(str), /(slime|i don't know)/i.test(str));

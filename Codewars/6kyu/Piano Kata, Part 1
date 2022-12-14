@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/589273272fab865136000108
-
-//JavaScript
-
-const blackOrWhiteKey = keyPressCount =>
-  [1, 4, 6, 9, 11].includes(--keyPressCount % 88 % 12) ? `black` : `white`;

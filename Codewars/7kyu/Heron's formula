@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57aa218e72292d98d500240f
-
-//JavaScript
-
-const heron = (a, b, c) =>
-  Math.round((4 * a ** 2 * b ** 2 - (a ** 2 + b ** 2 - c ** 2) ** 2) ** .5 * 25) / 1e2;

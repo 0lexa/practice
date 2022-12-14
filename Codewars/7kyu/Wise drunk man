@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58e953ace87e856a97000046
-
-//JavaScript
-
-const wdm = talk =>
-  talk.replace(/puke|hiccup/g, ``).trim().replace(/\s+/g, ` `);

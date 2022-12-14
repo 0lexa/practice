@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/525c65e51bf619685c000059
-
-//JavaScript
-
-const cakes = (recipe, available) =>
-  Math.min(...Object.keys(recipe).map(val => available[val] / recipe[val])) ^ 0;

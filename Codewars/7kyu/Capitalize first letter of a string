@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/56c19316e8b139dff60006da
-
-//JavaScript
-
-String.prototype.capitalize = function () {
-  return this.replace(/^[a-z]/, val => String.fromCharCode(val.charCodeAt(0) - 32));
-};

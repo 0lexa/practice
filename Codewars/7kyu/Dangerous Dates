@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/53a257d83cacabb1fd0007d3
-
-//JavaScript
-
-const nextFiveDays = date =>
-  [...Array(5)].map(() => (date.setDate(date.getDate() + 1), date.toLocaleDateString(`en-US`))).join(`, `);

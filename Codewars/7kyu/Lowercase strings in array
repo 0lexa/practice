@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5729fa716c7d26dc84000040
-
-//JavaScript
-
-const arrayLowerCase = arr =>
-  arr.map(val => val.toLowerCase ? val.toLowerCase() : val);

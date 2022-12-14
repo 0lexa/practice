@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5889ab4928c08c08da00009b
-
-//JavaScript
-
-const crossingSum = (matrix, a, b) =>
-  matrix.reduce((pre, val) => pre + val[b], 0) + matrix[a].reduce((pre, val) => pre + val) - matrix[a][b];

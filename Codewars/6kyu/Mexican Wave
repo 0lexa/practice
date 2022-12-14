@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58f5c63f1e26ecda7e000029
-
-//JavaScript
-
-const wave = str =>
-  [...str].map((val, idx) => str.slice(0, idx) + val.toUpperCase() + str.slice(++idx)).filter(val => val !== str);

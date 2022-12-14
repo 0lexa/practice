@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/552ab0a4db0236ff1a00017a
-
-//JavaScript
-
-const sillycase = silly =>
-  silly.replace(/./g, (val, idx) => val[`to${idx < silly.length / 2 ? `Low` : `Upp`}erCase`]());

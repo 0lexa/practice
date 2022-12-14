@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/561046a9f629a8aac000001d
-
-//JavaScript
-
-const matchArrays = (v,r) =>
-  v.reduce((pre, val) => pre + r.includes(val), 0);

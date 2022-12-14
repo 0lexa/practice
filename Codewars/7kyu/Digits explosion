@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/585b1fafe08bae9988000314
-
-//JavaScript
-
-const explode = s =>
-  s.replace(/\d/g, val => val.repeat(val));

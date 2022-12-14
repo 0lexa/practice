@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/57f222ce69e09c3630000212
-
-//JavaScript
-
-const well = x =>
-  (val => val ? val > 2 ? `I smell a series!` : `Publish!` : `Fail!`)
-  (x.filter(val => val === `good`).length);

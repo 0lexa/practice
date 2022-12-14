@@ -1,5 +1,0 @@
-https://www.codewars.com/kata/56f8a648ba792a778a0000b9
-
-//JavaScript
-
-sc=a=>[a.findIndex(v=>~(i=v.indexOf(`B`))),i]

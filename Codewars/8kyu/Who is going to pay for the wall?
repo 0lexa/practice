@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58bf9bd943fadb2a980000a7
-
-//JavaScript
-
-const whoIsPaying = name =>
-  [...new Set([name, name.slice(0, 2)])];

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55a12bb8f0fac1ba340000aa
-
-//JavaScript
-
-const FindFunction = (func, arr) =>
-  arr.filter(func.find(val => typeof val === `function`));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5aa736a455f906981800360d
-
-//JavaScript
-
-const feast = (beast, dish) =>
-  dish.startsWith(beast[0]) && dish.endsWith(beast.slice(-1));

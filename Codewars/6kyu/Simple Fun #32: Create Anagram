@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5887099cc815166a960000c6
-
-//JavaScript
-
-const createAnagram = (s, t) =>
-  [...s].reduce((pre, val) => pre.replace(val, ``), t).length;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/536c738e49aa8b663b000301
-
-//JavaScript
-
-const sum = (...args) =>
-  args.reduce((pre, val) => pre + (Number.isInteger(val) ? val : 0), 0);

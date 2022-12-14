@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/57e2afb6e108c01da000026e
-
-//JavaScript
-
-const expressionOut = expr =>
-  ((a, op, b, nums) => OPERATORS[op] ? `${nums[a]} ${OPERATORS[op]}${nums[b]}` : `That's not an operator!`)
-  (...expr.split(/\s/), [, `One`, `Two`, `Three`, `Four`, `Five`, `Six`, `Seven`, `Eight`, `Nine`, `Ten`]);

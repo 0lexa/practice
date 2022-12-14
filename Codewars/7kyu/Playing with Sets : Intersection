@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5884d46015a70f6cd7000035
-
-//JavaScript
-
-const inter = (s1, s2) =>
-  new Set([...s1].filter(val => s2.has(val)));

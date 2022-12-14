@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5546180ca783b6d2d5000062
-
-//JavaScript
-
-const squares = (x, n) =>
-  [...Array((n > 0) * n)].map((_, idx) => x ** 2 ** idx);

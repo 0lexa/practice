@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/53dbd5315a3c69eed20002dd
-
-//JavaScript
-
-const filter_list = l =>
-  l.filter(val => Number.isInteger(val));

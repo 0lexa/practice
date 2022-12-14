@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59dc8288fc3c49cc3f000039
-
-//JavaScript
-
-const sort = (initialArray, sortingArray) =>
-  initialArray.map((_, idx) => initialArray[sortingArray.indexOf(idx)]);

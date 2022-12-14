@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a34da5dee1aae516d00004a
-
-//JavaScript
-
-const getMatrix = number =>
-  [...Array(number)].map((_, idx) => [...Array(number)].map((_, i) => i===idx ? 1 : 0));

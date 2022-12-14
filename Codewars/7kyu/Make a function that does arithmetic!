@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/583f158ea20cfcbeb400000a
-
-//JavaScript
-
-const arithmetic = (a, b, operator) =>
-  ({add: a + b, subtract: a - b, multiply: a * b, divide: a / b})[operator];

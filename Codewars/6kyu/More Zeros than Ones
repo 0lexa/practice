@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5d41e16d8bad42002208fe1a
-
-//JavaScript
-
-const moreZeros = s =>
-  [...new Set(s)].filter(val => val.charCodeAt().toString(2).replace(/1/g, ``).length > 3);

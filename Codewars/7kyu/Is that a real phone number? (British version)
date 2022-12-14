@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/581a52d305fe7756720002eb
-
-//JavaScript
-
-const validateNumber = str =>
-  /^(\+44|0)7\d{9}$/.test(str.replace(/-/g, ``)) ? `In with a chance` : `Plenty more fish in the sea`;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5b55c49d4a317adff500015f
-
-//JavaScript
-
-const pointsNumber = radius =>
-  4 * [...Array(radius)].reduceRight((pre, _, idx) => pre + (radius ** 2 - idx ** 2) ** .5 ^ 0, 0) + 1;

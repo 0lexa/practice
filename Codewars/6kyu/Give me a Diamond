@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5503013e34137eeeaa001648
-
-//JavaScript
-
-const diamond = n =>
-  n < 0 || --n % 2 ? null : [...Array(n + 1)].map((_, idx) => ` `.repeat(Math.abs(n / 2 - idx)) + `*`.repeat(n + 1 - Math.abs(n - 2 * idx)) + `\n`).join(``);

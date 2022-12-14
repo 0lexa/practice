@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/54df2067ecaa226eca000229
-
-//JavaScript
-
-const f = n =>
-  Number.isInteger(n) && n > 0 && n / 2 * ++n;

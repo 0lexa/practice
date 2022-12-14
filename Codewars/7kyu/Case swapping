@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5590961e6620c0825000008f
-
-//JavaScript
-
-const swap = str =>
-  str.replace(/\w/g, val => val[`to${val < `a` ? 'Low' : 'Upp'}erCase`]());

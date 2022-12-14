@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/545cff101288c1d2da0006fb
-
-//JavaScript
-
-const paginationText = (pageNumber, pageSize, totalProducts) =>
-  `Showing ${pageSize * (pageNumber - 1) + 1} to ${Math.min(pageSize * pageNumber, totalProducts)} of ${totalProducts} Products.`;

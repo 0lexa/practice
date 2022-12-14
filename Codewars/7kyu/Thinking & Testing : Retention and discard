@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56ee0448588cbb60740013b9
-
-//JavaScript
-
-const testit = n =>
-  [...Array(n + 1)].reduce((pre, _, idx) => !(n % idx) && idx % 2 ? [...pre, idx] : pre, []);

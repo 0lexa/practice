@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/53e895e28f9e66a56900011a
-
-//JavaScript
-
-const letterFrequency = text =>
-  Object.entries([...text.toLowerCase().replace(/[^a-z]/g, ``)]
-    .reduce((pre, val) => (pre[val] = -~pre[val], pre), {}))
-    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a5c118380eba8a53d0000ce
-
-//JavaScript
-
-const convertMyDollars = (usd, currency) => 
-  `You now have ${usd * parseInt(CONVERSION_RATES[currency], /^[AEIOU]/.test(currency) ? 10 : 2)} of ${currency}.`;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/556e0fccc392c527f20000c5
-
-//JavaScript
-
-const Xbonacci = (signature, n, l = signature.length) =>
-  signature.length < n ? Xbonacci([...signature, signature.slice(signature.length - l).reduce((pre, val) => pre + val)], n, l) : signature.slice(0, n);

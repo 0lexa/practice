@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56445c4755d0e45b8c00010a
-
-//JavaScript
-
-const fortune = (f0, p, c0, n, i) =>
-  --n ? fortune(f0 * (1 + p / 100) - c0 ^ 0, p, c0 * (1 + i / 100) ^ 0, n, i) : f0 >= 0;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57fcaed83206fb15fd00027a
-
-//JavaScript
-
-const replaceNth = (text, n, oldValue, newValue, cnt = 0) =>
-  n < 1 ? text : text.replace(new RegExp(oldValue, `g`), val => ++cnt % n ? val : newValue);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57eaeb9578748ff92a000009
-
-//JavaScript
-
-const sumMix = x =>
-  x.reduce((pre, val) => pre + +val, 0);

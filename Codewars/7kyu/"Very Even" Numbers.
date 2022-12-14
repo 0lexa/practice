@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58c9322bedb4235468000019
-
-//JavaScript
-
-const isVeryEvenNumber = n => 
-  !!(--n % 9 % 2);

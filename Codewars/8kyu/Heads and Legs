@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/574c5075d27783851800169e
-
-//JavaScript
-
-const animals = (heads, legs) =>
-  (cows => cows >= 0 && heads >= cows ? [heads - cows, cows] : `No solutions`)
-  (legs % 2 ? -1 : legs / 2 - heads);

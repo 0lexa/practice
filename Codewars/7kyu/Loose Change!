@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57e1857d333d8e0f76002169
-
-//JavaScript
-
-const changeCount = change =>
-  `$${change.split(` `).reduce((pre, val) => pre + CHANGE[val], 0).toFixed(2)}`;

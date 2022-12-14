@@ -1,9 +1,0 @@
-https://www.codewars.com/kata/534fcca5edb124cfe6000f60
-
-//JavaScript
-
-class Singleton {
-  constructor() {
-    return Singleton.inst = Singleton.inst ? Singleton.inst : this;
-  }
-}

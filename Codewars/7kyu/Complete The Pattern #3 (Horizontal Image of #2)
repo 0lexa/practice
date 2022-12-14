@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/557341907fbf439911000022
-
-//JavaScript
-
-const pattern = n =>
-  [...Array(Math.max(n, 0))].map((_, idx) => [...Array(++idx)].map((_, idx) => n - idx).join(``)).join(`\n`);

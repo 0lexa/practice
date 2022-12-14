@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/54a2e93b22d236498400134b
-
-//JavaScript
-
-const presses = phrase =>
-  [...phrase.toLowerCase()].reduce((pre, val) => pre + [`1adgjmptw* #`, `0behknqux`, `cfilorvy`, `234568sz`, `79`].findIndex(v => v.includes(val)) + 1, 0);

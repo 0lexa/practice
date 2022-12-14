@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/58528e9e22555d8d33000163
-
-//JavaScript
-
-const minutesToMidnight = d =>
-  (val => `${val} minute${val - 1 ? `s` : ``}`)
-  (Math.round((new Date().setHours(24, 0, 0, 0) - d) / 6e4));

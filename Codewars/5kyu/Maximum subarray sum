@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/54521e9ec8e60bc4de000d6c
-
-//JavaScript
-
-const maxSequence = (arr, sum = 0) =>
-  arr.reduce((pre, val) => Math.max(sum = Math.max(sum + val, 0), pre), 0);

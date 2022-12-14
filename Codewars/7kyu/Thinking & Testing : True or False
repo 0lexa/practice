@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56d931ecc443d475d5000003
-
-//JavaScript
-
-const testit = n =>
-  n.toString(2).replace(/0+/g, ``).length;

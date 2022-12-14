@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/51edd51599a189fe7f000015
-
-//JavaScript
-
-const solution = (firstArray, secondArray) =>
-  firstArray.reduce((pre, val, idx) => pre + (val - secondArray[idx]) ** 2, 0) / firstArray.length;

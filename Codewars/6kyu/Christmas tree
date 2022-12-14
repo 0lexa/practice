@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/52755006cc238fcae70000ed
-
-//JavaScript
-
-const christmasTree = height =>
-  [...Array(height)].map((_, idx) => `${`*`.repeat(idx * 2 + 1).padStart(height + idx, ` `).padEnd(height * 2 - 1, ` `)}`).join(`\n`);

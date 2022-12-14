@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/581b30af1ef8ee6aea0015b9
-
-//JavaScript
-
-const countWins = (winnerList, country) =>
-  winnerList.reduce((pre, val) => pre + (val.country === country), 0);

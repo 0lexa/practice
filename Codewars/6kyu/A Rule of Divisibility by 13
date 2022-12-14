@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/564057bc348c7200bd0000ff
-
-//JavaScript
-
-const thirt = n =>
-  n < 100 ? n : thirt([...`${n}`].reverse().reduce((pre, val, idx) => pre + 10 ** idx % 13 * val, 0));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a15a2d8c374cbc353000074
-
-//JavaScript
-
-const malwareValidate = hashArr =>
-  [...new Set(hashArr.filter(val => val.replace(/[a-z]/g, ``).length === 5 && val.replace(/\d/g, ``).length === 5))];

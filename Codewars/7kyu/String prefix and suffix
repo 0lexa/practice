@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5ce969ab07d4b7002dcaa7a1
-
-//JavaScript
-
-const solve = s =>
-  s.match(/^(.*).*\1$/)[1].length;

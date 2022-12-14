@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5642bf07a586135a6f000004
-
-//JavaScript
-
-const stepThroughWith = s => 
-  /(.)\1/.test(s);

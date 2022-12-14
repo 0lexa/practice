@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a1c84c1c374cb6f7e000104
-
-//JavaScript
-
-const select = (arrSearch, arrTake) =>
-  arrTake.find(val => val[0] === arrSearch.sort().reverse()[2][2]) || `Nothing here`;

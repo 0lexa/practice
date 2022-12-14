@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5939ab6eed348a945f0007b2
-
-//JavaScript
-
-const longestWord = stringOfWords =>
-  stringOfWords.split(` `).sort((a, b) => a.length - b.length).pop();

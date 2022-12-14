@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5809b62808ad92e31b000031
-
-//JavaScript
-
-const calculate = str =>
-  `${str.replace(/plus/g, ` `).replace(/minus/g, ` -`).split(` `).reduce((pre, val) => pre + +val, 0)}`;

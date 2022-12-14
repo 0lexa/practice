@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/576a29ab726f4bba4b000bb1
-
-//JavaScript
-
-const nameScore = name =>
-  ({[name]: [...name.toUpperCase()].reduce((pre, val) => pre + ~~alpha[Object.keys(alpha).find(v => v.includes(val))], 0)});

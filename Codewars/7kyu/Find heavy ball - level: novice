@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/544047f0cf362503e000036e
-
-//JavaScript
-
-const findBall = (scales, idx = 0) =>
-  (val => !val ? findBall(scales, idx + 2) : val === -1 ? idx : ++idx)
-  (scales.getWeight([idx], [idx + 1]));

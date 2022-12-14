@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56b5afb4ed1f6d5fb0000991
-
-//JavaScript
-
-const revrot = (str, sz) =>
-  (str.match(new RegExp(`.{${sz}}`, `g`)) || []).map(val => val.replace(/[02468]/g, ``).length % 2 ? val.replace(/(.)(.+)/, `$2$1`) : [...val].reverse().join(``)).join(``);

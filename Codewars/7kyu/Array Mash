@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/582642b1083e12521f0000da
-
-//JavaScript
-
-const arrayMash = (array1, array2) =>
-  array1.reduce((pre, val, idx) => [...pre, val, array2[idx]], []);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/565b3542af398bfb50000003
-
-//JavaScript
-
-const strCount = obj =>
-  typeof obj !== `string` ? Object.values(obj || {}).reduce((pre, val) => pre + strCount(val), 0) : 1;

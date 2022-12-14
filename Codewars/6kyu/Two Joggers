@@ -1,9 +1,0 @@
-https://www.codewars.com/kata/5274d9d3ebc3030802000165
-
-//JavaScript
-
-const nbrOfLaps = (x, y) => {
-  let cnt = 0;
-  while (++cnt * x % y) ;
-  return [cnt, cnt * x / y];
-};

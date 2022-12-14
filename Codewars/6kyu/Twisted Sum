@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/527e4141bb2ea5ea4f00072f
-
-//JavaScript
-
-const twistedSum = n =>
-  [...Array(n)].reduce((sum, _, idx) => sum + [...`${++idx}`].reduce((pre, val) => pre + +val, 0), 0);

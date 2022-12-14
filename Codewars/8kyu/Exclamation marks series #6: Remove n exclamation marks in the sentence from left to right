@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57faf7275c991027af000679
-
-//JavaScript
-
-const remove = (s, n) =>
-  s.replace(/!/g, val => n-- > 0 ? `` : val);

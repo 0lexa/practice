@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/580a1a4af195dbc9ed00006c
-
-//JavaScript
-
-const equalize = array =>
-  array.map(val => `+${val - array[0]}`.replace(`+-`, `-`));

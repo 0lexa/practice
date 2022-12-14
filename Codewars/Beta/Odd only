@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/583845d32fb0bab919000004
-
-//JavaScript
-
-const oddOnly = arr1 =>
-  arr1.filter(val => val & 1);

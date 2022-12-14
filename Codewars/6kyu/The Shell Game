@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/546a3fea8a3502302a000cd2
-
-//JavaScript
-
-const find_the_ball = (start, swaps) =>
-  swaps.reduce((pre, val) => val.includes(pre) ? val.find(val => val !== pre) : pre, start);

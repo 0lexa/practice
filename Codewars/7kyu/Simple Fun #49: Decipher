@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5888514674b58e929a000036
-
-//JavaScript
-
-const decipher = cipher =>
-  String.fromCharCode(...cipher.match(/1..|../g));

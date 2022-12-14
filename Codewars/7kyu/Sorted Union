@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5729c30961cecadc4f001878
-
-//JavaScript
-
-const uniteUnique = (...args) =>
-  [...new Set([].concat(...args))];

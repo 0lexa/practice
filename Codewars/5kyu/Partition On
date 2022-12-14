@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/525a037c82bf42b9f800029b
-
-//JavaScript
-
-const partitionOn = (pred, items) =>
-  ((f, t) => (items.splice(0, items.length, ...f, ...t), f.length))
-  (items.filter(val => !pred(val)), items.filter(pred));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57cf50a7eca2603de0000090
-
-//JavaScript
-
-const moveTen = s =>
-  s.replace(/./g, val => String.fromCharCode(97 + (val.charCodeAt() - 87 ) % 26));

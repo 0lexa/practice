@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5631213916d70a0979000066
-
-//JavaScript
-
-const pattern = n =>
-  [...Array(n)].map((_, idx) => `${`*`.repeat(idx)}${++idx}`).join(`\n1`);

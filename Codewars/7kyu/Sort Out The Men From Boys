@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5af15a37de4c7f223e00012d
-
-//JavaScript
-
-const menFromBoys = arr =>
-  [...new Set([...arr.filter(val => !(val % 2)).sort((a, b) => a - b), ...arr.filter(val => val % 2).sort((a, b) => b - a)])];

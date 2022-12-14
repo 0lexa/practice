@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57c7231c484cf9e6ac000090
-
-//JavaScript
-
-const addingShifted = (arrayOfArrays, shift) =>
-  arrayOfArrays.reduce((pre, val, idx) => (val.forEach((v, i) => (pre[idx * shift + i] = (pre[idx * shift + i] || 0) + v)), pre));

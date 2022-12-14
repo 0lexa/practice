@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56530b444e831334c0000020
-
-//JavaScript
-
-const chromosomeCheck = sperm =>
-  `Congratulations! You're going to have a ${sperm === `XY` ? `son` : `daughter`}.`;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/52ae2db783f47875d0000064
-
-//JavaScript
-
-const getHashtags = post =>
-  post.match(/(?<=\B#+)[a-z]+(?=\s|$)/gi) || [];

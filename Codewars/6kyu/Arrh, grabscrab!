@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/52b305bec65ea40fe90007a7
-
-//JavaScript
-
-const grabscrab = (anagram, dictionary) =>
-  dictionary.filter(val => [...val].sort().join(``) === [...anagram].sort().join(``));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55d2aee99f30dbbf8b000001
-
-//JavaScript
-
-const scoreTest = (str, right, omit, wrong) =>
-  str.reduce((pre, val) => pre + [right, omit, -wrong][val], 0);

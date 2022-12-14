@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55ca77fa094a2af31f00002a
-
-//JavaScript
-
-const [laLigaGoals, championsLeagueGoals, copaDelReyGoals] = [43, 10, 5];
-const totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals;

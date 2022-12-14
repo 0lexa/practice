@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5262fa26875ed24a3e000029
-
-//JavaScript
-
-const roomMates = (rooms, floor) =>
-  rooms.filter((val, idx) => val && idx / 6 ^ 0 === floor - 1);

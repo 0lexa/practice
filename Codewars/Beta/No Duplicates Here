@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5592fcbf71f21d976a000011
-
-//JavaScript
-
-const arrayDeDup = array =>
-  Array.isArray(array) ? [...new Set(array)].filter(Boolean).sort() : `Not an array`;

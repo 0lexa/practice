@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5862fb364f7ab46270000078
-
-//JavaScript
-
-const encrypt = (text, rule) =>
-  text.replace(/./g, val => String.fromCharCode((val.charCodeAt() + rule) % 256));

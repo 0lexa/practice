@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5981a139f5471fd1b2000071
-
-//JavaScript
-
-const task = (w, n, c) =>
-  (obj => `It is ${w} today, ${obj[w]}, you have to work, you must spray ${n} trees and you need ${n * c} dollars to buy liquid`)
-  ({Monday: `James`, Tuesday: `John`, Wednesday: `Robert`, Thursday: `Michael`, Friday: `William`});

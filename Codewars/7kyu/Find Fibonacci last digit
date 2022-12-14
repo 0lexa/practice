@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56b7251b81290caf76000978
-
-//JavaScript
-
-const getLastDigit = index =>
-  [...Array(--index)].reduce(pre => [pre[1], (pre[0] + pre[1]) % 10], [0, 1])[1];

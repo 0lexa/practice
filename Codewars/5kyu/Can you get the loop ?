@@ -1,9 +1,0 @@
-https://www.codewars.com/kata/52a89c2ea8ddc5547a000863
-
-//JavaScript
-
-const loop_size = node => {
-  const arr = [node];
-  while (!arr.includes(node = node.next)) arr.push(node);
-  return arr.length - arr.indexOf(node);
-};

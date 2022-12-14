@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5569b10074fe4a6715000054
-
-//JavaScript
-
-const count = array =>
-  array.reduce((pre, val) => (pre[val] = -~pre[val], pre), {});

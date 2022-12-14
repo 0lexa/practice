@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/55eea63119278d571d00006a
-
-//JavaScript
-
-const nextId = ids =>
-  (val => val < 0 ? Math.max(...ids) + 1 : val)
-  (ids.findIndex((_, idx) => !ids.includes(idx)));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/51fd6bc82bc150b28e0000ce
-
-//JavaScript
-
-const noOdds = values => 
-  values.filter(val => !(val&1));

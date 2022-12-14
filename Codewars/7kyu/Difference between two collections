@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/594093784aafb857f0000122
-
-//JavaScript
-
-const diff = (a, b) =>
-  [...new Set([...a, ...b].filter(val => a.includes(val) ^ b.includes(val)))].sort();

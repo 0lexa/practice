@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/525a3d6b85a9a47fcf00055a
-
-//JavaScript
-
-const calculateHypotenuse = (a, b) =>
-  Number.isFinite(a) && Number.isFinite(b) && a > 0 && b > 0 ? Math.round(Math.hypot(a, b) * 1e3) / 1e3 : (() => {throw new Error();})();

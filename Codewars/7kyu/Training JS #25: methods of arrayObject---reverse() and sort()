@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/572df796914b5ba27c000c90
-
-//JavaScript
-
-const sortIt = arr =>
-  (obj => [...arr].sort((a, b) => obj[a] - obj[b] || b - a))
-  (arr.reduce((pre, val) => (pre[val] = -~pre[val], pre), {}));

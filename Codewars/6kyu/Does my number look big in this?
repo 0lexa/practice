@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5287e858c6b5a9678200083c
-
-//JavaScript
-
-const narcissistic = value =>
-  [...`${value}`].reduce((pre, val, _, arr) => pre + val ** arr.length, 0) === value;

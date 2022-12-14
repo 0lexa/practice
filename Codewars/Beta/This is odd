@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/554003323fd6af1c4200004e
-
-//JavaScript
-
-const isOdd = n =>
-  !(++n % 2);

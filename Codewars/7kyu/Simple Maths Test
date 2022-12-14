@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5507309481b8bd3b7e001638
-
-//JavaScript
-
-const numberProperty = n =>
-  [n > 1 && [...Array(~~(n ** .5) - 1)].every((_, idx) => n % (idx + 2)), !(n % 2), !(n % 10)];

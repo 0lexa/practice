@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/517b25a48557c200b800000c
-
-//JavaScript
-
-const elapsedSeconds = (startDate, endDate) =>
-  (endDate - startDate) / 1e3;

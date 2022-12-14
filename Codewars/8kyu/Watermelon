@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55192f4ecd82ff826900089e
-
-//JavaScript
-
-const divide = weight =>
-  weight > 2 && !(weight % 2);

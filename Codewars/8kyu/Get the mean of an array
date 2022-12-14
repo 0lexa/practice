@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/563e320cee5dddcf77000158
-
-//JavaScript
-
-const getAverage = marks =>
-  ~~(marks.reduce((pre, val) => pre + val, 0) / marks.length);

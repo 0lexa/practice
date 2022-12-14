@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/574b1916a3ebd6e4fa0012e7
-
-//JavaScript
-
-const isOpposite = (s1, s2) =>
-  !!s1 && s2 === s1.replace(/[A-Z]/gi, val => val[`to${val < `a` ? `Low` : `Upp`}erCase`]());

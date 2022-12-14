@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/573c91c5eaffa3bd350000b0
-
-//JavaScript
-
-const gematria = str =>
-  [...str.toLowerCase()].reduce((pre, val) =>
-    (idx => pre + (idx < 10 ? idx + 1 : idx < 18 ? (idx - 8) * 10 : idx < 25 ? (idx - 17) * 100 : 900))
-    (`abcdefghiklmnopqrstuxyzjvw`.indexOf(val)), 0);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58ce8725c835848ad6000007
-
-//JavaScript
-
-const potatoes = (p0, w0, p1) =>
-  (100 - p0) / (100 - p1) * w0 ^ 0;

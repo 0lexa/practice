@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58ca658cc0d6401f2700045f
-
-//JavaScript
-
-const findMultiples = (integer, limit) =>
-  [...Array(limit / integer ^ 0)].map((_, idx) => ++idx * integer);

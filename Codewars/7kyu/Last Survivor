@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/609eee71109f860006c377d1
-
-//JavaScript
-
-const lastSurvivor = (letters, coords) =>
-  coords.reduce((pre, val) => pre.slice(0, val) + pre.slice(++val), letters);

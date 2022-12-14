@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5b358a1e228d316283001892
-
-//JavaScript
-
-const getStrings = city =>
-  (arr => [...new Set(arr)].join(``).match(/[a-z]/g).map(val => `${val}:${`*`.repeat(arr.filter(v => v === val).length)}`).join(`,`))
-  ([...city.toLowerCase()]);

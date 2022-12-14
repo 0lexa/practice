@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57bf599f102a39bb1e000ae5
-
-//JavaScript
-
-const fibsFizzBuzz = n =>
-  n < 2 ? [1] : [...Array(n - 2)].reduce((pre, _, idx) => [...pre, pre[idx] + pre[++idx]], [1, 1]).map(val => !(val % 15) ? `FizzBuzz` : !(val % 5) ? `Buzz` : !(val % 3) ? `Fizz` : val);

@@ -1,5 +1,0 @@
-https://www.codewars.com/kata/5a329437ee1aae536b0001cb
-
-//JavaScript
-
-digitsAverage=f=n=>n>9?f(+[...`${n}`].map((v,i,a)=>++v+ +a[--i]>>1).join``):n

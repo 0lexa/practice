@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57b06f90e298a7b53d000a86
-
-//JavaScript
-
-const queueTime = (customers, n) =>
-  Math.max(0, ...customers.slice(n).reduce((pre, val) => (pre[pre.indexOf(Math.min(...pre))] += val, pre), customers.slice(0, n)));

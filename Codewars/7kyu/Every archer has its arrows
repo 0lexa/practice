@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/559f89598c0d6c9b31000125
-
-//JavaScript
-
-const archersReady = archers =>
-  !!archers.length && archers.every(val => val > 4);

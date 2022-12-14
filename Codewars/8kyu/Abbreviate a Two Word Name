@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3
-
-//JavaScript
-
-const abbrevName = name =>
-  name.match(/\b\w/g).join(`.`).toUpperCase();

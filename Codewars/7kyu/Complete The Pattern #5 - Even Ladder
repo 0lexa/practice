@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55749101ae1cf7673800003e
-
-//JavaScript
-
-const pattern = n =>
-  n < 2 ? `` : [...Array(n >> 1)].map((_, idx) => 2 * idx + 2).map(val => `${val}`.repeat(val)).join(`\n`);

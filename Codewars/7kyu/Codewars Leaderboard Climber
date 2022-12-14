@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/57d28215264276ea010002cf
-
-//JavaScript
-
-const leaderB = (user, user_score, your_score) =>
-  (val => val < 0 ? `Winning!` : !val ? `Only need one!` : `To beat ${user}'s score, I must complete ${val / 3 ^ 0} Beta kata and ${val % 3} 8kyu kata.${val > 2998 && val - 3000 ? ` Dammit!` : ``}`)
-  (user_score - your_score);

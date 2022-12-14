@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5b83c1c44a6acac33400009a
-
-//JavaScript
-
-const solve = (str, k) =>
-  Math.max(...[...str].map((_, idx) => str.slice(idx, idx + str.length - k)));

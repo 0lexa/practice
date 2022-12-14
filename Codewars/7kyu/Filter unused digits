@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55de6173a8fbe814ee000061
-
-//JavaScript
-
-const unusedDigits = (...args) =>
-  `0123456789`.replace(new RegExp(`[${args.join(``)}]`, `g`), ``);

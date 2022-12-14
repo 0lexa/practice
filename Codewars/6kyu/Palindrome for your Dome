@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/53046ceefe87e4905e00072a
-
-//JavaScript
-
-const palindrome = string =>
-  (str => str === [...str].reduceRight((pre, val) => pre + val, ``))
-  (string.toLowerCase().replace(/[^a-z]/g, ``));

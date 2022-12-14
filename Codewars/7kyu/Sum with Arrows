@@ -1,5 +1,0 @@
-https://www.codewars.com/kata/559f35bde66a7250f60000c9
-
-//JavaScript
-
-const Sum = `sum = (arr) => arr.reduce((pre, val) => pre + val, 0);`;

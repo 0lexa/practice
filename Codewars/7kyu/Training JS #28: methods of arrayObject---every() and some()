@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57308546bd9f0987c2000d07
-
-//JavaScript
-
-const mirrorImage = (arr, i) =>
-  arr.some((val, idx) => (i = idx, `${val}` === [...`${arr[++idx]}`].reverse().join(``))) ? [arr[i], arr[++i]] : [-1, -1];

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/561abc8d324728b06e000102
-
-//JavaScript
-
-const _originalToString = func => 
-  Function.prototype.toString.call(func);

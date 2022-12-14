@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/58d3487a643a3f6aa20000ff
-
-//JavaScript
-
-const minMinMax = array =>
-  ((min, max) => [min, min + [...Array(max - min)].findIndex((_, idx) => !array.includes(min + idx)), max])
-  (Math.min(...array), Math.max(...array));

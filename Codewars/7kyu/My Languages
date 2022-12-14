@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5b16490986b6d336c900007d
-
-//JavaScript
-
-const myLanguages = results =>
-  Object.keys(results).sort((a, b) => results[b] - results[a]).filter(val => results[val] > 59);

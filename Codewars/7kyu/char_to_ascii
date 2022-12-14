@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55e9529cbdc3b29d8c000016
-
-//JavaScript
-
-const charToAscii = string =>
-  string ? [...new Set(string.replace(/[^a-z]/gi, ``))].reduce((pre, val) => ({...pre, [val] : val.charCodeAt()}), {}) : null;

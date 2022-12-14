@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a25ac6ac5e284cfbe000111
-
-//JavaScript
-
-const triangle = row =>
-  row.length > 1 ? triangle([...row].slice(1).map((val, idx) => val === row[idx] ? val : `RGB`.replace(val, ``).replace(row[idx], ``)).join(``)) : row;

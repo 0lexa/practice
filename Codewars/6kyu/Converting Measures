@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5acfab8d23c81836c90000eb
-
-//JavaScript
-
-const convertRecipe = recipe =>
-  recipe.replace(/(?<=(\d+)(?:\/(\d+))? (tb?sp))/g, (_, gr1, gr2, gr3) =>
-    ` (${Math.ceil(gr1 / (gr2 || 1) * (/tsp/.test(gr3) ? 5 : 15))}g)`);

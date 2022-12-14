@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/57d06663eca260fe630001cc
-
-//JavaScript
-
-const olympicRing = a =>
-  (val => val <= 1 ? `Not even a medal!` : val < 3 ? `Bronze!` : val < 4 ? `Silver!` : `Gold!`)
-  ([...a].reduce((pre, val) => pre + [`a`,`b`,`d`,`e`,`g`,`o`,`p`,`q`,`A`,`D`,`O`,`P`,`Q`,`R`].includes(val) + (val ===`B`) * 2 , 0) / 2 ^ 0);

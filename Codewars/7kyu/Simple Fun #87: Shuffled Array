@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/589573e3f0902e8919000109
-
-//JavaScript
-
-const shuffledArray = shuffled =>
-  (idx => [...shuffled.slice(0, idx), ...shuffled.slice(++idx)].sort((a, b) => a - b))
-  (shuffled.indexOf(shuffled.reduce((pre, val) => pre + val) / 2));

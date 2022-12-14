@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5889a8b335de69cc620000c8
-
-//JavaScript
-
-const swapDiagonals = matrix =>
-  matrix.map((val, idx) => ([val[idx], val[matrix.length - 1 - idx]] = [val[matrix.length - 1 - idx], val[idx]], val));

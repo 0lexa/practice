@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59e49b2afc3c494d5d00002a
-
-//JavaScript
-
-const sortVowels = s =>
-  typeof s !== `string` ? `` : [...s].map(val => /[aeiou]/i.test(val) ? `|` + val : val + `|`).join(`\n`);

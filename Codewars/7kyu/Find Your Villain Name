@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/536c00e21da4dc0a0700128b
-
-//JavaScript
-
-const getVillainName = birthday =>
-  ((month, day) => `${month[birthday.getMonth()]} ${day[birthday.getDate() % 10]}`)
-  ([`The Evil`, `The Vile`, `The Cruel`, `The Trashy`, `The Despicable`, `The Embarrassing`, `The Disreputable`, `The Atrocious`, `The Twirling`, `The Orange`, `The Terrifying`, `The Awkward`],
-   [`Mustache`, `Pickle`, `Hood Ornament`, `Raisin`, `Recycling Bin`, `Potato`, `Tomato`, `House Cat`, `Teaspoon`, `Laundry Basket`]);

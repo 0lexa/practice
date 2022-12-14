@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/520446778469526ec0000001
-
-//JavaScript
-
-Array.prototype.sameStructureAs = function (other) {
-  return Array.isArray(other) && this.join(``).replace(/[^,]/g, `*`) === other.join(``).replace(/[^,]/g, `*`);
-};

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56b0bc0826814364a800005a
-
-//JavaScript
-
-const cyclops = n =>
-  /^(1+)0\1$/.test(n.toString(2));

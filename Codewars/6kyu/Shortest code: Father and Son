@@ -1,5 +1,0 @@
-https://www.codewars.com/kata/56f928b19982cc7a14000c9d
-
-//JavaScript
-
-sc=s=>s.replace(/./g,v=>s.match(v[`to${v<`a`?`Low`:`Upp`}erCase`]())?v:``)

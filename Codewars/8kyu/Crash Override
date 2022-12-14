@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/578c1e2edaa01a9a02000b7f
-
-//JavaScript
-
-const aliasGen = (first, last) =>
-  /^[A-Z]/i.test(first) && /^[A-Z]/i.test(last) ? `${firstName[first[0].toUpperCase()]} ${surname[last[0].toUpperCase()]}` :
-    `Your name must start with a letter from A - Z.`;

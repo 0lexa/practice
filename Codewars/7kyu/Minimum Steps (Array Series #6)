@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a91a7c5fd8c061367000002
-
-//JavaScript
-
-const minimumSteps = (numbers, value) =>
-  numbers.sort((a, b) => a - b).filter(val => (value -= val) > 0).length;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57f5e7bd60d0a0cfd900032d
-
-//JavaScript
-
-const missingNo = nums =>
-  nums.reduce((pre, val) => pre - val, 5050);

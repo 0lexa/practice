@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5912701a89fc3d0a6a000169
-
-//JavaScript
-
-const evenNumbersBeforeFixed = (sequence, fixedElement) =>
-  (idx => ~idx ? sequence.slice(0, idx).filter(val => ~val & 1).length : -1)
-  (sequence.indexOf(fixedElement));

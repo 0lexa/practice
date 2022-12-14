@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/60113ded99cef9000e309be3
-
-//JavaScript
-
-const separateTypes = arr =>
-  arr.reduce((pre, val) => (pre[typeof val] = [...(pre[typeof val] || []), val], pre), {});

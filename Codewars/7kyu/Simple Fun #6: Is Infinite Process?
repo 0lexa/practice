@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/588431bb76933b84520000d3
-
-//JavaScript
-
-const isInfiniteProcess = (a, b) =>
-  a > b || (b - a) % 2 > 0;

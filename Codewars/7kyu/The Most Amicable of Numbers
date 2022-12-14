@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/56b5ebaa26fd54188b000018
-
-//JavaScript
-
-const amicableNumbers = (num1, num2) =>
-  (fn => fn(num1) === num2 && fn(num2) === num1)
-  (num => [...Array(num >> 1)].reduce((pre, _, idx) => pre + !(num % ++idx) * idx, 0));

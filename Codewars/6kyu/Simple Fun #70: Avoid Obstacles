@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5894045b8a8a230d0c000077
-
-//JavaScript
-
-const avoidObstacles = (arr, i = 2) =>
-  arr.every(val => val % i) ? i : avoidObstacles(arr, ++i);

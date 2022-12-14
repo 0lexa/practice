@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a54e796b3bfa8932c0000ed
-
-//JavaScript
-
-const jumpingNumber = n =>
-  ([...`${n}`].every((val, idx, arr) => !idx || Math.abs(val - arr[--idx]) === 1) ? `Jumping` : `Not`) + `!!`;

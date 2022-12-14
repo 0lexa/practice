@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5728203b7fc662a4c4000ef3
-
-//JavaScript
-
-const alienLanguage = str =>
-  str.toUpperCase().replace(/\w\b/g, val => val.toLowerCase());

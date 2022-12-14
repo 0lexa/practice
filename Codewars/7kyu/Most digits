@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58daa7617332e59593000006
-
-//JavaScript
-
-const findLongest = array =>
-  array.reduce((pre, val) => `${val}`.length > `${pre}`.length ? val : pre);

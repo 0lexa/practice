@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/586a933fc66d187b6e00031a
-
-//JavaScript
-
-const generateName = () =>
-  (val => photoManager.nameExists(val) ? generateName() : val)
-  (Math.random().toString(36).slice(2, 8).replace(/\w/g, val => Math.random() < .5 ? val : val.toUpperCase()));

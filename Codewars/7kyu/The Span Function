@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/54f2f335cb9d99e8530008d7
-
-//JavaScript
-
-const span = (arr, predicate, idx) =>
-  arr.reduce((pre, val) => (idx = idx || +!predicate(val), pre[idx].push(val), pre), [[], []]);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/54f9f4d7c41722304e000bbb
-
-//JavaScript
-
-const firstDup = s =>
-  s[s.search(/(.)(?=.*\1)/)];

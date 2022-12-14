@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/538835ae443aae6e03000547
-
-//JavaScript
-
-const add = n => 
-  m => m + n;

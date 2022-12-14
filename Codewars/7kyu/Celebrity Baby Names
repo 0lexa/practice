@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/577d5ce442a8d81e790002b2
-
-//JavaScript
-
-const validName = array =>
-  array.length < 1 ? `You must test at least one name.` : array.length < 2 ? `Congratulations, you can choose any name you like!` :
-    array.slice(1).every((val, idx) => array[idx].endsWith(val[0].toLowerCase())) ?
-      `Congratulations, your baby names are compatible!` : `Back to the drawing board, your baby names are not compatible.`;

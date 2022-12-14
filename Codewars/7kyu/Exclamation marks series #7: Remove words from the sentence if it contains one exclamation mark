@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57fafb6d2b5314c839000195
-
-//JavaScript
-
-const remove = s =>
-  s.split(/\s+/).filter(val => val.split(`!`).length !== 2).join(` `)

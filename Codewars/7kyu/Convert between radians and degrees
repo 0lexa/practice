@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/544e2c60908f2da03600022a
-
-//JavaScript
-
-Math.degrees = val =>
-  `${Math.round(val / Math.PI * 18000) / 1e2}deg`;
-Math.radians = val =>
-  `${Math.round(val / 1.8 * Math.PI) / 1e2}rad`;

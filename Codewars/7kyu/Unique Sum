@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56b1eb19247c01493a000065
-
-//JavaScript
-
-const uniqueSum = lst =>
-  [...new Set(lst)].reduce((pre, val) => pre + val, null);

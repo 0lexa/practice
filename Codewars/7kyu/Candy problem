@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55466644b5d240d1d70000ba
-
-//JavaScript
-
-const candies = kids =>
-  kids.length > 1 ? kids.reduce((pre, val) => pre + Math.max(...kids) - val, 0) : -1;

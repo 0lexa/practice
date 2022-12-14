@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/525dfedb5b62f6954d000006
-
-//JavaScript
-
-const scoreThrows = radii =>
-  (val => (val / radii.length === 10) * 100 + val)
-  (radii.reduce((pre, val) => pre + (val > 10 ? 0 : val < 5 ? 10 : 5), 0));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/54b80308488cb6cd31000161
-
-//JavaScript
-
-const groupCheck = (s, reg = /\(\)|\{\}|\[\]/) =>
-  reg.test(s) ? groupCheck(s.replace(reg, ``)) : !s;

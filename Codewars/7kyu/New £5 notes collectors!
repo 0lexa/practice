@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58029cc9af749f80e3001e34
-
-//JavaScript
-
-const getNewNotes = (salary, bills) =>
-  Math.max(0, salary - bills.reduce((pre, val) => pre + val, 0)) / 5 | 0;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/566be96bb3174e155300001b
-
-//JavaScript
-
-const maxBall = v0 => 
-  Math.round(0.283157 * v0);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58e8cad9fd89ea0c6c000258
-
-//JavaScript
-
-const kookaCounter = laughing =>
-  (laughing.match(/(.a)\1+/g) || []).length;

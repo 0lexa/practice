@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/55aa7acc42216b3dd6000022
-
-//JavaScript
-
-const owlPic = text =>
-  (val => (val.concat(`''0v0''`, val.slice(0).reverse())).join(``))
-  (text.toUpperCase().match(/[8WTYUIOAHXVM]/g));

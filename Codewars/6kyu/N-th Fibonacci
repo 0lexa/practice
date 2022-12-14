@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/522551eee9abb932420004a0
-
-//JavaScript
-
-const nthFibo = n =>
-  Math.round(((1 + 5 ** .5) / 2) ** --n / 5 ** .5);

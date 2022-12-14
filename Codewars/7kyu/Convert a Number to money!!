@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/54ad586282bc65b7ec000182
-
-//JavaScript
-
-const numberToMoney = n =>
-  ((n * 100 | 0) / 100)
-    .toString()
-    .replace(/\B(?=(\d{3})+\b)/g, `,`);

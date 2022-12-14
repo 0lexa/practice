@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56786a687e9a88d1cf00005d
-
-//JavaScript
-
-const validateWord = s =>
-  new Set(Object.values([...s.toLowerCase()].reduce((pre, val) => (pre[val] = -~pre[val], pre), {}))).size === 1;

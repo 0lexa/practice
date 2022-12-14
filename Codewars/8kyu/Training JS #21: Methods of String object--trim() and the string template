@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5729b103dd8bac11a900119e
-
-//JavaScript
-
-const fiveLine = s =>
-  [1, 2, 3, 4, 5].map(val => s.trim().repeat(val)).join(`\n`);

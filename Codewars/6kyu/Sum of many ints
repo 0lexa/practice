@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/54c2fc0552791928c9000517
-
-//JavaScript
-
-const f = (n, m) =>
-  ((a, b) => (a * m-- * m + b++ * b) / 2)
-  (n / m ^ 0, n % m);

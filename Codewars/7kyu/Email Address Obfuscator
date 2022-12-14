@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/562d8d4c434582007300004e
-
-//JavaScript
-
-const obfuscate = email =>
-  email.replace(`@`, ` [at] `).replace(/\./g, ` [dot] `);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/536c6b8749aa8b3c2600029a
-
-//JavaScript
-
-const sortString = (string, ordering) =>
-  ([...new Set(ordering)].map(val => [...string].filter(v => v === val)) + [...string].filter(val => !ordering.includes(val))).replace(/,/g, ``);

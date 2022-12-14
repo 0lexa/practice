@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57efab9acba9daa4d1000b30
-
-//JavaScript
-
-const bald = x =>
-  [`-`.repeat(x.length), `${[`Clean`, `Unicorn`, `Homer`, `Careless`, `Careless`, `Careless`][--x.split(`/`).length] || `Hobo`}!`];

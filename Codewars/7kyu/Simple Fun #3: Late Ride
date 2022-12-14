@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/588422ba4e8efb583d00007d
-
-//JavaScript
-
-const lateRide = n =>
-  [...`${n / 60 ^ 0}` + n % 60].reduce((pre, val) => pre + +val, 0); 

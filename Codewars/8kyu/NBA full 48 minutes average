@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/587c2d08bb65b5e8040004fd
-
-//JavaScript
-
-const pointsPer48 = (ppg, mpg) =>
-  +(ppg / mpg * 48).toFixed(1) || 0;

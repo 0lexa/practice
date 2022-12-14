@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/52829c5fe08baf7edc00122b
-
-//JavaScript
-
-Array.prototype.numberOfOccurrences = function() {
-  return this.filter(val => val === arguments[0]).length;
-}

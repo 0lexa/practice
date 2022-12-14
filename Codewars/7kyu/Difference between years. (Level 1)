@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/588f5a38ec641b411200005b
-
-//JavaScript
-
-const howManyYears = (date1, date2) =>
-  Math.abs(parseInt(date1) - parseInt(date2));

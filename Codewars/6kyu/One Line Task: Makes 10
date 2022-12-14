@@ -1,5 +1,0 @@
-https://www.codewars.com/kata/591286823c0417fc090000af
-
-//JavaScript
-
-makes10=(a,b)=>/10/.test([a+b]+a+b)

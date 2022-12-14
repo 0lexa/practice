@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/581de9a5b7bad5d369000150
-
-//JavaScript
-
-const dayPlan = (hours, tasks, duration) =>
-  duration * tasks > hours * 60 ? `You're not sleeping tonight!` :
-    [...Array(2 * tasks - 1)].map((_, idx) => idx & 1 ? Math.round((hours * 60 - duration * tasks) / (tasks - 1)) : duration);

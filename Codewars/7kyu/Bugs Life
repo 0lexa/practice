@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5b71af678adeae41df00008c
-
-//JavaScript
-
-const shortestDistance = (...args) =>
-  Math.hypot(args.sort((a, b) => a - b)[0] + args[1], args[2]);

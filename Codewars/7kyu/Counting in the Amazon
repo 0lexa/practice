@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55b95c76e08bd5eef100001e
-
-//JavaScript
-
-const countArara = n =>
-  `${`adak `.repeat(n / 2)}${`anane`.repeat(n % 2)}`.trim();

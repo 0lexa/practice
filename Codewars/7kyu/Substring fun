@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/565b112d09c1adfdd500019c
-
-//JavaScript
-
-const nthChar = words =>
-  words.map((val, idx) => val[idx]).join(``);

@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/5d23d89906f92a00267bb83d
-
-//JavaScript
-
-const getOrder = input =>
-  [`burger`, `fries`, `chicken`, `pizza`, `sandwich`, `onionrings`, `milkshake`, `coke`]
-    .reduce((pre, val) => [...pre, ...input.match(new RegExp(val, `g`)) || []], [])
-    .map(val => val[0].toUpperCase() + val.slice(1)).join(` `);

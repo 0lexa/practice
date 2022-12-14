@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/563f037412e5ada593000114
-
-//JavaScript
-
-const calculateYears = (principal, interest, tax, desired) =>
-  Math.ceil(Math.log(desired / principal) / Math.log(interest * (1 - tax) + 1));

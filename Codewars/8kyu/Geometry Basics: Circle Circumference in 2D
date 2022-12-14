@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58e43389acfd3e81d5000a88
-
-//JavaScript
-
-const circleCircumference = circle =>
-  Math.round(Math.PI * circle.radius * 2e6) / 1e6;

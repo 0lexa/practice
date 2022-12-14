@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/566091b73e119a073100003a
-
-//JavaScript
-
-const totalLicks = env =>
-  `It took ${Object.values(env).reduce((pre, val) => pre + val, 252)} licks to get to the tootsie roll center of a tootsie pop.` +
-  (Object.values(env).some(val => val > 0) ? ` The toughest challenge was ${Object.entries(env).sort((a, b) => b[1] - a[1])[0][0]}.` : ``);

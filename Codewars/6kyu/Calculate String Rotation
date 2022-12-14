@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5596f6e9529e9ab6fb000014
-
-//JavaScript
-
-const shiftedDiff = (first, second) =>
-  first.length === second.length ? second.repeat(2).indexOf(first) : -1;

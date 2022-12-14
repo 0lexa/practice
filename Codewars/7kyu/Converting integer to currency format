@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/54e9554c92ad5650fe00022b
-
-//JavaScript
-
-const toCurrency = price => 
-  price.toLocaleString(`en-US`);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/559576d984d6962f8c00003c
-
-//JavaScript
-
-const arr2bin = arr =>
-  arr.every(Number.isInteger) && arr.reduce((pre, val) => pre + val, 0).toString(2);

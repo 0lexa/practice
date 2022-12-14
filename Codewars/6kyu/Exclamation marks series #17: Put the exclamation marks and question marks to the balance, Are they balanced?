@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/57fb44a12b53146fe1000136
-
-//JavaScript
-
-const balance = (left, right) =>
-  (fn => fn(left) > fn(right) ? `Left` : fn(left) < fn(right) ? `Right` : `Balance`)
-  (str => [...str].reduce((pre, val) => pre + (val === `!` ? 2 : 3), 0));

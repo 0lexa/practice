@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5ae7e3f068e6445bc8000046
-
-//JavaScript
-
-const nextHappyYear = year =>
-  new Set(`${++year}`).size < 4 ? nextHappyYear(year) : year;

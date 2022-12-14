@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a40fc7ce1ce0e34440000a3
-
-//JavaScript
-
-const isDd = n =>
-  !![...`${n}`].sort().join(``).replace(/(\d)\1*/g, (val, num) => val.length == num ? num : ``);

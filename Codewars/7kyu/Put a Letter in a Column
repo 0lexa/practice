@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/563d54a7329a7af8f4000059
-
-//JavaScript
-
-const buildRowText = (index, character) =>
-  `${`| `.repeat(index)}|${character}|${` |`.repeat(8 - index)}`;

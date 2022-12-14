@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58902f676f4873338700011f
-
-//JavaScript
-
-const isLucky = ticket =>
-  /^\d{6}$/.test(ticket) && ![...ticket].reduce((pre, val, _, arr) => pre + +val - arr.pop(), 0);

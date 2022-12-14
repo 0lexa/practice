@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/588e2a1ad1140d31cb00008c
-
-//JavaScript
-
-const generatePairs = (m, n) =>
-  m > n ? [] : [...[...Array(n - m + 1)].map((_, idx) => [m, m + idx]), ...generatePairs(++m, n)];

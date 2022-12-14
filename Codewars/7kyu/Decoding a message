@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/565b9d6f8139573819000056
-
-//JavaScript
-
-const decode = message =>
-  message.replace(/[a-z]/g, val => String.fromCharCode(219 - val.charCodeAt()));

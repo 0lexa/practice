@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5b662d286d0db722bd000013
-
-//JavaScript
-
-const redacted = (doc1, doc2) =>
-  doc1.length === doc2.length && doc1.split(``).every((val, idx) => val === doc2[idx] || val === `X` && doc2[idx] !== `\n`);

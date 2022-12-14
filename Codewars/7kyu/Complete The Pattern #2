@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55733d3ef7c43f8b0700007c
-
-//JavaScript
-
-const pattern = n =>
-  n > 0 ? [...Array(n)].map((_, idx) => [...Array(n - idx)].map((_, idx) => n - idx).join(``)).join(`\n`) : ``;

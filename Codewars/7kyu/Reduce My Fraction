@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/576400f2f716ca816d001614
-
-//JavaScript
-
-const reduce = fraction => {
-  const gcd = (numerator, denominator) => denominator ? gcd(denominator, numerator % denominator) : numerator;
-  return fraction.map(val => val / gcd(...fraction))
-};

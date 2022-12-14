@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57f501f1beb0b4d46d000248
-
-//JavaScript
-
-const arrayInterval = (array, start, end) =>
-  array.filter(val => val >= start && val <= end);

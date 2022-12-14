@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/564e7fc20f0b53eb02000106
-
-//JavaScript
-
-const consonantCount = str =>
-  str.replace(/[\W\daeiou_]+/gi, ``).length;

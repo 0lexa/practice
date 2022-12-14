@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/54e2213f13d73eb9de0006d2
-
-//JavaScript
-
-const pairZeros = (arr, flag) =>
-  arr.filter(val => val || (flag = !flag));

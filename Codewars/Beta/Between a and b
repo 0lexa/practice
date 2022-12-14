@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/572f85cdd59ee794c30010cf
-
-//JavaScript
-
-const product = (a, b) =>
-  b - a < 2 ? `Error` : ++a < (b - 1) ? a * product(a, b) : a;

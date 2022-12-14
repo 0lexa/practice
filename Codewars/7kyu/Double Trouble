@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57f7796697d62fc93d0001b8
-
-//JavaScript
-
-const trouble = (x, t) =>
-  x.reduce((pre, val) => val + pre[pre.length - 1] !== t ? [...pre, val] : pre, []);

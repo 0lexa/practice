@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/587f46c9406f2dc381000009
-
-//JavaScript
-
-const namesSorter = departmentsArray =>
-  [].concat(...departmentsArray).sort((a, b) => a.length - b.length || a.localeCompare(b));

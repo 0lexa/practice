@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/588817db5fb13af14a000020
-
-//JavaScript
-
-const timedReading = (maxLength, text) =>
-  text.match(/\w+|$/g).filter(val => val.length <= maxLength).length - 1;

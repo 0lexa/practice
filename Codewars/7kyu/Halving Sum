@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a58d46cfd56cb4e8600009d
-
-//JavaScript
-
-const halvingSum = n =>
-  n + (n > 1 && halvingSum(n >> 1));

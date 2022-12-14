@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58dced7b702b805b200000be
-
-//JavaScript
-
-const distanceBetweenPoints = (a, b) =>
-  Math.hypot(b.x - a.x, b.y - a.y);

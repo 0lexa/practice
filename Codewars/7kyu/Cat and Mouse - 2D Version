@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/57f8842367c96a89dc00018e
-
-//JavaScript
-
-const catMouse = (map, moves) =>
-  ((l, c, m) => ~c * ~m ? Math.abs(c % l - m % l) + Math.abs((c / l ^ 0) - (m / l ^ 0)) > moves ? `Escaped!` : `Caught!` : `boring without two animals`)
-  (map.indexOf(`\n`) + 1, map.indexOf(`C`), map.indexOf(`m`));

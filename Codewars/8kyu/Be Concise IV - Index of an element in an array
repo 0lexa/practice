@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5703c093022cd1aae90012c9
-
-//JavaScript
-
-const find = (array, element) =>
-  array.includes(element) ? array.indexOf(element) : `Not found`;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/604517d65b464d000d51381f
-
-//JavaScript
-
-const strangeMath = (n, k) =>
-  [...Array(n)].map((_, idx) => ++idx).sort().indexOf(k) + 1;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/594a1822a2db9e93bd0001d4
-
-//JavaScript
-
-const scratch = lottery =>
-  lottery.reduce((pre, val) => pre + /(\w+ )\1\1/.test(val) * val.replace(/\D/g, ``), 0);

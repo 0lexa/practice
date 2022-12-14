@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5c784110bfe2ef660cb90369
-
-//JavaScript
-
-const ranking = people =>
-  people.sort((a, b) => b.points - a.points || a.name.localeCompare(b.name))
-  .reduce((pre, val, idx) =>  pre.concat({...val, 'position' : idx && val.points === pre[idx - 1].points ? pre[--idx].position : ++idx}), []);

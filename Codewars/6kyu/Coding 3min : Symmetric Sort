@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5705aeb041e5befba20010ba
-
-//JavaScript
-
-const sc = array =>
-  array.sort((first, second) => first - second).reduceRight((pre, val, idx) => idx % 2 !== 0 ? [...pre, val] : [val, ...pre], []);

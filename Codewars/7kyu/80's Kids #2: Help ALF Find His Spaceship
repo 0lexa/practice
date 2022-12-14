@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/5660aa3d5e011dfd6e000063
-
-//JavaScript
-
-const findSpaceship = map =>
-  map && map.includes(`X`) ?
-    map.split(`\n`).reverse().reduce((pre, val, idx) => val.includes(`X`) ? pre = [val.indexOf('X'), idx] : pre, []) :
-    `Spaceship lost forever.`;

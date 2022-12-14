@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/58b57ae2724e3c63df000006
-
-//JavaScript
-
-const parseHTMLColor = color =>
-  (([r, g, b]) => ({r, g, b}))
-  ((PRESET_COLORS[color.toLowerCase()] || color).slice(1).replace(/./g, (val, _, str) => str.length - 3 ? val : val + val).match(/../g).map(val => +`0x${val}`));

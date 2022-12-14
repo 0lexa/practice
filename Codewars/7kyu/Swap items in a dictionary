@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a21e090f28b824def00013c
-
-//JavaScript
-
-const switchDict = dic =>
-  Object.entries(dic).reduce((pre, [key, val]) => (pre[val] = [...pre[val] || [], key], pre), {});

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5520714decb43308ea000083
-
-//JavaScript
-
-const root = (x, n) =>
-  x ** n ** -1;

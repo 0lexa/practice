@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/57ecf6efc7fe13eb070000e1
-
-//JavaScript
-
-const outed = (meet, boss) =>
-  (arr => arr.reduce((pre, val) => pre + val, meet[boss]) / arr.length > 5 ? `Nice Work Champ!` : `Get Out Now!`)
-  (Object.values(meet));

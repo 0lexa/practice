@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/56bdf9d50d0b6433df001074
-
-//JavaScript
-
-Array.prototype.sum = function () {
-  return this.reduce((pre, val) => pre + val, 0);
-};

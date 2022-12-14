@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5809c661f15835266900010a
-
-//JavaScript
-
-const doubleEveryOther = a =>
-  a.map((val, idx) => val * (idx % 2 + 1));

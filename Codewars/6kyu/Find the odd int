@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/54da5a58ea159efa38000836
-
-//JavaScript
-
-const findOdd = A =>
-  A.reduce((pre, val) => pre ^ val);

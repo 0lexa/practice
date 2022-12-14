@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5898b4b71d298e51b600014b
-
-//JavaScript
-
-const sortTheInnerContent = words =>
-  words.replace(/\B(\w+)\B/g, $1 => [...$1].sort().reverse().join(``));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56ba65c6a15703ac7e002075
-
-//JavaScript
-
-const findNextPower = (val, pow_) =>
-  (1 + val ** (1 / pow_) ^ 0) ** pow_;

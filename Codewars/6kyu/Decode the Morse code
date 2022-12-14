@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/54b724efac3d5402db00065e
-
-//JavaScript
-
-const decodeMorse = morseCode =>
-  morseCode.trim().replace(/(\S+)(\s{1,2}|$)/g, (_, $1) => MORSE_CODE[$1]);

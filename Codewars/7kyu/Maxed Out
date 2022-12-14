@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/584bf3b969ebc573ed00000f
-
-//JavaScript
-
-const maxedOut = arr =>
-  (val => val > Number.MAX_SAFE_INTEGER ? `You've pushed me to the max!` : val)
-  (arr.reduce((pre, val) => pre + val ** 3, 0));

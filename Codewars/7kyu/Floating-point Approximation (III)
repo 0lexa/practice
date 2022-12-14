@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5b0c0ec907756ffcff00006e
-
-//JavaScript
-
-const quadratic = (a, b, c) =>
-  2 * c / (-b - (b ** 2 - 4 * a * c) ** .5);

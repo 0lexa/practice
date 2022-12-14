@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56426b4e971f01fd2f00005b
-
-//JavaScript
-
-const squareRoot = x =>
-  Math.round(x ** .5 * 1e5) / 1e5;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5458d4d2cbae2a9438000389
-
-//JavaScript
-
-const make_lazy = (fn, ...rest) =>
-  () => fn(...rest);

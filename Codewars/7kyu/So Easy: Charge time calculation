@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57ea0ee4491a151fc5000acf
-
-//JavaScript
-
-const calculateTime = (battery, charger) =>
-  Math.round(130 * battery / charger) / 1e2;

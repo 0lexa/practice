@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57073869924f34185100036d
-
-//JavaScript
-
-const randomCase = x =>
-  x.replace(/\w/gi, val => val[`to${Math.random() < .5 ? `Upp` : `Low`}erCase`]());

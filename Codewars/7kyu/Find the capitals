@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/539ee3b6757843632d00026b
-
-//JavaScript
-
-const capitals = word =>
-  [...word].reduce((pre, val, idx) => /[A-Z]/.test(val)? [...pre, idx] : pre, []);

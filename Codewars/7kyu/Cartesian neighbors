@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58989a079c70093f3e00008d
-
-//JavaScript
-
-const cartesianNeighbor = (x, y) =>
-  [x - 1, x, x + 1].reduce((pre, val) => [...pre, ...[y - 1, y, y + 1].map(v => [val, v])], []).filter(val => `${val}` !== `${[x, y]}`);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/587309155cfd6b9fb60000a0
-
-//JavaScript
-
-const money_value = s =>
-  +s.replace(/[^-\d.]/g, ``) || 0;

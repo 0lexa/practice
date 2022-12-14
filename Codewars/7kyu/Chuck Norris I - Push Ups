@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/570564e838428f2eca001d73
-
-//JavaScript
-
-const chuckPushUps = string =>
-  typeof string !== `string` || !string ? `FAIL!!` :
-    (val => val.length ? Math.max(...val) : `CHUCK SMASH!!`)
-    (string.split` `.map(val => parseInt(val.replace(/[^01]/g, ``), 2)).filter(Number));

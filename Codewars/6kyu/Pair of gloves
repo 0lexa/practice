@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58235a167a8cb37e1a0000db
-
-//JavaScript
-
-const numberOfPairs = gloves =>
-  Object.values(gloves.reduce((pre, val) => (pre[val] = -~pre[val], pre), {})).reduce((pre, val) => pre + val / 2 ^ 0, 0);

@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5241de3d8d333fefe30006a1
-
-//JavaScript
-
-String.prototype.repeat = function(count) {
-  return [...Array(count)].fill(this).join(``);
-};

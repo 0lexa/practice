@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/56951add53eccacf44000030
-
-//JavaScript
-
-Dog.prototype.checkDog = function () {
-  return `${this.name} ${this.vaccinated && this.wormed ? `can be accepted` : this.vaccinated || this.wormed ? `can only be accepted by itself` : `can not be accepted`}`;
-};

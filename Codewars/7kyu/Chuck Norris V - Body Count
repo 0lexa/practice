@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57066ad6cb72934c8400149e
-
-//JavaScript
-
-const bodyCount = code =>
-  /([A-Z]\d){5}\.-[A-Z]%\d\.\d{2}\./.test(code);

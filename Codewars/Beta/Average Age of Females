@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5aa1931311dbd9358b000823
-
-//JavaScript
-
-const averageFemale = list =>
-  (arr => arr.reduce((pre, val) => pre + val.age, 0) / arr.length || 0)
-  (list.filter(val => val.gender === `female`));

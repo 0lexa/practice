@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5878520d52628a092f0002d0
-
-//JavaScript
-
-const stringTransformer = str =>
-  str.split(` `).reverse().join(` `).replace(/./g, val => val[`to${val < `a` ? `Low` : `Upp`}erCase`]());

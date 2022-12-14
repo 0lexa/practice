@@ -1,5 +1,0 @@
-https://www.codewars.com/kata/5918fe1f9579c32087000187
-
-//JavaScript
-
-sentenceCompression=s=>s.replace(/\W|\d/g,``)

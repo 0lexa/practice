@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/544d114f84e41094a9000439
-
-//JavaScript
-
-const powerOf4 = n =>
-  Number.isInteger(n) && n > 3 && !(n&(n - 2));

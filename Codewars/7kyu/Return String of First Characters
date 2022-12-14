@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5639bdcef2f9b06ce800005b
-
-//JavaScript
-
-const makeString = s =>
-  s.match(/\b\w|$/g).join(``);

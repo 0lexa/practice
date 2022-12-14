@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56cafdabc8cfcc3ad4000a2b
-
-//JavaScript
-
-const score = n =>
-  (1 << Math.log2(n) + 1) - 1;

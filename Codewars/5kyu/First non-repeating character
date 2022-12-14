@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/52bc74d4ac05d0945d00054e
-
-//JavaScript
-
-const firstNonRepeatingLetter = s =>
-  [...s].find(val => !s.match(new RegExp(val, `gi`))[1]) || ``;

@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/59971206e06bbf4407002382
-
-//JavaScript
-
-const sumAndMultiply = (sum, multiply) =>
-  (val =>  sum % 2 === val % 2 ? [sum - val >> 1, sum + val >> 1] : null)
-  ((sum ** 2 - 4 * multiply) ** .5);

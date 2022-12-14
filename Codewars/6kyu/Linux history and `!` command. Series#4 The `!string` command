@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5818236ae7f457017b00022b
-
-//JavaScript
-
-const bangStartString = (s, history) =>
-  history.split(/\n/).map(val => val.replace(/\s+\d+\s+/, ``)).reverse().find(val => val.startsWith(s)) || `!${s}: event not found`;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/563b1f55a5f2079dc100008a
-
-//JavaScript
-
-const getLargerNumbers = (a, b) => 
-  a.map((val, idx) => Math.max(val, b[idx]));

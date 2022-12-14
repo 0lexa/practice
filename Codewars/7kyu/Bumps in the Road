@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57ed30dde7728215300005fa
-
-//JavaScript
-
-const bump = x =>
-  --x.split(`n`).length > 15 ? `Car Dead` : `Woohoo!`;

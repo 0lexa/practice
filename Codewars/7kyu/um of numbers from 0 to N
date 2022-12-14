@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/56e9e4f516bcaa8d4f001763
-
-//JavaScript
-
-const SequenceSum = {
-  showSequence: val => val < 0 ? `${val}<0` :
-    [...Array(val + 1).keys()].join(`+`) + (val ? ` = ` : `=`) + val * (++val) / 2
-};

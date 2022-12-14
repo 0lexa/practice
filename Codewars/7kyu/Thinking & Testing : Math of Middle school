@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56d9c274c550b4a5c2000d92
-
-//JavaScript
-
-const testit = (a, b) =>
-  a.map((_, idx) => a[idx & 2] * b[idx & 1] + a[idx | 1] * b[idx | 2]);

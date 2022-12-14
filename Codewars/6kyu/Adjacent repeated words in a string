@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5245a9138ca049e9a10007b8
-
-//JavaScript
-
-const countAdjacentPairs = searchString =>
-  (searchString.match(/(\b\w+\b)(\s\1)+/gi) || []).length;

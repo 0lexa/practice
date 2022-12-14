@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5ae326342f8cbc72220000d2
-
-//JavaScript
-
-const stringExpansion = s =>
-  s.replace(/(\d)+(\D*)/g, (_, gr1, gr2) => gr2.replace(/\D/g, val => val.repeat(gr1)));

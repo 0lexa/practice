@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/5deeb1cc0d5bc9000f70aa74
-
-//JavaScript
-
-const zombie_shootout = (zombies, range, ammo) =>
-  zombies > range * 2 && ammo >= range * 2 ? `You shot ${range * 2} zombies before being eaten: overwhelmed.` :
-    zombies > ammo ? `You shot ${ammo} zombies before being eaten: ran out of ammo.` :
-      `You shot all ${zombies} zombies.`;

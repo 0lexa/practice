@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57202aefe8d6c514300001fd
-
-//JavaScript
-
-const saleHotdogs = n =>
-  n * (n < 5 ? 100 : n < 10 ? 95 : 90);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57eaec5608fed543d6000021
-
-//JavaScript
-
-const divCon = x =>
-  x.reduce((pre, val) => pre + (val === +val ? val : -val), 0);

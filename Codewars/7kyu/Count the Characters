@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/577ad961ae2807182f000c29
-
-//JavaScript
-
-const countChar = (string, char) =>
-  --string.split(new RegExp(char, `i`)).length;

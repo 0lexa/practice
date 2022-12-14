@@ -1,9 +1,0 @@
-https://www.codewars.com/kata/5a24254fe1ce0ec2eb000078
-
-//JavaScript
-
-const solve = (str, idx) => {
-  const fn = s =>
-    /\(/.test(s) ? fn(s.replace(/\([^()]*\)/, val => `*`.repeat(val.length))) : s;
-  return str[idx] === `(` ? fn(str.slice(++idx)).search(/\)/) + idx : -1;
-};

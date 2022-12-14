@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5735e39313c205fe39001173
-
-//JavaScript
-
-const countAnimals = (animals, count) =>
-  count.map(val => --animals.split(val).length);

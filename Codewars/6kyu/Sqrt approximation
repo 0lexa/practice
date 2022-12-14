@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/52ecde1244751a799b00018a
-
-//JavaScript
-
-const sqrtApproximation = number =>
-  (val => Number.isInteger(val) ? val : [val ^ 0, ++val ^ 0])
-  (number ** .5);

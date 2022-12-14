@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59f7a0a77eb74bf96b00006a
-
-//JavaScript
-
-const golfScoreCalculator = (parList, scoreList) =>
-  [...scoreList].reduce((pre, val, idx) => pre + (val - parList[idx]), 0);

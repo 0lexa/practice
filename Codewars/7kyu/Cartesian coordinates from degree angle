@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/555f43d8140a6df1dd00012b
-
-//JavaScript
-
-const coordinates = (degrees, radius) =>
-  [radius, radius].map((val, idx) => Math.round(val * Math[idx ? `sin` : `cos`](Math.PI / 180 * degrees) * 1e10) / 1e10);

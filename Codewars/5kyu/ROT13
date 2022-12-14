@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/52223df9e8f98c7aa7000062
-
-//JavaString
-
-const rot13 = str =>
-  str.replace(/[a-z]/gi, val => String.fromCharCode(val.charCodeAt() + (/[a-m]/i.test(val) ? 13 : -13)));

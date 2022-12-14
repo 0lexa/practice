@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/602afedfd4a64d0008eb4e6e
-
-//JavaScript
-
-const getDay = (day, isLeap) =>
-  new Date(2021 - isLeap, 0, day).toLocaleDateString(`en-US`, {month: 'long', day: 'numeric'}).replace(` `, `, `);

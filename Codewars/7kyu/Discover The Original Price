@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/552564a82142d701f5001228
-
-//JavaScript
-
-const discoverOriginalPrice = (discountedPrice, salePercentage) =>
-  Math.round(discountedPrice / (100 - salePercentage) * 1e4) / 1e2;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59619e4609868dd923000041
-
-//JavaScript
-
-const totalBill = str => 
-  str.replace(/ /g, ``).replace(/(r{4})r/g, `$1`).length * 2;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56a628758f8d06b59800000f
-
-//JavaScript
-
-const selfDescriptive = num =>
-  [...`${num}`].every((val, idx, arr) => arr.filter(v => v == idx).length == val);

@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/58485a43d750d23bad0000e6
-
-//JavaScript
-
-const fizzBuzzCuckooClock = time =>
-  (([h, m]) => !m ? `Cuckoo `.repeat(h % 12 || 12).trim() : !(m % 30) ? `Cuckoo` : !(m % 15) ? `Fizz Buzz` : !(m % 5) ? `Buzz` : !(m % 3) ? `Fizz` : `tick`)
-  (time.split(`:`).map(Number));

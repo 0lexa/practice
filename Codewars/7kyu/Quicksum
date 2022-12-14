@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/569924899aa8541eb200003f
-
-//JavaScript
-
-const quicksum = packet =>
-  +/^[A-Z ]+$/.test(packet) && [...packet].reduce((pre, val, idx) => pre + /\w/.test(val) * ++idx * (val.charCodeAt() - 64), 0);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5df261342964c80028345a0a
-
-//JavaScript
-
-const checkParity = (parity, bin) =>
-  [...bin].reduce((pre, val) => pre ^ val, parity === `odd`);

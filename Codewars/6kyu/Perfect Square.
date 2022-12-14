@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/584e93a70f60247eb8000132
-
-//JavaScript
-
-const perfectSquare = string =>
-  string.split(/\n/).every((val, _, arr) => val === `.`.repeat(arr.length));

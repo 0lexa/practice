@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/564f458b4d75e24fc9000041
-
-//JavaScript
-
-const remainder = (D, d) => 
-  d ? D - (D / d ^ 0) * d : `NaN`;

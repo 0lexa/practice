@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a2e8c0955519e54bf0000bd
-
-//JavaScript
-
-const checkDigit = (number, index1, index2, digit) =>
-  `${number}`.slice(Math.min(index1, index2), Math.max(index1, index2) + 1).includes(digit);

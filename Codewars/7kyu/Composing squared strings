@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56f253dd75e340ff670002ac
-
-//JavaScript
-
-compose = (s1, s2, idx = 0) =>
-  s1.replace(/\S+/g, val => val.slice(0, idx + 1) + s2.split(`\n`).reverse()[idx].slice(0, val.length - idx++));

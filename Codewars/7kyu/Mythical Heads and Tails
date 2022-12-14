@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5751aa92f2dac7695d000fb0
-
-//JavaScript
-
-const beasts = (heads, tails) =>
-  (val => val < 0 || val > tails || val % 1 ? `No solutions` : [tails - val, val])
-  ((heads - 2 * tails) / 3);

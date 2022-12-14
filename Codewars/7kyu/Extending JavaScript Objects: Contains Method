@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5813189b50326e3657000213
-
-//JavaScript
-
-String.prototype.contains = function (sub, sens) {
-  return sens ? this.includes(sub) : this.toLowerCase().includes(sub.toLowerCase());
-}

@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/57b9fc5b8f5813384a000aa3
-
-//JavaScript
-
-const calculate = string =>
-  (([a, op, b]) => +a + /gains/.test(op) * b - /loses/.test(op) * b)
-  (string.match(/(\d+|loses|gains)/g));

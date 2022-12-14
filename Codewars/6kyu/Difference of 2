@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5340298112fa30e786000688
-
-//JavaScript
-
-const twosDifference = input =>
-  input.sort((a, b) => a - b).reduce((pre, val, _, arr) => arr.includes(val + 2) ? [...pre, [val, val + 2]] : pre, []);

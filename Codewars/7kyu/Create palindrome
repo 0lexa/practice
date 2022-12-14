@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5b7bd90ef643c4df7400015d
-
-//JavaScript
-
-const solve = s =>
-  [...s.slice(0, s.length / 2)].every((val, idx) => [-2, 0, 2].includes(val.charCodeAt() - s[s.length - idx - 1].charCodeAt()));

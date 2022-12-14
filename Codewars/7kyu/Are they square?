@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56853c44b295170b73000007
-
-//JavaScript
-
-const isSquare = arr =>
-  arr.length ? !arr.some(val => val ** .5 % 1) : void 0;

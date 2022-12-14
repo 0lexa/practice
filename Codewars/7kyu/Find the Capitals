@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/53573877d5493b4d6e00050c
-
-//JavaScript
-
-const capital = capitals =>
-  capitals.map(val => `The capital of ${val.country || val.state} is ${val.capital}`);

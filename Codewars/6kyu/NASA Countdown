@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/56c4931400165c5283000661
-
-//JavaScript
-
-const countdown = millisecs =>
-  ((sign, secs) => sign + [secs / 3600, secs % 3600 / 60, secs % 3600 % 60].map(val => `${val ^ 0}`.padStart(2, `0`)).join(`:`))
-  (millisecs < 0 ? `-` : `+`, Math.abs(millisecs / 1000));

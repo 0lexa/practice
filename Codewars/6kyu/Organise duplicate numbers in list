@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5884b6550785f7c58f000047
-
-//JavaScript
-
-const group = arr =>
-  [...new Set(arr)].map(val => new Array(arr.filter(v => v === val).length).fill(val));

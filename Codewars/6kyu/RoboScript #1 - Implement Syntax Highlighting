@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58708934a44cfccca60000c4
-
-//JavaScript
-
-const highlight = code =>
-  code.replace(/F+|L+|R+|\d+/g, val => `<span style="color: ${{F: `pink`, L: `red`, R: `green`}[val[0]] || `orange`}">${val}</span>`);

@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/514aa0dc21607ae236000017
-
-//JavaScript
-
-const greet = name =>
-  () => `Hello, ${name}!`;
-const greet_abe = greet(`Abe`);
-const greet_ben = greet(`Ben`);

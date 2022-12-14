@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57066708cb7293901a0013a1
-
-//JavaScript
-
-const fistBeard = arr => 
-  String.fromCharCode(...[].concat(...arr));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5bb0c58f484fcd170700063d
-
-//JavaScript
-
-const pillars = (num_pill, dist, width) =>
-  Math.max((dist * 100 + width) * --num_pill - width, 0);

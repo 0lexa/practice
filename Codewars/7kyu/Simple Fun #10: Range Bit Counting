@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58845748bd5733f1b300001f
-
-//JavaScript
-
-const rangeBitCount = (a, b) =>
-  [...Array(b - a + 1)].reduce((pre, _, idx) => pre + (idx + a).toString(2).replace(/0/g, ``).length, 0);

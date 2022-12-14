@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/563a8656d52a79f06c00001f
-
-//JavaScript
-
-const isValid = idn =>
-  /^[a-z_$][\w$]*$/i.test(idn);

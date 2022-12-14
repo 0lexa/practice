@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/51e04f6b544cf3f6550000c1
-
-//JavaScript
-
-const beeramid = (bonus, price, lvl = 1) =>
-  bonus - lvl ** 2 * price < 0 ? --lvl : beeramid(bonus - lvl ** 2 * price, price, ++lvl);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57d2807295497e652b000139
-
-//JavaScript
-
-const averages = numbers =>
-  numbers ? numbers.slice(1).map((val, idx) => (val + numbers[idx]) / 2) : [];

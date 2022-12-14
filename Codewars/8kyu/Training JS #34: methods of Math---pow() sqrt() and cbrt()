@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5733f948d780e27df6000e33
-
-//JavaScript
-
-const cutCube = (volume, n) =>
-  (fn => fn(n) && fn(volume / n))
-  (val => Number.isInteger(Math.cbrt(val)));

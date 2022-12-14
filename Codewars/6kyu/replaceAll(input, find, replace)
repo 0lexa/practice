@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/52aaf51822e82a808100066b
-
-//JavaScript
-
-const replaceAll = (input, find, replace) =>
-  input.replace(new RegExp(find.replace(/[$^.|?*+(){}[\]\\]/g, `\\$&`), `g`), replace);

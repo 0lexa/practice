@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/570e1271e5c9a0cf2f000d11
-
-//JavaScript
-
-String.prototype.kontti = function () {
-  return this.replace(/([^ aeiouy]*[aeiouy])(\w*)/g, `ko$2-$1ntti`);
-};

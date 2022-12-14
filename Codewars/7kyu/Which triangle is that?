@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/564d398e2ecf66cec00000a9
-
-//JavaScript
-
-const typeOfTriangle = (...args) =>
-  ((a, b, c) => !(a * b * c) || a + b <= c ? `Not a valid triangle` : a === b && b === c ? `Equilateral` : a === b || b === c || a === c ? `Isosceles` : `Scalene`)
-  (...args.sort((a, b) => a - b));

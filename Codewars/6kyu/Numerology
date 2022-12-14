@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/525b4164eb636fb2f90002a0
-
-//JavaScript
-
-const solution = date =>
-  (str => [...str].reduce((pre, val) => +val + pre, 0) % 9 || 9)
-  (date.toLocaleDateString(`en-US`).replace(/\D/g, ``));

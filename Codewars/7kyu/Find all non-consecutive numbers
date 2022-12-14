@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58f8b35fda19c0c79400020f
-
-//JavaScript
-
-const allNonConsecutive = arr =>
-  arr.reduce((pre, n, i) => i && n - 1 !== arr[i - 1] ? [...pre, {i, n}] : pre, []);

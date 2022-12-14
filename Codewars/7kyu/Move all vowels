@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56bf3287b5106eb10f000899
-
-//JavaScript
-
-const moveVowel = input =>
-  input.replace(/[aeiou]/g, ``) + input.replace(/[^aeiou]/g, ``);

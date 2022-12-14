@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5208fc3cb613bc725f000142
-
-//JavaScript
-
-const solution = (string,limit) =>
-  string.slice(0, limit) + (string.length > limit ? `...` : ``);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/562926c855ca9fdc4800005b
-
-//JavaScript
-
-const numberToPower = (number, power) => 
-  power > 0 ? number * numberToPower(number, --power) : 1;

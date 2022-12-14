@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/582f52208278c6be55000067
-
-//JavaScript
-
-const roundToFive = numbers =>
-  numbers.map(val => Math.round(val / 5) * 5);

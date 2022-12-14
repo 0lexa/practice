@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/559760bae64c31556c00006b
-
-//JavaScript
-
-const climb = n =>
-  [...n.toString(2)].map((_, idx, arr) => n >> arr.length - ++idx);

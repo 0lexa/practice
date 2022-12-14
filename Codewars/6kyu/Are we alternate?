@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59325dc15dbb44b2440000af
-
-//JavaScript
-
-const isAlt = word =>
-  !/[aeiou]{2}|[^aeiou]{2}/.test(word);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5b7176768adeae9bc9000056
-
-//JavaScript
-
-const indexEqualsValue = (a, str = 0, end = a.length - 1, mid = (str + end) / 2 ^ 0) =>
-  str < end ? mid <= a[mid] ? indexEqualsValue(a, str, mid) : indexEqualsValue(a, ++mid, end) : a[end] === end ? end : -1;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56e3cd1d93c3d940e50006a4
-
-//JavaScript
-
-const makeValley = arr =>
-  [...arr.sort((a, b) => b - a).filter((_, idx) => !(idx % 2)), ...arr.filter((_, idx) => idx % 2).reverse()];

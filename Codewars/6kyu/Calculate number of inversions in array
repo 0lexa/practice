@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/537529f42993de0e0b00181f
-
-//JavaScript
-
-const countInversions = array =>
-  array.reduce((pre, val, idx) => pre + array.slice(idx).filter(v => val > v).length, 0);

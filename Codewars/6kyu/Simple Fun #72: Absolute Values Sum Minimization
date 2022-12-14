@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/589414918afa367b4800015c
-
-//JavaScript
-
-const absoluteValuesSumMinimization = A =>
-  A[(A.length - 1) >> 1];

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5722aeda785220c84900109b
-
-//JavaScript
-
-const anchorize = text =>
-  text.replace(/\w+:\/{2}\S+/gi, `<a href="$&">$&</a>`);

@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15
-
-//JavaScript
-
-const warnTheSheep = queue =>
-  (val => val ? `Oi! Sheep number ${val}! You are about to be eaten by a wolf!` : `Pls go away and stop eating my sheep`)
-  (queue.reverse().indexOf('wolf'));

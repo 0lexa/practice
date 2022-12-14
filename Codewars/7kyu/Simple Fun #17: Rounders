@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58846d50f54f021d90000012
-
-//JavaScript
-
-const rounders = (value, n = 0) =>
-  value < 10 ? value * 10 ** n : rounders(Math.round(value / 10), ++n);

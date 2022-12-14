@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5889902f53ad4a227100003f
-
-//JavaScript
-
-const stringsCrossover = (arr, result) =>
-  arr.reduce((pre, val, idx) => pre + arr.slice(idx + 1).reduce((pre, v1) => pre + [...result].every((v2, idx) => v2 === val[idx] || v2 === v1[idx]), 0), 0);

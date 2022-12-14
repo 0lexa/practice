@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56269eb78ad2e4ced1000013
-
-//JavaScript
-
-const findNextSquare = sq =>
-  Number.isInteger(sq ** .5) ? (sq ** .5 + 1) ** 2 : -1;

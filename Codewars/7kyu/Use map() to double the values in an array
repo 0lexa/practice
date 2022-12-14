@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/53951fff369894e4f10007a9
-
-//JavaScript
-
-const double = array =>
-  array.map(val => val * 2);

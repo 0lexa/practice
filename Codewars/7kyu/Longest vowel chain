@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59c5f4e9d751df43cf000035
-
-//JavaScript
-
-const solve = s =>
-  Math.max(...s.split(/[^aeiou]/g).map(val => val.length));

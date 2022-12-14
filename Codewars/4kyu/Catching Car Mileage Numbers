@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/52c4dd683bfd3b434c000292
-
-//JavaScript
-
-const isInteresting = (number, awesomePhrases) =>
-  (fn => fn(number) ? 2 : fn(++number) || fn(++number) ? 1 : 0)
-  (val => val > 99 && (/^\d0+$/.test(val) || /^(\d)\1+$/.test(val) || awesomePhrases.includes(val) || val === +[...`${val}`].reverse().join(``) || new RegExp(val).test(`1234567890`) || new RegExp(val).test(`9876543210`)));

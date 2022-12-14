@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/565c4e1303a0a006d7000127
-
-//JavaScript
-
-const numberFormat = number =>
-  String(number).replace(/\B(?=(\d{3})+\b)/g, `,`);

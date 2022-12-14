@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5886faac54a7111c21000072
-
-//JavaScript
-
-const isMAC48Address = inputString =>
-  /^([\dA-F]{2}-){6}$/.test(inputString + `-`);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5aa39ba75084d7cf45000008
-
-//JavaScript
-
-const solve = n =>
-  [`0`, `01`][n] || solve(--n) + solve(--n);

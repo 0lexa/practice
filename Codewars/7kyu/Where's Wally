@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55f91a98db47502cfc00001b
-
-//JavaScript
-
-const wheresWally = string =>
-  string.search(/(?<!\S)Wally\b/);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/562e274ceca15ca6e70000d3
-
-//JavaScript
-
-const lenCurve = n =>
-  Math.round([...Array(n)].reduce((pre, _, idx) => pre + (n ** -2 + ((idx * 2 + 1) / n ** 2) ** 2) ** .5, 0) * 1e9) / 1e9;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5acbc3b3481ebb23a400007d
-
-//JavaScript
-
-const isFlush = a =>
-  a.every(val => val.slice(-1) === a[0].slice(-1));

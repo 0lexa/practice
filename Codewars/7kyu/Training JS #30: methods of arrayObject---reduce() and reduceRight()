@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/573156709a231dcec9000ee8
-
-//JavaScript
-
-const tailAndHead = arr =>
-  arr.slice(1).reduce((pre, val, idx) => pre * (+`${val}`[0] + arr[idx] % 10), 1);

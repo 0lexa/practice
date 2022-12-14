@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55eca815d0d20962e1000106
-
-//JavaScript
-
-const generateRange = (min, max, step) =>
-  [...Array((max - min) / step + 1 ^ 0)].map((_, idx) => min + step * idx);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56a24b309f3671608b00003a
-
-//JavaScript
-
-const dadFilter = str =>
-  str.replace(/,(?=,)|,\s*$/g, ``);

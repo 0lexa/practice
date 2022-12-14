@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/525f0459fb9570f9ff00005d
-
-//JavaScript
-
-const searchNames = logins =>
-  logins.slice(1).filter((_, idx) => /^\.|\.$/g.test(logins[idx]));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5f77d62851f6bc0033616bd8
-
-//JavaScript
-
-const validSpacing = s =>
-  !/(?<=\B)\s|\s(?=\B)/.test(s);

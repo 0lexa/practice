@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56582133c932d8239900002e
-
-//JavaScript
-
-const mostFrequentItemCount = collection =>
-  collection.length ? Math.max(...[...new Set(collection)].map(val => collection.filter(v => v === val).length)) : 0;

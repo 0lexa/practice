@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56fe9a0c11086cd842000008
-
-//JavaScript
-
-const sc = s =>
-  s.replace(/\w/g, val => s.includes(val[`to${val < `a` ? `Low` : `Upp`}erCase`]()) ? val : ``);

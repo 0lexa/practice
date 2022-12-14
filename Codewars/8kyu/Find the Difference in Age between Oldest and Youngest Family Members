@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5720a1cb65a504fdff0003e2
-
-//JavaScript
-
-const differenceInAges = ages =>
-  (val => val.concat(val[1] - val[0]))
-  ([Math.min(...ages), Math.max(...ages)]);

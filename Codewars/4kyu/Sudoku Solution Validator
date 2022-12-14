@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/529bf0e9bdf7657179000008
-
-//JavaScript
-
-const validSolution = board =>
-  ((ver, sqr) => [...board, ...ver, ...sqr].every(val => val.sort().join(``) === `123456789`))
-  ([...Array(9).keys()].map(val => [...Array(9)].map((_, idx) => board[idx][val])),
-   [...Array(9).keys()].map(val => [0, 1, 2].reduce((pre, v) => [...pre, ...board[(val / 3 ^ 0) * 3 + v].slice(val % 3 * 3, val % 3 * 3 + 3)], [])));

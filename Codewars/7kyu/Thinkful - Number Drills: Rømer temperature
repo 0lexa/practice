@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5862eeeae20244d5eb000005
-
-//JavaScript
-
-const celsiusToRomer = temp =>
-  temp * 0.525 + 7.5;

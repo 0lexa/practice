@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5f709c8fb0d88300292a7a9d
-
-//JavaScript
-
-const killer = (suspectInfo, dead) =>
-  Object.keys(suspectInfo).find(val => dead.every(v => suspectInfo[val].includes(v)));

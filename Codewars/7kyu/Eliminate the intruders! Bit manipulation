@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a0d38c9697598b67a000041
-
-//JavaScript
-
-const eliminateUnsetBits = number =>
-  2 ** number.replace(/0+/g, ``).length - 1;

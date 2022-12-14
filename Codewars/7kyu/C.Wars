@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/55968ab32cf633c3f8000008
-
-//JavaScript
-
-const initials = n =>
-  n.replace(/\b\w/g, val => val.toUpperCase())
-    .replace(/\b(\w)\w* /g, `$1.`);

@@ -1,5 +1,0 @@
-https://www.codewars.com/kata/5ae3ad4a2c50613a77000014
-
-//JavaScript
-
-sum=n=>(f=a=>(b=n/a^0)*a*++b/2)(3)+f(5)-f(15)

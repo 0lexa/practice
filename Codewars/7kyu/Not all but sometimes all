@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/564ab935de55a747d7000040
-
-//JavaScript
-
-const remove = (str, what) =>
-  str.replace(/./g, val => what[val]-- > 0 ? `` : val);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5893e7578afa367a61000036
-
-//JavaScript
-
-const almostIncreasingSequence = sequence =>
-  [...Array(sequence.length)].reduce((pre, _, idx) => pre + (sequence[idx] <= sequence[idx - 1]) + (sequence[idx] <= sequence[idx - 2] && sequence[idx + 1] <= sequence[idx - 1]), 0) < 2;

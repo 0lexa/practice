@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5b3e1dca3da310a4390000f3
-
-//JavaScript
-
-const workNeeded = (projectMinutes, freelancers) =>
-  (val => val > 0 ? `I need to work ${val / 60 ^ 0} hour(s) and ${val % 60} minute(s)` : `Easy Money!`)
-  (projectMinutes - freelancers.reduce((pre, [h, m]) => pre + h * 60 + m, 0));

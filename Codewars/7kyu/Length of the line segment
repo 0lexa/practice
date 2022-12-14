@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55f1786c296de4952f000014
-
-//JavaScript
-
-const lengthOfLine = ([[x1, y1], [x2, y2]]) =>
-  Math.hypot((x2 - x1), (y2 - y1)).toFixed(2);

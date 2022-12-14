@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56aed32a154d33a1f3000018
-
-//JavaScript
-
-const myFirstKata = (a, b) => 
-  +a === a && +b === b ? a % b + b % a : false;

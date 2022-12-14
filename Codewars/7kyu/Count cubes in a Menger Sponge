@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59d28768a25c8c51a6000057
-
-//JavaScript
-
-const calc_ms = n =>
-  20 ** n;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a1c28f9c9fc0ef2e900013b
-
-//JavaScript
-
-const pyramid = n =>
-  [...Array(n)].map((_, idx) => `${` `.repeat(n - idx - 1)}/${(n === idx + 1 ? `__` : `  `).repeat(idx)}\\\n`).join(``);

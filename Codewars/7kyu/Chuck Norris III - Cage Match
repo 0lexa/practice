@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/57061b6fcb7293901a000ac7
-
-//JavaScript
-
-const headSmash = array =>
-  typeof array === "number" ? `This isn't the gym!!` :
-    !array.length ? `Gym is empty` :
-      array.map(val => val.replace(/O/g, ` `));

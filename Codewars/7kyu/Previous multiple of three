@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/61123a6f2446320021db987d
-
-//JavaScript
-
-const prevMultOfThree = n =>
-  n % 3 ? prevMultOfThree(n / 10 ^ 0) : n || null;

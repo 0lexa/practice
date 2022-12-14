@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/52e88b39ffb6ac53a400022e
-
-//JavaScript
-
-const int32ToIp = int32 =>
-  [...Array(4)].map((_, idx) => int32 >> 8 * (3 - idx) & 255).join(`.`);

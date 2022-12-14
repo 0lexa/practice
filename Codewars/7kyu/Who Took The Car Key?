@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57a23c2acf1fa514d0001034
-
-//JavaScript
-
-const whoTookTheCarKey = message =>
-  message.reduce((pre, val) => pre + String.fromCharCode(parseInt(val, 2)), ``);

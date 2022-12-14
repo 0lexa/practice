@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/57ee31c5e77282c24d000024
-
-//JavaScript
-
-const paul = x =>
-  (val => val < 40 ? `Super happy!` : val < 70 ? `Happy!` : val < 100 ? `Sad!` : `Miserable!`)
-  (x.reduce((pre, val) => pre + {kata: 5, 'Petes kata': 10, life: 0, eating: 1}[val], 0));

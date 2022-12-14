@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5544c7a5cb454edb3c000047
-
-//JavaScript
-
-const bouncingBall = (h,  bounce,  window) =>
-  h <= 0 || bounce <= 0 || bounce >= 1 || window >= h ? - 1 : 2 + bouncingBall(h * bounce, bounce, window);

@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/58983deb128a54b530000be6
-
-//JavaScript
-
-const bracesStatus = string =>
-  (val => string.length === val.length ? !val : bracesStatus(val))
-  (string.replace(/[^(){}[\]]|{}|\[\]|\(\)/g, ``));

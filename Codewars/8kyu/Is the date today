@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/563c13853b07a8f17c000022
-
-//JavaScript
-
-const isToday = date =>
-  new Date().toDateString() === date.toDateString();

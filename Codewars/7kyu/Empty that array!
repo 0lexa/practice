@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58e3ffb01f878507e00005b0
-
-//JavaScript
-
-const empty = array =>
-  (array.length = 0, array);

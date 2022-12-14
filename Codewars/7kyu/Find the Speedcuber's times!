@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5d7c7697e8ad48001e642964
-
-//JavaScript
-
-const cubeTimes = times =>
-  [Math.round(times.sort((a, b) => b - a).slice(1, 4).reduce((pre, val) => pre + val, 0) / 3 * 1e2) / 1e2, times.pop()];

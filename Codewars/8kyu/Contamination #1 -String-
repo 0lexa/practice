@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/596fba44963025c878000039
-
-//JavaScript
-
-const contamination = (text, char) =>
-  text.replace(/./g, char);

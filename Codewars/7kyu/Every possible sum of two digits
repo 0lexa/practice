@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5b4e474305f04bea11000148
-
-//JavaScript
-
-const digits = num =>
-  [...`${num}`].reduce((pre, val, idx, arr) => [...pre, ...arr.slice(++idx).map(v => +val + +v)], []);

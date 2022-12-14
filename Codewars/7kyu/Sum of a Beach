@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5b37a50642b27ebf2e000010
-
-//JavaScript
-
-const sumOfABeach = beach =>
-  --beach.split(/sand|water|fish|sun/gi).length;

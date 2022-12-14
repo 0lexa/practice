@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5720eb05e8d6c5b24a0014c5
-
-//JavaScript
-
-const scoreMatrix = matrix =>
-  matrix.reduce((pre, val, idx) => pre + val.reduce((p, v, i) => p + (-1) ** (idx + i) * v, 0), 0);

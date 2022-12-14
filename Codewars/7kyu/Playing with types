@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/543e308b23ccbda148001526
-
-//JavaScript
-
-const typing = param =>
-  param === undefined ? `undefined` : `${typeof param}=${JSON.stringify(param) || `${param}`}`;

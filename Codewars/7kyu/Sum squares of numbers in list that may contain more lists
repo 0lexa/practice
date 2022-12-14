@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57882daf90b2f375280000ad
-
-//JavaScript
-
-const SumSquares = l =>
-  l.reduce((pre, val) => pre + (Array.isArray(val) ? SumSquares(val) : val ** 2), 0);

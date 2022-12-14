@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5c3433a4d828182e420f4197
-
-//JavaScript
-
-const ultimateReverse = s =>
-  (arr => s.map(val => arr.splice(0, val.length).join(``)))
-  ([...s.join(``)].reverse());

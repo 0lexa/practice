@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5772ded6914da62b4b0000f8
-
-//JavaScript
-
-const palindromePairs = words =>
-  words.map(String).reduce((pre, val, idx) => [...pre, ...words.reduce((p, v, i) => i !== idx && val + v === [...val + v].reverse().join(``) ? [...p, [idx, i]] : p, [])], []);

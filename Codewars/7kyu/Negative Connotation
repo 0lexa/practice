@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5ef0456fcd067000321baffa
-
-//JavaScript
-
-const connotation = str =>
-  str.match(/\w+/g).reduce((pre, val) => pre + (/^[a-m]/i.test(val) ? 1 : -1), 0) >= 0;

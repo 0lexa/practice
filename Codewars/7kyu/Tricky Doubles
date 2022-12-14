@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56971747aa359bdbf800004d
-
-//JavaScript
-
-const trickyDoubles = n => 
-  /^(\d*)\1$/.test(n) ? n : n * 2;

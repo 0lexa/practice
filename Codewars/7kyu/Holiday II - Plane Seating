@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/57e8f757085f7c7d6300009a
-
-//JavaScript
-
-const planeSeat = a =>
-  parseInt(a) > 60 || !`ABCDEFGHK`.includes(a.slice(-1)) ? `No Seat!!` :
-    `${[`Front`, `Middle`, `Back`][(parseInt(a) - 1) / 20 ^ 0]}-${[`Left`, `Middle`, `Right`][`ADGBEHCFK`.indexOf(a.slice(-1)) % 3]}`;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5732b0351eb838d03300101d
-
-//JavaScript
-
-const blackAndWhite = arr =>
-  `It's a ${!Array.isArray(arr) ? `fake` : arr.includes(5) && arr.includes(13) ? `black` : `white`} array`;

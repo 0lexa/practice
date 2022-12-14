@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a1ee4dfffe75f0fcb000145
-
-//JavaScript
-
-const bingo = a =>
-  [...`bingo`].every(val => a.includes(val.charCodeAt() - 96)) ? `WIN` : `LOSE`;

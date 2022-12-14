@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57f318ce828b3553b40013ea
-
-//JavaScript
-
-const displayLargeNumber = n =>
-  `${n}`.replace(/(?<=\d)(?=(\d{3})+$)/g, `,`);

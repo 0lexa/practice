@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/530e15517bc88ac656000716
-
-//JavaScript
-
-const rot13 = message =>
-  message.replace(/[a-z]/gi, val => String.fromCharCode(val.charCodeAt() + (val.toLowerCase() < `n` ? 13 : -13)));

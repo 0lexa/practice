@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/598ab63c7367483c890000f4
-
-//JavaScript
-
-const stringTask = s =>
-  s.replace(/[aeiouy]/gi, ``)
-  .replace(/./g, `.$&`)
-  .toLowerCase();

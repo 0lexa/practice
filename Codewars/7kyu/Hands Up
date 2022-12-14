@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56d8f14cba01a83cdb0002a2
-
-//JavaScript
-
-const getPositions = s =>
-  [s % 3 ^ 0, s / 3 % 3 ^ 0, s / 9 % 3 ^ 0];

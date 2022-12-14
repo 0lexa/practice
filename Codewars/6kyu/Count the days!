@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5837fd7d44ff282acd000157
-
-//JavaScript
-
-const countDays = d =>
-  (val => val < 0 ? `The day is in the past!` : val < 1 ? `Today is the day!` : `${val} days`)
-  (Math.round((d - Date.now()) / 8.64e7));

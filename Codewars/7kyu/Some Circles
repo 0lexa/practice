@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56143efa9d32b3aa65000016
-
-//JavaScript
-
-const sumCircles = (...args) =>
-  `We have this much circle: ${Math.round(args.reduce((pre, val) => pre + val ** 2, 0) / 4 * Math.PI)}`;

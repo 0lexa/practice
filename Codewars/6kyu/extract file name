@@ -1,9 +1,0 @@
-https://www.codewars.com/kata/597770e98b4b340e5b000071
-
-//JavaScript
-
-class FileNameExtractor {
-  static extractFileName(dirtyFileName) {
-    return dirtyFileName.replace(/^\d+_(.+)\..*$/, `$1`);
-  }
-}

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/554ca54ffa7d91b236000023
-
-//JavaScript
-
-const deleteNth = (arr, n) =>
-  arr.filter((val, idx) => arr.slice(0, idx).filter(v => v === val).length < n);

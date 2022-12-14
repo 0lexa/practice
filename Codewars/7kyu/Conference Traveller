@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56f5594a575d7d3c0e000ea0
-
-//JavaScript
-
-const conferencePicker = (citiesVisited, citiesOffered) =>
-  citiesOffered.find(val => !citiesVisited.includes(val)) || `No worthwhile conferences this year!`;

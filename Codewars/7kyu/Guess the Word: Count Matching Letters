@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5912ded3f9f87fd271000120
-
-//JavaScript
-
-const countCorrectCharacters = (correctWord, guess) =>
-  correctWord.length === guess.length ? [...correctWord].filter((val, idx) => val === guess[idx]).length : (() => {throw new Error();})();

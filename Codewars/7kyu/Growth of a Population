@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/563b662a59afc2b5120000c6
-
-//JavaScript
-
-const nbYear = (p0, percent, aug, p) =>
-  p0 < p ? 1 + nbYear(p0 + p0 / 100 * percent + aug, percent, aug, p) : 0;

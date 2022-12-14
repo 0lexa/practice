@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56b3b27cadd4ad275500000c
-
-//JavaScript
-
-const wordCount = s =>
-  s.match(/[A-Z]+/gi)?.filter(val => !/^(a|the|on|at|of|upon|in|as)$/i.test(val)).length | 0;

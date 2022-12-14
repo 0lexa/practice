@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5e28b3ff0acfbb001f348ccc
-
-//JavaScript
-
-const isSolved = board =>
-  board.flat().every((val, idx, arr) => val === arr[0] + idx);

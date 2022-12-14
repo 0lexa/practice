@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59901cd68fc658ab6c000025
-
-//JavaScript
-
-const distribute = (m, n) =>
-  Array.from({length: n}, () => Math.max(Math.ceil(m--/n), 0));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55ee3ebff71e82a30000006a
-
-//JavaScript
-
-const titleToNumber = title =>
-  [...title].reduce((pre, val) => pre * 26 + val.charCodeAt() - 64, 0);

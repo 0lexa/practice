@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5810085c533d69f4980001cf
-
-//JavaScript
-
-const calculator = (a, b, sign) =>
-  +a === a && +b === b && [`+`, `-`, `*`, `/`].includes(sign) ? sign === `+` ? a + b : sign === `-` ? a - b : sign === `*` ? a * b : a / b : `unknown value`;

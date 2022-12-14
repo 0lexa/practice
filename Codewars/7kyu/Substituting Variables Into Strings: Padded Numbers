@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/51c89385ee245d7ddf000001
-
-//JavaScript
-
-const solution = value =>
-  `Value is ${`${value}`.padStart(5, `0`)}`;

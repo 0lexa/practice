@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/54598d1fcbae2ae05200112c
-
-//JavaScript
-
-const all = ( arr, fun ) =>
-  arr.every(fun);

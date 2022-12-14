@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/588463cae61257e44600006d
-
-//JavaScript
-
-const magicalWell = (a, b, n) =>
-  n * a * b + n * (a + b) * (n - 1) / 2 + n * (n - 1) * (2 * n - 1) / 6;

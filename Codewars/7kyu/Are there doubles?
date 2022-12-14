@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56a24b4d9f3671584d000039
-
-//JavaScript
-
-const doubleCheck = str => 
-  /(.)\1/i.test(str);

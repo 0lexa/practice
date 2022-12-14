@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/541da001259d9ca85d000688
-
-//JavaScript
-
-const seqlist = (first, c, l) =>
-  [...Array(l)].map((_, idx) => idx * c + first);

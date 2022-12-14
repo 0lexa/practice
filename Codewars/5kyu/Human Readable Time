@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/52685f7382004e774f0001f7
-
-//JavaScript
-
-const humanReadable = seconds =>
-  [seconds / 3600 ^ 0, seconds / 60 % 60 ^ 0, seconds % 60].map(val => `${val}`.padStart(2, `0`)).join(`:`);

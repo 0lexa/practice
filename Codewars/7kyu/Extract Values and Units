@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55c0ee3b9951adceaa00005f
-
-//JavaScript
-
-const valAndUnits = s =>
-  ({val: parseFloat(s), units: s.replace(/[\d\s.-]/g, ``)});

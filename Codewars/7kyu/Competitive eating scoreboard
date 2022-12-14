@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/571d2e9eeed4a150d30011e7
-
-//JavaScript
-
-const scoreboard = whoAteWhat =>
-  whoAteWhat.map(val => ({name: val.name, score: val.chickenwings * 5 + val.hamburgers * 3 + val.hotdogs * 2}))
-    .sort((a, b) => b.score - a.score || a.name.localeCompare(b.name));

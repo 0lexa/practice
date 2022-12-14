@@ -1,9 +1,0 @@
-https://www.codewars.com/kata/565f448e6e0190b0a40000cc
-
-//JavaScript
-
-const actuallyReallyGood = foods =>
-  (val => `You know what's actually really good? ${foods.length < 1 ? `Nothing!` :
-    foods[0] === foods[1] || foods.length < 2 ? `${val(foods[0])} and more ${foods[0].toLowerCase()}.` :
-      `${val(foods[0])} and ${foods[1].toLowerCase()}.`}`)
-  (val => `${val[0].toUpperCase()}${val.slice(1).toLowerCase()}`);

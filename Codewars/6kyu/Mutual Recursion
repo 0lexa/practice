@@ -1,9 +1,0 @@
-https://www.codewars.com/kata/53a1eac7e0afd3ad3300008b
-
-//JavaScript
-
-const F = n =>
-  n ? n - M(F(n - 1)) : 1;
-
-const M = n =>
-  n && n - F(M(n - 1));

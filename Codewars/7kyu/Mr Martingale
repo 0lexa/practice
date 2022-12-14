@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5eb34624fec7d10016de426e
-
-//JavaScript
-
-const martingale = (bank, outcomes, stake = 100) =>
-  !outcomes.length ? bank : outcomes.shift() ? martingale(bank + stake, outcomes, 100) : martingale(bank - stake, outcomes, stake * 2);

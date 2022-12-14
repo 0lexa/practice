@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5a2c22271f7f709eaa0005d3
-
-//JavaScript
-
-const solve = s =>
-  (fn => fn(s) ? `OK` : [...s].some((_, idx) => fn(s.slice(0, idx) + s.slice(++idx))) ? `remove one` : `not possible`)
-  (val => val === [...val].reverse().join(``));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55a8a36703fe4c45ed00005b
-
-//JavaScript
-
-const multiple = x =>
-  !(x % 15) ? `BangBoom` : !(x % 3) ? `Bang` : !(x % 5) ? `Boom` : `Miss`;

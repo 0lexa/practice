@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5899aa695401a83a5c0000c4
-
-//JavaScript
-
-const squareAreaToCircle = size =>
-  Math.PI * size / 4;

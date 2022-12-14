@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/57cec34272f983e17800001e
-
-//JavaScript
-
-const popShift = s =>
-  (val => [[...s].reverse().slice(0, val).join(``), s.slice(0, val), s.length % 2 ? s[val] : ``])
-  (s.length/2 ^ 0);

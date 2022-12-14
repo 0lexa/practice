@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/56e20642ddeb0f4fac000344
-
-//JavaScript
-
-Array.prototype.map = function () {
-  return this.reduce((pre, val) => [...pre, arguments[0](val)], []);
-};

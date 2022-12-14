@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5ff22b6e833a9300180bb953
-
-//JavaScript
-
-const differences = a =>
-  a.length > 1 ? differences(a.slice(1).map((val, idx) => Math.abs(val - a[idx]))) : a[0];

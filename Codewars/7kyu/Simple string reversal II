@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5a8d1c82373c2e099d0000ac
-
-//JavaScript
-
-const solve = (st, a, b) =>
-  `${st.slice(0, a)}${[...st.slice(a, ++b)].reverse().join(``)}${st.slice(b)}`;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/598057c8d95a04f33f00004e
-
-//JavaScript
-
-const range = (startNum, endNum, arr = []) =>
-  ++startNum < endNum ? range(startNum, endNum, [...arr, startNum]) : arr;

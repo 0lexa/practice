@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/59a8570b570190d313000037
-
-//JavaScript
-
-const sumCubes = n =>
-  (n * ++n / 2) ** 2;

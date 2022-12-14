@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57e402969cb1193746000744
-
-//JavaScript
-
-const personalise = (campaign, person) =>
-  campaign.replace(/<(.*?)>/g, (_, el) => person[el.replace(/\s/g, `_`).toLowerCase()]);

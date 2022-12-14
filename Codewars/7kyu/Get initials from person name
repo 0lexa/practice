@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57b56af6b69bfcffb80000d7
-
-//JavaScript
-
-const toInitials = name =>
-  name.replace(/(?<=\w)\w+/g, `.`);

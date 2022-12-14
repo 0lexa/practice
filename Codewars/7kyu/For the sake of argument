@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5258b272e6925db09900386a
-
-//JavaScript
-
-const numbers = (...arr) =>
-  !arr.some(val => typeof val !== `number`)

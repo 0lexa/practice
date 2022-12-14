@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5937ae46377144bb2f000029
-
-//JavaScript
-
-const getRectangleString = (w, h) =>
-  [...Array(h)].map((_, idx) => `${!idx || idx === h - 1 ? `*`.repeat(w) : `*${` `.repeat(w - 2)}*`}\r\n`).join(``);

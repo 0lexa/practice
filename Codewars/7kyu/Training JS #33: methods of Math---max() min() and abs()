@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5733d6c2d780e20173000baa
-
-//JavaScript
-
-const maxMin = (arr1, arr2) =>
-  (val => [Math.max(...val), Math.min(...val)])
-  (arr1.map((val, idx) => Math.abs(val - arr2[idx])));

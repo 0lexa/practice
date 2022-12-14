@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/5c2bedd7eb9aa95abe14d0ed
-
-//JavaScript
-
-const getCalendarWeek = date =>
-  (val => Math.ceil(((val.setDate(val.getDate() + 4 - (val.getDay() || 7)) - new Date(val.toDateString().slice(-4))) / 8.64e7 + 1) / 7))
-  (new Date(date));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5672a98bdbdd995fad00000f
-
-//JavaScript
-
-const rps = (p1, p2) =>
-  p1 === p2 ? `Draw!` : `Player ${/ps|rp|sr/.test(p1[0] + p2[0]) + 1} won!`;

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/54ff3102c1bad923760001f3
-
-//JavaScript
-
-const getCount = str =>
-  str.replace(/[^aeiou]/g, ``).length;

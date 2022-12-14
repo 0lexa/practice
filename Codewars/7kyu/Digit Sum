@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/56bcae6366a2ab99f10011ec
-
-//JavaScript
-
-const digitSum = str =>
-  `${[...str].reduce((pre, val) => pre + +val, 0) % 9 || 9}`;

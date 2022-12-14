@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57475353facb0e7431000651
-
-//JavaScript
-
-const hotSingles = (arr1, arr2) =>
-  [...new Set([...arr1, ...arr2])].filter(val => !arr1.includes(val) || !arr2.includes(val));

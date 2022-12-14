@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/584ebd7a044a1520f20000d5
-
-//JavaScript
-
-const range = (start, step, stop) =>
-  stop && [...Array(1 + (stop - start) / step ^ 0)].map((_, idx) => start + idx * step) || step && range(start, 1, step) || range(1, 1, start);

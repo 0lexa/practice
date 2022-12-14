@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57507369b0b6d1b5a60001b3
-
-//JavaScript
-
-const decomposeSingleStrand = singleStrand =>
-  [...Array(3)].map((_, idx) => `Frame ${idx + 1}: ${singleStrand.match(new RegExp(`^.{${idx || 3}}|.{3}|.+$`, `g`)).join(` `)}`).join(`\n`);

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55d2603d506a40e162000056
-
-//JavaScript
-
-const calculateTotal = (team1, team2) =>
-  team1.reduce((pre, val) => pre + val, 0) > team2.reduce((pre, val) => pre + val, 0);

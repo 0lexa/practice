@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5800580f8f7ddaea13000025
-
-//JavaScript
-
-const sumTheTreeValues = root => 
-  root && root.value + sumTheTreeValues(root.left) + sumTheTreeValues(root.right);

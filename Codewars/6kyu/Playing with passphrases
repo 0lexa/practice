@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/559536379512a64472000053
-
-//JavaScript
-
-const playPass = (s, n) =>
-  [...s.replace(/[A-Z]/g, val => String.fromCharCode((val.charCodeAt() - 65 + n) % 26 + 65)).replace(/\d/g, val => 9 - val)]
-    .map((val, idx) => idx % 2 ? val.toLowerCase() : val).reverse().join(``);

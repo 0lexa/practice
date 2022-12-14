@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5ffc226ce1666a002bf023d2
-
-//JavaScript
-
-const solution = mtrx => 
-  mtrx.some(val => />.*x/.test(val));

@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/515de9ae9dcfc28eb6000001
-
-//JavaScript
-
-const solution = str =>
-  (str + `_`).match(/.{2}/g);

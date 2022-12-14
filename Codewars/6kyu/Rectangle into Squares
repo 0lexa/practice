@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/55466989aeecab5aac00003e
-
-//JavaScript
-
-const sqInRect = (lng, wdth, flag = true) =>
-  lng === wdth ? flag ? null : [wdth] : ([lng, wdth] = [Math.max(lng, wdth), Math.min(lng, wdth)], [wdth, ...sqInRect(lng - wdth, wdth, false)]);

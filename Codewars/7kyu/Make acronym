@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57a60bad72292d3e93000a5a
-
-//JavaScript
-
-const toAcronym = inp =>
-  inp.match(/\b\w/g).join(``).toUpperCase();

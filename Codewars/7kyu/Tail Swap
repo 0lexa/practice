@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5868812b15f0057e05000001
-
-//JavaScript
-
-const tailSwap = arr =>
-  `${arr}`.replace(/(.+:)(.+),(.+:)(.+)/, `$1$4,$3$2`).split(`,`);

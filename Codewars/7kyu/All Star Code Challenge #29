@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5866ec8b2e8d9cec7e0000bb
-
-//JavaScript
-
-const reverseSentence = str =>
-  str.replace(/\S+/g, val => [...val].reverse().join(``))

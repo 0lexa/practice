@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/58ef87dc4db9b24c6c000092
-
-//JavaScript
-
-const sectSort = (array, start, length) =>
-  [...array.slice(0, start), 
-    ...array.slice(start, start + (length = length > 0 ? length : array.length)).sort((a, b) => a - b), 
-    ...array.slice(length + start)];

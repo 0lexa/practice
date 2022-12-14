@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58670300f04e7449290000e5
-
-//JavaScript
-
-const longest = words =>
-  words.reduce((pre, val) => Math.max(pre, val.length), 0);

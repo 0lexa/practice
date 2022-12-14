@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5886d35d4703f125a6000008
-
-//JavaScript
-
-const isSmooth = arr =>
-  new Set([arr[0], arr[arr.length - 1], arr[arr.length >> 1] + (arr.length % 2 ? 0 : arr[--arr.length >> 1])]).size === 1;

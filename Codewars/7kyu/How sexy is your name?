@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/571b2ee08d8c9c0d160014ec
-
-//JavaScript
-
-const sexyName = name =>
-  (val => val > 599 ? `THE ULTIMATE SEXIEST` : val > 300 ? `VERY SEXY` : val > 60 ? `PRETTY SEXY` : `NOT TOO SEXY`)
-  ([...name.toUpperCase()].reduce((pre, val) => pre + (SCORES[val] || 0), 0));

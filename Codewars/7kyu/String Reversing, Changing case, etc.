@@ -1,7 +1,0 @@
-https://www.codewars.com/kata/58305403aeb69a460b00019a
-
-//JavaScript
-
-const reverseAndMirror = (s1, s2) =>
-  (fn => `${fn(s2)}@@@${fn(s1)}${[...fn(s1)].reverse().join(``)}`)
-  (str => [...str].map(val => val[`to${val < `a` ? `Low` : `Upp`}erCase`]()).reverse().join(``));

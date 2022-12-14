@@ -1,8 +1,0 @@
-https://www.codewars.com/kata/57d001b405c186ccb6000304
-
-//JavaScript
-
-const iTri = s =>
-  s >= 140.6 ? `You're done! Stop running!` :
-    s ? {[s > 114.4 ? `Run` : s > 2.4 ? `Bike` : `Swim`]: s > 130.6 ? `Nearly there!` : (140.6 - s).toFixed(2) + ` to go!`} :
-      `Starting Line... Good Luck!`;

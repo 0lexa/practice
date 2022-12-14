@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58545549b45c01ccab00058c
-
-//JavaScript
-
-const calculate_total = (subtotal, tax, tip) =>
-  Math.round(subtotal * (100 + tax + tip)) / 1e2;

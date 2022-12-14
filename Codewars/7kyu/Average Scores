@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/57b68bc7b69bfc8209000307
-
-//JavaScript
-
-const average = scores =>
-  Math.round(scores.reduce((pre, val) => pre + val, 0) / scores.length);

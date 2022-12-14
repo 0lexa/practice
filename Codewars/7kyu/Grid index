@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/5f5802bf4c2cc4001a6f859e
-
-//JavaScript
-
-const gridIndex = (grid, indices) =>
-  indices.map(val => [].concat(...grid)[--val]).join(``);

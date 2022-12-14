@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/583872e3c233416868000162
-
-//JavaScript
-
-const lowest = (...args) =>
-  args.map(val => Math.min(...val));

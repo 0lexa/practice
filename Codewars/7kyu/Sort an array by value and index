@@ -1,6 +1,0 @@
-https://www.codewars.com/kata/58e0cb3634a3027180000040
-
-//JavaScript
-
-const sortByValueAndIndex = array =>
-  array.map((val, idx) => [val, ++idx * val]).sort((a, b) => a[1] - b[1]).map(val => val[0]);
